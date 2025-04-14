@@ -1,0 +1,76 @@
+project:
+  type: book
+  output-dir: _book
+  resources: 
+    - "*.png"
+    - "*.jpeg"
+    - "*.jfif"
+    - "*.svg"
+
+book:
+  title: "Basics of sustainability"
+  subtitle: "Foundations and Challenges of sustainability"
+  favicon: images/
+  reader-mode: true
+  page-navigation: true
+  back-to-top-navigation: true
+  search: true
+  sidebar:
+    search: true
+    downloads: [pdf]
+    logo: images/cdelogo_e.png
+    
+  page-footer:
+    border: true
+    left: |
+      "This a product of <a href="www.cde.unibe.ch/">![](/images/cdelogo_e.png){style='width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;'}</a>
+    center: |
+      
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>. This work is licensed under a [CC-BY-NC-ND 4.0 Int License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+  
+  author: "Christoph Bader"
+  date: "13.04.2025"
+  chapters:
+  - index.qmd
+  - intro.qmd
+  - part: 1_understanding/1_intro.qmd
+    chapters:
+    - 1_understanding/sustainability.qmd
+  - part: 2_approaches/2_intro.qmd
+    chapters: 
+    - 2_approaches/planetary-boundaries.qmd
+    - 2_approaches/doughnut-model.qmd
+    - 2_approaches/Great-transformation.qmd
+    - 2_approaches/Green-economy.qmd
+    - 2_approaches/post-growth-societies.qmd
+  - part: 3_ecological-sustainability/1_intro.qmd
+    chapters:
+    - 3_ecological-sustainability/climate-and-ecosystems.qmd
+  - part: 4_social-sustainability/1_intro.qmd
+    chapters:
+    - 4_social-sustainability/normativity.qmd
+  - part: 5_economic-sustainability/1_intro.qmd
+    chapters: 
+    - 5_economic-sustainability/normativity.qmd
+  appendices:
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    mainfont: Roboto
+    monofont: Fira Code
+    highlight-style: arrow
+    monobackgroundcolor: "#F7F7F7"
+    theme: 
+      - theme.css
+      - theme.scss
+  
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

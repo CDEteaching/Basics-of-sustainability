@@ -1,0 +1,60 @@
+---
+title: "Great-transformation"
+format: html
+---
+
+Concepts of the “great transformation” refer to fundamental changes in social, economic, political, and ecological systems that are necessary to create a sustainable and just society. “Great transformation” was a term used by Karl Polanyi in his 1944 analysis that the shift to a free market in the 19th century brought about profound social, economic, and political changes that fundamentally transformed people’s lives and relationship with nature. Polanyi argued that unbridled market dynamics caused social and environmental problems, and that society needed to develop mechanisms to regulate and balance these problems. Similarly, today’s concepts of the great transformation emphasize the importance of regulation, redistribution, and the development of alternative economic models to create a sustainable and just society. While Polanyi stressed the need for social protection measures and the importance of integrating markets into social structures, current concepts of the great transformation additionally aim to fundamentally change production and consumption patterns to reduce environmental impact.
+
+## Flagship WBGU report
+
+A flagship report by the German Advisory Council on Global Change (WBGU), World in Transition, is an important publication that addresses the challenges and opportunities of a sustainable transformation of society. It was first published in 1994 and has since been updated several times. The report analyses global environmental changes, including climate change, biodiversity loss, and resource consumption, and proposes concrete policies and social change to promote sustainable development.
+
+World in Transition is significant to debates on the great transformation, as it argues for a far-reaching transformation of business, policy, and society. This vision extends beyond mere adaptation, demanding fundamental shifts in the structures and patterns of economic activity and daily life. The report underscores the urgency of driving forward the transition to a climate-friendly and environmentally sound economy and way of living. It emphasizes the critical role of a comprehensive sustainability policy. Finally, it identifies innovation, technology, education, institutional reforms, and international cooperation as key levers for achieving sustainable development.
+
+In Chapter 8, World in Transition distinguishes between two concepts: “transformation research and education” and “transformative research and education”. These concepts are key to promoting fundamental change towards sustainability.
+
+**Transformation research** analyses processes of change, particularly in the context of sustainable development. It seeks to understand the dynamics and complexity of transformations, and to identify possible courses of action for a sustainable future. Transformation research offers an inter- and transdisciplinary perspective, and it involves different actors and stakeholders in the research process.
+
+**Transformation education** is education that aims to impart the knowledge, skills, and values needed to achieve a sustainable transformation of society. It includes formal and informal educational measures that enable people to actively participate in transformation processes and to promote sustainable thinking and action.
+
+**Transformative research** not only generates knowledge but also goes a step further, by actively striving for change towards sustainability. It thus aims to influence social practice and develop solutions and innovations for sustainable development. Transformative research works closely with partners from practice, and strives to translate knowledge into action.
+
+**Transformative education** fosters a shift in mindsets, values, and behaviour towards sustainability. It goes beyond imparting knowledge, by also promoting critical awareness, empathy, and action for sustainable changes in society.
+
+The WBGU believes that the state should take on tasks that are not adequately performed by individuals or the private sector. It recognizes that the state plays a decisive role in creating framework conditions and shaping political measures to promote sustainable development. The state can drive innovative solutions, steer investments, establish regulations, and implement policies that enable a sustainable transformation.
+
+::: callout-quote
+> “The important thing for Government is not to do things which individuals are doing already, and to do them a little bit better or a little worse; but to do those things which at present are not done at all.”
+>
+> — John M. Keynes, The End of Laissez-Faire, 1926
+:::
+
+However, the WBGU also emphasizes that effective government intervention should take place in collaboration with other actors and stakeholders, including civil society, the private sector, and academia. Jointly shaping a sustainable future is about creating partnerships and involving different expertise.
+
+## Schneidewind's "art of the future"
+
+The German economist and politician, Uwe Schneidewind, discusses the concept of the great transformation in his 2018 book, Die grosse Transformation: Eine Einführung in die Kunst des gesellschaftlichen Wandels, which translates as The Great Transformation: An Introduction to the Art of Social Change. Schneidewind points out that a great transformation isn’t dictated by the unstoppable development dynamics of modern societies or by a technocratic blueprint for an ecologically just society. Instead, he sees it as a process that should be actively shaped by many actors. As such, it’s important to have a clearly defined normative compass and to develop the ability to navigate complex social, cultural, economic, and technological processes. He describes this ability as the “art of the future” – the skill of making desirable futures possible – and thus builds a bridge to Harald Welzer's FUTURZWEI. Welzer, a psychologist and sociologist, emphasizes the importance of imagination, creativity, and engagement in bringing about transformative change and developing alternative visions of the future.
+
+## Global Sustainable Development Report (GSDR)
+
+In September 2019, the first Global Sustainable Development Report (GSDR) was published by a group of 15 independent scientists appointed by the UN Secretary-General. Intended for publication every four years, the aim of the GSDR is to synthesize existing knowledge and identify pathways to achieving the Sustainable Development Goals (SDGs). The latest report (2023) highlights the significant gap between current progress and achieving the SDGs. Building on the 2019 report, it introduces capacity building as a new lever to accelerate progress.
+
+The GSDR proposes six key areas, or “entry points”, with the highest potential to drive the large-scale and swift transformations needed. To initiate these transformations, active and multifaceted collaboration is crucial among actors from diverse fields: governance, business and finance, individual and collective action, and science and technology.
+
+## Criticism and conclusion
+
+-   consider it necessary and possible to steer social development towards sustainability.
+
+-   are holistic concepts for managing social development. They propose entry points at various areas of society and at several levels of action.
+
+-   propose key areas with a major leverage effect (e.g. the WBGU proposes an energy transition, urban transition, land use transition, and transformative education and research).
+
+::::: readings
+::: readings-header
+Further readings
+:::
+
+::: readings-container
+polanyi
+:::
+:::::

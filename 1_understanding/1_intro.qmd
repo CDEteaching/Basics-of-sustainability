@@ -1,0 +1,21 @@
+---
+title: "Understanding and concepts"
+lightbox: true
+format: html
+---
+
+# Understandings and concepts of sustainability
+
+![Frequency of use of the word “sustainable” in US English texts, as a percentage of all words per year, based on data from Google Ngrams. Source: https://xkcd.com/1007/](images/sustainable-01.png)Is the term “Sustainability” so overused as to slowly become meaningless? Even if this is the case, we shouldn’t abandon key terms like this lightly. For example, it’s still important for companies to have a sustainability strategy, even if many such strategies are inadequate or amount to greenwashing. We need to clarify the meaning of “sustainability” and hold those who use it to account. And we should base our interpretation on science and historical developments. The historical precursors to the sustainability model explained in this textbook are:
+
+-   Start of the discussion about sustainability: Carlowitz’s forest management principle of 1713
+
+-   Clash of economy and ecology First and second UN Development Decades (1960s and 1970s)
+
+-   The Limits to Growth (1972)
+
+-   Brundtland Report (1987)
+
+-   Rio Earth Summit 1992 Agenda 21 UN Millennium Development Goals (MDGs) (2000–2015)
+
+-   2030 Agenda with the Sustainable Development Goals (SDGs) (2015–2030)
