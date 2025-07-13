@@ -1,5 +1,0 @@
----
-title: "climate-system-and-ecosystems"
-format: html
----
-

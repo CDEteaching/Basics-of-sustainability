@@ -1,9 +1,4 @@
----
-title: "planetary-boundaries"
-format: html
----
-
-# Debates about planetary boundaries
+## Debates about planetary boundaries
 
 In 1798, British economist Thomas Robert Malthus published his influential essay, An Essay on the Principle of Population. Malthus’s core idea was that population growth would surpass Earth’s ability to produce food, sparking a debate on planetary carrying capacity that continues today. The Limits to Growth (1972), a report by the Club of Rome, built on Malthus’s ideas. It went beyond just food supply to consider a broader range of factors in calculating a planetary limit. These factors included resource availability, environmental pollution, and industrial output. The report remains relevant from an environmental point of view, as it challenges the assumptions of limitless growth, even though its specific predictions haven’t quite come true.
 
@@ -19,19 +14,19 @@ The study added human appropriation of net primary production as a control varia
 
 Two of the nine planetary boundaries – biosphere integrity and climate change – are considered “core boundaries”. These core systems encompass processes from many other subsystems and operate at a global scale. Reaching tipping points in these core systems could therefore push the entire Earth system into a new state.
 
-## Tipping points
+### Tipping points
 
 Tipping points in the Earth’s climate system are critical thresholds that, when crossed, can cause abrupt and often irreversible changes in the climate system. These tipping points can destabilize the climate and lead to accelerated climate change. Examples of tipping points include the melting of the Greenland ice sheet, the collapse of the Amazon rainforest, the thawing of permafrost soils, and changes in the Gulf Stream. If these tipping points are reached or exceeded, they can trigger self-reinforcing feedback effects that lead to further warming and an intensification of climate change.
 
 The concept of tipping points emphasizes the urgency of limiting global warming and reducing greenhouse gas emissions. If we exceed the tipping points, it will become increasingly difficult to control climate change and minimize its effects.
 
-## Quantifying planetary boundaries
+### Quantifying planetary boundaries
 
 A recent development within the planetary boundaries framework is the concept of “safe and just Earth system boundaries (ESBs)” for the following domains: climate, the biosphere, water and nutrient cycles, and aerosols at global and subglobal scales (Rockström et al., 2023). The ESBs are based on modelling and literature review, and account for uncertainty through different levels of likelihood. Staying within the ESBs protects stability and equity between species and future generations, although current generations, especially vulnerable groups, could still suffer harm. The authors therefore suggest stricter boundaries in some cases, and the addition of local standards to protect current generations and ecosystems. For example, they identify safe ESBs for warming (see Rockström et al. 2023, Fig. 1 and Table 1). These are based on reducing the probability of triggering climate tipping points, maintaining biosphere and cryosphere functions, and considering climate variability of the Holocene (\<0.5-1.0°C) and earlier interglacial periods (\<1.5-2°C).
 
 The functions of the cryosphere include the preservation of permafrost in the northern high latitudes, the preservation of polar ice sheets and mountain glaciers, and the minimization of sea ice loss. The authors conclude that global warming of more than 1.0°C above pre-industrial levels, which has already been exceeded (IPPC 2021), could trigger tipping effects such as the collapse of the Greenland ice sheet or a localized abrupt thawing of the boreal permafrost with a moderate probability (Armstrong et al. 2022). Global warming of one degree Celsius corresponds to the safe limit proposed in 1990 and the PB of 350 ppm CO2 (Steffen et al. 2015). With a warming of more than 1.5°C or 2.0°C, the likelihood of triggering tipping points increases to high or very high.
 
-## Climate resilience
+### Climate resilience
 
 Resilience describes the ability of a system to withstand disruptions, “bounce back”, or recover from adversity. Originally used in psychology, resilience refers to the psychological robustness that an individual has actively acquired in dealing with challenges or stresses, particularly in childhood. In the context of ecosystems, resilience refers to the ability to absorb disturbances without a permanent systemic collapse, i.e. a collapse that would result in a different system regulated by new processes (Folke et al. 2010). More recently, the concept of resilience has been extended to social systems (see section on doughnut economics). Studies focus on which specific characteristics of a region need to be strengthened, to better prepare it for future crises and disasters related to climate change, terrorism, resource scarcity, or financial crises. The climate crisis, for example, requires both adaptation and mitigation measures. Resilience approaches offer a way of combining these two concepts rather than playing them off against each other.
 
@@ -39,7 +34,7 @@ Resilience describes the ability of a system to withstand disruptions, “bounce
 
 **Climate adaptation measures** aim to make societies and ecosystems more resilient to the current and expected effects of climate change. Adaptation measures include the development of early warning systems for extreme weather events, coastal protection against rising sea levels, the reduction of heat stress (e.g. through more urban green spaces), runoff or infiltration areas to reduce the damaging effects of heavy rainfall events, or the adaptation of agricultural practices to changing climatic conditions. Resilience approaches emphasize the need for climate adaptation to protect communities and ecosystems from the negative effects of climate change.
 
-## Criticism and conclusion
+### Criticism and conclusion
 
 The concept of planetary boundaries tries to reduce complex ecological relationships to a small number of quantifiable limits. These specific limits and indicators for planetary boundaries are based on scientific findings that are not always clear or consistent. The boundaries are therefore contested by some scholars, who question the accuracy and reliability of the data and models used. Despite this criticism, the planetary boundaries framework makes a valuable contribution to the debate on sustainable development and raises awareness of the limited resources and resilience of our planet. To summarize:
 

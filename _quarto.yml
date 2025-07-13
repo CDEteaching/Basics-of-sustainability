@@ -30,30 +30,24 @@ book:
       This book was built with <a href="https://quarto.org/">Quarto</a>. This work is licensed under a [CC-BY-NC-ND 4.0 Int License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
   
-  author: "Christoph Bader"
-  date: "13.04.2025"
+  date: "19.04.2025"
   chapters:
   - index.qmd
   - intro.qmd
-  - part: 1_understanding/1_intro.qmd
+  - part: "Foundations"
     chapters:
-    - 1_understanding/sustainability.qmd
-  - part: 2_approaches/2_intro.qmd
+    - 1_understanding/1_intro.qmd
+  - part: "Approaches to Sustainability" 
     chapters: 
-    - 2_approaches/planetary-boundaries.qmd
-    - 2_approaches/doughnut-model.qmd
-    - 2_approaches/Great-transformation.qmd
-    - 2_approaches/Green-economy.qmd
-    - 2_approaches/post-growth-societies.qmd
-  - part: 3_ecological-sustainability/1_intro.qmd
+    - 2_approaches/2_intro.qmd
+  - part: "Transforming (Un-)sustainable systems: Key areas and strategic approaches"
     chapters:
-    - 3_ecological-sustainability/climate-and-ecosystems.qmd
-  - part: 4_social-sustainability/1_intro.qmd
-    chapters:
-    - 4_social-sustainability/normativity.qmd
-  - part: 5_economic-sustainability/1_intro.qmd
-    chapters: 
-    - 5_economic-sustainability/normativity.qmd
+    - 3_ecological-sustainability/3_intro.qmd
+    - 4_social-sustainability/4_intro.qmd
+    - 5_economic-sustainability/5_intro.qmd
+
+    
+    
   appendices:
     - references.qmd
 
@@ -70,7 +64,11 @@ format:
       - theme.scss
   
   pdf:
-    documentclass: scrreprt
+    documentclass: book
+    fontfamily: roboto
+    urlcolor: "blue"
+    number-depth: 3
+    classoption: openany
 
 editor: visual
 

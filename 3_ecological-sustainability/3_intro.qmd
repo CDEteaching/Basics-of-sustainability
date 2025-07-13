@@ -1,5 +1,25 @@
 ---
-title: "Ecological Sustainability"
+title: "Environmental Sustainability"
+author: 
+- name: Juri Fitz
+- name: Christoph Bader
 format: html
 ---
 
+## Environmental sustainability - Overview and normative orientation
+
+*Juri Fitz, Christoph Bader*
+
+The economy is integral not only to society, but also to nature. Humans are living beings and therefore reliant on material resources to fulfil their needs. They also require intact ecosystems and a climate suitable for human habitation. When we speak of “environmental sustainability”, we generally mean the protection of the diversity and functioning of natural ecosystems and the services they provide for future generations. This is an anthropocentric definition, as it focuses on human activities and how these seek to ensure the long-term sustainability of nature for human benefit. This perspective is also reflected in our everyday language and our dualistic separation of “human” and “environment”, a separation that goes back to the 19th century and persists to this day. For example, we separate science into “natural science” and “social science”, and our analyses often conceptualize environmental damage as “externalities”. Another understanding of environmental sustainability emphasizes the importance of maintaining the self-regulation of the Earth’s climate system. This view highlights the interaction and feedback between various components of the Earth’s climate system.
+
+### The normative dimension of environmental sustainability
+
+Although our understanding of how ecosystems work is based on thoroughly researched empirical information (and therefore constitutes “systems knowledge”), environmental sustainability remains a normative concept. This means that it is based not only on scientific findings, but also on an ethical evaluation (cf. Figure xy). The various interpretations of environmental sustainability offer different answers to the question of what should be preserved, and why. Each approach to environmental sustainability therefore expresses the desired state of the ecological environment, both now and in the future – what aspects of nature should be preserved or survive from the present to the future. For example, when we talk about ecosystem services, the intention is often to preserve ecosystems in a way that continues to support and maintain our own welfare (in this sense, it is an anthropocentric perspective).
+
+Figure
+
+Ethical judgements and justifications shape which ecological properties and functions we preserve for future generations, and which we deem intrinsically valuable in nature. What constitutes a desirable state for ecosystems, and why? What aspects of the ecological environment deserve protection, and what is the aim of this protection? Is it necessary to keep ecosystems as pristine as possible, and how do we define “naturalness”? To what extent should we use ecosystems for human purposes without restriction, and are there areas that we should leave for organisms to use, with minimum human intervention? Interpretations of environmental sustainability depend on the goals being pursued: for whom, why, and how (cf. Figure 1.5).
+
+Box: Specific examples of ethical assessments in the context of environmental sustainability Wildlife conservation: Should we intervene in natural wildlife populations to protect endangered species and maintain the balance of ecosystems? Or should we leave nature as untouched as possible, even if this means losing some species? Biotechnological interventions: Is it morally acceptable to use biotechnological methods, such as genetic engineering, to alter the ecological characteristics of organisms and potentially influence ecosystems? Conservation of endangered species: Should we focus on protecting and preserving endangered species to maintain biodiversity, or should we focus on preserving broadly available species that are more important for the human diet or the economy? Protecting ecosystems: Should we establish protected areas to preserve threatened ecosystems and species, even if this restricts local communities in their economic activities? How can we strike a balance between conservation and sustainable use?
+
+{{< include "3_climate-and-ecosystems.qmd" >}}

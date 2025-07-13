@@ -1,11 +1,8 @@
----
-title: "Great-transformation"
-format: html
----
+## Debates on great transformations
 
 Concepts of the “great transformation” refer to fundamental changes in social, economic, political, and ecological systems that are necessary to create a sustainable and just society. “Great transformation” was a term used by Karl Polanyi in his 1944 analysis that the shift to a free market in the 19th century brought about profound social, economic, and political changes that fundamentally transformed people’s lives and relationship with nature. Polanyi argued that unbridled market dynamics caused social and environmental problems, and that society needed to develop mechanisms to regulate and balance these problems. Similarly, today’s concepts of the great transformation emphasize the importance of regulation, redistribution, and the development of alternative economic models to create a sustainable and just society. While Polanyi stressed the need for social protection measures and the importance of integrating markets into social structures, current concepts of the great transformation additionally aim to fundamentally change production and consumption patterns to reduce environmental impact.
 
-## Flagship WBGU report
+### Flagship WBGU report
 
 A flagship report by the German Advisory Council on Global Change (WBGU), World in Transition, is an important publication that addresses the challenges and opportunities of a sustainable transformation of society. It was first published in 1994 and has since been updated several times. The report analyses global environmental changes, including climate change, biodiversity loss, and resource consumption, and proposes concrete policies and social change to promote sustainable development.
 
@@ -31,17 +28,17 @@ The WBGU believes that the state should take on tasks that are not adequately pe
 
 However, the WBGU also emphasizes that effective government intervention should take place in collaboration with other actors and stakeholders, including civil society, the private sector, and academia. Jointly shaping a sustainable future is about creating partnerships and involving different expertise.
 
-## Schneidewind's "art of the future"
+### Schneidewind's "art of the future"
 
 The German economist and politician, Uwe Schneidewind, discusses the concept of the great transformation in his 2018 book, Die grosse Transformation: Eine Einführung in die Kunst des gesellschaftlichen Wandels, which translates as The Great Transformation: An Introduction to the Art of Social Change. Schneidewind points out that a great transformation isn’t dictated by the unstoppable development dynamics of modern societies or by a technocratic blueprint for an ecologically just society. Instead, he sees it as a process that should be actively shaped by many actors. As such, it’s important to have a clearly defined normative compass and to develop the ability to navigate complex social, cultural, economic, and technological processes. He describes this ability as the “art of the future” – the skill of making desirable futures possible – and thus builds a bridge to Harald Welzer's FUTURZWEI. Welzer, a psychologist and sociologist, emphasizes the importance of imagination, creativity, and engagement in bringing about transformative change and developing alternative visions of the future.
 
-## Global Sustainable Development Report (GSDR)
+### Global Sustainable Development Report (GSDR)
 
 In September 2019, the first Global Sustainable Development Report (GSDR) was published by a group of 15 independent scientists appointed by the UN Secretary-General. Intended for publication every four years, the aim of the GSDR is to synthesize existing knowledge and identify pathways to achieving the Sustainable Development Goals (SDGs). The latest report (2023) highlights the significant gap between current progress and achieving the SDGs. Building on the 2019 report, it introduces capacity building as a new lever to accelerate progress.
 
 The GSDR proposes six key areas, or “entry points”, with the highest potential to drive the large-scale and swift transformations needed. To initiate these transformations, active and multifaceted collaboration is crucial among actors from diverse fields: governance, business and finance, individual and collective action, and science and technology.
 
-## Criticism and conclusion
+### Criticism and conclusion
 
 -   consider it necessary and possible to steer social development towards sustainability.
 

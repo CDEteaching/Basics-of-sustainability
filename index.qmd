@@ -1,9 +1,33 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+This introduction to the foundations and challenges of sustainable development is aimed at students and lecturers who deal with the most pressing issues of our time from different disciplinary perspectives. It arose from the desire to promote a common understanding - across disciplinary boundaries, in teaching, research and social practice.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+The world as we know it today is characterised by a multitude of interwoven crises: Climate change, loss of biodiversity, social inequalities, economic instability and political polarisation - in short, a polycrisis. These challenges are neither linear nor easy to solve. They call for a profound rethink of our economic, social and ecological systems, our actions and our idea of development and progress.
 
-```{r}
-1 + 1
-```
+Against this background, this textbook sees itself as a shared learning space: it offers systematic access to central concepts, scientific perspectives, normative questions and specific fields of action for sustainable development. The aim is not only to impart knowledge, but also to promote the ability to reflect, think critically and be creative.
+
+This book was written in the context of the study programmes of the Centre for Development and Environment (CDE) at the University of Bern. It reflects the many years of experience in research and teaching on sustainable development and brings together contributions from various disciplines - from environmental sciences, geography and economics to sociology, ethics and law.
+
+Special thanks go to all the authors who have contributed to the creation of this book with their expertise, passion and commitment. We would also like to thank the students, whose critical questions and perspectives are a key driver for the further development of the content. After all, sustainable development is not only a scientific project, but above all a social project - and this begins with education.
+
+We hope that this book will provide a sound basis for your own engagement with sustainability - and encourage you to take responsibility and play an active role in shaping a fair and sustainable world.
+
+## About the book
+
+To contribute to sustainable development, we need to analyse the causes of symptoms such as biodiversity loss or global warming, and learn to understand how they are connected and how they interact. We will therefore look at current problems and challenges such as global warming, pollution, biodiversity loss, social inequality, and economic disparities, to understand how they can be tackled at both the local and the global level. The aim of this textbook is to encourage readers to think critically about the role of individuals, communities, businesses, and governments in the context of sustainable development – and thus to identify and pursue approaches to support sustainable development. In addition, we want to develop visions of the future, especially in the Master’s study programmes, that make it possible to imagine a high quality of life in a sustainable modern age, and that make changing the present seem attractive rather than daunting. We want to envision a different food culture, a different economic system, a different type of land use, and a different way of building and living. To make progress towards sustainability, it will be critical to engage stakeholders and foster collaboration across sectors and disciplines. As this textbook will emphasize, education, communication, and participation will also be indispensable in shaping a more sustainable future. With Christo’s Wrapped Globe in mind, and Daly’s understanding of the empty and the full world as a foundation, we will embark on a journey through the many aspects of sustainable development. We hope that you will find this journey both informative and inspiring, and that it will give you an understanding of both the urgency and the opportunities for sustainable development.
+
+Finally, we hope that our study programmes will inspire students to reflect on their own roles and responsibilities in relation to sustainability, and that it will equip you to make a difference to ensure that the Earth remains a place worth living in for future generations. Only together can we bring about the changes needed to create a sustainable, just, and environmentally friendly world.
+
+## Reading guide
+
+::: {.callout-note collapse="true"}
+### Definitions and further readings
+:::
+
+::: {.callout-tip collapse="true"}
+### Examples and reflections
+:::
+
+::: {.callout-caution collapse="true"}
+### Exercises and links to ILIAS
+:::

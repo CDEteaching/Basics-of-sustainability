@@ -1,0 +1,7 @@
+## Ecosystems, Ecosystem management, and Ecosystem services
+
+An ecosystem is a group of living organisms and their physical surroundings that interact with each other. Ecosystems can range from small, like a flowerpot, to large, like an ocean. When similar ecosystems are found in a larger region with the same climate, they are called biomes. Energy and material flows are important for the functioning of an ecosystem. Some of these flows, such as the carbon cycle, take place at the global level, while others are more localized. Most ecosystems obtain their energy from the sun and can influence the Earth’s climate through their interactions (Britannica).
+Ecosystem services are the benefits that humans derive from ecosystems such as mangrove forests, oceans, or wetlands. The services provided by ecosystems include the provision of clean water, the prevention of flooding, the promotion of crop growth, and the provision of places for leisure activities. The Millenium Ecosystem Assessment, published in 2005, divides ecosystem services into four categories (cf. green Box in Figure x): provisioning services, regulating services, cultural services, and supporting services (MEA, 2005). Note that the supporting services, which are primarily fundamental biophysical processes, enable and guarantee the other services in the first place.
+
+Figure
+

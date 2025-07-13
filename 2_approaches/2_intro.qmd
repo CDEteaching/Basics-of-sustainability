@@ -1,7 +1,11 @@
 ---
-title: "Approaches"
+title: "Approaches to Sustainability"
 format: html
 ---
+
+## Approaches
+
+*Christoph Bader*
 
 The world is facing numerous challenges of sustainable development, including pressing environmental problems and social inequalities. Scientists, researchers, and activists are seeking innovative approaches to enable sustainable and equitable change. This chapter examines some of these approaches, which offer a complete rethink of current paradigms. Approaches discussed in this chapter:
 
@@ -16,3 +20,9 @@ The world is facing numerous challenges of sustainable development, including pr
 -   Post-growth approaches
 
 -   Implementing the 2030 Agenda
+
+{{< include "planetary-boundaries.qmd" >}}
+{{< include "doughnut-model.qmd" >}}
+{{< include "Great-transformation.qmd" >}}
+{{< include "Green-economy.qmd" >}}
+{{< include "post-growth-societies.qmd" >}}

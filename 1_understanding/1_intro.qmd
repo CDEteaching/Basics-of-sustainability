@@ -1,12 +1,21 @@
 ---
-title: "Understanding and concepts"
+title: "Understandings and concepts of sustainability"
+author: Christoph Bader
 lightbox: true
 format: html
+tbl-cap-location: top
+fig-cap-location: bottom
 ---
 
-# Understandings and concepts of sustainability
+Where do the concept, mission statement, and guiding principles of sustainable development come from? How did the concept emerge, how did it evolve – and why? The following explanations provide an overview of the history of sustainability, the political background, and key conferences and documents. In short, what has made sustainability what it is today. It’s about seeing the big picture. Because only those who know the past can assess the future.
 
-![Frequency of use of the word “sustainable” in US English texts, as a percentage of all words per year, based on data from Google Ngrams. Source: https://xkcd.com/1007/](images/sustainable-01.png)Is the term “Sustainability” so overused as to slowly become meaningless? Even if this is the case, we shouldn’t abandon key terms like this lightly. For example, it’s still important for companies to have a sustainability strategy, even if many such strategies are inadequate or amount to greenwashing. We need to clarify the meaning of “sustainability” and hold those who use it to account. And we should base our interpretation on science and historical developments. The historical precursors to the sustainability model explained in this textbook are:
+Sustainability has been the buzzword of recent years, from science to politics and business to the media. Initially, the term has a positive connotation because it is associated with the long term, the durable, and many things are sustainable today: coffee, corporate philosophy, even tuna pizzas. These are the demands of a consumer society with an inconsiderate appetite for abundance. First thing in the morning, the shampoo removes our dandruff “sustainably”. Then we drive to work at a company that prides itself on its “sustainable corporate philosophy”, and over lunch we discuss sustainable investments. At home, we stick a tuna pizza in the oven – sustainably sourced and produced, of course, as it says on the box.
+
+Today, the term “sustainability” is everywhere: it’s used in connection with energy, mobility, building renovation, nutrition, population development, corporate environmental management, and climate protection. It’s also used in art, culture, design, and advertising.
+
+![Frequency of use of the word “sustainable” in US English texts, as a percentage of all words per year, based on data from Google Ngrams. Source: https://xkcd.com/1007/](images/word_sustainable.png){#fig-word-sustainable}
+
+Is the term “sustainability” so overused as to slowly become meaningless? Even if this is the case, we shouldn’t abandon key terms like this lightly. For example, it’s still important for companies to have a sustainability strategy, even if many such strategies are inadequate or amount to greenwashing. We need to clarify the meaning of “sustainability” and hold those who use it to account. And we should base our interpretation on science and historical developments. The historical precursors to the sustainability model explained in this textbook are:
 
 -   Start of the discussion about sustainability: Carlowitz’s forest management principle of 1713
 
@@ -19,3 +28,6 @@ format: html
 -   Rio Earth Summit 1992 Agenda 21 UN Millennium Development Goals (MDGs) (2000–2015)
 
 -   2030 Agenda with the Sustainable Development Goals (SDGs) (2015–2030)
+
+{{< include "sustainability.qmd" >}}
+{{< include "sustainability-science.qmd" >}}
