@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Juri Fitz">
+<meta name="author" content="Christoph Bader">
+
+<title>3&nbsp; Environmental Sustainability – Basics of sustainability</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../4_social-sustainability/4_intro.html" rel="next">
+<link href="../2_approaches/2_intro.html" rel="prev">
+<link href="../images/" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-dbf4b28c387d353a501d76b2fd46fbb0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-60b716ab65d401520622fb3b811f5bf6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-dbf4b28c387d353a501d76b2fd46fbb0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../3_ecological-sustainability/3_intro.html">Transforming (Un-)sustainable systems: Key areas and strategic approaches</a></li><li class="breadcrumb-item"><a href="../3_ecological-sustainability/3_intro.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Environmental Sustainability</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/cdelogo_e.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Basics of sustainability</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/CDEteaching/Basics-of-sustainability/blob/master/pdf/SP_BasicsSD.pdf" title="Course Script (PDF)" class="quarto-navigation-tool px-1" aria-label="Course Script (PDF)"><i class="bi bi-file-earmark-pdf"></i></a>
+    <a href="https://github.com/CDEteaching/Basics-of-sustainability/issues/new" title="Report issue" class="quarto-navigation-tool px-1" aria-label="Report issue"><i class="bi bi-bug"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Foundations</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../1_understanding/1_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Understandings and concepts of sustainability</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Approaches to Sustainability</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2_approaches/2_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Approaches to Sustainability</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Transforming (Un-)sustainable systems: Key areas and strategic approaches</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../3_ecological-sustainability/3_intro.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Environmental Sustainability</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../4_social-sustainability/4_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Social Sustainability</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../5_economic-sustainability/5_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Economic Sustainability</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#the-normative-dimension-of-environmental-sustainability" id="toc-the-normative-dimension-of-environmental-sustainability" class="nav-link active" data-scroll-target="#the-normative-dimension-of-environmental-sustainability"><span class="header-section-number">3.1</span> The normative dimension of environmental sustainability</a></li>
+  <li><a href="#ecosystems-ecosystem-management-and-ecosystem-services" id="toc-ecosystems-ecosystem-management-and-ecosystem-services" class="nav-link" data-scroll-target="#ecosystems-ecosystem-management-and-ecosystem-services"><span class="header-section-number">3.2</span> Ecosystems, Ecosystem management, and Ecosystem services</a>
+  <ul class="collapse">
+  <li><a href="#the-monetary-valuation-of-ecosystem-management" id="toc-the-monetary-valuation-of-ecosystem-management" class="nav-link" data-scroll-target="#the-monetary-valuation-of-ecosystem-management"><span class="header-section-number">3.2.1</span> The monetary valuation of ecosystem management</a></li>
+  </ul></li>
+  <li><a href="#criticism-of-ecosystem-services-and-further-and-alternative-concepts" id="toc-criticism-of-ecosystem-services-and-further-and-alternative-concepts" class="nav-link" data-scroll-target="#criticism-of-ecosystem-services-and-further-and-alternative-concepts"><span class="header-section-number">3.3</span> Criticism of ecosystem services, and further and alternative concepts</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../3_ecological-sustainability/3_intro.html">Transforming (Un-)sustainable systems: Key areas and strategic approaches</a></li><li class="breadcrumb-item"><a href="../3_ecological-sustainability/3_intro.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Environmental Sustainability</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Environmental Sustainability</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Juri Fitz </p>
+             <p>Christoph Bader </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The economy is integral not only to society, but also to nature. Humans are living beings and therefore reliant on material resources to fulfill their needs. They also require intact ecosystems and a climate suitable for human habitation. When we speak of “environmental sustainability”, we generally mean the protection of the diversity and functioning of natural ecosystems and the services they provide for future generations. This is an anthropocentric definition, as it focuses on human activities and how these seek to ensure the long-term sustainability of nature for human benefit. This perspective is also reflected in our everyday language and our dualistic separation of “human” and “environment”, a separation that goes back to the 19th century and persists to this day. For example, we separate science into “natural science” and “social science”, and our analyses often conceptualize environmental damage as “externalities”. Another understanding of environmental sustainability emphasizes the importance of maintaining the self-regulation of the Earth’s climate system. This view highlights the interaction and feedback between various components of the Earth’s climate system.</p>
+<section id="the-normative-dimension-of-environmental-sustainability" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="the-normative-dimension-of-environmental-sustainability"><span class="header-section-number">3.1</span> The normative dimension of environmental sustainability</h2>
+<p>Although our understanding of how ecosystems work is based on thoroughly researched empirical information (and therefore constitutes “systems knowledge”), environmental sustainability remains a normative concept. This means that it is based not only on scientific findings, but also on an ethical evaluation (<a href="#fig-normative-dimension" class="quarto-xref">Figure&nbsp;<span>3.1</span></a>). The various interpretations of environmental sustainability offer different answers to the question of what should be preserved, and why. Each approach to environmental sustainability therefore expresses the desired state of the ecological environment, both now and in the future – what aspects of nature should be preserved or survive from the present to the future. For example, when we talk about ecosystem services, the intention is often to preserve ecosystems in a way that continues to support and maintain our own welfare (in this sense, it is an anthropocentric perspective).</p>
+<div id="fig-normative-dimension" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-normative-dimension-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Images_en/Fig3_1__NEecology.jpg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-normative-dimension-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.1: The normative dimension of environmental sustainability (Quelle?) .
+</figcaption>
+</figure>
+</div>
+<p>Ethical judgments and justifications shape which ecological properties and functions we preserve for future generations, and which we deem intrinsically valuable in nature. What constitutes a desirable state for ecosystems, and why? What aspects of the ecological environment deserve protection, and what is the aim of this protection? Is it necessary to keep ecosystems as pristine as possible, and how do we define “naturalness”? To what extent should we use ecosystems for human purposes without restriction, and are there areas that we should leave for organisms to use, with minimum human intervention? Interpretations of environmental sustainability depend on the goals being pursued: for whom, why, and how (<a href="#fig-normative-dimension" class="quarto-xref">Figure&nbsp;<span>3.1</span></a>).</p>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Specific examples of ethical assessments in the context of environmental sustainability</strong></p>
+<p>Wildlife conservation: Should we intervene in natural wildlife populations to protect endangered species and maintain the balance of ecosystems? Or should we leave nature as untouched as possible, even if this means losing some species?</p>
+<p>Biotechnological interventions: Is it morally acceptable to use biotechnological methods, such as genetic engineering, to alter the ecological characteristics of organisms and potentially influence ecosystems?</p>
+<p>Conservation of endangered species: Should we focus on protecting and preserving endangered species to maintain biodiversity, or should we focus on preserving broadly available species that are more important for the human diet or the economy?</p>
+<p>Protecting ecosystems: Should we establish protected areas to preserve threatened ecosystems and species, even if this restricts local communities in their economic activities? How can we strike a balance between conservation and sustainable use?</p>
+</div>
+</div>
+</div>
+</section>
+<section id="ecosystems-ecosystem-management-and-ecosystem-services" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="ecosystems-ecosystem-management-and-ecosystem-services"><span class="header-section-number">3.2</span> Ecosystems, Ecosystem management, and Ecosystem services</h2>
+<p>An ecosystem is a group of living organisms and their physical surroundings that interact with each other. Ecosystems can range from small, like a flowerpot, to large, like an ocean. When similar ecosystems are found in a larger region with the same climate, they are called biomes. Energy and material flows are important for the functioning of an ecosystem. Some of these flows, such as the carbon cycle, take place at the global level, while others are more localized. Most ecosystems obtain their energy from the sun and can influence the Earth’s climate through their interactions (Quelle: Britannica).</p>
+<p>Ecosystem services are the benefits that humans derive from ecosystems such as mangrove forests, oceans, or wetlands. The services provided by ecosystems include the provision of clean water, the prevention of flooding, the promotion of crop growth, and the provision of places for leisure activities. The Millenium Ecosystem Assessment, published in 2005, divides ecosystem services into four categories (cf.&nbsp;green Box in <a href="#fig-ecosystem" class="quarto-xref">Figure&nbsp;<span>3.2</span></a>): <em>provisioning services</em>, <em>regulating services</em>, <em>cultural services</em>, and <em>supporting services</em> (MEA, 2005). Note that the supporting services, which are primarily fundamental biophysical processes, enable and guarantee the other services in the first place. (Quelle: Millenium Ecosystem Assessment)</p>
+<div id="fig-ecosystem" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ecosystem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Images_en/Fig3_2__Ecosystem.jpg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ecosystem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.2: Millennium Ecosystem Assessment (Quelle?)
+</figcaption>
+</figure>
+</div>
+<p>According to the Millennium Ecosystem Assessment, these ecosystem services can improve our quality of life and our economy (cf.&nbsp;blue Box in <a href="#fig-ecosystem" class="quarto-xref">Figure&nbsp;<span>3.2</span></a>). While this way of looking at ecosystems views humans as separate from the environment, it emphasizes the relevance of ecosystem services for human well-being. Ultimately, the concept of ecosystem services seeks to place greater consideration on the value of nature in policy and economic decisions. However, the ecosystem services concept also plays a role in landscape and spatial planning. For example, it’s used to analyse how spatially effective (legal) regulations impact ecosystem services, and consequently, human well-being (cf.&nbsp;Albert et al.&nbsp;2016).</p>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Case study: Ecosystem services in Madagascar</strong></p>
+<p>This landscape on the eastern coast of Madagascar offers a case study for ecosystem services. Ecosystem services in this area include firewood, which is used by local inhabitants for cooking, and rice, which is a staple food. Describing agricultural products such as these as ecosystem services illustrates that they only become “services” through human demand. Ecosystem services are not given in nature per se: instead, they represent a perspective through which humans view and describe the environment. Other ecosystem services in this landscape include the water cycle, which is vital for local inhabitants, as they rely on rivers for drinking water. Water is also used for agricultural irrigation and other purposes. Climate regulation is another significant service, important both locally and globally.</p>
+<p>This landscape clearly illustrates that the demand for and importance of ecosystem services vary among individuals or groups. Such diverse claims on ecosystem services from the same land can lead to <strong>conflicts of interest</strong>. Demand for agricultural products or firewood, for example, can conflict with climate-regulating and biodiversity-promoting (international) demands on the rainforest.</p>
+</div>
+</div>
+</div>
+<p>Humans have had an influence on many ecosystem services, both directly and indirectly. While these impacts have often been negative, some have been positive. For example, replacing natural ecosystems with cultivated agroecosystems has increased the value of ecosystem services for humans. Take, for example, dry meadows and pastures in Switzerland. Only through centuries of forest clearing and extensive agricultural use in alpine locations could the ecosystem services these areas provided (in this case, fodder production) be used and increased. At the same time, these anthropogenically influenced sites harboured rare meadow plants and pollinators, thus fostering a high level of biodiversity. These areas are also vital for tourism, as they significantly shape the alpine landscape. Consequently, these extensively used areas generally offer greater overall ecosystem service multifunctionality than intensively farmed grasslands (Richter et al.&nbsp;2024).</p>
+<p>Many of the negative effects on ecosystems and their services result directly from human land use and overfishing. In addition, indirect factors such as climate change and invasive non-native species significantly impair the stability and functionality of ecosystems. Two research projects with significant CDE involvement – Woody Weeds and Woody Weeds+ – have demonstrated that invasive woody plants such as <em>Prosopis juliflora</em> have a major impact on biodiversity and local livelihoods in East Africa. Originally introduced to combat desertification and timber extraction, this species displaces native vegetation and is not suitable as animal feed without processing (<a href="https://www.cde.unibe.ch/forschung/projekte/woody_invasive_alien_species_in_eastern_africa/index_ger.html">CDE</a>).</p>
+<section id="the-monetary-valuation-of-ecosystem-management" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="the-monetary-valuation-of-ecosystem-management"><span class="header-section-number">3.2.1</span> The monetary valuation of ecosystem management</h3>
+<p>The term <em>nature’s services</em> first appeared in the publication “How much are Nature’s Services Worth?” (Westman, 1977). The synonymous term “<em>ecosystem services</em>” was coined a few years later (Ehrlich and Ehrlich, 1981). The concept of ecosystem services and the thinking behind it are closely linked to economic philosophy and practice (Gómez-Baggethun et al.&nbsp;2010). Around 20 years after the introduction of “nature’s services”, Robert Costanza and colleagues estimated that the <strong>global value of 17 ecosystem services was worth 33 trillion US dollars per year</strong> (Costanza et al.&nbsp;1997). A recalculation in 2011 showed that this value had already fallen by between 4.3 trillion and 20.2 trillion US dollars per year (Costanza et al.&nbsp;2014). It is predicted that by 2050, the value of ecosystem services will either drop by up to USD 51 trillion per year, or rise by up to USD 30 trillion per year, depending on land use scenario (Kubiszewski et al.&nbsp;2017).</p>
+<p>Calculating the <strong>monetary value of ecosystem services</strong> typically involves three steps and requires high-quality and differentiated data. 1) The first step is to measure the change in ecosystem services after an intervention, thus placing the focus not on the status quo, but on the difference. 2) The second step is to evaluate the impact of this change on people’s socio-economic well-being. 3) The third and final step is to place a monetary value on the resulting change in productivity or prosperity (<em>M1 Lecture by</em> <em>Astrid Zabel</em>). There are <strong>many different methods for calculating the monetary value of ecosystem services</strong> (<a href="#fig-monetary-value" class="quarto-xref">Figure&nbsp;<span>3.3</span></a>). One such method is “green accounting”, which uses existing market values, if available, or exchange values as an approximation (e.g.&nbsp;comparing avalanche barriers and protection forests). Another method is cost–benefit analysis, which can be divided into two types: stated preferences and revealed preferences.</p>
+<div id="fig-monetary-value" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-monetary-value-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Images_en/Fig3_3__EcosystemValuation.jpg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-monetary-value-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.3: the monetary value of ecosystem services (Quelle?)
+</figcaption>
+</figure>
+</div>
+<p><strong>Stated preferences</strong> involves people stating (e.g.&nbsp;in a survey) the extent to which they would be willing to pay for certain ecosystem services, or which changes they would be willing to accept (contingent valuation). Another variation of this method involves choosing between different (usually sub-optimal) options, each representing a trade-off based on changes in ecosystem services (which are then analysed econometrically). In contrast, <strong>revealed preferences</strong> are based on actual behaviour. For example, it involves analysing avoidance costs (e.g.&nbsp;how much people pay for noise barriers) or calculating travel costs (which assumes that the time and travel costs incurred for visiting a destination reflect the value of the place, and thus, in a broader sense, an ecosystem service). Other methods include using hedonic approaches to determine the extent to which favourable or unfavourable environmental influences, and thus their quality, can affect the value of a property.</p>
+<p>Each of these methods has its advantages and disadvantages. They are criticized mainly for their one-sided assessments and failure to account for social inequalities, power relations, and cultural differences. Consequently, these methods are limited in their ability to promote fair and environmentally sustainable decisions (see next chapter).</p>
+<p>The principle behind <strong>Payments for Ecosystem Services (PES)</strong> involves compensating land users for maintaining a component of a specific ecosystem service. Such compensation may, for example, be paid by organizations or companies for which these specific ecosystem services are important. A well-known example of PES is the “Pagos por Servicios Ambientales” (PSA) programme in Costa Rica. This national programme, which has been operational since 1997, was set up to reduce deforestation and promote reforestation by paying landowners to maintain, reforest, or sustainably manage forest areas. The payments aim to promote the provision of ecosystem services such as carbon sequestration, water conservation, biodiversity conservation, and scenic beauty. The payments in this project come from various sources, including a tax on fuels and international funding from organizations interested in carbon offsetting. Studies show that the programme has significantly reduced the rate of deforestation in the country and promoted the conservation of biodiversity, while at the same time increasing the income of landowners (Porras et al.&nbsp;2013).</p>
+</section>
+</section>
+<section id="criticism-of-ecosystem-services-and-further-and-alternative-concepts" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="criticism-of-ecosystem-services-and-further-and-alternative-concepts"><span class="header-section-number">3.3</span> Criticism of ecosystem services, and further and alternative concepts</h2>
+<p>While the concept of ecosystem services has been recognized and applied in the scientific and policy debate, it has also been widely criticized (see e.g.&nbsp;Norgaard, 2010; Kosoy &amp; Corbera, 2010). One argument is that by focusing on ecosystem services, we reduce the complex and diverse values of ecosystems to their monetary benefits for humans (cf.&nbsp;Schröter et al.&nbsp;2014). This <strong>economic reduction of nature</strong> neglects the non-quantifiable but nevertheless important aspects of nature, such as spiritual or intrinsic values (Fairhead er al.&nbsp;2012). The commodification of nature through ecosystem services could ultimately also lead to an exploitative relationship between humans and nature (cf.&nbsp;Schröter et al.&nbsp;2014) or <strong>an exacerbation of social inequalities between powerful actors and marginalized groups</strong> (Dawson et al.&nbsp;2021), as the concept does not explicitly consider justice (Loos et al.&nbsp;2023: 478). In some cases, it is even assumed that the concept of ecosystem services could conflict with – and undermine – biodiversity conservation (cf.&nbsp;Schröter et al.&nbsp;2014).</p>
+<div class="callout-quote">
+<blockquote class="blockquote">
+<p>“The flurry of enthusiasm for optimizing the economy by including ecosystem services has blinded us to the more important question of how we are going to make the substantial institutional changes to significantly reduce human pressure on ecosystems, especially by the rich, and to adapt to and work effectively with the rapid ecosystem changes being driven by existing and foreseeable climate dynamics.”</p>
+<p>— Norgaard 2010: 1220</p>
+</blockquote>
+</div>
+<p>In response to this criticism, the IPBES (Intergovernmental Platform on Biodiversity and Ecosystem Services), (see Biodiversity chapter) has further developed the concept of ecosystem services and developed another concept, that of <em>Nature’s Contribution to People</em> (NCP). NCPs are defined as “all the positive contributions, or benefits, <em>and</em> occasionally negative contributions, losses or detriments, that people obtain from nature.” (Pascual et al.&nbsp;2017: 9). The concept may resemble ecosystem services, but it goes further and recognizes that nature and its contributions to a good life can be perceived and viewed in different ways, depending on the cultural and institutional context. The concept seeks to include different world views, such as Indigenous knowledge systems, thus taking into account both intrinsic (i.e.&nbsp;non-anthropocentric) and relational values of nature (Díaz et al.&nbsp;2018). Overall, this approach also includes context-specific perspectives, and it gives greater consideration to the justice dimensions than the concept of ecosystem services does (Loos et al.&nbsp;2023).</p>
+<p>However, such <strong>plural valuations</strong> are also subject to criticism and pose various challenges. For example, Jacobs et al.&nbsp;(2023) point out that current approaches to integrating multiple values and perspectives into ecosystem assessments risk merely promoting pseudo-participation, while existing <strong>structures of power and discrimination</strong> remain unchanged. Plural valuations aim for inclusivity and democracy, but they can inadvertently lead to conflict, power imbalances, and unclear outcomes if not carefully designed. Scientists have also criticized the above-mentioned NCP concept, which is often seen as an inadequate development of <strong>utilitarian environmentalism</strong>. This is a strongly Western and anthropocentric perspective that maintains a dualistic separation of humans and nature (cf.&nbsp;Muradian &amp; Gomez-Baggethun, 2021). Muradian &amp; Gomez-Baggethun (2021: 7), propose that “in order to induce transformative change in human-nature relations we need a shift from a morality of utility to a morality of care, a reallocation of property rights, and the extension of the community of justice to non-human entities.” A notable example of this transformation is the 2017 recognition of New Zealand’s Whanganui River as a legal person (see Charpleix, 2018). ::::</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/cdeteaching\.github\.io\/Basics-of-sustainability\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../2_approaches/2_intro.html" class="pagination-link" aria-label="Approaches to Sustainability">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Approaches to Sustainability</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../4_social-sustainability/4_intro.html" class="pagination-link" aria-label="Social Sustainability">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Social Sustainability</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>“This a product of <a href="www.cde.unibe.ch/"><img src="..\images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This book was built with <a href="https://quarto.org/">Quarto</a>. This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-NC-ND 4.0 Int License</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

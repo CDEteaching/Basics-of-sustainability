@@ -1,4 +1,0 @@
----
-title: "3_strategic-approaches"
-format: html
----

@@ -1,0 +1,38 @@
+## Quiz me if you can!
+
+::: {.callout-caution collapse="true"}
+### Review terms and definitions
+
+For each definition select the **correct term**.
+
+<!-- Question 1 -->
+
+<p>A specific branch of knowledge or field of study that follows a distinct set of theories, methods, and principles.</p>
+
+<select id="quiz-question-1" onchange="checkAnswer1()"> <option value="">-- Choose an answer --</option> <option value="Discipline">Discipline</option> <option value="Interdisciplinary (ID)">Interdisciplinary (ID)</option> <option value="Intra/monodisciplinary">Intra/monodisciplinary</option> <option value="Transdisciplinary (TD)">Transdisciplinary (TD)</option> <option value="Multidisciplinary">Multidisciplinary</option> <option value="Crossdisciplinary">Crossdisciplinary</option> </select>
+
+<p id="quiz-feedback-1" style="font-weight: bold;">
+
+</p>
+
+```{=html}
+<script>
+  function checkAnswer1() {
+    const selected = document.getElementById("quiz-question-1").value;
+    const feedback = document.getElementById("quiz-feedback-1");
+    if (selected === "Discipline") {
+      feedback.textContent = "✅ Correct! ";
+      feedback.style.color = "green";
+    } else if (selected === "") {
+      feedback.textContent = "Please select an answer.";
+      feedback.style.color = "orange";
+    } else {
+      feedback.textContent = "❌ Incorrect. Try again.";
+      feedback.style.color = "red";
+    }
+  }
+</script>
+```
+
+------------------------------------------------------------------------
+:::

@@ -1,17 +1,19 @@
-## Doughnut model
+## From planetary boundaries to the doughnut model
 
-Economist Kate Raworth’s Doughnut Model is an innovative approach to sustainable development that recognizes social and environmental limits. This requires rejecting much of what has characterized 20th-century economics, as Raworth outlines in her 2017 book, Doughnut Economics: Seven Ways to Think Like a 21st Century Economist. Raworth depicts the ideal economy of the future in a simple image: a ring-shaped doughnut. The outer ring symbolizes an ecological ceiling that should not be crossed, as doing so would cause irreversible harm to the environment. The inner ring represents a social foundation covering people’s basic needs, such as food, housing, and income. The challenge is to ensure that economic activities take place within this ring – the doughnut – to ensure the well-being of both humanity and the environment (“safe and just space for humanity”).
+Economist Kate Raworth’s Doughnut Model is an innovative approach to sustainable development that recognizes social and environmental limits. This requires rejecting much of what has characterized 20^th^-century economics, as Raworth outlines in her 2017 book, *Doughnut Economics: Seven Ways to Think Like a 21st Century Economist*. Raworth depicts the ideal economy of the future in a simple image: a ring-shaped doughnut. The outer ring symbolizes an ecological ceiling that should not be crossed, as doing so would cause irreversible harm to the environment. The inner ring represents a social foundation covering people’s basic needs, such as food, housing, and income. The challenge is to ensure that economic activities take place within this ring – the doughnut – to ensure the well-being of both humanity and the environment (“safe and just space for humanity”).
+
+![Doughnut Model (Source:https://doughnuteconomics.org)](Images/Fig2_3__doughnut.png){#fig-doughnut}
 
 The philosophy of the doughnut approach is based on three core principles: equitable distribution of wealth, regeneration of the resources used by the economy, and creation of wealth for all people. None of these principles should have to depend on economic growth, says Raworth. In other words, we don’t need to pursue unlimited growth for the economy to flourish – instead, we should pursue development that is sustainable, balanced, and equitable. The transition to the doughnut model requires a fundamental change in the way we think and act. It’s about moving from a growth paradigm to sustainable development, a development that takes social justice and environmental sustainability into equal account.
 
-### Criticism and conclusion
+### Conclusion
 
 Despite the Doughnut Model’s focus on the economy, critics say it doesn’t discuss the underlying framework conditions (i.e. the structures, rules, and institutional organization of the economy) or how money is created and managed (i.e. the financial sector). The Doughnut Model focuses on what kind of economic activity is desirable (i.e. staying within the doughnut), but it doesn’t explain how to get there. These points of criticism are being addressed by the Doughnut Economics Action Lab (DEAL), which provides tools and strategies to implement the Doughnut Model in real-world settings.
 
--   The Doughnut model builds on the concept of planetary boundaries, adding a social dimension and including goals and degrees of goal achievement.\
+-   The Doughnut model builds on the concept of planetary boundaries, adding a social dimension and including goals and degrees of goal achievement.
 
--   In normative terms, the model prescribes that\
+-   In normative terms, the model prescribes that
 
-    -   social goals should be achieved without overstepping the planetary boundaries. The planetary boundaries provide the biophysical framework within which the social goals should be achieved.\
+    -   social goals should be achieved without overstepping the planetary boundaries. The planetary boundaries provide the biophysical framework within which the social goals should be achieved.
 
     -   when setting concrete goals, measures etc. at sub-global levels, the global social goals must also be taken into account.

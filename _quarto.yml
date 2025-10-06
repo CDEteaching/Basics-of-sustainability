@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: _book
+  output-dir: docs
   resources: 
     - "*.png"
     - "*.jpeg"
@@ -15,10 +15,19 @@ book:
   page-navigation: true
   back-to-top-navigation: true
   search: true
+  site-url: https://cdeteaching.github.io/Basics-of-sustainability/
+  repo-actions: [issue]
+  
   sidebar:
     search: true
-    downloads: [pdf]
     logo: images/cdelogo_e.png
+    tools:
+      - icon: file-earmark-pdf
+        href: https://github.com/CDEteaching/Basics-of-sustainability/blob/master/pdf/SP_BasicsSD.pdf
+        text: "Course Script (PDF)"
+      - icon: bug
+        href: https://github.com/CDEteaching/Basics-of-sustainability/issues/new
+        text: "Report issue"
     
   page-footer:
     border: true
@@ -30,7 +39,6 @@ book:
       This book was built with <a href="https://quarto.org/">Quarto</a>. This work is licensed under a [CC-BY-NC-ND 4.0 Int License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
   
-  date: "19.04.2025"
   chapters:
   - index.qmd
   - intro.qmd
@@ -45,11 +53,7 @@ book:
     - 3_ecological-sustainability/3_intro.qmd
     - 4_social-sustainability/4_intro.qmd
     - 5_economic-sustainability/5_intro.qmd
-
-    
-    
-  appendices:
-    - references.qmd
+  - references.qmd
 
 bibliography: references.bib
 
@@ -59,16 +63,29 @@ format:
     monofont: Fira Code
     highlight-style: arrow
     monobackgroundcolor: "#F7F7F7"
-    theme: 
-      - theme.css
-      - theme.scss
+    theme:
+      light: [theme.scss]
+      dark: [darkly]
+    toggle: true
+    default-mode: dark
+    callout-icon: false
   
   pdf:
+  # render pdf to separate folder -> do it manually via terminal
+  # "quarto render --to pdf --output SP_IDTD.pdf --output-dir pdf"
     documentclass: book
-    fontfamily: roboto
+    mainfont: "Times New Roman"
+    sansfont: "Arial"
+    monofont: "Courier New"
     urlcolor: "blue"
     number-depth: 3
+    papersize: a4
+    fig-pos: "H"
     classoption: openany
+    pdf-engine: xelatex
+    metadata:
+      title: "book"
+    callout-icon: false 
 
 editor: visual
 

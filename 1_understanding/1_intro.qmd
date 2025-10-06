@@ -29,5 +29,4 @@ Is the term “sustainability” so overused as to slowly become meaningless? Ev
 
 -   2030 Agenda with the Sustainable Development Goals (SDGs) (2015–2030)
 
-{{< include "sustainability.qmd" >}}
-{{< include "sustainability-science.qmd" >}}
+{{< include "sustainability.qmd" >}} {{< include "sustainability-science.qmd" >}}

@@ -1,0 +1,52 @@
+---
+title: "3_strategic-approaches"
+format: html
+---
+
+These days, various strategies are being pursued or at least considered to achieve a transformation in the environmental dimension of sustainable development (see @fig-GDSR for a non-exhaustive list). Some of these strategies were previously discussed in this textbook. While the approaches mentioned do not necessarily have to be transformative per se, they can certainly have an impact on the environmental dimension of sustainability if applied appropriately. The approaches presented in this section are categorized according to the “Levers for Transformation” of the Global Sustainable Development Report (GSDR) (see chapter x). The 2019 GSDR defines four levers: governance, economy and finance, individual and collective action, and science and technology. The 2023 GSDR added a fifth lever, capacity building, as this is essential for a transformative process both as a lever itself and as a supporting factor for the other levers (Independent Group of Scientists appointed by the Secretary-General, 2023).
+
+For each lever, we present selected strategies related to our three topics of focus in this Chapter, climate, land use, or biodiversity:
+
+The **governance** lever involves institutions and spaces that determine the direction of development by setting goals, coordinating measures, creating regulations, and facilitating funding at national and regional level. Good governance should also promote synergies, take into account conflicts of interest, and strengthen cooperation between a wide range of stakeholders. Governance thus plays a key role in the development and implementation of environmental sustainability strategies, as it can establish the policy framework for sustainable practices through regulatory mechanisms, incentive structures, and laws. Governance levers include:
+
+-   Creation of protected areas to preserve biodiversity
+
+-   Subsidies for sustainable practices, such as direct payments for biodiversity-friendly farming methods
+
+The **economy and finance** lever primarily refers to the significant public and private investments required to achieve the SDGs and transformation (globally, between USD 1.4 and 2.5 trillion per year). This lever is thus a key enabler of environmental sustainability strategies and policies, for example through the funding of sustainable technologies. Examples include:
+
+-   Payments for Ecosystem Services (PES)
+
+-   REDD+ programmes to reduce deforestation and promote sustainable land use
+
+The **science and technology** lever refers to social and technological innovation as well as cost-effective and scalable technologies. This includes investing in research and development, fostering greater international cooperation, and enabling access to proven technologies (especially for low-income countries), where science can help explain complex interrelationships and develop evidence-based solutions. Essential levers for sustainability transformations include:
+
+-   Carbon sequencing technologies
+
+-   Nature-based solutions that use natural processes to address climate change and environmental problems
+
+-   Innovative land use systems, such as agroforestry\
+
+**Individual and collective action**\
+Social change often begins in people’s hearts and minds through local organization and mobilization before translating into laws and economic policy. When a critical mass adopts new practices or norms, this can be supported by education, information campaigns, financial incentives, and legislation, and extended to the whole of society. Examples of sustainability strategies and policies in the field of individual and collective action include:
+
+-   Sustainable consumption campaigns that motivate consumers to choose environmentally friendly products
+
+-   Promotion of solidarity-based farming models (SoLaWi) that strengthen regional and organic food production
+
+**Capacity building\
+**Capacity building to support the transformation to achieve the SDGs is multifaceted and depends on the goal, the required transformations, and the specific country or regional context. Among other things, competences are required in the areas of strategic orientation, innovation, coordination, learning, and resilience. Environmental sustainability strategies and policies related to the capacity building lever include:
+
+-   Establishment of advice centres or digital platforms to enable continuous learning and the exchange of best practices, e.g. in the field of agroforestry
+
+-   Supporting local initiatives to improve knowledge transfer\
+
+Note: It is important to be aware that approaches aren’t always synergistic; often, an approach addressing an environmental dimension of sustainability involves trade-offs with other approaches or with the social or economic dimensions of sustainability.
+
+![GSDR (Quelle?)](images/Images_en/Fig3_17__GSDR.png){#fig-GDSR}
+
+::: {.callout-note collapse="true"}
+Further reading:
+
+Guyer M., Steinemann M., and Saalismaa N. (2022), *Biodiversity and Sustainable Development*. Climate Change & Environment Nexus Brief. Swiss Agency for Development and Cooperation: Bern, Switzerland.
+:::

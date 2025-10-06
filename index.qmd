@@ -18,6 +18,32 @@ To contribute to sustainable development, we need to analyse the causes of sympt
 
 Finally, we hope that our study programmes will inspire students to reflect on their own roles and responsibilities in relation to sustainability, and that it will equip you to make a difference to ensure that the Earth remains a place worth living in for future generations. Only together can we bring about the changes needed to create a sustainable, just, and environmentally friendly world.
 
+## How to cite
+
+Bader, C. (Ed.). (2025). Basics of Sustainability (Version 1.0) \[Online book\]. CDE, University of Bern. Retrieved from https://cdeteaching.github.io/Basics-of-sustainability/
+
+**Citing specific chapters:**
+
+Chapter 1:
+
+Bader, C. (2025). Understanding and concepts of sustainability. In C. Bader (Ed.), Basics of Sustainability (Version 1.0) \[Online book\]. CDE, University of Bern. Retrieved from https://cdeteaching.github.io/Basics-of-sustainability/
+
+Chapter 2:
+
+Bader, C. (2025). Approaches to sustainability. In C. Bader (Ed.), Basics of Sustainability (Version 1.0) \[Online book\]. CDE, University of Bern. Retrieved from https://cdeteaching.github.io/Basics-of-sustainability/
+
+Chapter 3:
+
+Fitz, J., & Bader, C. (2025). Environmental Sustainability. In C. Bader (Ed.), Basics of Sustainability (Version 1.0) \[Online book\]. CDE, University of Bern. Retrieved from https://cdeteaching.github.io/Basics-of-sustainability/
+
+Chapter 4:
+
+Poelsma, F., & Bader, C. (2025). Social Sustainability. In C. Bader (Ed.), Basics of Sustainability (Version 1.0) \[Online book\]. CDE, University of Bern. Retrieved from https://cdeteaching.github.io/Basics-of-sustainability/
+
+Chapter 5:
+
+Bader, C., & Bezzola, N. (2025). Economic Sustainability. In C. Bader (Ed.), Basics of Sustainability (Version 1.0) \[Online book\]. CDE, University of Bern. Retrieved from https://cdeteaching.github.io/Basics-of-sustainability/
+
 ## Reading guide
 
 ::: {.callout-note collapse="true"}

@@ -3,7 +3,7 @@ title: "Approaches to Sustainability"
 format: html
 ---
 
-## Approaches
+## Approaches to Sustainable Development
 
 *Christoph Bader*
 
@@ -21,8 +21,4 @@ The world is facing numerous challenges of sustainable development, including pr
 
 -   Implementing the 2030 Agenda
 
-{{< include "planetary-boundaries.qmd" >}}
-{{< include "doughnut-model.qmd" >}}
-{{< include "Great-transformation.qmd" >}}
-{{< include "Green-economy.qmd" >}}
-{{< include "post-growth-societies.qmd" >}}
+{{< include "planetary-boundaries.qmd" >}} {{< include "doughnut-model.qmd" >}} {{< include "Great-transformation.qmd" >}} {{< include "Green-economy.qmd" >}} {{< include "post-growth-societies.qmd" >}}
