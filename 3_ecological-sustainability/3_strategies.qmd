@@ -1,7 +1,4 @@
----
-title: "3_strategic-approaches"
-format: html
----
+## Strategic approaches
 
 These days, various strategies are being pursued or at least considered to achieve a transformation in the environmental dimension of sustainable development (see @fig-GDSR for a non-exhaustive list). Some of these strategies were previously discussed in this textbook. While the approaches mentioned do not necessarily have to be transformative per se, they can certainly have an impact on the environmental dimension of sustainability if applied appropriately. The approaches presented in this section are categorized according to the “Levers for Transformation” of the Global Sustainable Development Report (GSDR) (see chapter x). The 2019 GSDR defines four levers: governance, economy and finance, individual and collective action, and science and technology. The 2023 GSDR added a fifth lever, capacity building, as this is essential for a transformative process both as a lever itself and as a supporting factor for the other levers (Independent Group of Scientists appointed by the Secretary-General, 2023).
 

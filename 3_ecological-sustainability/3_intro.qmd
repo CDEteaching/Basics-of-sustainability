@@ -30,4 +30,6 @@ Conservation of endangered species: Should we focus on protecting and preserving
 Protecting ecosystems: Should we establish protected areas to preserve threatened ecosystems and species, even if this restricts local communities in their economic activities? How can we strike a balance between conservation and sustainable use?
 :::
 
-{{< include "3_Ecosystems.qmd" >}} {{< include "3_Planetaryboundaries.qmd" >}} {{< include "3_strategies.qmd" >}}
+{{< include "3_Ecosystems.qmd" >}} 
+{{< include "3_Planetaryboundaries.qmd" >}} 
+{{< include "3_strategies.qmd" >}}

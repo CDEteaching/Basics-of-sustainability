@@ -1,7 +1,4 @@
----
-title: "3_Planetary boundaries"
-format: html
----
+## Planetary boundaries
 
 The current era is called the Anthropocene because human activities are exerting an increasingly profound impact on the Earth and its systems. Although this term has not (yet) been recognized as an official geologic or geochronological epoch by geological bodies (Quelle: [link](https://www.nytimes.com/2024/03/05/climate/anthropocene-epoch-vote-rejected.html?unlocked_article_code=1.aU0.b2Ag.EdNlTI4oneVq&smid=url-share)), it is used to describe the enormous human impact on the environment. There is no uniform definition of the origins of the Anthropocene; possible markers include human impact on greenhouse gas concentrations through rice cultivation, the global spread of radioactivity from nuclear testing, or the appearance of plastic particles in geological sediments. The Industrial Revolution is generally considered the start of the Anthropocene.
 
