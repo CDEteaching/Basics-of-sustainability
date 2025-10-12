@@ -34,6 +34,14 @@ Unless otherwise indicated, all materials are licensed under the Creative Common
 
 Bader, C. (Ed.). (2025). Basics of Sustainability (Version 1.0) \[Online book\]. CDE, University of Bern. Retrieved from https://cdeteaching.github.io/Basics-of-sustainability/
 
-## 🧩Credits
+## 🧩Contribution Matrix (CRediT Taxonomy)
 
-see `CREDIT.Rmd` for a detailed contribution matrix.
+| Name | Affiliation | ORCID | Roles (CRediT) |
+|-----------------|------------------|-----------------|-------------------|
+| Christoph Bader | CDE, University of Bern | [0000-0002-8991-353X](https://orcid.org/0000-0002-8991-353X) | Conceptualization, Software, Supervision, Writing - original draft, Writing – review & editing, Project administration |
+| Nicolà Bezzola | CDE, University of Bern | — | Writing - original draft, Writing – review & editing |
+| Juri Fitz | CDE, University of Bern | — | Writing - original draft, Writing – review & editing |
+| Anna-Lisa Honegger | CDE, University of Bern | — | Data curation, Visualization |
+| Helen Pérez | CDE, University of Bern | — | Data curation, Visualization |
+| Tina Hirschbühl | CDE, University of Bern | — | Writing – review & editing |
+| Felix Poelsma | CDE, University of Bern | [0009-0002-0221-6414](https://orcid.org/0009-0002-0221-6414) | Writing - original draft, Writing – review & editing |
