@@ -1,8 +1,67 @@
 ---
 title: "Economic Sustainability"
+author: 
+- name: Nicolà Bezzola
+- name: Christoph Bader
+lightbox: true
 format: html
+tbl-cap-location: top
+fig-cap-location: bottom
 ---
 
-## Economic sustainability - Overview and normative orientation
+![Economic Sustainability. Source: Own illustration.](images/Fig5_1_NEeconomic.png){#fig-ne-econ}
 
-*Nicolà Bezzola, Christoph Bader*
+Economic sustainability is a profoundly normative concept: it asks what understanding of the economy is socially desirable, what goals economic activity should pursue, and what role people, society, and natural resources should play in this. Contrary to widespread belief, economic theories are not value neutral. Instead, they are normative and performative, shaping ideas, actions, policies, and – ultimately – reality. This is why answers to the central questions of economics – i.e. who produces and consumes what and why, how are profits distributed and what are they used for – differ depending on the economic theory.
+
+::: {.callout-note collapse="true"}
+#### Defining rent, profit, and wages
+
+> “The produce of the earth – all that is derived from its surface by the united application of labour, machinery, and capital, is divided among three classes of the community, namely, the proprietor of the land **\[Rent\]**, the owner of the stock or capital **\[Profit\]** necessary for its cultivation, and the labourers by whose industry it is cultivated **\[Wages\]**. …To determine the laws which regulate this distribution, is the principal problem in Political Economy.”\
+> Preface, p. 1 – David Ricardo: The Principles of Political Economy and Taxation (1821)
+:::
+
+## Economics as a performative science
+
+From the very beginning, modern economics has not just observed and described social reality – it has also helped shape it. This discipline has formed our thinking about what is considered “economic” – e.g. through the ideal of the rationally deciding homo economicus, the norm of profit maximization, the focus on efficiency, or the idea that growth is synonymous with social progress (cf. Bontrup and Marquardt 2021, pp. 1–40).
+
+These interpretations never remained purely theoretical. They continue to influence policy and practice to this day: from structural change to the market liberalization that took hold in the 1980s – to the shaping of climate policy through emissions trading systems and the construction of highly complex financial products. The history of economics is therefore also a history of its impact (Schneidewind et al. 2016). The most widely accepted definition of economics, originally coined by Lionel Robbins, focuses on the relationship between resource scarcity and the satisfaction of people’s needs:
+
+> “Economics is the science which studies human behaviour as a relationship between ends and scarce means which have alternatives uses.” (Robbins 1932, p. 15).
+
+Robbins’s definition is influenced by his theoretical orientation towards neoclassical economics, the school of thought that came to be considered mainstream economics. Extending this concept, most textbooks define economics as a science of (rational) decision-making that explores how people decide to use scarce resources to achieve their aims.
+
+::: {.callout-note collapse="true"}
+#### Homo economicus as the foundational model of human behaviour
+
+*Homo economicus*, or “economic man”, is a foundational model in neoclassical economics. It describes humans as rational, utility-maximizing actors who have access to comprehensive information and consistently make decisions to enhance their material well-being. This view of humans was decisive for the development of mathematical models in economics and the idea that markets can efficiently lead to optimal outcomes.
+
+Historically, this concept developed over several stages. While early economists like Adam Smith still assumed a more complex view of humans – one that also included moral and social dimensions – this was increasingly reduced to purely rational, calculating behaviour in the Marginal Revolution of the 19th century. This reduction made it possible to model economic processes mathematically, but it also led to a problematic abstraction of actual social, environmental, and psychological conditions.
+
+Critics emphasize that *homo economicus* is a normative construct, and not a purely analytical one. It conveys a specific idea of humans as portrayed in social models and institutions, one that regards competition, personal responsibility, and increased efficiency as natural principles. In the real world, however, people often don’t behave purely rationally. Instead, factors like cooperation, fairness, trust, and even cognitive biases shape their decisions.
+
+The *homo economicus* model is particularly relevant to the discussion on sustainable development. It contributes to obscuring the systemic causes of environmental destruction and social inequality, as it systematically ignores structural power relations, external effects, and long-term planetary boundaries.
+:::
+
+The heterodox economist Ha-Joon Chang criticizes Robbins’s definition as being too specific and as emerging from a theoretical approach, which subsequently causes it to prescribe a particular direction (Chang 2014). Chang defines economics not through a theoretical approach, but by its object of study: the economy. Economics is therefore the study of everything related to (re-)production, exchange, and distribution of goods and services for the satisfaction of human needs. There are of course many other definitions of economics. Building on these diverse understandings, various schools of thought consequently differ in their focus of study, which may include power structures, institutions, or macro-economic and social connections and structures (cf. Miyamura 2020; Newman 2020; Robertson 2020).
+
+Economic sustainability requires that we systematically consider the consequences of economic activity on humans and nature. This includes asking questions about distribution. Who bears the costs of growth, and who benefits? How much material accumulation is enough? And who decides?
+
+An understanding of sustainability that takes these questions seriously focuses on concepts like sufficiency, minimum social standards, and planetary boundaries. It requires a departure from the dogma of a focus on growth (which primarily views growth as measured by Gross Domestic Product, see *chapter 5.2.3. on Economic Growth*) towards a normatively grounded, reflexive, and pluralistic economy. Such an orientation cannot be achieved by economics alone – it must emerge as a democratic practice in dialogue with ethics, other social sciences, and environmental sciences.
+
+::: {.callout-note collapse="true"}
+#### Plural economics
+
+Contemporary economics is largely dominated by one school of thought: neoclassical economics. At most universities and in most contexts, the term “economics” implicitly refers to this school of thought. Neoclassical economics forms the core of mainstream economics, based on the understanding of economics as formulated by Lionel Robbins. Accordingly, this school of thought examines the allocation of scarce resources and goods based on decisions made by rational, utility-maximizing individuals. The price mechanism serves as the key instrument of allocation. Supply and demand determine the optimal market price, which then ensures the optimal allocation of resources and goods.
+
+Plural economics emphasizes that there isn’t just “one” economics, but a variety of schools of thought. These include feminist, post-Keynesian, ecological, or Marxist economics, all of which differ in their theoretical assumptions, methods, and objectives. As a result, they often reach different, sometimes complementary, and at other times contradictory conclusions.
+
+However, this is not about a wholesale rejection of neoclassical economics. Instead, the key lies in discerning which perspective best suits a given question. Neoclassical analysis provides useful insights into markets, price formation, and incentive structures. However, its utility is limited when it comes to non-monetary processes, power relations, or social reproduction work. For example, its focus on market-based exchange relationships and price mechanisms makes it difficult to take unpaid work into account. This is where alternative approaches such as feminist economics come in, as they systematically incorporate care work, social relations, and power structures into economic analysis. Consequently, plural economics advocates a methodologically open, problem-oriented approach, viewing the diversity of theoretical approaches as an enrichment – especially given the complex challenges of sustainable development.
+
+While a detailed exploration of neoclassical economics and other schools of thought is beyond the scope of this discussion, you can delve deeper into this topic in our *Introduction to Sustainable Economics* course. More information on plural economics is also available on the *Exploring Economics* e-learning platform.
+
+In this video – *Economics is for Everyone* – Ha-Joon Chang provides a clear and concise introduction to the idea of plural economics. He explains why economic thinking is never neutral – and why we urgently need more economic pluralism.
+
+
+:::
+
+{{< include "5_key-elements.qmd" >}} {{< include "5_strategic-approaches.qmd" >}}

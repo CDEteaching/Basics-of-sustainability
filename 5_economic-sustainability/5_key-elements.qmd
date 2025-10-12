@@ -1,0 +1,213 @@
+## Key elements of economic sustainability
+
+Sustainability in the economic dimension means designing economic activities to meet human needs in the long term – for current and future generations – while respecting planetary boundaries and maintaining fair social structures. Economic activities are processes that convert natural resources into goods and services for consumption, using additional production factors such as labour and capital.
+
+In economic theory, the result of production represents a *value*. But what is the understanding of value on which this assumption is based? Historically, the concept of value in economics has undergone several fundamental changes (cf. Mazzucato 2018). As early as the 17th century, economic activity was often understood as serving the common good, especially when it contributed to security of supply or social stability. This understanding was closely linked to the idea of a “moral economy” (cf. Thompson 1971), which saw economic activity as embedded in traditional norms, expectations of justice, and social obligations.
+
+The rise of merchant capitalism and colonial expansion shifted the focus of economic value attribution. During this time, wealth was increasingly epitomized by gold, silver, and other precious metals. Proponents of “mercantilist” policies – a term coined retrospectively to describe the prevailing economic practices of the 16th to 18th centuries – regarded trade as the main source of national prosperity. Traders and merchants were therefore considered “productive”, while workers and soldiers were classified as “unproductive”.
+
+The Industrial Revolution in 18th and 19th-century Britain again reshaped the economic understanding of value: now, *labour* was considered the main source of value creation. Classical economists such as Adam Smith, David Ricardo, and Karl Marx advocated an objective theory of value, asserting that a good’s value is fundamentally determined by the labour invested in its production. These thinkers distinguished between two key concepts: use value (the practical utility of a good) and exchange value (the value that a good achieves in exchange on the market). While use value relates to the satisfaction of needs, only labour was considered the source of economic value. Adam Smith notably highlighted the division of labour as a key factor in economic progress: he argued that specialization and the functional breakdown of production processes allowed the same amount of labour to generate significantly greater output. This, in turn, spurred productivity, innovation, and ultimately, economic growth – dynamics which were further amplified by mechanization and technological innovations.
+
+Then, in the late 19th century, yet another understanding emerged. This was the subjective theory of value, which posits that the value of a good is derived from the individual utility consumers attribute to it – irrespective of production costs or working hours. This view continues to shape neoclassical economics today, modelling economic processes as rational exchanges between producers and consumers.
+
+This is also the basis for the simple economic cycle, which reduces the complex processes of an economy to two main actors – households and businesses – and two main flows – goods/services and money. Households provide businesses with their labour in exchange for income; businesses in turn use this labour and other factors of production to produce goods and services, which are then consumed by households. Expanded economic cycles include other actors such as the state, banks, and foreign trade.
+
+::: {#economic-cycles layout-ncol="2"}
+![**Basic economic cycle** – Flows of goods and money between households and businesses: labor in exchange for income, consumer spending in exchange for goods.](images/Fig5_2_EconCycle_simple.png){#fig-econ-cycle}
+
+![**Extended economic cycle** – Includes banks, government, and foreign trade, showing how savings, taxes, and imports act as leakages, while loans, government spending, and exports function as *injections*.](images/Fig5_2b_EconCycle_complex.png){#fig-ext-cycle}
+
+Source: Own illustrations based on ...?
+:::
+
+#### Critique of conventional economic cycle analysis
+
+Conventional analyses of the economic cycle typically depict the market economy as a value-creating unit, with households portrayed primarily as consumers. Large parts of society – especially unpaid work and processes of (re-)production outside of the market logic – are largely ignored and thus implicitly devalued. Feminist economics, therefore, complements its depiction of the paid economy by including unpaid areas (see e.g. Elson 2000). Nonetheless, Mariana Mazzucato (2018) reminds us to always consider the social context in which such models emerge:
+
+> “It is crucial to remember that all types of accounting methods are evolving social conventions, defined not by physical laws and definite ‘realities’, but reflecting ideas, theories, and ideologies of the age in which they are devised.” (Mazzucato 2018: 76)
+
+This allows us to understand why Paul Samuelson’s famous circular flow diagram of the late 1940s – influenced by the experiences of the Great Depression and the Second World War – focused largely on the uninterrupted flow of income to promote economic growth. Subsequent models of the economic cycle therefore focused almost exclusively on the flow of money between households and companies.
+
+In contrast, Kate Raworth (2017) illustrates the economy as embedded in society and the environment. She depicts households, the market (companies), states, and the commons as interacting with one another, and explicitly considers ecological boundaries. This more holistic understanding is key to rethinking economic activities in terms of sustainable development.
+
+::: {.callout-note collapse="true"}
+#### Work is more than paid work
+
+Work is a central production factor of each economy and necessary for transforming natural resources into goods and services. How this work is organized has varied throughout history, depending on the available tools and technologies as well as on the existing forms of organization and governance. Work is therefore context-dependent.
+
+Neoclassical economics typically focuses on paid work, which only attained its key position in industrial capitalism in the 19th century and consolidated it in the 20th. Unpaid work (e.g. domestic, care, nursing, voluntary), which is typically carried out by women, is largely ignored or taken for granted. The number of unpaid hours has been recorded in Switzerland since 2000, revealing that the amount of time spent on unpaid work exceeds that of paid work (FSO, Household production satellite account 2020).
+
+From the perspective of economic sustainability, this narrow approach is problematic. After all, work is not just an input factor, but constitutes economic activity itself – it enables production, reproduction, and social participation. A sustainable economy therefore requires a wider understanding of work, one that gives equal consideration to both paid work and unpaid reproductive work.
+:::
+
+### States, markets, and networks
+
+Economic systems differ according to how they answer fundamental questions such as this: “Who produces what, why, and for whom?”. The two key dimensions here are ownership (private or public?) and coordination (centralized or decentralized?). From an “ideal-typical” perspective, the following basic forms emerge (Basseler 2002):
+
+-   **Capitalist market economy**: Here, coordination is decentralized through markets, driven by the interplay of supply and demand (“bottom up”). The means of production are predominantly privately owned.
+
+-   **Socialist, centralized economy**: In this model, production and distribution decisions are centrally controlled through state planning (“top down”). The means of production are generally publicly owned.
+
+-   **Mixed economy (e.g. welfare state)**: These systems combine private ownership of the means of production with state coordination in key areas. While resource allocation is largely decentralized via markets, the state intervenes to regulate and distribute them – for example through social insurance, public services, or progressive taxation policies. This model aims to correct market failures and promote social justice. Coordination is therefore partly decentralized via markets and partly centralized via political institutions.
+
+-   **Community-based networks and commons economies:** These focus on self-organization, decentralized cooperation, and common property. Examples include solidarity economies, cooperatives, and communally managed resources (commons).
+
+Historically, industrial capitalism was – at least initially – the predominant model following the Industrial Revolution. It took on various forms in the 20th century, from the strong national welfare state of the postwar period to the market-oriented globalization models that have prevailed since the 1980s. Hall and Soskice (2001) describe these as “varieties of capitalism”.
+
+Today it’s easier to imagine the end of the world than the end of capitalism, as Slavoj Žižek (1994, S.1) puts it. And yet, increasingly, alternatives are emerging that show that a solidarity-based economy does not have to be limited to local niches. Instead, such an economy can be imagined and shaped globally, and move beyond market-centred or state-dominated paradigms. Networks, commons, and alternative economic forms are gaining attention, as they open up new ways of organizing economic processes in a more democratic, resilient, and environmentally sustainable way. For example, in *The Zero Marginal Cost Society*, Jeremy Rifkin (2014) envisions collaborative commons – jointly managed resources made possible by digital platforms and decentralized cooperation.
+
+### Capitalism as the starting point for economic sustainability issues
+
+Many sustainability challenges – e.g. the climate crisis, social inequality, resource overuse, financial market turbulence – are not isolated phenomena. They’re an expression of an overarching context, i.e. the structural dynamics of modern global capitalism. This textbook therefore takes a systemic perspective, as adopted by academics like Polanyi (1944), Brand and Wissen (2017), Hickel (2020), Seidl and Zahrnt (2010), Schneidewind (2016), and Binswanger (2006). From this perspective, moving towards sustainability requires an examination of our underlying economic structures and their political and cultural prerequisites – and thus of the capitalist system of today.
+
+In this textbook, we view capitalism not just as an economic system, but as encompassing the current economic and social system in its entirety. This includes economic, social, legal, cultural, and environmental structures and dynamics, all of which interact (see Box). Capitalism is not a natural state of economic activity, but rather the outcome of a specific historical development. Its roots go back to late medieval Europe, particularly England, where key institutional foundations were laid through the appropriation of land (a practice known as “enclosure”), the emergence of a free labour market, and early forms of capitalist agriculture (see Wood 2015).
+
+The Industrial Revolution in the late 18th and early 19th centuries ultimately enabled the historic breakthrough of capitalism: technological innovations, fossil fuels, and extensive capital investment gave rise to a new production system based on mass production and mass consumption. This process consolidated earlier developments into a dominant economic and social system that still characterizes key global structures today.
+
+This system is known as the capitalist mode of production, and its underlying logic is characterized by three basic features:
+
+-   the separation of capital and labour, so that workers generally don’t own the means of production and are therefore forced to sell their labour for wages
+
+-   private ownership of the mean of production
+
+-   the orientation towards profit maximization and profit utilization
+
+Capitalists – as owners of the means of production – bring together capital, land, and labour to produce goods and services in a production process. The aim is not primarily to satisfy needs, but to generate an exchange value that can be achieved on the market – with the main purpose of increasing capital. The accumulation of capital is the key driver and structural logic of the capitalist mode of production. A key characteristic of this process is the generation of surplus value, which is the economic value workers create in production that exceeds their wages. This surplus value forms the basis for profits and is distributed in various ways:
+
+-   One part goes towards workers’ wages
+
+-   One part goes to owners of land or natural resources as ground/land rent
+
+-   One part goes to the financial sector as interest and financial rents, especially where the capital is funded through debt
+
+-   The remaining surplus value comprises the profits, which can also be complemented through monopoly rents (e.g. through market power) or brand rents (e.g. through intangible assets such as reputation)
+
+Reducing unit costs plays a key role in making production profitable and ensuring competitiveness. Technological innovations and investments in machinery, factories, and infrastructure significantly increase productivity. Energy is increasingly replacing human labour; standardized production processes like the assembly line boost efficiency and enable the mass production of inexpensive consumer goods. As Henry Ford is reported to have pointedly said: “Any customer can have a car painted any color that he wants, so long as it is black.”
+
+But achieving a profit requires more than just technological efficiency. Other critical factors include control over markets and value chains, access to cheap resources, the ability to discipline and control labour, and the design of institutional and policy frameworks. This means that profits are created on the back of unequal power relations between companies and workers, between global centres and peripheries, along supply chains, and within ownership structures.
+
+Ensuring that the vast quantities of goods produced can also be sold requires homogenous mass demand. This is fostered through rising wages, a culture of consumption, and a social model that equates the possession of standardized consumer goods with prosperity and social advancement.
+
+::: {.callout-note collapse="true"}
+#### What is capitalism?
+
+Capitalism is a historically developed form of society where production is primarily for the market, private ownership of the means of production predominates, and the accumulation of capital is essential. Its fundamental dynamic is the use of capital: money (M) is invested in goods or commodities (C), which are then sold for a profit, resulting in more money (M’) as described by Karl Marx.
+
+The capitalist mode of production is based on the separation of labour and the means of production. This means that people have to sell their labour to gain access to resources. This logic creates structural dependencies that extend beyond the economic system into all areas of society.
+
+Historically, capitalism did not establish itself “naturally”, but was enforced through processes of political expropriation, colonial expansion, and legal transformations (e.g. abolition of the commons, monetization of labour, compulsory schooling for discipline).
+:::
+
+![Capitalist mode of production and distribution of surplus value. The surplus value created by workers is generated in the production process and skimmed off as profit, rent, or interest. Capitalists pursue the aim of increasing capital by combining capital, land, and labour, and with the support of lending from the financial sector. Source: own illustration, adapted from Varoufakis (2024).](images/Fig5_4_ModeofProduction.png){#fig-mode-production}
+
+@fig-mode-production illustrates how the capitalist production system produces not only goods but also social relations. In other words, those with access to capital or land can skim off surplus value, while those who only own their labour usually only receive wages. The financial sector plays an increasingly significant role in this by organizing capital flows and gaining additional access to the production process through debt (see 6.2.5 Financialization and financial crises). This mode of production therefore has an impact far beyond the economic sphere. The Hungarian economic sociologist Karl Polanyi described this process as the transition to a market society: a society in which the markets are no longer embedded in social and political relationships but increasingly determine these themselves. Labour, land, and money became “fictitious commodities” (Polanyi 1944) – i.e. goods that were not originally intended for the market but are now subject to its logic. In a market society, markets are not part of society – society is part of the market. According to Polanyi, this leads to profound social upheavals – e.g. in the form of social insecurity, ecological degradation, or growing inequality – and repeatedly gives rise to counter-movements. This dynamic is closely linked to two key mechanisms of capitalist expansion: internalization and externalization. On the one hand, resources such as nature, labour, or knowledge are appropriated without a market-mediated exchange (internalization). On the other, social costs are outsourced to third parties, such as future generations or countries in the Global South (externalization). A more detailed explanation of these two terms can be found in the box titled “Internalizing and externalizing”.
+
+In the following sections, we analyse how the capitalist mode of production, embedded in a market society, necessitates structural growth and thus leads to significant conflicts with sustainability.
+
+::: {.callout-note collapse="true"}
+#### Internalizing and externalizing
+
+The price of a good doesn’t always reflect its actual social costs. If a good is produced or sold at a market price that ignores these costs, they are often passed on to third parties – such as taxpayers, future generations, or the environment. These are known as external effects or externalities, and they can be either positive or negative. Externalities influence the production and consumption options of uninvolved parties.
+
+Neoclassical economics generally views external costs as an anomaly within an otherwise efficient market. The usual remedy is to “internalize” these costs – e.g. through mechanisms like a carbon taxes. In contrast, William Kapp argued as early as 1950 that the more a system prioritizes private profit maximization, the greater the incentives to pass costs onto people, society, and nature (Kapp 1950). Therefore, the current capitalist system has an inherent tendency to externalize costs. Stephan Lessenich describes the affluent societies in the Global North as externalization societies that outsource costs to the Global South (Lessenich 2020). At the same time, the capitalist mode of production relies on processes of internalization: nature, labour, or knowledge are often appropriated without compensation, based on structural power relations. Examples include land grabbing, unpaid care work, and the commodification of traditional knowledge (see e.g. Saave 2022).
+
+While liberal market theories emphasize the importance of price signals, other schools of thought question whether we really need to assign a price to everything, even nature. These fundamental debates are key to achieving a sustainable economy and are examined in depth in the *Introduction to Sustainable Economics* course.
+:::
+
+::: {.callout-note collapse="true"}
+#### Further readings
+
+• Karl Polanyi (1944): The Great Transformation • Ellen Meiksins Wood (2015): The Origin of Capitalism: A Longer View • Maja Göpel (2016): The Great Mindshift, Chapter 3
+:::
+
+### Economic growth: emergence, normalization, and criticism
+
+Today, we take economic growth for granted, yet from a historical point of view, it is a recent phenomenon. For centuries, the level of economic production remained largely stable. It was not until Britain’s Industrial Revolution at the end of the 18th century that a slow increase began, picking up speed significantly from the 1950s onwards. @fig-history-hockey-stick impressively illustrates how sudden and historically unique this acceleration was. For many centuries, per capita income stagnated before it literally exploded with the rise of industrial and fossil-fuelled production methods. However, this growth was concentrated mainly in some countries of the Global North. Three factors were key to this dynamic:
+
+1.  Reconstruction after the Second World War enabled massive public and private investment.
+2.  Access to cheap fossil fuel – especially oil – from the Middle East dramatically reduced production costs.
+3.  The Fordist consumer model combined high wages with cheap mass production: Henry Ford’s vision of “cars for everyone” became the guiding principle of a new production and consumption logic.
+
+![History’s hockey stick: gross domestic product per capita in five countries (1000–2018). Per capita income stagnated for centuries. It was only with the Industrial Revolution and fossil capitalism that income and production volumes rose exponentially – albeit very unevenly from region to region. Source: <https://books.core-econ.org/the-economy/microeconomics/01-prosperity-inequality-02-historys-hockey-stick.html#figure-1-1>.](images/Fig5_5__GDP1000_2000.png){#fig-history-hockey-stick}
+
+A key turning point was that capital replaced land as the central factor of production. While land is naturally limited, capital – understood as machines, technology, and infrastructure – initially had no obvious limits. For economists like Malthus, who still assumed that natural resources were scarce, long-term growth was almost unthinkable. Industrial production under capitalist conditions fundamentally altered this paradigm.
+
+Economic growth led to **gross domestic product (GDP)** taking centre stage as the predominant measure of prosperity. GDP measures the monetary value of final goods and services produced in a country in a given period of time (e.g. a year), but it doesn’t measure unpaid labour, ecological damage, or social justice. Since the 1980s, there has also been a divergence between rising GDP and stagnating subjective life satisfaction. GDP is well-suited to describing market activity – but not as a comprehensive indicator of prosperity or well-being.
+
+After World War II – during the *trente glorieuses*, or “glorious thirty” (1945–1975) – steady economic growth became the new normal. During this time, a frequent topic of discussion was whether increasing prosperity could, in the long term, lead to environmental improvement. The Environmental Kuznets Curve (Stern 2004) suggests that environmental degradation initially increases in the early phases of economic growth but begins to decrease once a certain income level is reached, as societies invest more in environmental protection. However, empirical evidence for this theory is mixed. While some local environmental issues have been managed, global environmental impacts such as CO₂ emissions continue to increase. Simply continuing to grow the economy therefore by no means guarantees reduced pressure on the environment and can further exacerbate existing planetary boundaries (Wiedmann et al. 2020). Many social subsystems, such as social security systems or labour market policy, were designed and structured to expect continuously growing government revenue, investment, and employment. This structural focus on growth continues to have an impact today, making economic sustainability a systemic issue.
+
+### Growth dependency and structural growth constraints
+
+As the current capitalist economic system is structurally dependent on growth, a decline in economic activity (e.g. stagnation, recession, or even depression) would lead to an economic crisis with far-reaching consequences for the population (e.g. unemployment, poverty, social benefit cuts) (Schmelzer and Vetter 2019, p. 26). Without growth, the system would enter a state of crisis. Currently, there is either growth or shrinkage, but nothing in between. Matthias Binswanger (2019) demonstrates that the need for growth results from the dynamics of market competition: to remain competitive, companies must continuously expand and boost productivity – otherwise, they risk losing market share and profits, or even risk going out of business. This growth imperative is evident on a macroeconomic, corporate, and cultural level:
+
+**The macroeconomic growth imperative** describes the structural dependence of modern societies and economic systems on economic growth. This growth is currently necessary because many core institutions and systems – such as labour markets, social systems, and public finances – can only function stably if there is continuous growth. For example, it is argued that without constant growth, unemployment would rise, as companies reduce production and, consequently, their workforce. Public finances would also be affected: state budgets, pensions, and social security systems are often based on continuously rising revenues generated by taxes, which in turn rely on economic growth. Last but not least, growth prevents economic and political crises, as stagnating or shrinking markets can be accompanied by uncertainty, capital flight, and social dissatisfaction, all of which facilitate political instability (Seidl and Zahrnt 2010).
+
+**The corporate logic of investment, profit, and expansion**. Companies operate within a capitalist mode of production whose logic is based on continuous growth. This growth is not only desirable – it is also structurally enforced. Companies typically invest only where they expect a profit – a principle reflected in the M–C–M’ formula (money–commodities–more money). This dynamic is intensified by market pressure: to remain competitive, companies must expand – or risk collapse. This “grow or die” logic is further exacerbated by the financial system. Invested capital is expected to yield continuous returns, earning interest. To fulfil these expectations, companies must constantly generate demand and invest in new production cycles (see Binswanger 2019). Companies that fail to generate profits in the long term disappear from the market. If average profits across the economy fall short, this can trigger a chain reaction of business closures – with potentially severe implications for employment and social stability.
+
+A concise introduction to the logic of capitalism is provided by David Graeber in this short video:
+
+{{< video https://www.youtube.com/watch?v=QOVnb3y8hm4 >}}
+
+Mass consumption and social norms: The growth spiral of the capitalist production system is driven not only by technological and economic factors, but to a significant extent also by cultural dynamics. Today, consumption is no longer just about satisfying immediate needs – it also fulfils a variety of social functions and has become an expression of status, self-realization, and belonging. As described in the previous section – and according to a key insight of Keynesian economists – mass demand stimulates investment, which in turn creates the basis for capitalist profits at a macroeconomic level. These connections illustrate the key role of consumption in the capitalist production system: In other words, strong consumer demand is essential for sustained economic growth. A lack of demand – e.g. if real wages stagnate or fall – would destabilize the capitalist system. In recent decades, various strategies were implemented to compensate for such shortfalls in demand:
+
+-   **Integrating women into the labour market**: In many countries, particularly in the US, women’s access to the labour market increased significantly in the 1970s and 80s. This not only served to promote equality – it also helped maintain household purchasing power – as reflected in popular cultural representations of the situation, such as Dolly Parton’s hit song, “9 to 5”.
+
+-   **Increasing consumption on credit:** As there are natural limits to both workers and daily working hours, consumption on credit increased. Just as private households borrowed money to make up for a lack of purchasing power, so too did the state: public spending on e.g. infrastructure, social benefits, or tax relief in the 1980s was often financed through state debt to stabilize overall economic dem and. The deregulation of financial markets further fuelled these developments. Since the 2008 financial crisis, central banks have also played an increasing role in stabilizing demand through monetary policy measures like low interest rates and bond purchases.
+
+-   **Combating consumer saturation**: In affluent societies, where many basic needs have already been met, the advertising industry is faced with the challenge of creating new areas of consumption. It’s increasingly about creating needs rather than fulfilling them. As economist Mathias Binswanger (2019) sums up: “We have evolved from a need fulfilment society to a need creation society,” adding: *“Until a few years ago, people didn't realize that they needed to record their daily heart rate, activities, calories burned, and sleep. But thanks to the efforts of health watch manufacturers, this need has been ‘awakened’ in them and health watches and fitness trackers are now sold in large quantities.”*
+
+### Financialization and financial crises
+
+Initially, the financial – both money and capital – markets were closely tied to the real economy, providing liquidity for the production of goods and services. It was therefore assumed that these two – financial markets and the real economy – would develop roughly in tandem. However, this stopped being the case several decades ago. From the 1980s onward, money and capital markets have grown much faster, losing touch with the real economy.
+
+One reason for this development was the deregulation of international financial markets. These deregulatory measures were introduced in the 1980s and 1990s to stimulate stagnating economic development in countries like the UK (then led by Conservative Prime Minister Margaret Thatcher) and the US (under President Ronald Reagan, the original proponent of the “Make America Great Again” slogan). The measures were legitimized by the argument that previous crises stemmed from inefficient state regulation and intervention, which were said to have prevented the rationality of individual market participants from achieving market equilibrium. The extensive deregulation of the financial markets was intended to enable self-regulating mechanisms for economic stabilization. Deregulation involved repealing the 1933 Glass-Steagall Act, which had mandated a strict separation of credit and securities transactions. This allowed banks to conduct both businesses simultaneously, which strongly facilitated speculative activities. Speculative trading volumes subsequently skyrocketed after the turn of the millennium, amid the advent of computerized high-speed trading.
+
+::: {.callout-note collapse="true"}
+#### What we need to understand about money and debt
+
+Money is far more than just a neutral medium of exchange. It fulfils four central functions in modern economic systems:
+
+**Medium of exchange**: Money simplifies economic transactions by eliminating the need for simultaneous exchange of goods and services.
+
+**Store of value**: Money can be saved and used later, which enables long-term planning and investment.
+
+**Unit of account (value meter)**: Money determines the “worth” of labour. However, this valuation is not an objective measure, but an expression of social power dynamics and ideologies.
+
+**Enabler of capital accumulation**: In capitalism, money is invested to generate more money. This dynamic, if unchecked, can lead to an increasing concentration of wealth.
+
+Through this last function, money is closely linked to debt: in today’s financial system, most money is not created through government coinage or central bank activities, but through the granting of loans by private commercial banks. This means that whenever a loan is granted, new money is created – along with a corresponding debt. Thus, every asset on the credit side has a debt on the debit side (see Graeber 2012). Without ongoing debt, there would be no money growth – and therefore no asset growth. This applies to both private households and governments. In a system of growing inequality, debtors are often structurally disadvantaged – they are dependent on lenders and subject to austerity measures and political constraints.
+
+Today’s financial system thus creates not only economic but also political dependencies. Those who have money can not only consume, they also have power – and can exercise it e.g. through political influence, media ownership, or strategic investments. Financialization, speculation, and global capital flows further exacerbate this development.
+
+> "The flipside of private wealth accumulation is public and private debt. Debt can only be reduced if assets are reduced at the same time." (Holzinger 2024: 89, own translation)
+:::
+
+Deregulation and its consequences enabled banks to significantly expand their lending – increasingly also targeting households with low credit ratings (i.e. limited repayment ability or low creditworthiness). To mitigate the associated risks, the loans were bundled and resold as seemingly safe “subprime” bonds. Such mechanisms ultimately laid the foundations for the financial crisis of 2008, when it emerged that a large proportion of these financial products were based on high-risk lending.
+
+This shift in economic dynamics and power towards the financial sector is known as financialization. It created a power complex comprising central banks, commercial banks, other financial institutions, private pension funds, and the owners of various assets. In this process, financial markets grow disproportionately compared to the real economy, a trend facilitated by national deregulation measures. Financialization intensifies the growth imperative, increasing not just inequality but also ecological fragility, for example through speculative investments in resources, raw materials, or land. Examples such as derivatives trading in food or resources (link to CDE research) show how financialized markets can exacerbate social vulnerabilities and ecological risks.
+
+::: {.callout-note collapse="true"}
+#### What are derivatives and how do they contribute to financialization?
+
+Derivatives are financial instruments whose value is derived from the future rates or prices of other goods, assets, or reference values such as interest rates, commodity prices, or stock market indices. Common derivatives include options, futures, and swaps. Derivatives trading does not involve real economic production – no goods or services are created. Instead, derivatives were originally intended to “hedge” against price fluctuations, e.g. in commodities trading. However, the increasing deregulation and technologization of the financial markets led to the widespread use of derivatives as speculative investment tools. This significantly contributed to the decoupling of the financial markets from the real economy, fostering a massive market for financial bets often vastly exceeding the real economic values on which the derivatives are based. This dynamic is a key component of “financialization” and increases economic instability as well as social and ecological risks.
+:::
+
+::: {.callout-note collapse="true"}
+#### Further reading
+
+Blakeley, Grace. 2019. *Stolen: How to Save the World from Financialisation*. Repeater.
+:::
+
+### Companies as key players in economic sustainability
+
+Companies play a key role in economic processes: they produce goods and services, create jobs, and drive innovation – all the while being significant sources of environmental harm. In the context of economic sustainability, therefore, we should view companies not just as part of the problem, but also as part of a possible solution (Hoffmann 2018).
+
+Companies are organizations that combine production factors (labour, capital, land) to produce goods and services, typically for sale in the market. Traditionally, their overriding goal has been to generate more income than expenses, thereby making a profit. This classical understanding was heavily influenced by the “shareholder doctrine”, notably articulated by Milton Friedman in his much-cited 1970 essay in the New York Times, “The Social Responsibility of Business is to Increase its Profits”. Friedman argued that the only social responsibility of a company was to maximize profits for its owners – the shareholders – within the bounds of applicable laws and market rules. Managers, therefore, owe primary allegiance to shareholders, but not to social or ecological objectives. This view formed the basis for many economic policy models and management practices in the latter half of the 20th century. It contributed significantly to companies’ strong focus on short-term returns, increased efficiency, and cost reduction – often at the expense of social justice or ecological sustainability. Critics contend that this logic systematically ignores crucial social and planetary boundaries, shifting responsibility primarily to individuals or states.
+
+In the context of sustainability, this narrow focus is under increased scrutiny. Alternatives like the “stakeholder approach” are gaining importance, viewing companies not only as profit maximizers for owners but also as socially embedded actors responsible to diverse stakeholders, including employees, customers, suppliers, local communities, and the environment. Companies also vary significantly in size and organizational form, encompassing small and medium-sized enterprises (SMEs), large corporations, social enterprises, cooperatives, and other alternative business models. This diversity profoundly influences how sustainability is strategically embedded and practically implemented.
+
+Dyllick and Muff (2016) categorize companies into three stages of development, based on their position on sustainability. The first stage, “business-as-usual”, describes companies that largely ignore sustainability and focus their economic activities exclusively on financial objectives. In the second stage, “Corporate Sustainability 1.0 and 2.0”, companies begin to address sustainability through efficiency improvements, compliance (i.e. adherence to legal and regulatory requirements), and the integration of corporate social responsibility (CSR) into their business strategies. However, this typically occurs without fundamentally changing the core business logic. Only in the third stage, “Sustainability 3.0”, does systemic transformation of the company take centre stage. Here, companies follow a broader purpose: they explicitly commit to social well-being and to respecting planetary boundaries, comprehensively integrating these goals into their core business model.
+
+The third stage requires a fundamental change in perspective: while companies in the earlier stages primarily acted from the inside out by slightly adapting their existing structures, Sustainability 3.0 demands an “outside-in” approach: companies must align their identity and strategic core processes with pressing social and ecological challenges.
+
+And still, many sustainability efforts only scratch the surface. Typical challenges include “cherry-picking”, which involves celebrating easily achievable sustainability goals while ignoring the fact that systemic changes have failed to materialize; rebound effects, in which efficiency increases lead to rising consumption; and carbon tunnel vision, a narrow focus on reducing CO~2~ emissions as the sole solution to sustainability issues.

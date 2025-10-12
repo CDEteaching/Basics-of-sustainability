@@ -1,4 +1,63 @@
----
-title: "5_strategic-approches"
-format: html
----
+## Sustainability strategies and policies for a sustainable economy
+
+An economic transformation towards sustainable development requires targeted strategies that question and rearrange existing growth logics, power relations, and market mechanisms. Sustainability strategies in the economic dimension typically focus on three fundamental principles: efficiency, consistency, and sufficiency. Efficiency aims for a more resource-efficient use of existing technologies, while consistency aims to gear economic processes more strongly to natural biogeochemical cycles, for example through a circular economy or renewable energy. Sufficiency goes beyond that and calls for a limit to consumption and production as well as a new understanding of wealth, one that is based on “enough” instead of “more”. While efficiency and consistency are largely realizable within existing market logics, sufficiency requires a deeper rethinking about social values and justice.
+
+More recently, many specific reform proposals have been formulated, addressing different leverage points in the economy, such as production, consumption, work, or financing. Holzinger (2024) discusses the need for an economic paradigm shift, outlined through various thematic “transformations”:
+
+-   *transformation of work*, e.g. through working time reduction, expansion of the care economy, and recognition of unpaid work
+
+-   *transformation of taxation,* aimed at environmental incentive impacts and a socially just redistribution
+
+-   *financial transformation,* focusing on the common good, democratic control, and public investments
+
+-   *corporate transformation*, focusing on transformative companies that put social goals before profit
+
+-   *consumption transformation,* focusing on the reduction of resource use through cultural transformation and infrastructure for less (e.g. sharing, repair)
+
+-   And reforms in specific sectors: e.g. mobility transformation, energy transformation, food transformation.
+
+These reform proposals make clear that sustainability requires a combination of different sectoral levers: rather than purely technical solutions, there is a need for new institutional, social, and cultural guardrails. In the economic sustainability debate, these diverse proposals can be categorized into three overarching macrostrategies with different basic assumptions and goals:
+
+![Positioning of Green Growth, Degrowth, and Sustainable Economy based on their assumptions about decoupling and the potential for high quality of life with lower GDP. Source: Own illustration based on Petschow (2018).](images/Fig5_6__NaÖk_en.jpg){#fig-naök}
+
+-   **Green Growth** focuses on a relative or absolute decoupling of economic growth and environmental use. Green technologies, efficiency increases, and environmental innovation management serve to respect environmental boundaries – without fundamentally calling into question the growth paradigm.
+
+-   By contrast, **degrowth (also called postgrowth**[^5_strategic-approaches-1]**)** specifically aims to reduce economic activities in sectors that cause particular environmental harm. It seeks not only to undo resource-intensive production and consumption patterns, but also to achieve a far-reaching social transformation towards new models of wealth, time wealth, justice, and sufficiency. It focuses on the democratic negotiation of collective needs and the fair distribution of work, income, and resources.
+
+-   **A sustainable economy** strikes a balance between the two predominant approaches of green growth and degrowth. It strives for social well-being within planetary boundaries without dogmatically committing to either economic growth or shrinkage. Petschow et al. (2020), for example, describe this position as a *precautionary post-growth approach.*
+
+[^5_strategic-approaches-1]: **The term post-growth is also frequently used. Although “degrowth” and “post-growth” overlap in many requirements and analyses, the term post-growth more strongly emphasizes the need for institutions that are independent of growth, rather than primarily focusing on economic shrinkage.**
+
+### Sustainable economy – growth-independent economic sectors
+
+Many of modern society’s core institutions – including pension and social systems, labour markets, and public finances – are currently closely linked to economic growth. As Seidl and Zahrnt (xy) emphasize, these structures are typically based on implicit growth assumptions that are neither sustainable nor socially just in the long term. Designing growth-independent institutions is therefore key. This would involve not only financially decoupling social systems and public finances from GDP growth, but also overcoming the political fixation on growth that currently characterizes many economic policy discourses. Reforms can be implemented, for example, by designing new tax or financial policy frameworks that enable stability even without growth. In parallel, we need new types of production and consumption:
+
+-   *A sufficient lifestyle.* A cultural and infrastructural transformation towards sufficient lifestyles is not just about refraining from consumption at an individual level, but also about supporting new production and consumption patterns – e.g. through sharing models, a repair culture, regional supply chains, or the collective use of resources (see, among others, N. Paech)
+
+-   *Collective action*. The development of alternative infrastructure, solidarity-based forms of cooperation, and non-capitalist means of productions – e.g. commons, cooperatives, or cooperative networks – are described as viable prospects for the future by authors such as Muraca, Rifkin, and Ostrom. Such forms of economic self-organization strengthen resilience, social cohesion, and environmental responsibility.
+
+-   *A caring economy*. Work in households, in care, and in the community – in other words, reproductive and care activities – must be systematically upvalued. Instead of considering production and reproduction separately, approaches like those of Biesecker and Hofmeister emphasize the need to understand care work as the foundation of economic activity,
+
+-   *Overcoming the “imperial mode of living”*. From a global perspective, the sustainability discussion is further complemented by criticism of the “imperial mode of living”. Authors such as Brand or Hickel demonstrate that the growth-based way of life in high-income societies is based on the externalization of environmental and social costs to the Global South. A sustainable transformation must therefore also critically question international power relations and access to resources. 
+
+The development of growth-independent economic sectors requires not just new practices and cultural models, but also a targeted policy framework that supports and consolidates this transformation. Without suitable tax-related, regulatory, and investment-related frameworks, sufficient lifestyles, caring economies, or commons-based production often remain limited to niches. The task of sustainable economic policies, therefore, is to create favourable structures, overcome destructive path dependencies, and systematically enable new economic logics. The following key policy instruments and macroeconomic levers could accompany this transformation at the national and international level:
+
+-   **Shifting taxation from work to resources and capital.** While the tax burden in many countries is currently strongly focused on the taxation of income from paid employment, natural resource use, or massive wealth accumulation are largely undertaxed. Ecological incentive taxes (e.g. CO₂ levies or resource taxes) can be used to internalize environmental costs and disincentivize environmentally harmful behaviour. At the same time, progressive taxation of income, inheritance, and wealth can create financial scope for social and environmental investments. This would also strengthen distributive justice, incentive structures, and the state’s capacity to act.
+
+-   **Reforming the money creation system**. This could take the form of a state monopoly on money creation (“Positive” or “100% Money”) or mission-oriented lending (“Mission Economy”, see Mazzucato 2018). The purpose of such measures would be to link money creation to social priorities – such as climate protection or care investments – and to avoid speculative misallocation.
+
+-   **Supporting social innovation in a targeted way.** The aim of this measure is to embed sufficiency and resilient structures in the economy and society. This would allow new institutions, forms of organization, and business models to emerge that don’t rely on constant growth, focusing instead on moderation, justice, and environmental limits.
+
+### Corporate transformation – transformative companies and a sustainable economy
+
+Given that the sustainability challenges we face are systemic, we need companies that go far beyond efficiency increases: in other words, companies that are transformative. Hug et al. (2022) describe such companies as follows:
+
+> “Transformative companies are characterized by their pursuit of alternative objectives. They define their success not by short-term profit, but by their contribution to social well-being and environmental regeneration. They are guided by values such as social justice, cooperation, and autonomy – and they consciously implement sufficiency strategies that strive for a reduction in resource use and a change in consumption patterns. A key characteristic of transformative companies is their long-term outlook: they secure their existence through a stable production capacity and long-term investments. Decision-making processes are characterized by a high level of participation and autonomous management, neither of which are exclusively driven by capital interests. Such companies seek financial independence to overcome the need for continuous profit maximization. They often also set a growth limit to ensure environmental sustainability and social cohesion." (Hug et al. 2022, p.)
+
+However, the path to becoming a transformative company presents many obstacles. These include the current economic system’s systemic growth imperative, social discourses that individualize responsibility and conceal structural causes, and individual cognitive biases such as loss aversion or habitual inertia. Uncertainties in supply chains and among consumers also make it more difficult for companies to act sustainably.
+
+At the same time, there are factors that can promote transformative entrepreneurship. These include a strong inner conviction, committed leaders, networks of like-minded actors, the creation of suitable policy frameworks, and a growing social demand for sustainable products and services (Niessen and Bocken 2021).
+
+Kate Raworth’s (2017) concept of Doughnut Economics offers an innovative framework for designing sustainable companies. It posits that companies should operate within the planetary boundaries while simultaneously securing a social foundation. To achieve this, they must critically examine and transform their design across five specific fields: their purpose, networks, governance structures, ownership, and financing logic (Doughnut Economics Action Lab, 2023). Only when fundamental change is achieved in these fields can companies truly become regenerative and distributive.
+
+Transformative companies are no longer a peripheral phenomenon. Instead, they are necessary actors for a sustainable economy. However, their success depends not only on internal reforms, but also on social support and an appropriate policy framework.

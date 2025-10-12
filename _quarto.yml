@@ -23,7 +23,7 @@ book:
     logo: images/cdelogo_e.png
     tools:
       - icon: file-earmark-pdf
-        href: https://github.com/CDEteaching/Basics-of-sustainability/blob/master/pdf/SP_BasicsSD.pdf
+        href: https://github.com/CDEteaching/Basics-of-sustainability/blob/master/pdf/SP_BasicSustainability.pdf
         text: "Course Script (PDF)"
       - icon: bug
         href: https://github.com/CDEteaching/Basics-of-sustainability/issues/new
@@ -72,7 +72,7 @@ format:
   
   pdf:
   # render pdf to separate folder -> do it manually via terminal
-  # "quarto render --to pdf --output SP_IDTD.pdf --output-dir pdf"
+  # "quarto render --to pdf --output SP_BasicSustainability.pdf --output-dir pdf"
     documentclass: book
     mainfont: "Times New Roman"
     sansfont: "Arial"

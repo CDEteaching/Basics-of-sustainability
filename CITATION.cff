@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this lesson, please cite it as below."
+title: "Basics of Sustainability - Foundations and challenges of sustainability"
+abstract: "Additional attainments for the Master’s in Sustainability Transformations"
+version: "1.1.0"
+date-released: 2025-10-15
+license: "CC BY-NC-SA 4.0"
+editor:
+  - given-names: "Christoph"
+    family-names: "Bader"
+    affiliation: "Centre for Development and Environment (CDE), University of Bern"
+    orcid: "https://orcid.org/0000-0002-8991-353X"
+authors:
+  - given-names: "Christoph"
+    family-names: "Bader"
+    affiliation: "Centre for Development and Environment (CDE), University of Bern"
+    orcid: "https://orcid.org/0000-0002-8991-353X"
+  - given-names: "Nicolà"
+    family-names: "Bezzola"
+    affiliation: "Centre for Development and Environment (CDE), University of Bern"
+  - given-names: "Juri"
+    family-names: "Fitz"
+    affiliation: "Centre for Development and Environment (CDE), University of Bern"
+  - given-names: "Felix"
+    family-names: "Poelsma"
+    affiliation: "Centre for Development and Environment (CDE), University of Bern"
+    orcid: "https://orcid.org/0009-0002-0221-6414"
+contributors:
+  - given-names: "Anna-Lisa"
+    family-names: "Honegger"
+    affiliation: "Centre for Development and Environment (CDE), University of Bern"
+    roles:
+      - Data curation
+      - Visualization
+  - given-names: "Helen"
+    family-names: "Pérez"
+    affiliation: "Centre for Development and Environment (CDE), University of Bern"
+    roles:
+      - Data curation
+      - Visualization
+  - given-names: "Tina"
+    family-names: "Hirschbühl"
+    affiliation: "Centre for Development and Environment (CDE), University of Bern"
+    roles:
+      - Translation
+      - Editing
+keywords:
+  - "sustainability""
+repository-code: "https://github.com/CDEteaching/Basics-of-sustainability"
+
+

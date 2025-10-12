@@ -159,7 +159,6 @@ Like land use change (reference) and ecosystem services (reference), biodiversit
 
 ![The Nature Futures Framework (Source: Pereira et al. 2020)](images/NFF%20(Duran%20et%20al.%202023).webp){#fig-NFF}
 
-
 The diverse values associated with biodiversity and nature – and to what extent they should be protected – therefore require a normative assessment. They are based not only on empirical systems knowledge but also on ethical principles, as explained at the start of Chapter 3 (See Chapter 3.1 Normative Dimension of Sustainability).
 
 As we have seen, and as with other sustainability challenges and dimensions, there is no established consensus on how to best implement and achieve sustainability in the environmental dimension. In this dimension, too, sustainable development remains a social negotiation and decision-making process. Given the diversity of different perspectives and interests of various stakeholders, preferences regarding approaches and measures also vary. To select suitable measures and harmonize the various levels of responsibility (@fig-SD-ethics), we can, for example, refer back to Hans Jonas’s (1979) ethics of responsibility, which we learned about at the start of the book (see chapter X). Integrating these various areas of responsibility can foster a holistic and sustainable ethic that appropriately considers the needs and interests of all aspects of life and nature.
