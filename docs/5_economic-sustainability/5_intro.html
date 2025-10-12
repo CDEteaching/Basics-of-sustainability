@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Nicolà Bezzola">
+<meta name="author" content="Christoph Bader">
+
+<title>5&nbsp; Economic Sustainability – Basics of sustainability</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../references.html" rel="next">
+<link href="../4_social-sustainability/4_intro.html" rel="prev">
+<link href="../images/" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-dbf4b28c387d353a501d76b2fd46fbb0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-60b716ab65d401520622fb3b811f5bf6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-dbf4b28c387d353a501d76b2fd46fbb0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../3_ecological-sustainability/3_intro.html">Transforming (Un-)sustainable systems: Key areas and strategic approaches</a></li><li class="breadcrumb-item"><a href="../5_economic-sustainability/5_intro.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Economic Sustainability</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/cdelogo_e.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Basics of sustainability</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/CDEteaching/Basics-of-sustainability/blob/master/pdf/SP_BasicSustainability.pdf" title="Course Script (PDF)" class="quarto-navigation-tool px-1" aria-label="Course Script (PDF)"><i class="bi bi-file-earmark-pdf"></i></a>
+    <a href="https://github.com/CDEteaching/Basics-of-sustainability/issues/new" title="Report issue" class="quarto-navigation-tool px-1" aria-label="Report issue"><i class="bi bi-bug"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Foundations</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../1_understanding/1_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Understandings and concepts of sustainability</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Approaches to Sustainability</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2_approaches/2_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Approaches to Sustainability</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Transforming (Un-)sustainable systems: Key areas and strategic approaches</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../3_ecological-sustainability/3_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Environmental Sustainability</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../4_social-sustainability/4_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Social Sustainability</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../5_economic-sustainability/5_intro.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Economic Sustainability</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#economics-as-a-performative-science" id="toc-economics-as-a-performative-science" class="nav-link active" data-scroll-target="#economics-as-a-performative-science"><span class="header-section-number">5.1</span> Economics as a performative science</a></li>
+  <li><a href="#key-elements-of-economic-sustainability" id="toc-key-elements-of-economic-sustainability" class="nav-link" data-scroll-target="#key-elements-of-economic-sustainability"><span class="header-section-number">5.2</span> Key elements of economic sustainability</a>
+  <ul class="collapse">
+  <li><a href="#states-markets-and-networks" id="toc-states-markets-and-networks" class="nav-link" data-scroll-target="#states-markets-and-networks"><span class="header-section-number">5.2.1</span> States, markets, and networks</a></li>
+  <li><a href="#capitalism-as-the-starting-point-for-economic-sustainability-issues" id="toc-capitalism-as-the-starting-point-for-economic-sustainability-issues" class="nav-link" data-scroll-target="#capitalism-as-the-starting-point-for-economic-sustainability-issues"><span class="header-section-number">5.2.2</span> Capitalism as the starting point for economic sustainability issues</a></li>
+  <li><a href="#economic-growth-emergence-normalization-and-criticism" id="toc-economic-growth-emergence-normalization-and-criticism" class="nav-link" data-scroll-target="#economic-growth-emergence-normalization-and-criticism"><span class="header-section-number">5.2.3</span> Economic growth: emergence, normalization, and criticism</a></li>
+  <li><a href="#growth-dependency-and-structural-growth-constraints" id="toc-growth-dependency-and-structural-growth-constraints" class="nav-link" data-scroll-target="#growth-dependency-and-structural-growth-constraints"><span class="header-section-number">5.2.4</span> Growth dependency and structural growth constraints</a></li>
+  <li><a href="#financialization-and-financial-crises" id="toc-financialization-and-financial-crises" class="nav-link" data-scroll-target="#financialization-and-financial-crises"><span class="header-section-number">5.2.5</span> Financialization and financial crises</a></li>
+  <li><a href="#companies-as-key-players-in-economic-sustainability" id="toc-companies-as-key-players-in-economic-sustainability" class="nav-link" data-scroll-target="#companies-as-key-players-in-economic-sustainability"><span class="header-section-number">5.2.6</span> Companies as key players in economic sustainability</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../3_ecological-sustainability/3_intro.html">Transforming (Un-)sustainable systems: Key areas and strategic approaches</a></li><li class="breadcrumb-item"><a href="../5_economic-sustainability/5_intro.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Economic Sustainability</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Economic Sustainability</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Nicolà Bezzola </p>
+             <p>Christoph Bader </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div id="fig-ne-econ" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ne-econ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig5_1_NEeconomic.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;5.1: Economic Sustainability. Source: Own illustration."><img src="images/Fig5_1_NEeconomic.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ne-econ-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.1: Economic Sustainability. Source: Own illustration.
+</figcaption>
+</figure>
+</div>
+<p>Economic sustainability is a profoundly normative concept: it asks what understanding of the economy is socially desirable, what goals economic activity should pursue, and what role people, society, and natural resources should play in this. Contrary to widespread belief, economic theories are not value neutral. Instead, they are normative and performative, shaping ideas, actions, policies, and – ultimately – reality. This is why answers to the central questions of economics – i.e.&nbsp;who produces and consumes what and why, how are profits distributed and what are they used for – differ depending on the economic theory.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Defining rent, profit, and wages
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<blockquote class="blockquote">
+<p>“The produce of the earth – all that is derived from its surface by the united application of labour, machinery, and capital, is divided among three classes of the community, namely, the proprietor of the land <strong>[Rent]</strong>, the owner of the stock or capital <strong>[Profit]</strong> necessary for its cultivation, and the labourers by whose industry it is cultivated <strong>[Wages]</strong>. …To determine the laws which regulate this distribution, is the principal problem in Political Economy.”<br>
+Preface, p.&nbsp;1 – David Ricardo: The Principles of Political Economy and Taxation (1821)</p>
+</blockquote>
+</div>
+</div>
+</div>
+<section id="economics-as-a-performative-science" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="economics-as-a-performative-science"><span class="header-section-number">5.1</span> Economics as a performative science</h2>
+<p>From the very beginning, modern economics has not just observed and described social reality – it has also helped shape it. This discipline has formed our thinking about what is considered “economic” – e.g.&nbsp;through the ideal of the rationally deciding homo economicus, the norm of profit maximization, the focus on efficiency, or the idea that growth is synonymous with social progress (cf.&nbsp;Bontrup and Marquardt 2021, pp.&nbsp;1–40).</p>
+<p>These interpretations never remained purely theoretical. They continue to influence policy and practice to this day: from structural change to the market liberalization that took hold in the 1980s – to the shaping of climate policy through emissions trading systems and the construction of highly complex financial products. The history of economics is therefore also a history of its impact (Schneidewind et al.&nbsp;2016). The most widely accepted definition of economics, originally coined by Lionel Robbins, focuses on the relationship between resource scarcity and the satisfaction of people’s needs:</p>
+<blockquote class="blockquote">
+<p>“Economics is the science which studies human behaviour as a relationship between ends and scarce means which have alternatives uses.” (Robbins 1932, p.&nbsp;15).</p>
+</blockquote>
+<p>Robbins’s definition is influenced by his theoretical orientation towards neoclassical economics, the school of thought that came to be considered mainstream economics. Extending this concept, most textbooks define economics as a science of (rational) decision-making that explores how people decide to use scarce resources to achieve their aims.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Homo economicus as the foundational model of human behaviour
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Homo economicus</em>, or “economic man”, is a foundational model in neoclassical economics. It describes humans as rational, utility-maximizing actors who have access to comprehensive information and consistently make decisions to enhance their material well-being. This view of humans was decisive for the development of mathematical models in economics and the idea that markets can efficiently lead to optimal outcomes.</p>
+<p>Historically, this concept developed over several stages. While early economists like Adam Smith still assumed a more complex view of humans – one that also included moral and social dimensions – this was increasingly reduced to purely rational, calculating behaviour in the Marginal Revolution of the 19th century. This reduction made it possible to model economic processes mathematically, but it also led to a problematic abstraction of actual social, environmental, and psychological conditions.</p>
+<p>Critics emphasize that <em>homo economicus</em> is a normative construct, and not a purely analytical one. It conveys a specific idea of humans as portrayed in social models and institutions, one that regards competition, personal responsibility, and increased efficiency as natural principles. In the real world, however, people often don’t behave purely rationally. Instead, factors like cooperation, fairness, trust, and even cognitive biases shape their decisions.</p>
+<p>The <em>homo economicus</em> model is particularly relevant to the discussion on sustainable development. It contributes to obscuring the systemic causes of environmental destruction and social inequality, as it systematically ignores structural power relations, external effects, and long-term planetary boundaries.</p>
+</div>
+</div>
+</div>
+<p>The heterodox economist Ha-Joon Chang criticizes Robbins’s definition as being too specific and as emerging from a theoretical approach, which subsequently causes it to prescribe a particular direction (Chang 2014). Chang defines economics not through a theoretical approach, but by its object of study: the economy. Economics is therefore the study of everything related to (re-)production, exchange, and distribution of goods and services for the satisfaction of human needs. There are of course many other definitions of economics. Building on these diverse understandings, various schools of thought consequently differ in their focus of study, which may include power structures, institutions, or macro-economic and social connections and structures (cf.&nbsp;Miyamura 2020; Newman 2020; Robertson 2020).</p>
+<p>Economic sustainability requires that we systematically consider the consequences of economic activity on humans and nature. This includes asking questions about distribution. Who bears the costs of growth, and who benefits? How much material accumulation is enough? And who decides?</p>
+<p>An understanding of sustainability that takes these questions seriously focuses on concepts like sufficiency, minimum social standards, and planetary boundaries. It requires a departure from the dogma of a focus on growth (which primarily views growth as measured by Gross Domestic Product, see <em>chapter 5.2.3. on Economic Growth</em>) towards a normatively grounded, reflexive, and pluralistic economy. Such an orientation cannot be achieved by economics alone – it must emerge as a democratic practice in dialogue with ethics, other social sciences, and environmental sciences.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Plural economics
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Contemporary economics is largely dominated by one school of thought: neoclassical economics. At most universities and in most contexts, the term “economics” implicitly refers to this school of thought. Neoclassical economics forms the core of mainstream economics, based on the understanding of economics as formulated by Lionel Robbins. Accordingly, this school of thought examines the allocation of scarce resources and goods based on decisions made by rational, utility-maximizing individuals. The price mechanism serves as the key instrument of allocation. Supply and demand determine the optimal market price, which then ensures the optimal allocation of resources and goods.</p>
+<p>Plural economics emphasizes that there isn’t just “one” economics, but a variety of schools of thought. These include feminist, post-Keynesian, ecological, or Marxist economics, all of which differ in their theoretical assumptions, methods, and objectives. As a result, they often reach different, sometimes complementary, and at other times contradictory conclusions.</p>
+<p>However, this is not about a wholesale rejection of neoclassical economics. Instead, the key lies in discerning which perspective best suits a given question. Neoclassical analysis provides useful insights into markets, price formation, and incentive structures. However, its utility is limited when it comes to non-monetary processes, power relations, or social reproduction work. For example, its focus on market-based exchange relationships and price mechanisms makes it difficult to take unpaid work into account. This is where alternative approaches such as feminist economics come in, as they systematically incorporate care work, social relations, and power structures into economic analysis. Consequently, plural economics advocates a methodologically open, problem-oriented approach, viewing the diversity of theoretical approaches as an enrichment – especially given the complex challenges of sustainable development.</p>
+<p>While a detailed exploration of neoclassical economics and other schools of thought is beyond the scope of this discussion, you can delve deeper into this topic in our <em>Introduction to Sustainable Economics</em> course. More information on plural economics is also available on the <em>Exploring Economics</em> e-learning platform.</p>
+<p>In this video – <em>Economics is for Everyone</em> – Ha-Joon Chang provides a clear and concise introduction to the idea of plural economics. He explains why economic thinking is never neutral – and why we urgently need more economic pluralism.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="key-elements-of-economic-sustainability" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="key-elements-of-economic-sustainability"><span class="header-section-number">5.2</span> Key elements of economic sustainability</h2>
+<p>Sustainability in the economic dimension means designing economic activities to meet human needs in the long term – for current and future generations – while respecting planetary boundaries and maintaining fair social structures. Economic activities are processes that convert natural resources into goods and services for consumption, using additional production factors such as labour and capital.</p>
+<p>In economic theory, the result of production represents a <em>value</em>. But what is the understanding of value on which this assumption is based? Historically, the concept of value in economics has undergone several fundamental changes (cf.&nbsp;Mazzucato 2018). As early as the 17th century, economic activity was often understood as serving the common good, especially when it contributed to security of supply or social stability. This understanding was closely linked to the idea of a “moral economy” (cf.&nbsp;Thompson 1971), which saw economic activity as embedded in traditional norms, expectations of justice, and social obligations.</p>
+<p>The rise of merchant capitalism and colonial expansion shifted the focus of economic value attribution. During this time, wealth was increasingly epitomized by gold, silver, and other precious metals. Proponents of “mercantilist” policies – a term coined retrospectively to describe the prevailing economic practices of the 16th to 18th centuries – regarded trade as the main source of national prosperity. Traders and merchants were therefore considered “productive”, while workers and soldiers were classified as “unproductive”.</p>
+<p>The Industrial Revolution in 18th and 19th-century Britain again reshaped the economic understanding of value: now, <em>labour</em> was considered the main source of value creation. Classical economists such as Adam Smith, David Ricardo, and Karl Marx advocated an objective theory of value, asserting that a good’s value is fundamentally determined by the labour invested in its production. These thinkers distinguished between two key concepts: use value (the practical utility of a good) and exchange value (the value that a good achieves in exchange on the market). While use value relates to the satisfaction of needs, only labour was considered the source of economic value. Adam Smith notably highlighted the division of labour as a key factor in economic progress: he argued that specialization and the functional breakdown of production processes allowed the same amount of labour to generate significantly greater output. This, in turn, spurred productivity, innovation, and ultimately, economic growth – dynamics which were further amplified by mechanization and technological innovations.</p>
+<p>Then, in the late 19th century, yet another understanding emerged. This was the subjective theory of value, which posits that the value of a good is derived from the individual utility consumers attribute to it – irrespective of production costs or working hours. This view continues to shape neoclassical economics today, modelling economic processes as rational exchanges between producers and consumers.</p>
+<p>This is also the basis for the simple economic cycle, which reduces the complex processes of an economy to two main actors – households and businesses – and two main flows – goods/services and money. Households provide businesses with their labour in exchange for income; businesses in turn use this labour and other factors of production to produce goods and services, which are then consumed by households. Expanded economic cycles include other actors such as the state, banks, and foreign trade.</p>
+<div id="economic-cycles" class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-econ-cycle" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-econ-cycle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig5_2_EconCycle_simple.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;5.2: Basic economic cycle – Flows of goods and money between households and businesses: labor in exchange for income, consumer spending in exchange for goods."><img src="images/Fig5_2_EconCycle_simple.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-econ-cycle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.2: <strong>Basic economic cycle</strong> – Flows of goods and money between households and businesses: labor in exchange for income, consumer spending in exchange for goods.
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-ext-cycle" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ext-cycle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig5_2b_EconCycle_complex.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;5.3: Extended economic cycle – Includes banks, government, and foreign trade, showing how savings, taxes, and imports act as leakages, while loans, government spending, and exports function as injections."><img src="images/Fig5_2b_EconCycle_complex.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ext-cycle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.3: <strong>Extended economic cycle</strong> – Includes banks, government, and foreign trade, showing how savings, taxes, and imports act as leakages, while loans, government spending, and exports function as <em>injections</em>.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>Source: Own illustrations based on …?</p>
+</div>
+</div>
+</div>
+<section id="critique-of-conventional-economic-cycle-analysis" class="level4" data-number="5.2.0.1">
+<h4 data-number="5.2.0.1" class="anchored" data-anchor-id="critique-of-conventional-economic-cycle-analysis"><span class="header-section-number">5.2.0.1</span> Critique of conventional economic cycle analysis</h4>
+<p>Conventional analyses of the economic cycle typically depict the market economy as a value-creating unit, with households portrayed primarily as consumers. Large parts of society – especially unpaid work and processes of (re-)production outside of the market logic – are largely ignored and thus implicitly devalued. Feminist economics, therefore, complements its depiction of the paid economy by including unpaid areas (see e.g.&nbsp;Elson 2000). Nonetheless, Mariana Mazzucato (2018) reminds us to always consider the social context in which such models emerge:</p>
+<blockquote class="blockquote">
+<p>“It is crucial to remember that all types of accounting methods are evolving social conventions, defined not by physical laws and definite ‘realities’, but reflecting ideas, theories, and ideologies of the age in which they are devised.” (Mazzucato 2018: 76)</p>
+</blockquote>
+<p>This allows us to understand why Paul Samuelson’s famous circular flow diagram of the late 1940s – influenced by the experiences of the Great Depression and the Second World War – focused largely on the uninterrupted flow of income to promote economic growth. Subsequent models of the economic cycle therefore focused almost exclusively on the flow of money between households and companies.</p>
+<p>In contrast, Kate Raworth (2017) illustrates the economy as embedded in society and the environment. She depicts households, the market (companies), states, and the commons as interacting with one another, and explicitly considers ecological boundaries. This more holistic understanding is key to rethinking economic activities in terms of sustainable development.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Work is more than paid work
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Work is a central production factor of each economy and necessary for transforming natural resources into goods and services. How this work is organized has varied throughout history, depending on the available tools and technologies as well as on the existing forms of organization and governance. Work is therefore context-dependent.</p>
+<p>Neoclassical economics typically focuses on paid work, which only attained its key position in industrial capitalism in the 19th century and consolidated it in the 20th. Unpaid work (e.g.&nbsp;domestic, care, nursing, voluntary), which is typically carried out by women, is largely ignored or taken for granted. The number of unpaid hours has been recorded in Switzerland since 2000, revealing that the amount of time spent on unpaid work exceeds that of paid work (FSO, Household production satellite account 2020).</p>
+<p>From the perspective of economic sustainability, this narrow approach is problematic. After all, work is not just an input factor, but constitutes economic activity itself – it enables production, reproduction, and social participation. A sustainable economy therefore requires a wider understanding of work, one that gives equal consideration to both paid work and unpaid reproductive work.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="states-markets-and-networks" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="states-markets-and-networks"><span class="header-section-number">5.2.1</span> States, markets, and networks</h3>
+<p>Economic systems differ according to how they answer fundamental questions such as this: “Who produces what, why, and for whom?”. The two key dimensions here are ownership (private or public?) and coordination (centralized or decentralized?). From an “ideal-typical” perspective, the following basic forms emerge (Basseler 2002):</p>
+<ul>
+<li><p><strong>Capitalist market economy</strong>: Here, coordination is decentralized through markets, driven by the interplay of supply and demand (“bottom up”). The means of production are predominantly privately owned.</p></li>
+<li><p><strong>Socialist, centralized economy</strong>: In this model, production and distribution decisions are centrally controlled through state planning (“top down”). The means of production are generally publicly owned.</p></li>
+<li><p><strong>Mixed economy (e.g.&nbsp;welfare state)</strong>: These systems combine private ownership of the means of production with state coordination in key areas. While resource allocation is largely decentralized via markets, the state intervenes to regulate and distribute them – for example through social insurance, public services, or progressive taxation policies. This model aims to correct market failures and promote social justice. Coordination is therefore partly decentralized via markets and partly centralized via political institutions.</p></li>
+<li><p><strong>Community-based networks and commons economies:</strong> These focus on self-organization, decentralized cooperation, and common property. Examples include solidarity economies, cooperatives, and communally managed resources (commons).</p></li>
+</ul>
+<p>Historically, industrial capitalism was – at least initially – the predominant model following the Industrial Revolution. It took on various forms in the 20th century, from the strong national welfare state of the postwar period to the market-oriented globalization models that have prevailed since the 1980s. Hall and Soskice (2001) describe these as “varieties of capitalism”.</p>
+<p>Today it’s easier to imagine the end of the world than the end of capitalism, as Slavoj Žižek (1994, S.1) puts it. And yet, increasingly, alternatives are emerging that show that a solidarity-based economy does not have to be limited to local niches. Instead, such an economy can be imagined and shaped globally, and move beyond market-centred or state-dominated paradigms. Networks, commons, and alternative economic forms are gaining attention, as they open up new ways of organizing economic processes in a more democratic, resilient, and environmentally sustainable way. For example, in <em>The Zero Marginal Cost Society</em>, Jeremy Rifkin (2014) envisions collaborative commons – jointly managed resources made possible by digital platforms and decentralized cooperation.</p>
+</section>
+<section id="capitalism-as-the-starting-point-for-economic-sustainability-issues" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="capitalism-as-the-starting-point-for-economic-sustainability-issues"><span class="header-section-number">5.2.2</span> Capitalism as the starting point for economic sustainability issues</h3>
+<p>Many sustainability challenges – e.g.&nbsp;the climate crisis, social inequality, resource overuse, financial market turbulence – are not isolated phenomena. They’re an expression of an overarching context, i.e.&nbsp;the structural dynamics of modern global capitalism. This textbook therefore takes a systemic perspective, as adopted by academics like Polanyi (1944), Brand and Wissen (2017), Hickel (2020), Seidl and Zahrnt (2010), Schneidewind (2016), and Binswanger (2006). From this perspective, moving towards sustainability requires an examination of our underlying economic structures and their political and cultural prerequisites – and thus of the capitalist system of today.</p>
+<p>In this textbook, we view capitalism not just as an economic system, but as encompassing the current economic and social system in its entirety. This includes economic, social, legal, cultural, and environmental structures and dynamics, all of which interact (see Box). Capitalism is not a natural state of economic activity, but rather the outcome of a specific historical development. Its roots go back to late medieval Europe, particularly England, where key institutional foundations were laid through the appropriation of land (a practice known as “enclosure”), the emergence of a free labour market, and early forms of capitalist agriculture (see Wood 2015).</p>
+<p>The Industrial Revolution in the late 18th and early 19th centuries ultimately enabled the historic breakthrough of capitalism: technological innovations, fossil fuels, and extensive capital investment gave rise to a new production system based on mass production and mass consumption. This process consolidated earlier developments into a dominant economic and social system that still characterizes key global structures today.</p>
+<p>This system is known as the capitalist mode of production, and its underlying logic is characterized by three basic features:</p>
+<ul>
+<li><p>the separation of capital and labour, so that workers generally don’t own the means of production and are therefore forced to sell their labour for wages</p></li>
+<li><p>private ownership of the mean of production</p></li>
+<li><p>the orientation towards profit maximization and profit utilization</p></li>
+</ul>
+<p>Capitalists – as owners of the means of production – bring together capital, land, and labour to produce goods and services in a production process. The aim is not primarily to satisfy needs, but to generate an exchange value that can be achieved on the market – with the main purpose of increasing capital. The accumulation of capital is the key driver and structural logic of the capitalist mode of production. A key characteristic of this process is the generation of surplus value, which is the economic value workers create in production that exceeds their wages. This surplus value forms the basis for profits and is distributed in various ways:</p>
+<ul>
+<li><p>One part goes towards workers’ wages</p></li>
+<li><p>One part goes to owners of land or natural resources as ground/land rent</p></li>
+<li><p>One part goes to the financial sector as interest and financial rents, especially where the capital is funded through debt</p></li>
+<li><p>The remaining surplus value comprises the profits, which can also be complemented through monopoly rents (e.g.&nbsp;through market power) or brand rents (e.g.&nbsp;through intangible assets such as reputation)</p></li>
+</ul>
+<p>Reducing unit costs plays a key role in making production profitable and ensuring competitiveness. Technological innovations and investments in machinery, factories, and infrastructure significantly increase productivity. Energy is increasingly replacing human labour; standardized production processes like the assembly line boost efficiency and enable the mass production of inexpensive consumer goods. As Henry Ford is reported to have pointedly said: “Any customer can have a car painted any color that he wants, so long as it is black.”</p>
+<p>But achieving a profit requires more than just technological efficiency. Other critical factors include control over markets and value chains, access to cheap resources, the ability to discipline and control labour, and the design of institutional and policy frameworks. This means that profits are created on the back of unequal power relations between companies and workers, between global centres and peripheries, along supply chains, and within ownership structures.</p>
+<p>Ensuring that the vast quantities of goods produced can also be sold requires homogenous mass demand. This is fostered through rising wages, a culture of consumption, and a social model that equates the possession of standardized consumer goods with prosperity and social advancement.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What is capitalism?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Capitalism is a historically developed form of society where production is primarily for the market, private ownership of the means of production predominates, and the accumulation of capital is essential. Its fundamental dynamic is the use of capital: money (M) is invested in goods or commodities (C), which are then sold for a profit, resulting in more money (M’) as described by Karl Marx.</p>
+<p>The capitalist mode of production is based on the separation of labour and the means of production. This means that people have to sell their labour to gain access to resources. This logic creates structural dependencies that extend beyond the economic system into all areas of society.</p>
+<p>Historically, capitalism did not establish itself “naturally”, but was enforced through processes of political expropriation, colonial expansion, and legal transformations (e.g.&nbsp;abolition of the commons, monetization of labour, compulsory schooling for discipline).</p>
+</div>
+</div>
+</div>
+<div id="fig-mode-production" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-mode-production-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig5_4_ModeofProduction.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;5.4: Capitalist mode of production and distribution of surplus value. The surplus value created by workers is generated in the production process and skimmed off as profit, rent, or interest. Capitalists pursue the aim of increasing capital by combining capital, land, and labour, and with the support of lending from the financial sector. Source: own illustration, adapted from Varoufakis (2024)."><img src="images/Fig5_4_ModeofProduction.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mode-production-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.4: Capitalist mode of production and distribution of surplus value. The surplus value created by workers is generated in the production process and skimmed off as profit, rent, or interest. Capitalists pursue the aim of increasing capital by combining capital, land, and labour, and with the support of lending from the financial sector. Source: own illustration, adapted from Varoufakis (2024).
+</figcaption>
+</figure>
+</div>
+<p><a href="#fig-mode-production" class="quarto-xref">Figure&nbsp;<span>5.4</span></a> illustrates how the capitalist production system produces not only goods but also social relations. In other words, those with access to capital or land can skim off surplus value, while those who only own their labour usually only receive wages. The financial sector plays an increasingly significant role in this by organizing capital flows and gaining additional access to the production process through debt (see 6.2.5 Financialization and financial crises). This mode of production therefore has an impact far beyond the economic sphere. The Hungarian economic sociologist Karl Polanyi described this process as the transition to a market society: a society in which the markets are no longer embedded in social and political relationships but increasingly determine these themselves. Labour, land, and money became “fictitious commodities” (Polanyi 1944) – i.e.&nbsp;goods that were not originally intended for the market but are now subject to its logic. In a market society, markets are not part of society – society is part of the market. According to Polanyi, this leads to profound social upheavals – e.g.&nbsp;in the form of social insecurity, ecological degradation, or growing inequality – and repeatedly gives rise to counter-movements. This dynamic is closely linked to two key mechanisms of capitalist expansion: internalization and externalization. On the one hand, resources such as nature, labour, or knowledge are appropriated without a market-mediated exchange (internalization). On the other, social costs are outsourced to third parties, such as future generations or countries in the Global South (externalization). A more detailed explanation of these two terms can be found in the box titled “Internalizing and externalizing”.</p>
+<p>In the following sections, we analyse how the capitalist mode of production, embedded in a market society, necessitates structural growth and thus leads to significant conflicts with sustainability.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Internalizing and externalizing
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The price of a good doesn’t always reflect its actual social costs. If a good is produced or sold at a market price that ignores these costs, they are often passed on to third parties – such as taxpayers, future generations, or the environment. These are known as external effects or externalities, and they can be either positive or negative. Externalities influence the production and consumption options of uninvolved parties.</p>
+<p>Neoclassical economics generally views external costs as an anomaly within an otherwise efficient market. The usual remedy is to “internalize” these costs – e.g.&nbsp;through mechanisms like a carbon taxes. In contrast, William Kapp argued as early as 1950 that the more a system prioritizes private profit maximization, the greater the incentives to pass costs onto people, society, and nature (Kapp 1950). Therefore, the current capitalist system has an inherent tendency to externalize costs. Stephan Lessenich describes the affluent societies in the Global North as externalization societies that outsource costs to the Global South (Lessenich 2020). At the same time, the capitalist mode of production relies on processes of internalization: nature, labour, or knowledge are often appropriated without compensation, based on structural power relations. Examples include land grabbing, unpaid care work, and the commodification of traditional knowledge (see e.g.&nbsp;Saave 2022).</p>
+<p>While liberal market theories emphasize the importance of price signals, other schools of thought question whether we really need to assign a price to everything, even nature. These fundamental debates are key to achieving a sustainable economy and are examined in depth in the <em>Introduction to Sustainable Economics</em> course.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Further readings
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>• Karl Polanyi (1944): The Great Transformation • Ellen Meiksins Wood (2015): The Origin of Capitalism: A Longer View • Maja Göpel (2016): The Great Mindshift, Chapter 3</p>
+</div>
+</div>
+</div>
+</section>
+<section id="economic-growth-emergence-normalization-and-criticism" class="level3" data-number="5.2.3">
+<h3 data-number="5.2.3" class="anchored" data-anchor-id="economic-growth-emergence-normalization-and-criticism"><span class="header-section-number">5.2.3</span> Economic growth: emergence, normalization, and criticism</h3>
+<p>Today, we take economic growth for granted, yet from a historical point of view, it is a recent phenomenon. For centuries, the level of economic production remained largely stable. It was not until Britain’s Industrial Revolution at the end of the 18th century that a slow increase began, picking up speed significantly from the 1950s onwards. <a href="#fig-history-hockey-stick" class="quarto-xref">Figure&nbsp;<span>5.5</span></a> impressively illustrates how sudden and historically unique this acceleration was. For many centuries, per capita income stagnated before it literally exploded with the rise of industrial and fossil-fuelled production methods. However, this growth was concentrated mainly in some countries of the Global North. Three factors were key to this dynamic:</p>
+<ol type="1">
+<li>Reconstruction after the Second World War enabled massive public and private investment.</li>
+<li>Access to cheap fossil fuel – especially oil – from the Middle East dramatically reduced production costs.</li>
+<li>The Fordist consumer model combined high wages with cheap mass production: Henry Ford’s vision of “cars for everyone” became the guiding principle of a new production and consumption logic.</li>
+</ol>
+<div id="fig-history-hockey-stick" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-history-hockey-stick-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig5_5__GDP1000_2000.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Figure&nbsp;5.5: History’s hockey stick: gross domestic product per capita in five countries (1000–2018). Per capita income stagnated for centuries. It was only with the Industrial Revolution and fossil capitalism that income and production volumes rose exponentially – albeit very unevenly from region to region. Source: https://books.core-econ.org/the-economy/microeconomics/01-prosperity-inequality-02-historys-hockey-stick.html#figure-1-1."><img src="images/Fig5_5__GDP1000_2000.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-history-hockey-stick-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.5: History’s hockey stick: gross domestic product per capita in five countries (1000–2018). Per capita income stagnated for centuries. It was only with the Industrial Revolution and fossil capitalism that income and production volumes rose exponentially – albeit very unevenly from region to region. Source: <a href="https://books.core-econ.org/the-economy/microeconomics/01-prosperity-inequality-02-historys-hockey-stick.html#figure-1-1" class="uri">https://books.core-econ.org/the-economy/microeconomics/01-prosperity-inequality-02-historys-hockey-stick.html#figure-1-1</a>.
+</figcaption>
+</figure>
+</div>
+<p>A key turning point was that capital replaced land as the central factor of production. While land is naturally limited, capital – understood as machines, technology, and infrastructure – initially had no obvious limits. For economists like Malthus, who still assumed that natural resources were scarce, long-term growth was almost unthinkable. Industrial production under capitalist conditions fundamentally altered this paradigm.</p>
+<p>Economic growth led to <strong>gross domestic product (GDP)</strong> taking centre stage as the predominant measure of prosperity. GDP measures the monetary value of final goods and services produced in a country in a given period of time (e.g.&nbsp;a year), but it doesn’t measure unpaid labour, ecological damage, or social justice. Since the 1980s, there has also been a divergence between rising GDP and stagnating subjective life satisfaction. GDP is well-suited to describing market activity – but not as a comprehensive indicator of prosperity or well-being.</p>
+<p>After World War II – during the <em>trente glorieuses</em>, or “glorious thirty” (1945–1975) – steady economic growth became the new normal. During this time, a frequent topic of discussion was whether increasing prosperity could, in the long term, lead to environmental improvement. The Environmental Kuznets Curve (Stern 2004) suggests that environmental degradation initially increases in the early phases of economic growth but begins to decrease once a certain income level is reached, as societies invest more in environmental protection. However, empirical evidence for this theory is mixed. While some local environmental issues have been managed, global environmental impacts such as CO₂ emissions continue to increase. Simply continuing to grow the economy therefore by no means guarantees reduced pressure on the environment and can further exacerbate existing planetary boundaries (Wiedmann et al.&nbsp;2020). Many social subsystems, such as social security systems or labour market policy, were designed and structured to expect continuously growing government revenue, investment, and employment. This structural focus on growth continues to have an impact today, making economic sustainability a systemic issue.</p>
+</section>
+<section id="growth-dependency-and-structural-growth-constraints" class="level3" data-number="5.2.4">
+<h3 data-number="5.2.4" class="anchored" data-anchor-id="growth-dependency-and-structural-growth-constraints"><span class="header-section-number">5.2.4</span> Growth dependency and structural growth constraints</h3>
+<p>As the current capitalist economic system is structurally dependent on growth, a decline in economic activity (e.g.&nbsp;stagnation, recession, or even depression) would lead to an economic crisis with far-reaching consequences for the population (e.g.&nbsp;unemployment, poverty, social benefit cuts) (Schmelzer and Vetter 2019, p.&nbsp;26). Without growth, the system would enter a state of crisis. Currently, there is either growth or shrinkage, but nothing in between. Matthias Binswanger (2019) demonstrates that the need for growth results from the dynamics of market competition: to remain competitive, companies must continuously expand and boost productivity – otherwise, they risk losing market share and profits, or even risk going out of business. This growth imperative is evident on a macroeconomic, corporate, and cultural level:</p>
+<p><strong>The macroeconomic growth imperative</strong> describes the structural dependence of modern societies and economic systems on economic growth. This growth is currently necessary because many core institutions and systems – such as labour markets, social systems, and public finances – can only function stably if there is continuous growth. For example, it is argued that without constant growth, unemployment would rise, as companies reduce production and, consequently, their workforce. Public finances would also be affected: state budgets, pensions, and social security systems are often based on continuously rising revenues generated by taxes, which in turn rely on economic growth. Last but not least, growth prevents economic and political crises, as stagnating or shrinking markets can be accompanied by uncertainty, capital flight, and social dissatisfaction, all of which facilitate political instability (Seidl and Zahrnt 2010).</p>
+<p><strong>The corporate logic of investment, profit, and expansion</strong>. Companies operate within a capitalist mode of production whose logic is based on continuous growth. This growth is not only desirable – it is also structurally enforced. Companies typically invest only where they expect a profit – a principle reflected in the M–C–M’ formula (money–commodities–more money). This dynamic is intensified by market pressure: to remain competitive, companies must expand – or risk collapse. This “grow or die” logic is further exacerbated by the financial system. Invested capital is expected to yield continuous returns, earning interest. To fulfil these expectations, companies must constantly generate demand and invest in new production cycles (see Binswanger 2019). Companies that fail to generate profits in the long term disappear from the market. If average profits across the economy fall short, this can trigger a chain reaction of business closures – with potentially severe implications for employment and social stability.</p>
+<p>A concise introduction to the logic of capitalism is provided by David Graeber in this short video:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/QOVnb3y8hm4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Mass consumption and social norms: The growth spiral of the capitalist production system is driven not only by technological and economic factors, but to a significant extent also by cultural dynamics. Today, consumption is no longer just about satisfying immediate needs – it also fulfils a variety of social functions and has become an expression of status, self-realization, and belonging. As described in the previous section – and according to a key insight of Keynesian economists – mass demand stimulates investment, which in turn creates the basis for capitalist profits at a macroeconomic level. These connections illustrate the key role of consumption in the capitalist production system: In other words, strong consumer demand is essential for sustained economic growth. A lack of demand – e.g.&nbsp;if real wages stagnate or fall – would destabilize the capitalist system. In recent decades, various strategies were implemented to compensate for such shortfalls in demand:</p>
+<ul>
+<li><p><strong>Integrating women into the labour market</strong>: In many countries, particularly in the US, women’s access to the labour market increased significantly in the 1970s and 80s. This not only served to promote equality – it also helped maintain household purchasing power – as reflected in popular cultural representations of the situation, such as Dolly Parton’s hit song, “9 to 5”.</p></li>
+<li><p><strong>Increasing consumption on credit:</strong> As there are natural limits to both workers and daily working hours, consumption on credit increased. Just as private households borrowed money to make up for a lack of purchasing power, so too did the state: public spending on e.g.&nbsp;infrastructure, social benefits, or tax relief in the 1980s was often financed through state debt to stabilize overall economic dem and. The deregulation of financial markets further fuelled these developments. Since the 2008 financial crisis, central banks have also played an increasing role in stabilizing demand through monetary policy measures like low interest rates and bond purchases.</p></li>
+<li><p><strong>Combating consumer saturation</strong>: In affluent societies, where many basic needs have already been met, the advertising industry is faced with the challenge of creating new areas of consumption. It’s increasingly about creating needs rather than fulfilling them. As economist Mathias Binswanger (2019) sums up: “We have evolved from a need fulfilment society to a need creation society,” adding: <em>“Until a few years ago, people didn’t realize that they needed to record their daily heart rate, activities, calories burned, and sleep. But thanks to the efforts of health watch manufacturers, this need has been ‘awakened’ in them and health watches and fitness trackers are now sold in large quantities.”</em></p></li>
+</ul>
+</section>
+<section id="financialization-and-financial-crises" class="level3" data-number="5.2.5">
+<h3 data-number="5.2.5" class="anchored" data-anchor-id="financialization-and-financial-crises"><span class="header-section-number">5.2.5</span> Financialization and financial crises</h3>
+<p>Initially, the financial – both money and capital – markets were closely tied to the real economy, providing liquidity for the production of goods and services. It was therefore assumed that these two – financial markets and the real economy – would develop roughly in tandem. However, this stopped being the case several decades ago. From the 1980s onward, money and capital markets have grown much faster, losing touch with the real economy.</p>
+<p>One reason for this development was the deregulation of international financial markets. These deregulatory measures were introduced in the 1980s and 1990s to stimulate stagnating economic development in countries like the UK (then led by Conservative Prime Minister Margaret Thatcher) and the US (under President Ronald Reagan, the original proponent of the “Make America Great Again” slogan). The measures were legitimized by the argument that previous crises stemmed from inefficient state regulation and intervention, which were said to have prevented the rationality of individual market participants from achieving market equilibrium. The extensive deregulation of the financial markets was intended to enable self-regulating mechanisms for economic stabilization. Deregulation involved repealing the 1933 Glass-Steagall Act, which had mandated a strict separation of credit and securities transactions. This allowed banks to conduct both businesses simultaneously, which strongly facilitated speculative activities. Speculative trading volumes subsequently skyrocketed after the turn of the millennium, amid the advent of computerized high-speed trading.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What we need to understand about money and debt
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Money is far more than just a neutral medium of exchange. It fulfils four central functions in modern economic systems:</p>
+<p><strong>Medium of exchange</strong>: Money simplifies economic transactions by eliminating the need for simultaneous exchange of goods and services.</p>
+<p><strong>Store of value</strong>: Money can be saved and used later, which enables long-term planning and investment.</p>
+<p><strong>Unit of account (value meter)</strong>: Money determines the “worth” of labour. However, this valuation is not an objective measure, but an expression of social power dynamics and ideologies.</p>
+<p><strong>Enabler of capital accumulation</strong>: In capitalism, money is invested to generate more money. This dynamic, if unchecked, can lead to an increasing concentration of wealth.</p>
+<p>Through this last function, money is closely linked to debt: in today’s financial system, most money is not created through government coinage or central bank activities, but through the granting of loans by private commercial banks. This means that whenever a loan is granted, new money is created – along with a corresponding debt. Thus, every asset on the credit side has a debt on the debit side (see Graeber 2012). Without ongoing debt, there would be no money growth – and therefore no asset growth. This applies to both private households and governments. In a system of growing inequality, debtors are often structurally disadvantaged – they are dependent on lenders and subject to austerity measures and political constraints.</p>
+<p>Today’s financial system thus creates not only economic but also political dependencies. Those who have money can not only consume, they also have power – and can exercise it e.g.&nbsp;through political influence, media ownership, or strategic investments. Financialization, speculation, and global capital flows further exacerbate this development.</p>
+<blockquote class="blockquote">
+<p>“The flipside of private wealth accumulation is public and private debt. Debt can only be reduced if assets are reduced at the same time.” (Holzinger 2024: 89, own translation)</p>
+</blockquote>
+</div>
+</div>
+</div>
+<p>Deregulation and its consequences enabled banks to significantly expand their lending – increasingly also targeting households with low credit ratings (i.e.&nbsp;limited repayment ability or low creditworthiness). To mitigate the associated risks, the loans were bundled and resold as seemingly safe “subprime” bonds. Such mechanisms ultimately laid the foundations for the financial crisis of 2008, when it emerged that a large proportion of these financial products were based on high-risk lending.</p>
+<p>This shift in economic dynamics and power towards the financial sector is known as financialization. It created a power complex comprising central banks, commercial banks, other financial institutions, private pension funds, and the owners of various assets. In this process, financial markets grow disproportionately compared to the real economy, a trend facilitated by national deregulation measures. Financialization intensifies the growth imperative, increasing not just inequality but also ecological fragility, for example through speculative investments in resources, raw materials, or land. Examples such as derivatives trading in food or resources (link to CDE research) show how financialized markets can exacerbate social vulnerabilities and ecological risks.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+What are derivatives and how do they contribute to financialization?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Derivatives are financial instruments whose value is derived from the future rates or prices of other goods, assets, or reference values such as interest rates, commodity prices, or stock market indices. Common derivatives include options, futures, and swaps. Derivatives trading does not involve real economic production – no goods or services are created. Instead, derivatives were originally intended to “hedge” against price fluctuations, e.g.&nbsp;in commodities trading. However, the increasing deregulation and technologization of the financial markets led to the widespread use of derivatives as speculative investment tools. This significantly contributed to the decoupling of the financial markets from the real economy, fostering a massive market for financial bets often vastly exceeding the real economic values on which the derivatives are based. This dynamic is a key component of “financialization” and increases economic instability as well as social and ecological risks.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Further reading
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Blakeley, Grace. 2019. <em>Stolen: How to Save the World from Financialisation</em>. Repeater.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="companies-as-key-players-in-economic-sustainability" class="level3" data-number="5.2.6">
+<h3 data-number="5.2.6" class="anchored" data-anchor-id="companies-as-key-players-in-economic-sustainability"><span class="header-section-number">5.2.6</span> Companies as key players in economic sustainability</h3>
+<p>Companies play a key role in economic processes: they produce goods and services, create jobs, and drive innovation – all the while being significant sources of environmental harm. In the context of economic sustainability, therefore, we should view companies not just as part of the problem, but also as part of a possible solution (Hoffmann 2018).</p>
+<p>Companies are organizations that combine production factors (labour, capital, land) to produce goods and services, typically for sale in the market. Traditionally, their overriding goal has been to generate more income than expenses, thereby making a profit. This classical understanding was heavily influenced by the “shareholder doctrine”, notably articulated by Milton Friedman in his much-cited 1970 essay in the New York Times, “The Social Responsibility of Business is to Increase its Profits”. Friedman argued that the only social responsibility of a company was to maximize profits for its owners – the shareholders – within the bounds of applicable laws and market rules. Managers, therefore, owe primary allegiance to shareholders, but not to social or ecological objectives. This view formed the basis for many economic policy models and management practices in the latter half of the 20th century. It contributed significantly to companies’ strong focus on short-term returns, increased efficiency, and cost reduction – often at the expense of social justice or ecological sustainability. Critics contend that this logic systematically ignores crucial social and planetary boundaries, shifting responsibility primarily to individuals or states.</p>
+<p>In the context of sustainability, this narrow focus is under increased scrutiny. Alternatives like the “stakeholder approach” are gaining importance, viewing companies not only as profit maximizers for owners but also as socially embedded actors responsible to diverse stakeholders, including employees, customers, suppliers, local communities, and the environment. Companies also vary significantly in size and organizational form, encompassing small and medium-sized enterprises (SMEs), large corporations, social enterprises, cooperatives, and other alternative business models. This diversity profoundly influences how sustainability is strategically embedded and practically implemented.</p>
+<p>Dyllick and Muff (2016) categorize companies into three stages of development, based on their position on sustainability. The first stage, “business-as-usual”, describes companies that largely ignore sustainability and focus their economic activities exclusively on financial objectives. In the second stage, “Corporate Sustainability 1.0 and 2.0”, companies begin to address sustainability through efficiency improvements, compliance (i.e.&nbsp;adherence to legal and regulatory requirements), and the integration of corporate social responsibility (CSR) into their business strategies. However, this typically occurs without fundamentally changing the core business logic. Only in the third stage, “Sustainability 3.0”, does systemic transformation of the company take centre stage. Here, companies follow a broader purpose: they explicitly commit to social well-being and to respecting planetary boundaries, comprehensively integrating these goals into their core business model.</p>
+<p>The third stage requires a fundamental change in perspective: while companies in the earlier stages primarily acted from the inside out by slightly adapting their existing structures, Sustainability 3.0 demands an “outside-in” approach: companies must align their identity and strategic core processes with pressing social and ecological challenges.</p>
+<p>And still, many sustainability efforts only scratch the surface. Typical challenges include “cherry-picking”, which involves celebrating easily achievable sustainability goals while ignoring the fact that systemic changes have failed to materialize; rebound effects, in which efficiency increases lead to rising consumption; and carbon tunnel vision, a narrow focus on reducing CO<sub>2</sub> emissions as the sole solution to sustainability issues.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/cdeteaching\.github\.io\/Basics-of-sustainability\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../4_social-sustainability/4_intro.html" class="pagination-link" aria-label="Social Sustainability">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Social Sustainability</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>“This a product of <a href="www.cde.unibe.ch/"><img src="..\images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This book was built with <a href="https://quarto.org/">Quarto</a>. This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-NC-ND 4.0 Int License</a></p>
+</div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

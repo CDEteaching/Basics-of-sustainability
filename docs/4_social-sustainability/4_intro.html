@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Felix Poelsma, Christoph Bader">
+
+<title>4&nbsp; Social Sustainability – Basics of sustainability</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../5_economic-sustainability/5_intro.html" rel="next">
+<link href="../3_ecological-sustainability/3_intro.html" rel="prev">
+<link href="../images/" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-dbf4b28c387d353a501d76b2fd46fbb0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-60b716ab65d401520622fb3b811f5bf6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-dbf4b28c387d353a501d76b2fd46fbb0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../3_ecological-sustainability/3_intro.html">Transforming (Un-)sustainable systems: Key areas and strategic approaches</a></li><li class="breadcrumb-item"><a href="../4_social-sustainability/4_intro.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Social Sustainability</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/cdelogo_e.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Basics of sustainability</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/CDEteaching/Basics-of-sustainability/blob/master/pdf/SP_BasicSustainability.pdf" title="Course Script (PDF)" class="quarto-navigation-tool px-1" aria-label="Course Script (PDF)"><i class="bi bi-file-earmark-pdf"></i></a>
+    <a href="https://github.com/CDEteaching/Basics-of-sustainability/issues/new" title="Report issue" class="quarto-navigation-tool px-1" aria-label="Report issue"><i class="bi bi-bug"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Foundations</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../1_understanding/1_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Understandings and concepts of sustainability</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Approaches to Sustainability</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2_approaches/2_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Approaches to Sustainability</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Transforming (Un-)sustainable systems: Key areas and strategic approaches</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../3_ecological-sustainability/3_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Environmental Sustainability</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../4_social-sustainability/4_intro.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Social Sustainability</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../5_economic-sustainability/5_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Economic Sustainability</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#social-sustainability-a-normative-concept" id="toc-social-sustainability-a-normative-concept" class="nav-link active" data-scroll-target="#social-sustainability-a-normative-concept"><span class="header-section-number">4.1</span> Social sustainability, a normative concept</a>
+  <ul class="collapse">
+  <li><a href="#dimensions-of-justice" id="toc-dimensions-of-justice" class="nav-link" data-scroll-target="#dimensions-of-justice"><span class="header-section-number">4.1.1</span> Dimensions of justice</a></li>
+  </ul></li>
+  <li><a href="#defining-social-sustainability" id="toc-defining-social-sustainability" class="nav-link" data-scroll-target="#defining-social-sustainability"><span class="header-section-number">4.2</span> Defining social sustainability</a></li>
+  <li><a href="#inclusion" id="toc-inclusion" class="nav-link" data-scroll-target="#inclusion"><span class="header-section-number">4.3</span> Inclusion</a>
+  <ul class="collapse">
+  <li><a href="#inequality" id="toc-inequality" class="nav-link" data-scroll-target="#inequality"><span class="header-section-number">4.3.1</span> (In)equality</a></li>
+  </ul></li>
+  <li><a href="#social-cohesion" id="toc-social-cohesion" class="nav-link" data-scroll-target="#social-cohesion"><span class="header-section-number">4.4</span> Social cohesion</a></li>
+  <li><a href="#resilience" id="toc-resilience" class="nav-link" data-scroll-target="#resilience"><span class="header-section-number">4.5</span> Resilience</a>
+  <ul class="collapse">
+  <li><a href="#basic-needs-as-a-prerequisite-for-resilience" id="toc-basic-needs-as-a-prerequisite-for-resilience" class="nav-link" data-scroll-target="#basic-needs-as-a-prerequisite-for-resilience"><span class="header-section-number">4.5.1</span> Basic needs as a prerequisite for resilience</a></li>
+  </ul></li>
+  <li><a href="#justice" id="toc-justice" class="nav-link" data-scroll-target="#justice"><span class="header-section-number">4.6</span> Justice</a>
+  <ul class="collapse">
+  <li><a href="#procedural-justice" id="toc-procedural-justice" class="nav-link" data-scroll-target="#procedural-justice"><span class="header-section-number">4.6.1</span> Procedural Justice</a></li>
+  <li><a href="#distributive-justice" id="toc-distributive-justice" class="nav-link" data-scroll-target="#distributive-justice"><span class="header-section-number">4.6.2</span> Distributive justice</a></li>
+  </ul></li>
+  <li><a href="#cultural-sustainability" id="toc-cultural-sustainability" class="nav-link" data-scroll-target="#cultural-sustainability"><span class="header-section-number">4.7</span> Cultural Sustainability</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">4.8</span> Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../3_ecological-sustainability/3_intro.html">Transforming (Un-)sustainable systems: Key areas and strategic approaches</a></li><li class="breadcrumb-item"><a href="../4_social-sustainability/4_intro.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Social Sustainability</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Social Sustainability</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Felix Poelsma, Christoph Bader </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><strong>Social sustainability</strong> is about a community’s well-being, encompassing elements like inclusion, equity, and social cohesion. It’s often argued that this dimension of sustainable development is harder to grasp than environmental or economic sustainability (Foladori, 2005). That’s because social issues may not be as immediately visible as, say, rainforest destruction or hyperinflation. What does sustainability mean when communities are unequally affected through events such as flooding, or when Indigenous peoples are displaced by infrastructure projects? These impacts reveal deep-rooted inequalities that are largely based on societies’ social structures.</p>
+<p>This is why the social dimension is so important. A society that is socially sustainable is better prepared to tackle challenges fairly and equitably (Ballet et al.&nbsp;2020). Furthermore, having social acceptance is crucial for successfully implementing sustainability measures and initiatives (Assefa &amp; Frostell, 2007; Wüstenhagen et al.&nbsp;2007).</p>
+<p>In short, social sustainability addresses the following challenge: How can we create a resource-conserving society without increasing poverty and inequality? Achieving this requires balancing fundamental questions of distributive justice with the tension between human needs and wants.</p>
+<p>This chapter begins by introducing social sustainability as a normative dimension of sustainable development. We define the concept by focusing on the following key elements: inclusion, social cohesion, resilience, and justice. Finally, we address the cultural aspect. While some scholars see culture as a component of social sustainability, others argue that it should be considered a fourth dimension in its own right – alongside the environmental, social, and economic dimensions (Sabatini, 2019).</p>
+<section id="social-sustainability-a-normative-concept" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="social-sustainability-a-normative-concept"><span class="header-section-number">4.1</span> Social sustainability, a normative concept</h2>
+<p>Interpretations of social sustainability are based, on the one hand, on empirical knowledge about how societies function and, on the other, on ethical judgements about what is valuable and should be pursued. In order to define appropriate sustainability goals, we need to know what ethical principles and values a particular social system is based on. In other words, what does a society or community perceive as “good”, desirable, and just?</p>
+<p>As a normative concept, social sustainability aims for a fair distribution of benefits and costs within society. It encompasses various dimensions of equality (see Section X) and justice (see Section X), and it examines how the decisions made within a particular society influence the distribution of resources.</p>
+<div id="fig-NESocial" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-NESocial-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig4_1_NESocial.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;4.1: Social Sustainability. Source: Own illustration"><img src="images/Fig4_1_NESocial.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-NESocial-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.1: Social Sustainability. Source: Own illustration
+</figcaption>
+</figure>
+</div>
+<p>These are aspects exemplified by Kate Raworth’s doughnut economics (2017; see Section 3.2), a framework which views the SDGs and human rights as the basis for socially sustainable and equitable human activities. In doughnut economics, meeting the basic needs of all people is key. These basic needs, which form the framework’s social foundation, include access to clean water, sanitation, healthcare, education, food, clean cooking facilities, electricity, housing, and information and support networks, as well as the opportunity to work and earn an income. Additional factors which form the social foundation are gender equality, social equality, peace, and justice, as well as political participation – i.e.&nbsp;the ability to exert social influence.</p>
+<p>In doughnut economics, economic policies could contribute to achieving social justice by distributing benefits and costs without exceeding planetary boundaries. And therein lies the challenge: Countries that perform well in terms of social sustainability indicators – e.g.&nbsp;access to food, education, or housing – often exceed ecological boundaries. Conversely, countries that stay within these ecological limits often score poorly in social areas (see Figure X; O’Neill et al.&nbsp;2018). Striking a balance between social and environmental requirements is therefore key.</p>
+<div id="fig-SocEcoBoundaries" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-SocEcoBoundaries-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig4_2_SocialEcologicalBoundaries.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;4.2: Social thresholds achieved versus biophysical boundaries transgressed for different countries, results weighted by each country’s population. Source: UN/DESA, based on O’Neill and others (2018), figure 2."><img src="images/Fig4_2_SocialEcologicalBoundaries.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-SocEcoBoundaries-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.2: Social thresholds achieved versus biophysical boundaries transgressed for different countries, results weighted by each country’s population. Source: UN/DESA, based on O’Neill and others (2018), figure 2.
+</figcaption>
+</figure>
+</div>
+<p>To achieve a sustainable future, Raworth (2017) argues that we must distribute the Earth’s resources more fairly. This would allow everyone to meet their basic needs while respecting the planet’s limits. It would require changes in lifestyle – especially by the wealthy, who are responsible for the majority of emissions. At present, those who generate more emissions tend to have better access to essential goods such as food, water, energy, and education – the very things that people in lower-income countries often lack. In wealthier countries, people’s basic needs are generally met more comprehensively, leading to &nbsp;more prosperity, equality, and justice. At the same time, higher living standards are often linked to increased greenhouse gas emissions and consumption – as seen in Western industrialized countries (e.g.&nbsp;the US, Europe) and China.</p>
+<p>Another approach to social sustainability is found in the United Nations Human Development Reports, which use a model of human development rooted in the capability approach (see Section XY). The capability approach asks what a person needs to lead a good and fulfilling life. Because different people need different resources to achieve this, giving everyone the same thing does not foster true equality. Instead, we should provide each person with what they need to live a life they can value. This model of human development promotes respect for human dignity as an inalienable right and advocates providing realistic opportunities for everyone to flourish.</p>
+<section id="dimensions-of-justice" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="dimensions-of-justice"><span class="header-section-number">4.1.1</span> Dimensions of justice</h3>
+<p>Doughnut economics and the capability approach are two examples of pithy and influential normative frameworks. In this chapter, we cover a range of concepts and approaches that – through their social dimensions - inherently involve normative and ethical considerations (see Section XYin particular).</p>
+<p>The many theories and concepts of social sustainability are also linked to different ideas of “justice”. Some of these are described in more detail in Section X. Three frequently mentioned dimensions are: distributive justice, procedural justice, and recognition justice (de Bruin et al., 2024; Tribaldos &amp; Kortetmäki, 2022; Wijsman &amp; Berbés-Blázquez, 2022).</p>
+<div id="fig-justice" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-justice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig4_3_Justice.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;4.3: The respective focus areas of distributive justice, procedural justice, and recognition justice. Source: Own illustration adapted from See &amp; Wilmsen (2022)."><img src="images/Fig4_3_Justice.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-justice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.3: The respective focus areas of distributive justice, procedural justice, and recognition justice. Source: Own illustration adapted from See &amp; Wilmsen (2022).
+</figcaption>
+</figure>
+</div>
+<p><strong>Distributive justice</strong> is a results-oriented concept that aims at a fair distribution of goods and burdens, regardless of social differences. This principle applies to issues such as access to clean water, the unequal burden of environmental pollution, or equal pay.</p>
+<p><strong>Procedural justice</strong> focuses on the inclusivity of decision-making processes. It calls for underrepresented groups to be fairly represented in institutions so that their perspectives can be heard and incorporated into decision-making processes.</p>
+<p><strong>Recognition justice</strong> emphasizes the importance of the context, and of respect for social and cultural differences. It involves recognizing structural injustices, respecting the dignities and values of different people and social groups, and understanding that diverse needs and preferences are rooted in different historical experiences, identities, and cultural backgrounds.</p>
+<p>Table X shows how these three dimensions influence each other (Wijsman &amp; Berbés-Blázquez, 2022). A more detailed discussion of distributive and procedural justice follows in Section 3.2.6, as these are the dimensions that most affect social sustainability debates.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Distributive justice</th>
+<th>Procedural justice</th>
+<th>Recognition justice</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Distributive justice</strong></td>
+<td></td>
+<td>The distribution of resources can influence how easy or difficult it is for individuals or communities to participate in decision-making processes. This is because participation requires time, energy, and financial resources.</td>
+<td>The distribution of resources can influence whose interests are taken into account</td>
+</tr>
+</tbody>
+</table>
+<p>in decision-making processes – and whose identity is recognized and considered important. | | <strong>Procedural justice</strong> | Participation in decision-making processes can have an impact on their outcomes – and therefore on how advantages and disadvantages are distributed between individuals and groups. | | Participation in decision-making processes can influence whose interests are heard and which individuals or communities are recognized as important. | | <strong>Recognition justice</strong> | Recognizing individuals or groups as valuable can influence how resources are distributed. | Recognizing individuals or groups as valuable can also determine who is invited to participate in decision-making processes. | |</p>
+</section>
+</section>
+<section id="defining-social-sustainability" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="defining-social-sustainability"><span class="header-section-number">4.2</span> Defining social sustainability</h2>
+<p>Over time, discussions on social sustainability have focused on different issues. These include poverty reduction, development, basic needs, livelihoods, and equity – as well as identity, belonging, and community stability and security (Glasson &amp; Wood, 2009). This thematic diversity is reflected in the numerous available definitions of social sustainability. Indeed, the literature is often described as fragmented, vague, or at times chaotic (Mehan &amp; Soflaei, 2017). Some researchers have even argued that the concept of social sustainability has changed more than the environmental and economic dimensions over the past 30 years (Foladori, 2005).</p>
+<p>Social sustainability can therefore best be understood as a dynamic concept that takes different forms, depending on the time and place (Boyer et al.&nbsp;2016; Dempsey et al.&nbsp;2011). Social priorities are diverse and context-specific, and they change over time. In addition, there are major cultural and local differences with regard to what is considered socially justifiable and desirable.</p>
+<p>Despite this diversity, definitions of social sustainability generally describe a positive state that already exists or is considered achievable. It is often associated with the goal of strengthening social cohesion and providing basic services that contribute to well-being, such as healthcare, education, mobility, housing, or leisure facilities. Social sustainability is achieved when social processes, systems, structures, and relationships actively support current and future generations in creating healthy and viable communities.</p>
+<p>For the Brundtland Commission (Our Common Future, 1987), the main goal of the social dimension of sustainable development is to fulfil basic human needs. These include not only clean water, food, and security – they also extend to aspects such as well-being, justice, a democratic system of government, and a vibrant civil society. This comprehensive definition can be applied flexibly in different contexts.</p>
+<p>In a bid to provide a more concrete framework, Barron et al.&nbsp;(2023) and Cuesta et al.&nbsp;(2024) propose the following structured approach (see Figure X).</p>
+<div id="fig-framework" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-framework-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig4_4_Framework.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;4.4: A structured approach to social sustainability. Adapted from Barron et al.&nbsp;(2023, p.&nbsp;31) &amp; Cuesta et al.&nbsp;(2024)."><img src="images/Fig4_4_Framework.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-framework-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.4: A structured approach to social sustainability. Adapted from Barron et al.&nbsp;(2023, p.&nbsp;31) &amp; Cuesta et al.&nbsp;(2024).
+</figcaption>
+</figure>
+</div>
+<p>The left-hand side of Figure X depicts three dimensions of a particular context, namely: inclusion, social cohesion, and resilience. Each of these dimensions – defined below – may be found in a community or society to a greater or lesser extent:</p>
+<ol type="1">
+<li><p><strong>Inclusion</strong> refers to the access of all individuals and groups to the economic, political, social, and cultural spheres.</p></li>
+<li><p><strong>Social cohesion</strong> is a shared sense of belonging and trust that enables communities and groups to work together without conflict.</p></li>
+<li><p><strong>Resilience</strong> refers to the ability to avoid internal or external shocks – such as environmental changes or political crises – or to cushion their effects.</p></li>
+</ol>
+<p>The middle part emphasizes the importance of <strong>procedural justice</strong>—the fairness of decision-making processes in the <strong>design</strong> and <strong>implementation</strong> of policies and programs. When these processes are perceived as fair, transparent, and trustworthy, they generate <strong>process legitimacy</strong>, meaning that people accept the authority of decisions and are more likely to support and comply with them. The process of designing and implementing policies and programs takes place within a so-called “policy arena”. The term “policy arena” is broadly defined and encompasses political forums at the local, national, regional, or global level, where resources are allocated, goals are set, and decisions are made.</p>
+<p>Finally, the right-hand side of the figure depicts the outcomes of the design and implementation process. This process can foster – but also inhibit – inclusion, social cohesion, and resilience. These outcomes, in turn, influence the future level of social sustainability. In other words, social sustainability exists when inclusion, social cohesion, and resilience are gradually strengthened over time – ideally in a legitimate and transparent process.</p>
+<p>The following sections explain the core elements of inclusion, social cohesion, resilience, and justice (both procedural and distributive) in more detail.</p>
+</section>
+<section id="inclusion" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="inclusion"><span class="header-section-number">4.3</span> Inclusion</h2>
+<p>Inclusion addresses issues of social inequality. Social inclusion aims at enabling all people to participate in society – specifically, by reducing deep-rooted systemic disadvantages. Many individuals and groups face barriers that limit their socio-economic participation. While such barriers may include poverty or having a low income, other forms of discrimination and exclusion may be based on gender, age, origin, occupation, ethnicity, religion, nationality, disability, sexual orientation, or gender identity. Such inequalities are reinforced by formal and informal norms, behaviour, laws, and institutions.</p>
+<p>This raises normative questions: At what point is inequality considered problematic? And what level of inequality is socially unacceptable? Inclusion should not be understood as a form of charity, i.e.&nbsp;as something that is only “right” for ethical reasons. Reducing inequalities has considerable benefits for all of society. Greater inclusion and equal opportunities lead to better results in income, poverty reduction, and human capital (OECD, 2015).</p>
+<p>For example, a US study by Hsieh et al.&nbsp;(2013) found that a reduction in discrimination against female and Black workers accounted for 15 to 20% of economic growth per worker between 1960 and 2010. This growth was attributed to an increase in talented people gaining access to better opportunities. Other studies show that gender inequality can have a negative impact on economic growth (Fabrizio et al.&nbsp;2018; Klasen &amp; Lamanna, 2009). There is also a link between inclusion and social stability: countries that actively promote the political participation and inclusion of disadvantaged groups tend to experience fewer social conflicts (United Nations &amp; World Bank, 2018).</p>
+<p>In short, the costs of social inequality – such as fewer educational opportunities, lower lifetime incomes, or poorer health (Buehren et al.&nbsp;2019; Wodon &amp; de la Briere, 2018) – are not only ethical issues. They also affect the overall economy, as they reduce potential, weaken productivity, and increase the risk of conflict. By contrast, more inclusive societies are more just, more stable, and more economically efficient.</p>
+<section id="inequality" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="inequality"><span class="header-section-number">4.3.1</span> (In)equality</h3>
+<p>As inequality is complex and diverse, there are different ways of analysing, measuring, and evaluating it. This involves asking questions about <em>wh</em>o is affected and <em>where</em> – and in <em>what</em> fieldsinequalities occur (see Figure X; Sen, 1979).</p>
+<div id="fig-EqualityWhat" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-EqualityWhat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig4_5_EqualityWhat.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Figure&nbsp;4.5: Equality of what? Source: Own illustration based from Sen (1979)"><img src="images/Fig4_5_EqualityWhat.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-EqualityWhat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.5: Equality of what? Source: Own illustration based from Sen (1979)
+</figcaption>
+</figure>
+</div>
+<p>Inequality can be approached from various perspectives. Below, we provide more detail on the aforementioned capability approach.</p>
+<p><strong>Approaching inequality: Guided by Sen’s question “Equality of what?” - the capability approach</strong></p>
+<p>The <strong>capability approach</strong> provides a normative framework for assessing inequality and human well-being that goes beyond conventional distribution principles. Traditional approaches to distributive justice often aim either at ensuring equal distribution based on performance or at guaranteeing a minimum level of resources for all. However, achieving complete equality between individuals – i.e.&nbsp;<em>equality of outcome</em> – is nearly impossible, as many influencing factors are distributed randomly or unfairly. It is therefore considered fairer to focus on <em>equality of opportunity.</em> This principle aims to ensure that every person has the chance to lead a meaningful and dignified life with access to at least a minimum level of prosperity. This minimum level should suffice to cover basic needs and guarantee equal civil rights, ensuring that everyone has what they need to meet their needs and participate equally in society.</p>
+<p>Developed in the 1980s by the Indian economist, philosopher, and Nobel Prize winner <strong>Amartya Sen</strong> and later expanded by the philosopher <strong>Martha Nussbaum</strong>, the capability approach serves as an alternative to traditional welfare economics, which measures prosperity primarily through economic indicators (Roder, 2020). The capability approach shifts attention away from formal entitlements or economic aggregates toward people’s <strong>real freedoms to live the life they value</strong>. It emphasizes that genuine development depends not only on the existence of opportunities and resources but also on whether individuals can actually make use of them in practice. This, in turn, is shaped by personal factors such as health or disability as well as by social, political, and environmental conditions. For instance, for people with disabilities, well-being requires more than the formal recognition of rights; it depends on an inclusive society that removes barriers, combats discrimination, ensures access to education, and enables participation in political and social decision-making.</p>
+<p>The capability approach defines well-being in terms of <strong>capabilities</strong> and <strong>functionings</strong>. Capabilities are real opportunities for action – i.e.&nbsp;what people could do or be if they were free to choose. For example, being well-nourished, getting married, being educated, or travelling without restrictions. Functionings are the capabilities that are actually converted. Whether people can convert available resources such as income, education, or public services into functionings depends on <strong>conversion factors</strong>. These include personal characteristics, social structures, and environmental conditions. They ultimately determine whether capabilities and functionings can actually be used.</p>
+<p>The capability approach, therefore, shifts the focus from <strong>equality</strong> to <strong>equity</strong>. While <em>equality</em> aims to ensure that everyone receives the same resources (i.e.&nbsp;input), <em>equity</em> focuses on the result: what does a person need, to achieve a comparable level of well-being (i.e.&nbsp;output)? (see Figure X).</p>
+<div id="fig-EqualityEquity" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-EqualityEquity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig4_6_EqualityEquity.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Figure&nbsp;4.6: Equality vs.&nbsp;equity. Source: Reproduced with permission of the Robert Wood Johnson Foundation, Princeton, N.J."><img src="images/Fig4_6_EqualityEquity.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-EqualityEquity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.6: Equality vs.&nbsp;equity. Source: Reproduced with permission of the Robert Wood Johnson Foundation, Princeton, N.J.
+</figcaption>
+</figure>
+</div>
+<p><strong>Approaching inequality: Where and whom?</strong></p>
+<p>Building on the capability approach, which emphasizes people’s real opportunities to lead the lives they value, it is crucial to recognize that inequality can manifest in different ways and be assessed across various dimensions. Inequality can be analyzed in different spaces, for example by distinguishing between <strong>absolute</strong> and <strong>relative inequality</strong> (Niño-Zarazúa et al.&nbsp;2017) or between <strong>vertical</strong> and <strong>horizontal</strong> inequality (Stewart, 2005).</p>
+<p><strong>Absolute inequality</strong> describes a situation in which people are unable to meet their most basic survival needs. This is the case, for example, when a person does not have access to clean drinking water, enough food, or safe housing, and lives below the poverty line. This form of inequality is often defined by fixed income thresholds, such as the World Bank’s international poverty line.</p>
+<p><strong>Relative inequality</strong> measures a person’s disadvantage in relation to the average standard of living within a particular society or community. For example, while a family in a rich country may have enough income to cover food and housing, they may lack the resources to participate fully in society – if, say, they can’t afford internet access or their children’s school trips. Relative inequality becomes evident when living conditions fall significantly below the social average. It often leads to social exclusion and limits access to resources and the opportunities necessary to lead a dignified and self-determined life in a particular social context. The key difference between the two concepts is that <strong>absolute poverty</strong> refers to an objective lack of essential goods, while <strong>relative poverty</strong> describes a person’s social and economic status in relation to others in a society (Niño-Zarazúa et al.&nbsp;2017).</p>
+<p>Another concept distinguishes between <strong>vertical</strong> and <strong>horizontal inequality</strong>. Vertical inequality focuses on socio-economic differences between individuals – such as in income, occupational status, or education. By contrast, horizontal inequality refers to differences between culturally defined groups, based for example on gender, age, marital status, nationality, region, or place of residence (Stewart, 2005).</p>
+<p><strong>How to analyze inequality? Individual vs.&nbsp;structural approaches</strong></p>
+<p>Analyses of inequality often distinguish between <strong>individual inequality</strong> and <strong>structural inequality</strong>. An analysis of individual inequality draws on the principles of welfare economics and the concept of absolute inequality. It focuses on socio-economic characteristics such as differences in income, educational level, and occupational status. This approach assumes that economic inequalities are primarily the result of personal attributes and individual effort.</p>
+<p>By contrast, analyses of structural inequality are more closely aligned with the concepts of equity, the capability approach, and relative inequality. Structural inequality is considered not as a product of an individual’s characteristics, but as a result of the social framework – such as a person’s position within the mode of production or the social hierarchy; their access to wages, profits, or a pension; or their nationality, all of which are key factors of global inequality (see Milanovic, 2019).</p>
+<p>This chapter has introduced various perspectives on inequality, including the widely used capability approach, which offers an overarching and normative perspective. The other perspectives may sound similar, but in fact differ in their focus (see Table X).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 32%">
+<col style="width: 26%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>relative vs.&nbsp;absolute</th>
+<th>vertical vs.&nbsp;horizontal</th>
+<th>individual vs.&nbsp;structural</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>What is being compared?</strong></td>
+<td>Inequality measured in relation to differences vs.&nbsp;absolute differences</td>
+<td>Differences between income levels vs.&nbsp;differences between social groups</td>
+<td>Differences due to personal characteristics vs.&nbsp;differences due to social structures</td>
+</tr>
+<tr class="even">
+<td><strong>Focus</strong></td>
+<td><p>Categorization of inequality:</p>
+<p>Who has more/less?</p></td>
+<td><p>Categorization of inequality:</p>
+<p>How is inequality quantified and represented?</p></td>
+<td><p>Analysis dimension of inequality:</p>
+<p>What are the causes of inequality?</p></td>
+</tr>
+<tr class="odd">
+<td><strong>Typical example</strong></td>
+<td>The wealthy receive 40% of the income, while the poor receive 10% (relative) vs.&nbsp;the income gap required to meet basic needs (absolute)</td>
+<td>A CEO earns 100x more than a cleaner (vertical) vs.&nbsp;women earn less than men for the same work (horizontal)</td>
+<td>Individual: someone becomes successful through talent and effort vs.&nbsp;structural: someone is disadvantaged because of where they come from</td>
+</tr>
+<tr class="even">
+<td><strong>Policy relevance</strong></td>
+<td>Distributive justice vs.&nbsp;combating poverty</td>
+<td>Redistribution vs.&nbsp;anti-discrimination</td>
+<td>Promotion of equal opportunities vs.&nbsp;reform of social structures</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="social-cohesion" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="social-cohesion"><span class="header-section-number">4.4</span> Social cohesion</h2>
+<p><strong>Social cohesion</strong> describes the feeling of togetherness, trust, and willingness to cooperate – within groups, between different groups, and towards state institutions. The concept describes the extent to which people and communities act based on interpersonal and institutional trust, what attitudes they have towards minorities, and how secure they feel. Societies with strong social cohesion can be found in wealthy countries and in countries affected by conflict alike (Cuesta et al.&nbsp;2024).</p>
+<p>Functioning social cohesion and the well-being of a population require that all social groups can participate economically, politically, socially, and culturally. This is closely linked to inclusion and inequality. However, rather than focusing on differences between individuals or specific groups, the concept of social cohesion asks how strongly the whole of society is connected.</p>
+<p>Social cohesion is the foundation for mutual trust and collective action. It is considered a core prerequisite for peace and prosperity (Chatterjee et al.&nbsp;2023). Studies show, for example, that societies with a high level of trust experience less conflict (Putnam, 2000; Rothstein &amp; Uslaner, 2005). By contrast, lower social trust is often associated with greater economic inequality (Jordahl, 2007) (see Figure X).</p>
+<div id="fig-TrustInequality" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-TrustInequality-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig4_7_TrustInequality.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Figure&nbsp;4.7: Interpersonal trust vs.&nbsp;income inequality. Source: Our World in Data (2024)."><img src="images/Fig4_7_TrustInequality.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-TrustInequality-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.7: Interpersonal trust vs.&nbsp;income inequality. Source: Our World in Data (2024).
+</figcaption>
+</figure>
+</div>
+<p>The above scatter diagram illustrates the relationship between interpersonal trust and income inequality. Each dot represents a country. Dot colour categorizes countries by their respective regions; dot size reflects the country’s population size. The Y-axis depicts the percentage of a country’s population that agrees with the statement “Most people can be trusted”. The X-axis displays the Gini coefficient, which is a widely used measure of income inequality: a value of 0 indicates a state of complete income equality, while a value of 1 (or 100%) represents maximum income inequality – i.e.&nbsp;a single person holding all the income, while everyone else receives none.</p>
+<p>The graph shows that the level of social trust tends to be lower in countries with a higher Gini index. One explanation for the negative correlation between inequality and trust is that people tend to place greater trust in those who are similar to them, and that greater inequality leads to tensions and distributional conflicts (Alesina &amp; La Ferrara, 2002). At the same time, some countries display low levels of trust despite having a low Gini score (e.g.&nbsp;Slovakia, Kyrgyzstan, and Albania). This indicates that although a general trend is recognizable, there is no causal relationship, and other factors are at play.</p>
+<p><strong>Key elements of social cohesion</strong></p>
+<p>Figure X is just one example of social cohesion. The concept is difficult to define precisely, because the scientific literature varies in regard to its exact meaning and how to measure it. Nevertheless, we can identify three key elements (Schiefer &amp; van der Noll, 2017):</p>
+<p>1. <strong>Social relationships</strong>: networks, trust, acceptance of diversity, and participation</p>
+<p>2. <strong>Identification with society</strong>: emotional attachment to the social community</p>
+<p>3. <strong>Orientation towards the common good</strong>: a sense of responsibility, solidarity, and compliance with social rules.</p>
+<p>Social cohesion is reflected in the attitudes and behaviour of all social groups and encompasses both normative and relational dimensions. It should be understood as a continuum along which societies can display varying degrees of cohesion.</p>
+<p>To illustrate how these elements are operationalized, it’s worth looking at how social cohesion is measured in Switzerland, where it has a special significance: promoting “internal cohesion” is enshrined in the Federal Constitution as an objective of the Swiss Confederation (Art. 2). A crucial role in connecting people in multilingual Switzerland is played by culture, which acts as “societal cement”. While social cohesion isn’t an explicit goal in the 2030 Agenda, it’s implicitly addressed in several of its targets. In Switzerland, social cohesion is defined and measured by the Federal Statistical Office, using a range of indicators (see Table X; Federal Statistical Office, 2025).</p>
+<p>The first element, <strong>social relationships</strong>, is reflected in political participation such as voting. This element also involves cultural participation, which is measured as the proportion of the population that takes part in cultural activities. Social relationships are negatively affected by factors such as discrimination, which undermines the level of trust people place in fellow human beings and institutions, as well as the sense of belonging to a social network.</p>
+<p>The second element, <strong>identification with society</strong>, may be reflected in how people perceive regional equality. In Switzerland, for example, the Federal Statistical Office measures financial differences between the cantons. Multilingualism is also relevant: The ability to communicate with different language communities can strengthen one’s sense of belonging and promote intercultural understanding.</p>
+<p>The third element, <strong>orientation towards the common good</strong>, encompasses aspects of social participation, particularly in the labour market. This includes, for example, the employment rate of people with disabilities or the unemployment rate according to migration status – indicators of structural inclusion and solidarity. Social inequalities are also key here, measured for example by the rate or risk of poverty among the labour force. Another important indicator is civic engagement, particularly through voluntary work, which is a direct measure of social responsibility and public spirit.</p>
+<p><strong>Education</strong> is a cross-cutting issue, as it affects all three elements: Education fosters social relationships, strengthens identification with society, and supports an orientation towards the common good by teaching about social norms and values. Relevant indicators include the upper secondary completion rate and the proportion of young people who are not in employment or education.</p>
+<table class="caption-top table">
+<caption>Measuring social cohesion in Switzerland</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Key element (Schiefer &amp; van der Noll, 2017):</th>
+<th>Indicators (Federal Statistical Office, 2025):</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Social relationships</td>
+<td><ul>
+<li><p>Political participation (e.g.&nbsp;voting)</p></li>
+<li><p>Cultural participation</p></li>
+<li><p>Experience of discrimination</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Identification with society</td>
+<td><ul>
+<li><p>Regional differences (e.g.&nbsp;financial capacity of cantons)</p></li>
+<li><p>Multilingualism/cultural integration</p></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Orientation towards the common good</td>
+<td><ul>
+<li><p>Participation in the labour market (e.g.&nbsp;employment rate of people with disabilities)</p></li>
+<li><p>Social inequality (e.g.&nbsp;poverty level)</p></li>
+<li><p>Voluntary work</p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Cross-cutting issue</td>
+<td><ul>
+<li>Education</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="resilience" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="resilience"><span class="header-section-number">4.5</span> Resilience</h2>
+<p><strong>Resilience</strong> is the ability of individuals, households, communities, or entire societies to prepare for, cope with, and recover from shocks (Folke, 2016). Shocks can occur at an individual (e.g.&nbsp;job loss, illness) or societal level (e.g.&nbsp;natural disasters, conflicts, food shortages). They can occur suddenly (e.g.&nbsp;natural disasters), intensify gradually (e.g.&nbsp;soil degradation), or be a constant presence (e.g.&nbsp;poverty, child labour, gender-based violence).</p>
+<p>Societies with a high level of resilience can regain their quality of life and economic stability more quickly after a shock. Resilience is especially important for poor and marginalized groups, as they face more shocks, suffer greater relative losses, and receive less support (Bangalore et al.&nbsp;201 7). Inequalities also mean that different groups are unevenly or disproportionately affected by shocks (Hallegatte et al.&nbsp;2020). Depending on social norms, groups such as women, young people, or the elderly are often more vulnerable or less adaptable (Ajibade et al.&nbsp;2013; Barrett et al.&nbsp;2021).</p>
+<p>We can identify three distinct strategies for addressing risk and building resilience:</p>
+<ol type="1">
+<li><p><strong>Risk reduction and mitigation</strong>: Measures that reduce the likelihood of shocks or their negative consequences (Obrist et al.&nbsp;2010). Examples include immunization, income diversification, local protection infrastructure, or state social systems.</p></li>
+<li><p><strong>Coping strategies</strong>: Responses to shock (Imperiale &amp; Vanclay, 2021; Severi et al.&nbsp;2012). Coping strategies include insurance models, recourse to savings or loans, and support from social networks. Governments can also help, for example through cash transfers or social programmes. However, without sufficient resources, people affected by shocks may resort to harmful, short-term measures, such as restricting essential consumption, overexploiting resources, or using child labour.</p></li>
+<li><p><strong>Transformative strategies</strong>: Far-reaching reforms or new institutions that increase the long-term resilience of societies (Mozumder et al.&nbsp;2018; Pfefferbaum et al.&nbsp;2017), typically combining risk reduction and coping strategies. For example, establishing a government agency for flood preparedness that improves early warning systems, fosters risk reduction research, and develops flood response plans. Or introducing measures to reduce the risk of gender-based violence by investing in legal, institutional, and awareness-raising programmes that change incentives and social norms regarding violence.</p></li>
+</ol>
+<section id="basic-needs-as-a-prerequisite-for-resilience" class="level3" data-number="4.5.1">
+<h3 data-number="4.5.1" class="anchored" data-anchor-id="basic-needs-as-a-prerequisite-for-resilience"><span class="header-section-number">4.5.1</span> Basic needs as a prerequisite for resilience</h3>
+<p>In the aforementioned doughnut economics framework, resilience is only possible if all people can meet their basic needs. Meeting these social foundations ensures that individuals and societies are better able to cope with shocks. However, in countries of the Global South, these basic needs are often unmet. Conversely, while wealthier countries are able to meet these needs, they usually exceed planetary boundaries in doing so. See Figure X comparing Switzerland and Laos (see Section 3.2.1).</p>
+<div id="fig-elephants" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-elephants-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-elephants" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-Switzerland" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-Switzerland-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig4_8_DoughnutA.png" class="lightbox" data-gallery="fig-elephants" title="Figure&nbsp;4.8&nbsp;(a): Switzerland"><img src="images/Fig4_8_DoughnutA.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-Switzerland-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Switzerland
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-elephants" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-laos" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-laos-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig4_8_DoughnutB.png" class="lightbox" data-gallery="fig-elephants" title="Figure&nbsp;4.8&nbsp;(b): Laos"><img src="images/Fig4_8_DoughnutB.png" class="img-fluid figure-img" data-ref-parent="fig-elephants"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-laos-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Laos
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-elephants-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.8: Doughnut visualization for Switzerland (left) and Lao PDR (right), comparing each country’s performance relative to its social foundation and ecological ceiling. The green doughnut represents the safe and just space where both ecological and social boundaries are respected. Red areas indicate the magnitude of ecological overshoot or shortfalls in meeting social needs, showing where each country exceeds ecological limits or falls below minimum social thresholds. Source: Kate Raworth and Christian Guthier. CC-BY-SA 4.0, https://doughnut-economy-fxs7576.netlify.app/
+</figcaption>
+</figure>
+</div>
+<p>These minimum social standards – the “social floor” – include access to food, health, education, income, and work. They also include peace, justice, political participation, social and gender equality, housing, social networks, energy, and water. In this textbook, we use the example of <strong>food</strong> to show how access to one of these standards affects resilience. Difficulties with a single standard rarely occur in isolation and often affect other areas as well. Ensuring these social foundations is therefore crucial to sustainable development.</p>
+<p><strong>Global food security</strong></p>
+<p>Food security means having enough food and reliable access to it, especially staple foods. A household is considered food secure when its members are not at risk of hunger or malnutrition. Malnutrition has severe health impacts, such as emaciation and stunted growth. It also increases healthcare costs, reduces productivity, and inhibits economic growth, thereby reinforcing a cycle of poverty and disease.</p>
+<p>Food security is closely linked to a food system’s resilience – its ability to tolerate and adapt to change. Our global food system is particularly vulnerable due to its complexity and the many interdependencies among its elements. It is exposed to both external threats – such as the consequences of climate change – and internal risks, such as policy failures, unsustainable consumption patterns, or market failures.</p>
+<p>Figure X shows that almost 2.4 billion people worldwide were affected by food insecurity in 2022. Just under half of these (1.1 billion) lived in Asia, 37 per cent (868 million) in Africa, 10.5 per cent (248 million) in Latin America and the Caribbean, and around 4 per cent (90 million) in North America and Europe. The figure also shows the proportions of severe and moderate food insecurity: severe food insecurity means that people have difficulty meeting their short-term basic food needs. Moderate food insecurity, on the other hand, refers to an inadequate supply of essential nutrients, which can result in health problems.</p>
+<div id="fig-FoodInsecurity" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-FoodInsecurity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig4_9_FoodInsecurity.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Figure&nbsp;4.9: The concentration and distribution of food insecurity by severity differ greatly across the regions of the world. Source: FAO et al.&nbsp;(2023). FAOSTAT: Suite of Food Security Indicators, www.fao.org/faostat/en/#data/FS"><img src="images/Fig4_9_FoodInsecurity.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-FoodInsecurity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.9: The concentration and distribution of food insecurity by severity differ greatly across the regions of the world. Source: FAO et al.&nbsp;(2023). FAOSTAT: Suite of Food Security Indicators, www.fao.org/faostat/en/#data/FS
+</figcaption>
+</figure>
+</div>
+<p>This demonstrates the need for fair and resilient food systems. As Figure X shows, a food system encompasses all activities, actors, and infrastructures involved in the production, processing, transport, distribution, trade, consumption, and disposal of food. Food systems are deeply embedded in society and the environment. Changes within these systems therefore affect numerous areas: the environment (water, air, soil, biodiversity), social and cultural aspects (e.g.&nbsp;impact on local communities), the economy (value chains, trade, financing), and health (Tribaldos &amp; Kortetmäki, 2022).</p>
+<p>Discussions on combating food insecurity often focus on increasing yields and reducing food waste, but these approaches are not proving to be the most effective. Current food production and consumption habits increasingly rely on highly processed meat and dairy products, as well as intensive production methods. Global consumption leads to outsourced environmental impacts like soil degradation, biodiversity loss, water overuse, and the disappearance of local plant varieties – impacts that primarily affect the producers, not the consumers.</p>
+<p>Focusing solely on increasing production also overlooks the fact that the world already produces enough food. What’s needed instead is a far-reaching transformation in how these resources are used and distributed. For example, Shepon et al.&nbsp;(2018) found that plant-based substitutes that are nutritionally comparable (e.g.&nbsp;in terms of protein content) are significantly more efficient than animal products: On one hectare of arable land, up to 20 times more food can be produced than with beef and twice as much as with eggs, which represent the most and least resource-intensive animal foods, respectively.</p>
+<p>However, the current food system feeds large quantities of edible crops to farm animals. According to Berners-Lee et al.&nbsp;(2018), around 41% of human-edible crops (measured by kilocalories per person per day) are fed to farm animals. This process is highly inefficient: the animals only return around 12% of that energy in the form of meat, fish, and dairy products. In other words, a significant proportion of potential food for human consumption is lost in the process (see Figure X).</p>
+<div id="fig-GlobalFood" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-GlobalFood-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig4_10_GLobalFoodSupply.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Figure&nbsp;4.10: The flows of global food energy (kcal/person/day) show the path from the food produced to the food actually consumed in 2013. For crops fed to animals, the units are based on the world population, not the animal population. The left-hand bar distinguishes between crops that are directly edible for humans and fodder crops such as grass, pasture, or crop residues that can only be used by animals. Animal losses (grey bar) include all energy losses that occur in animal husbandry, for example through respiration, growth, movement, and reproduction, as well as through animal components that are not used as food. The outermost right-hand bar divides the nutrients consumed into the proportion required for a healthy human life, i.e.&nbsp;showing a small net increase in food consumption in 2014. Source: (Berners-Lee et al.&nbsp;2018) licensed under Creative Commons CC BY."><img src="images/Fig4_10_GLobalFoodSupply.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-GlobalFood-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.10: The flows of global food energy (kcal/person/day) show the path from the food produced to the food actually consumed in 2013. For crops fed to animals, the units are based on the world population, not the animal population. The left-hand bar distinguishes between crops that are directly edible for humans and fodder crops such as grass, pasture, or crop residues that can only be used by animals. Animal losses (grey bar) include all energy losses that occur in animal husbandry, for example through respiration, growth, movement, and reproduction, as well as through animal components that are not used as food. The outermost right-hand bar divides the nutrients consumed into the proportion required for a healthy human life, i.e.&nbsp;showing a small net increase in food consumption in 2014. Source: (Berners-Lee et al.&nbsp;2018) licensed under Creative Commons CC BY.
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="justice" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="justice"><span class="header-section-number">4.6</span> Justice</h2>
+<section id="procedural-justice" class="level3" data-number="4.6.1">
+<h3 data-number="4.6.1" class="anchored" data-anchor-id="procedural-justice"><span class="header-section-number">4.6.1</span> Procedural Justice</h3>
+<p><strong>Inclusion, social cohesion, and resilience</strong> are considered the three key dimensions of social sustainability. However, whether these factors actually enable social sustainability depends on a fourth element: <strong>procedural justice</strong>. Procedural justice is decisive in determining whether, and to what extent, social change succeeds across the three dimensions.</p>
+<p>Procedural justice focuses on the process. It describes <em>how</em> policies are developed, programmes designed, and measures implemented. A high degree of procedural justice is achieved when decision-making processes are perceived as fair, trustworthy, and aligned with social norms (Hinsch, 2016; Wijsman &amp; Berbés-Blázquez, 2022), even when addressing conflicts and tensions. This is not an either/or situation, but rather a continuum: processes can be perceived as more legitimate or less legitimate, and different groups often perceive this differently.</p>
+<p>Ensuring legitimacy requires the public perception that decisions are made by trustworthy and recognized actors who act in accordance with shared values and agreed rules. Legitimacy is further strengthened through transparency, participation, and tangible benefits for those affected. This is particularly relevant when decisions entail costs or burdens for certain groups, such as land redistribution, carbon taxes, or changes in working conditions. How procedural justice is achieved largely depends on the respective societal context, culture, and structures. In general, however, we can identify five key drivers:</p>
+<ol type="1">
+<li><p><strong>Ensuring credibility of decision-makers:</strong> Legitimacy increases when authority stems from recognized sources such as elections, expertise, or institutional confirmation.</p></li>
+<li><p><strong>Adhering to agreed rules:</strong> Processes are considered legitimate if they are based on accepted standards, procedures, or traditions.</p></li>
+<li><p><strong>Conforming with societal values:</strong> The process takes into account moral, religious, or philosophical beliefs.</p></li>
+<li><p><strong>Demonstrating perceived benefits:</strong> Legitimacy increases when the affected parties believe they will benefit from the decisions.</p></li>
+<li><p><strong>Promoting participation and transparency:</strong> Open dialogue and co-creation foster acceptance, especially in the event of conflicts.</p></li>
+</ol>
+<p>These drivers often interact and reinforce each other, with the relative importance of each driver depending on the social context. As shown in Figure X (Section 3.2.2), procedural justice encompasses both the design and the implementation of policies, programmes, and initiatives. These processes take place within a <strong>policy arena</strong>, the term used to describe all constellations in which policies and programmes are formulated and implemented, such as parliaments, ministries, companies, associations, or local initiatives. However, the policy arena is becoming increasingly fragmented and polarized, amid challenges like social media and disinformation. This weakens the credibility of information and hinders the ability to build broad consensus and legitimacy in decision-making processes.</p>
+<p>In Switzerland, this is exemplified by political representation, which fails to adequately reflect the composition of the population: An analysis of the 2023 elections shows that women hold only 37.8% of seats in the National Council. Non-binary people are not yet included in statistics on political representation. In addition, the Swiss parliament is considered a “club of the highly educated”, as the proportion of councillors with a university degree is twice as high as in the general population. Only around one in six (or 16%) of the candidates had a “migration background” – compared to around 40% of the population. A quarter of the adults living in Switzerland do not have the right to vote.</p>
+<p>Political scientist Joachim Blatter describes this exclusion from political participation as a “<strong>democratic deficit</strong>”, noting that Switzerland excludes more people from the political system than most other European countries (Blatter et al.&nbsp;2017). In some municipalities, where only a fraction of the population is entitled to vote, this can mean that ultimately that only 10–20% of residents have a say in political decisions (Debelle, 2020).</p>
+</section>
+<section id="distributive-justice" class="level3" data-number="4.6.2">
+<h3 data-number="4.6.2" class="anchored" data-anchor-id="distributive-justice"><span class="header-section-number">4.6.2</span> Distributive justice</h3>
+<p>As described in Section 3.2.1.1, the various dimensions of justice influence one another. While <strong>procedural justice</strong> focuses on the process, <strong>distributive justice</strong> concentrates on the outcome of the process. Distributive justice could involve ensuring the fair distribution of environmental resources and environmental impacts. Measures that aim at distributive justice include progressive taxation, social safety nets (e.g.&nbsp;old-age and unemployment insurance), and enforcement of equal pay regardless of gender, ethnicity, or other discriminatory factors.</p>
+<p>Historically, discussions about distributive justice were primarily limited to political communities, such as national governments, and focused solely on the current generation. However, sustainability issues require a broader perspective. Distributive justice must be considered globally and intergenerationally, as well as in relation to our responsibility towards the environment and other affected species. Climate targets are a case in point: how should emissions reduction targets be distributed between countries, between generations, or between different social groups? Who should bear the costs of adapting to climate change?</p>
+<p>Thus, distributive justice encompasses a wide range of topics. Take the issue of income, for example. In Switzerland, women earn on average CHF 1,364 less per month than men, despite the principle of “equal pay for work of equal value” being enshrined in the Federal Constitution since 1981. Around half of this difference can be explained by objective factors such as education or sector, but the other half – which is as of yet unexplained – could indicate wage discrimination (EBG, 2023). The principle is widely accepted and rarely disputed. Consequently, opponents of measures to implement equal pay tend not to take issue with the principle itself, attempting instead to justify the gap by citing allegedly objective factors.</p>
+<p>However, social consensus is far harder to achieve in other questions of distributive justice. Various theories (see Box X) and concepts (see Box X) seek to answer the question of “What is fair?”. They offer different perspectives on what individuals or groups perceive as fair, and provide guidance on how social advantages and disadvantages should be distributed. A controversial example is that of <strong>unconditional basic income</strong>. From a distributive justice perspective, this concept could be considered fair, as it distributes resources equally and equalizes social opportunities. However, some argue that such a model could weaken incentives to work and thus impair productivity and innovation. Depending on the theory applied (see Box X), very different conclusions can be drawn on such topics – as shown in the reflections after Box x.</p>
+<div id="tip-justice" class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note&nbsp;4.1: Theories of justice
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Theories of justice</strong> describe fundamental, overarching ideas about how social structures and processes should be organized. They are therefore considered one level above concepts of justice (Box X), representing philosophically developed models that define, justify, and explain the essence of justice.</p>
+<p><strong>Libertarian theories</strong> champion individual freedom and the right to property. Adherents believe the state’s role should be minimal, often described as a <em>night watchman state</em>.</p>
+<ul>
+<li><p>In <em>Anarchy, State, and Utopia</em> (1974), <strong>Robert Nozick</strong> develops the idea of the minimal state, one that assumes only basic protective functions such as security and contract enforcement. Nozick rejects any further redistribution (e.g.&nbsp;via taxes to fund welfare states) as an <em>encroachment on individual freedom and property rights.</em></p></li>
+<li><p>In <em>The Illusion of Social Justice</em> (1981), <strong>Friedrich August von Hayek</strong> argues that “social justice” is an empty term, and that no objective distributive justice is possible in complex market societies. Instead, the market should determine the allocation of resources through free pricing, as state intervention would inevitably lead to a loss of freedom.</p></li>
+</ul>
+<p><strong>Liberal theories</strong> also analyse societies based on individual rights and property, but they do not recognize a “natural” right to property. Unlike libertarianism, they do not necessarily view the free market as the optimal means of fair distribution and assign an active role to the state in redistribution.</p>
+<ul>
+<li><p><strong>Utilitarianism</strong>: What is considered just is that which maximizes happiness (utility) and minimizes suffering, thereby creating the greatest possible long-term benefit for all parties involved.</p></li>
+<li><p><strong>Contractarianism</strong>: In <em>A Theory of Justice</em> (1971), John Rawls uses a social contract thought experiment to determine fair principles for society. His two core principles are:</p>
+<ol type="1">
+<li><p>Equal right to basic freedoms: Each person is entitled to the most comprehensive system of equal fundamental freedoms that is compatible with a similar system for everyone else.</p></li>
+<li><p>Just social and economic inequalities: Inequalities are only considered just if they meet two conditions: they benefit the least advantaged in society (“the difference principle”), and offices and positions are open to all under conditions of fair equality of opportunity.</p></li>
+</ol></li>
+<li><p><strong>Egalitarianism</strong>: The aim is equal treatment for all, as everyone is equal in terms of dignity and moral status. One prominent approach is the capability approach (see Sections 3.2.1 and 3.2.3). <strong>Ronald Dworkin</strong> offered another key approach, formulating the theory of resource equality in <em>What is Equality</em>? (1981). Dworkin posited that a society is just if resources are distributed in such a way that no redistribution would allow for a more equal distribution. The goal is not to achieve equal life satisfaction or equal prosperity, but to ensure fair starting conditions that enable individuals to pursue their own life plans.</p></li>
+</ul>
+<p><strong>Collective theories</strong> view societies as associations of social groups or classes that differ in their relationships to means of production and resources. They reject universalistic, abstract principles, arguing instead that each community is the product of specific historical and cultural conditions. Therefore, there are no universal norms of justice; instead, context-dependent rules emerge that are derived from social practices and traditions. Justice is understood here in terms of the common good: What is socially just is what strengthens a community’s cohesion and continued existence.</p>
+<ul>
+<li><p>According to <strong>Michael Walzer,</strong> the given context leads to different “spheres of justice”. What is considered just therefore varies according to time and place. In addition, different social goods warrant different criteria. In other words, political power should not be distributed according to the same standards as economic resources.</p></li>
+<li><p><strong>Michael Sandel</strong> emphasizes the importance of community and moral responsibility. For Sandel, justice and the common good are inextricably linked to belonging to a community that creates identity.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<p>When reflecting on the introduction of an unconditional basic income, proponents of the various theories would arrive at very different conclusions – as shown in Table X.</p>
+<table class="caption-top table">
+<caption>Evaluation of the introduction of an unconditional basic income, based on various theories of justice</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Theories of justice</th>
+<th>Is the idea of a basic income a good idea</th>
+<th>Reasoning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Libertarian theories (Nozick, Hayek)</td>
+<td>No</td>
+<td>Social justice cannot be controlled centrally. The state should only assume minimal protective functions, and resources should be allocated via the market. Redistribution through taxes to finance a basic income is an encroachment on individual freedom and property rights.</td>
+</tr>
+<tr class="even">
+<td>Liberal theories (Utilitarianism, Contractarianism, Egalitarianism)</td>
+<td>Yes/Maybe</td>
+<td>From a utilitarian perspective, a basic income could increase overall utility (or benefit). Contractarianism (Rawls) also supports it, arguing that it strengthens equal basic freedoms. From an egalitarian perspective, a basic income can promote opportunities, but it is viewed critically because it emphasizes <em>equality</em> (i.e.&nbsp;that everyone receives the same) rather than justice in the sense of <em>equity</em> (i.e.&nbsp;that each person receives what they need). Additional measures would be necessary to ensure equity.</td>
+</tr>
+<tr class="odd">
+<td>Collective theories of justice (Walzer, Sandel)</td>
+<td>Depends on context</td>
+<td>How this question is assessed depends on specific historical, cultural, and social conditions. A basic income could be considered socially just if it strengthens social cohesion and the common good.</td>
+</tr>
+</tbody>
+</table>
+<p>While <strong>theories of justice</strong> are general frameworks or models that define what justice is and how it can be achieved in a society, <strong>concepts of justice</strong> focus more on specific aspects. As the overview in Box X shows, distributive justice issues can be viewed from a variety of different perspectives.</p>
+<div id="tip-concepts" class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note&nbsp;4.2: Normative concepts of justice based on (Novy et al.&nbsp;2023)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Market justice</strong> is based on the principle of supply and demand, meaning that income, goods, and opportunities are distributed according to market mechanisms. According to this framework, the price determines what is considered fair. Within neoclassical economic theory, market justice is measured by the marginal productivity of labour, i.e.&nbsp;how work contributes to maximizing profit.</p>
+<p><strong>Commensurability with performance</strong> demands that remuneration be proportionate to an individual’s contribution. Since people perform to different levels, unequal pay is considered justified. The problem is that this principle fails to recognize key services – such as care work in the family – that aren’t valued on the market. Because performance is difficult to measure, this principle is often equated with market justice.<a href="#_msocom_1">[TH1]</a>&nbsp;</p>
+<p><strong>Equality of opportunity</strong> aims to create equal starting conditions – i.e.&nbsp;without legal and cultural discrimination or barriers to market access – for example through anti-discrimination laws that prohibit discrimination based on gender, ethnicity, or religion.</p>
+<p><strong>Equality of needs</strong> ensures that basic needs are met – such as food, housing, or protection from poverty. It is aimed particularly at people whose needs cannot be met through market mechanisms. While commensurability with performance focuses on individual contributions, equality of needs is about the collective provision of basic needs.</p>
+<p><strong>Equality of participation</strong> expands on the concept of equality of needs and opportunities. It seeks to create equal opportunities to participate in and help shape social life – regardless of income. This includes access to education, health, work, culture, and political participation. Participation is seen as a prerequisite for achieving other basic needs such as health and autonomy.</p>
+<p><strong>Gender equality</strong> addresses the unequal starting and participation conditions that exist between genders. For example, to promote equality of opportunity, quotas are a way of redressing structural disadvantages for women. And to foster participatory justice, policies that create affordable childcare or care services can help alleviate the unequal burden of care work that disproportionately affects women.</p>
+<p><strong>Environmental justice</strong> emphasizes the fair distribution of environmental burdens and resources, as well as equal participation in environmental policy decisions. The term originated in the US as a response to the disproportionate placement of landfills and motorways near poor African-American neighbourhoods. The US Environmental Protection Agency (US EPA, 2015) defines environmental justice as the fair treatment and effective participation of all people – regardless of race, colour, gender, or income – in the design, implementation, and enforcement of environmental laws and policies.</p>
+<p><strong>Inter- and intragenerational equity</strong> are defined in the Brundtland Report (1987). Intergenerational equity refers to the balance between present and future generations, while intragenerational equity refers to the balance between the Global North and South. Both concepts emphasize that opportunities for participation must be balanced across time and space.</p>
+<p><strong>Climate justice</strong> is a specific form of environmental justice. It addresses the unequal consequences of climate change for marginalized and vulnerable groups, and seeks to promote the fair distribution of burdens and measures aimed at reducing emissions. The Paris Climate Agreement stipulates that both the Global North and South must share responsibility for reducing CO₂ emissions. However, the North bears a greater obligation due to historically higher emissions – and must therefore reduce its emissions faster than countries in Africa, Latin America, or Asia.<br>
+<br>
+</p>
+<p>&nbsp;<a href="#_msoanchor_1">[TH1]</a>Not really sure what this means? Can you clarify?<br>
+<br>
+</p>
+<p>Weil Leistung schwer messbar ist, wird Leistungsgerechtigkeit häufig mit Marktgerechtigkeit gleichgesetzt.</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="cultural-sustainability" class="level2" data-number="4.7">
+<h2 data-number="4.7" class="anchored" data-anchor-id="cultural-sustainability"><span class="header-section-number">4.7</span> Cultural Sustainability</h2>
+<p>Sustainability models (see e.g.&nbsp;Section 1.6), typically describe three dimensions of sustainable development: the environmental, the economic, and the social. Social sustainability – which was the focus of this chapter – often includes cultural aspects. However, there is growing debate as to whether culture should be understood as a fourth dimension of sustainability (Sabatini, 2019).</p>
+<p>Although the term has not yet become firmly established in the political discourse or yet been clearly defined, it is gaining traction in academic debates and in policy programmes (Zheng et al.&nbsp;2021). <strong>Cultural sustainability</strong> refers to both tangible and intangible cultural assets. However, it remains a challenge to implement. At a global level, UNESCO plays a key role in the protection of cultural heritage, working to preserve cultural diversity through various conventions and programmes. Today, there are numerous UNESCO World Heritage Sites that preserve culturally significant places. UNESCO also protects intangible cultural assets, for example through programmes to preserve endangered languages or traditional practices.</p>
+<p>The cultural dimension of sustainability emphasizes the role of values, traditions, beliefs, and cultural practices in shaping sustainable development. Culture influences how societies respond to environmental, economic, and social challenges – and it provides the framework within which sustainable solutions can be understood, accepted, and implemented. Sustainable development must therefore consider not just technological and economic factors, but also the cultural context in which measures are implemented. Proponents of an independent view of cultural sustainability argue that culture is more than just a part of the social sphere: it shapes how people interpret the world, form identities, and understand their relationship to society and nature. Culture shapes values, traditions, language, and knowledge systems that extend beyond social structures. In addition, the preservation of cultural diversity is viewed as a goal in its own right, because culture significantly influences all other dimensions of sustainability.</p>
+<p><strong>Links to the other three dimensions of sustainability:</strong></p>
+<ul>
+<li><p><strong>Culture and social sustainability</strong>: Culture is a key means of shaping values, behaviours, and social assumptions. It influences the openness, inclusivity, and cohesion of societies, as well as respect for human rights, health, and quality of life. Culture provides orientation and conveys shared values such as trust, solidarity, the rule of law, and democracy – and thus creates the basis for individual and social development.</p></li>
+<li><p><strong>Culture and economic sustainability</strong>: Culture and the economy are closely connected. As UNESCO emphasizes, cultural heritage, creative industries, sustainable cultural tourism, and cultural infrastructure not only contribute to economic development and poverty reduction – they also create social and identity-forming values, especially in countries with a rich cultural heritage and great cultural diversity.</p></li>
+<li><p><strong>Culture and environmental sustainability</strong>: Cultural factors shape lifestyles, consumption patterns, and our relationship with the environment. Local and indigenous knowledge systems and traditional environmental practices offer valuable approaches to dealing with environmental challenges. They help to prevent biodiversity loss, reduce land degradation, and mitigate climate change.</p></li>
+</ul>
+</section>
+<section id="conclusion" class="level2" data-number="4.8">
+<h2 data-number="4.8" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">4.8</span> Conclusion</h2>
+<div id="fig-WordlAwfulBetter" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-WordlAwfulBetter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/Fig4_11_WorldAwfulBetter.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Figure&nbsp;4.11: The world is awful. The world is much better. The world can be much better. All three statements are true at the same time. Source: adapted based on Roser (2022), https://ourworldindata.org/much-better-awful-can-be-better."><img src="images/Fig4_11_WorldAwfulBetter.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-WordlAwfulBetter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.11: The world is awful. The world is much better. The world can be much better. All three statements are true at the same time. Source: adapted based on Roser (2022), https://ourworldindata.org/much-better-awful-can-be-better.
+</figcaption>
+</figure>
+</div>
+<p>As Figure X shows, three seemingly contradictory statements can be true at the same time: In many respects, the world is awful. Nonetheless, it’s become much better. And finally – it can be much better still. This perspective also provides a good basis for understanding social sustainability strategies.</p>
+<ol type="1">
+<li><p><strong>“The world is awful”: Social ills persist.</strong><br>
+Millions of people around the world are affected by poverty, hunger, discrimination, and a lack of participation. Inequalities between and within societies jeopardize cohesion, resilience, and justice. Strategies for social sustainability must clearly identify and address these problems.</p></li>
+<li><p><strong>“The world is much better</strong>”<strong>: Progress has been made.</strong><br>
+Historical comparisons show that key social indicators have improved: lower infant mortality, higher literacy, growing social rights. These developments are proof that political action, social movements, and institutional reforms are working. Strategies for social sustainability can build on these successes.</p></li>
+<li><p><strong>“The world can be much better”: The potential is huge.</strong><br>
+Inclusion, social cohesion, resilience, and procedural justice are the key levers for overcoming existing grievances. Strategies range from combating discrimination, expanding social security systems, and implementing participatory governance – to promoting education, health, and cultural diversity.</p></li>
+</ol>
+<p>This perspective shows that social sustainability strategies must clearly identify grievances, build on progress made, and create new opportunities for greater justice.</p>
+<p>It’s true that the challenges are immense. But we are not doomed. The progress we’ve already made demonstrates that change is possible. The key now is to act rapidly and on a large scale. As Hannah Ritchie (2024) notes, we often waste energy on internal conflicts among sustainability proponents, thereby benefiting opponents of the cause. We need systemic change and a meliorist ethic – a belief that the world can be improved step by step through conscious action. Instead of getting bogged down in internal disagreements, we need joint effort in the same direction – even if our paths and priorities vary.</p>
+<p>In the end, however, it’s important to remember that strategies for social sustainability always require discussion. Who defines the boundaries of needs and desires, whose future vision of sustainable development should be pursued, what sustainability paths are favoured, and who is making these decisions? Also – who benefits from the chosen course, who bears the costs, and what distribution patterns result from this? The difference between needs and desires in particular shows how complex such discussions are: Needs are finite, universal, and indispensable for human well-being, like housing or food. Wants, on the other hand, are potentially infinite, subjective, and dispensable, like the choice of a particular brand of shoe. As Swiss politician Jaqueline Badran said in an interview: “You can’t not have a place to live. It’s different from trainers, where you can say: Adidas is too expensive for me, so I’ll buy another brand. You can’t do that with housing.” (Badran, 2023). This example demonstrates that the debate about social sustainability is not just about abstract principles; it’s about the concrete, existential questions of life.</p>
+<p>Such questions cannot be answered technocratically. Instead, they require open, fair, and inclusive negotiation processes. Strategies for social sustainability must therefore not only develop concrete solutions to injustices – they must also create spaces in which these discussions can be held.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/cdeteaching\.github\.io\/Basics-of-sustainability\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../3_ecological-sustainability/3_intro.html" class="pagination-link" aria-label="Environmental Sustainability">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Environmental Sustainability</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../5_economic-sustainability/5_intro.html" class="pagination-link" aria-label="Economic Sustainability">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Economic Sustainability</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>“This a product of <a href="www.cde.unibe.ch/"><img src="..\images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This book was built with <a href="https://quarto.org/">Quarto</a>. This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC-BY-NC-ND 4.0 Int License</a></p>
+</div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

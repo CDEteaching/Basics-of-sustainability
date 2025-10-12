@@ -18,7 +18,7 @@ Post-growth debates analyse and criticize modern society’s dependency on econo
 
 Critics of post-growth debates argue that a rejection of economic growth could have a negative impact on prosperity and social progress. They fear that an economy independent of growth could lead to stagnating innovation, fewer jobs, and falling living standards. And they point out that a negative attitude towards economic growth can have potential negative effects. Constructively addressing the challenges of growth and developing viable alternatives are important aspects of enabling sustainable and equitable change.
 
-**Indicators for Sustainable Development: From Principles to Practice**
+## **Indicators for Sustainable Development: From Principles to Practice**
 
 A key concern of sustainable development is the ability to systematically make visible both progress and setbacks—on global, national, and local levels. Indicators play a crucial role in this effort: they help capture complex socio-ecological realities, enable comparability, and support evidence-based policymaking. Precisely because sustainability is a normative objective, particular attention must be paid to the selection, design, and use of indicators.
 
@@ -76,7 +76,7 @@ The Ecological Footprint is often used in public awareness campaigns, notably in
 
 Despite these limitations, the Ecological Footprint remains a useful entry point for engaging broader audiences in discussions on global ecological justice and planetary responsibility—especially in educational and communication settings.
 
-**Between Simplification and Complexity: Interactions Between SDGs**
+## **Between Simplification and Complexity: Interactions Between SDGs**
 
 A central challenge in designing sustainability indicators lies in balancing simplification with complexity. Indicators are intended to support decision-making, yet must account for a wide array of interactions, uncertainties, and contextual dependencies.
 
