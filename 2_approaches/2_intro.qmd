@@ -1,13 +1,15 @@
 ---
-title: "Approaches to Sustainability"
+title: "Approaches to Sustainable Development"
+author: Christoph Bader
+lightbox: true
 format: html
+tbl-cap-location: top
+fig-cap-location: bottom
 ---
 
-## Approaches to Sustainable Development
+The world is facing numerous challenges of sustainable development, including pressing environmental problems and social inequalities. Scientists, researchers, and activists are seeking innovative approaches to enable sustainable and equitable change. This chapter examines some of these approaches, which offer a complete rethink of current paradigms. 
 
-*Christoph Bader*
-
-The world is facing numerous challenges of sustainable development, including pressing environmental problems and social inequalities. Scientists, researchers, and activists are seeking innovative approaches to enable sustainable and equitable change. This chapter examines some of these approaches, which offer a complete rethink of current paradigms. Approaches discussed in this chapter:
+Approaches discussed in this chapter:
 
 -   Planetary boundaries framework
 
@@ -23,7 +25,7 @@ The world is facing numerous challenges of sustainable development, including pr
 
 {{< include "planetary-boundaries.qmd" >}}
 
-{{< include "doughnut-model.qmd" >}}
+{{< include "Doughnut-model.qmd" >}}
 
 {{< include "Great-transformation.qmd" >}}
 

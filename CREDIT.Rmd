@@ -6,7 +6,7 @@ output: html_document
 # Contribution Matrix (CRediT Taxonomy)
 
 | Name | Affiliation | ORCID | Roles (CRediT) |
-|-----------------|-------------------|-----------------|--------------------|
+|----|----|----|----|
 | Christoph Bader | CDE, University of Bern | [0000-0002-8991-353X](https://orcid.org/0000-0002-8991-353X) | Conceptualization, Software, Supervision, Writing - original draft, Writing – review & editing, Project administration |
 | Nicolà Bezzola | CDE, University of Bern | — | Writing - original draft, Writing – review & editing |
 | Juri Fitz | CDE, University of Bern | — | Writing - original draft, Writing – review & editing |

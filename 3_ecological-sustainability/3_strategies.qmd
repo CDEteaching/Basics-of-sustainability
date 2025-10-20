@@ -2,6 +2,8 @@
 
 These days, various strategies are being pursued or at least considered to achieve a transformation in the environmental dimension of sustainable development (see @fig-GDSR for a non-exhaustive list). Some of these strategies were previously discussed in this textbook. While the approaches mentioned do not necessarily have to be transformative per se, they can certainly have an impact on the environmental dimension of sustainability if applied appropriately. The approaches presented in this section are categorized according to the “Levers for Transformation” of the Global Sustainable Development Report (GSDR) (see chapter x). The 2019 GSDR defines four levers: governance, economy and finance, individual and collective action, and science and technology. The 2023 GSDR added a fifth lever, capacity building, as this is essential for a transformative process both as a lever itself and as a supporting factor for the other levers (Independent Group of Scientists appointed by the Secretary-General, 2023).
 
+![Model of transformation to sustainable development goals (SDGs) given by Global Report of Sustainable Development 2023. Source: @gongSustainableDevelopmentDigitization2024, licenced under CC BY-NC-SA 4.0](images/Images_en/Fig3_17__GSDR.png){#fig-GDSR}
+
 For each lever, we present selected strategies related to our three topics of focus in this Chapter, climate, land use, or biodiversity:
 
 The **governance** lever involves institutions and spaces that determine the direction of development by setting goals, coordinating measures, creating regulations, and facilitating funding at national and regional level. Good governance should also promote synergies, take into account conflicts of interest, and strengthen cooperation between a wide range of stakeholders. Governance thus plays a key role in the development and implementation of environmental sustainability strategies, as it can establish the policy framework for sustainable practices through regulatory mechanisms, incentive structures, and laws. Governance levers include:
@@ -40,10 +42,8 @@ Social change often begins in people’s hearts and minds through local organiza
 
 Note: It is important to be aware that approaches aren’t always synergistic; often, an approach addressing an environmental dimension of sustainability involves trade-offs with other approaches or with the social or economic dimensions of sustainability.
 
-![GSDR (Quelle?)](images/Images_en/Fig3_17__GSDR.png){#fig-GDSR}
-
 ::: {.callout-note collapse="true"}
-Further reading:
+#### Further reading
 
-Guyer M., Steinemann M., and Saalismaa N. (2022), *Biodiversity and Sustainable Development*. Climate Change & Environment Nexus Brief. Swiss Agency for Development and Cooperation: Bern, Switzerland.
+Guyer, Madeleine, Myriam Steinemann, and Nina Saalismaa. 2022. *Biodiversity and Sustainable Development*. Climate Change & Environment Nexus Brief. Swiss Agency for Development and Cooperation.
 :::

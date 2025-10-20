@@ -18,7 +18,7 @@ Post-growth debates analyse and criticize modern society’s dependency on econo
 
 Critics of post-growth debates argue that a rejection of economic growth could have a negative impact on prosperity and social progress. They fear that an economy independent of growth could lead to stagnating innovation, fewer jobs, and falling living standards. And they point out that a negative attitude towards economic growth can have potential negative effects. Constructively addressing the challenges of growth and developing viable alternatives are important aspects of enabling sustainable and equitable change.
 
-## **Indicators for Sustainable Development: From Principles to Practice**
+## Indicators for Sustainable Development: From Principles to Practice
 
 A key concern of sustainable development is the ability to systematically make visible both progress and setbacks—on global, national, and local levels. Indicators play a crucial role in this effort: they help capture complex socio-ecological realities, enable comparability, and support evidence-based policymaking. Precisely because sustainability is a normative objective, particular attention must be paid to the selection, design, and use of indicators.
 
@@ -55,7 +55,7 @@ In the German-speaking world, the **National Welfare Index (NWI)** has been intr
 Another particularly relevant measure is the **Multidimensional Poverty Index (MPI)**, developed by the Oxford Poverty and Human Development Initiative (OPHI) in collaboration with the UNDP. It captures poverty across three core dimensions: health, education, and standard of living. Indicators include child mortality, school attendance, access to electricity, and housing conditions. Unlike income-based measures, the MPI provides a nuanced understanding of deprivation across overlapping dimensions. Bader et al. (2017) demonstrate the value of the MPI in a longitudinal study on poverty in the Lao PDR, showing how rapid economic growth reduced income poverty while simultaneously exacerbating disparities in education, infrastructure, and health access.
 
 ::: {.callout-tip collapse="true"}
-**The Ecological Footprint – Explanation and Critique**
+#### The Ecological Footprint – Explanation and Critique
 
 The **Ecological Footprint** measures how much biologically productive land and sea area (in global hectares) is required to sustain the resource use of an individual, population, or country over time. It includes land required for CO₂ absorption, food production, infrastructure, and other human needs. The concept was developed in the 1990ies by Mathis Wackernagel and William Rees and has become one of the most widely recognized tools for environmental communication.
 
@@ -76,7 +76,7 @@ The Ecological Footprint is often used in public awareness campaigns, notably in
 
 Despite these limitations, the Ecological Footprint remains a useful entry point for engaging broader audiences in discussions on global ecological justice and planetary responsibility—especially in educational and communication settings.
 
-## **Between Simplification and Complexity: Interactions Between SDGs**
+## Between Simplification and Complexity: Interactions Between SDGs
 
 A central challenge in designing sustainability indicators lies in balancing simplification with complexity. Indicators are intended to support decision-making, yet must account for a wide array of interactions, uncertainties, and contextual dependencies.
 

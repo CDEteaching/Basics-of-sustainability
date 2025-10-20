@@ -60,8 +60,6 @@ However, this is not about a wholesale rejection of neoclassical economics. Inst
 While a detailed exploration of neoclassical economics and other schools of thought is beyond the scope of this discussion, you can delve deeper into this topic in our *Introduction to Sustainable Economics* course. More information on plural economics is also available on the *Exploring Economics* e-learning platform.
 
 In this video – *Economics is for Everyone* – Ha-Joon Chang provides a clear and concise introduction to the idea of plural economics. He explains why economic thinking is never neutral – and why we urgently need more economic pluralism.
-
-
 :::
 
 {{< include "5_key-elements.qmd" >}} {{< include "5_strategic-approaches.qmd" >}}

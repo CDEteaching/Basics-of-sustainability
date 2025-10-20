@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Christoph Bader">
 
-<title>2&nbsp; Approaches to Sustainability – Basics of sustainability</title>
+<title>2&nbsp; Approaches to Sustainable Development – Basics of sustainability</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -47,6 +68,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-dbf4b28c387d353a501d76b2fd46fbb0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/bootstrap/bootstrap-dark-60b716ab65d401520622fb3b811f5bf6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/bootstrap/bootstrap-dbf4b28c387d353a501d76b2fd46fbb0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -75,6 +99,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -249,7 +302,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../2_approaches/2_intro.html">Approaches to Sustainability</a></li><li class="breadcrumb-item"><a href="../2_approaches/2_intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Approaches to Sustainability</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../2_approaches/2_intro.html">Approaches to Sustainability</a></li><li class="breadcrumb-item"><a href="../2_approaches/2_intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Approaches to Sustainable Development</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -328,7 +381,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../2_approaches/2_intro.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Approaches to Sustainability</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Approaches to Sustainable Development</span></span></a>
   </div>
 </li>
       </ul>
@@ -378,33 +431,32 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#approaches-to-sustainable-development" id="toc-approaches-to-sustainable-development" class="nav-link active" data-scroll-target="#approaches-to-sustainable-development"><span class="header-section-number">2.1</span> Approaches to Sustainable Development</a></li>
-  <li><a href="#debates-about-planetary-boundaries" id="toc-debates-about-planetary-boundaries" class="nav-link" data-scroll-target="#debates-about-planetary-boundaries"><span class="header-section-number">2.2</span> Debates about planetary boundaries</a>
+  <li><a href="#debates-about-planetary-boundaries" id="toc-debates-about-planetary-boundaries" class="nav-link active" data-scroll-target="#debates-about-planetary-boundaries"><span class="header-section-number">2.1</span> Debates about planetary boundaries</a>
   <ul class="collapse">
-  <li><a href="#tipping-points-of-the-earths-climate-system" id="toc-tipping-points-of-the-earths-climate-system" class="nav-link" data-scroll-target="#tipping-points-of-the-earths-climate-system"><span class="header-section-number">2.2.1</span> Tipping points of the Earth’s climate system</a></li>
-  <li><a href="#quantifying-planetary-boundaries" id="toc-quantifying-planetary-boundaries" class="nav-link" data-scroll-target="#quantifying-planetary-boundaries"><span class="header-section-number">2.2.2</span> Quantifying planetary boundaries</a></li>
-  <li><a href="#climate-resilience" id="toc-climate-resilience" class="nav-link" data-scroll-target="#climate-resilience"><span class="header-section-number">2.2.3</span> Climate resilience</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">2.2.4</span> Conclusion</a></li>
+  <li><a href="#tipping-points-of-the-earths-climate-system" id="toc-tipping-points-of-the-earths-climate-system" class="nav-link" data-scroll-target="#tipping-points-of-the-earths-climate-system"><span class="header-section-number">2.1.1</span> Tipping points of the Earth’s climate system</a></li>
+  <li><a href="#quantifying-planetary-boundaries" id="toc-quantifying-planetary-boundaries" class="nav-link" data-scroll-target="#quantifying-planetary-boundaries"><span class="header-section-number">2.1.2</span> Quantifying planetary boundaries</a></li>
+  <li><a href="#climate-resilience" id="toc-climate-resilience" class="nav-link" data-scroll-target="#climate-resilience"><span class="header-section-number">2.1.3</span> Climate resilience</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">2.1.4</span> Conclusion</a></li>
   </ul></li>
-  <li><a href="#from-planetary-boundaries-to-the-doughnut-model" id="toc-from-planetary-boundaries-to-the-doughnut-model" class="nav-link" data-scroll-target="#from-planetary-boundaries-to-the-doughnut-model"><span class="header-section-number">2.3</span> From planetary boundaries to the doughnut model</a>
+  <li><a href="#from-planetary-boundaries-to-the-doughnut-model" id="toc-from-planetary-boundaries-to-the-doughnut-model" class="nav-link" data-scroll-target="#from-planetary-boundaries-to-the-doughnut-model"><span class="header-section-number">2.2</span> From planetary boundaries to the doughnut model</a>
   <ul class="collapse">
-  <li><a href="#conclusion-1" id="toc-conclusion-1" class="nav-link" data-scroll-target="#conclusion-1"><span class="header-section-number">2.3.1</span> Conclusion</a></li>
+  <li><a href="#conclusion-1" id="toc-conclusion-1" class="nav-link" data-scroll-target="#conclusion-1"><span class="header-section-number">2.2.1</span> Conclusion</a></li>
   </ul></li>
-  <li><a href="#the-debate-about-the-great-transformation" id="toc-the-debate-about-the-great-transformation" class="nav-link" data-scroll-target="#the-debate-about-the-great-transformation"><span class="header-section-number">2.4</span> The debate about the Great Transformation</a>
+  <li><a href="#the-debate-about-the-great-transformation" id="toc-the-debate-about-the-great-transformation" class="nav-link" data-scroll-target="#the-debate-about-the-great-transformation"><span class="header-section-number">2.3</span> The debate about the Great Transformation</a>
   <ul class="collapse">
-  <li><a href="#flagship-wbgu-report-world-in-transition" id="toc-flagship-wbgu-report-world-in-transition" class="nav-link" data-scroll-target="#flagship-wbgu-report-world-in-transition"><span class="header-section-number">2.4.1</span> Flagship WBGU report: <em>World in Transition</em></a></li>
-  <li><a href="#schneidewinds-art-of-the-future" id="toc-schneidewinds-art-of-the-future" class="nav-link" data-scroll-target="#schneidewinds-art-of-the-future"><span class="header-section-number">2.4.2</span> Schneidewind’s “art of the future”</a></li>
-  <li><a href="#global-sustainable-development-report" id="toc-global-sustainable-development-report" class="nav-link" data-scroll-target="#global-sustainable-development-report"><span class="header-section-number">2.4.3</span> Global Sustainable Development Report</a></li>
-  <li><a href="#conclusion-2" id="toc-conclusion-2" class="nav-link" data-scroll-target="#conclusion-2"><span class="header-section-number">2.4.4</span> Conclusion</a></li>
-  <li><a href="#green-economy" id="toc-green-economy" class="nav-link" data-scroll-target="#green-economy"><span class="header-section-number">2.4.5</span> Green economy</a></li>
-  <li><a href="#conclusion-3" id="toc-conclusion-3" class="nav-link" data-scroll-target="#conclusion-3"><span class="header-section-number">2.4.6</span> Conclusion</a></li>
+  <li><a href="#flagship-wbgu-report-world-in-transition" id="toc-flagship-wbgu-report-world-in-transition" class="nav-link" data-scroll-target="#flagship-wbgu-report-world-in-transition"><span class="header-section-number">2.3.1</span> Flagship WBGU report: <em>World in Transition</em></a></li>
+  <li><a href="#schneidewinds-art-of-the-future" id="toc-schneidewinds-art-of-the-future" class="nav-link" data-scroll-target="#schneidewinds-art-of-the-future"><span class="header-section-number">2.3.2</span> Schneidewind’s “art of the future”</a></li>
+  <li><a href="#global-sustainable-development-report" id="toc-global-sustainable-development-report" class="nav-link" data-scroll-target="#global-sustainable-development-report"><span class="header-section-number">2.3.3</span> Global Sustainable Development Report</a></li>
+  <li><a href="#conclusion-2" id="toc-conclusion-2" class="nav-link" data-scroll-target="#conclusion-2"><span class="header-section-number">2.3.4</span> Conclusion</a></li>
+  <li><a href="#green-economy" id="toc-green-economy" class="nav-link" data-scroll-target="#green-economy"><span class="header-section-number">2.3.5</span> Green economy</a></li>
+  <li><a href="#conclusion-3" id="toc-conclusion-3" class="nav-link" data-scroll-target="#conclusion-3"><span class="header-section-number">2.3.6</span> Conclusion</a></li>
   </ul></li>
-  <li><a href="#post-growth-societies" id="toc-post-growth-societies" class="nav-link" data-scroll-target="#post-growth-societies"><span class="header-section-number">2.5</span> Post-growth societies</a>
+  <li><a href="#post-growth-societies" id="toc-post-growth-societies" class="nav-link" data-scroll-target="#post-growth-societies"><span class="header-section-number">2.4</span> Post-growth societies</a>
   <ul class="collapse">
-  <li><a href="#conclusion-4" id="toc-conclusion-4" class="nav-link" data-scroll-target="#conclusion-4"><span class="header-section-number">2.5.1</span> Conclusion</a></li>
+  <li><a href="#conclusion-4" id="toc-conclusion-4" class="nav-link" data-scroll-target="#conclusion-4"><span class="header-section-number">2.4.1</span> Conclusion</a></li>
   </ul></li>
-  <li><a href="#indicators-for-sustainable-development-from-principles-to-practice" id="toc-indicators-for-sustainable-development-from-principles-to-practice" class="nav-link" data-scroll-target="#indicators-for-sustainable-development-from-principles-to-practice"><span class="header-section-number">2.6</span> <strong>Indicators for Sustainable Development: From Principles to Practice</strong></a></li>
-  <li><a href="#between-simplification-and-complexity-interactions-between-sdgs" id="toc-between-simplification-and-complexity-interactions-between-sdgs" class="nav-link" data-scroll-target="#between-simplification-and-complexity-interactions-between-sdgs"><span class="header-section-number">2.7</span> <strong>Between Simplification and Complexity: Interactions Between SDGs</strong></a></li>
+  <li><a href="#indicators-for-sustainable-development-from-principles-to-practice" id="toc-indicators-for-sustainable-development-from-principles-to-practice" class="nav-link" data-scroll-target="#indicators-for-sustainable-development-from-principles-to-practice"><span class="header-section-number">2.5</span> <strong>Indicators for Sustainable Development: From Principles to Practice</strong></a></li>
+  <li><a href="#between-simplification-and-complexity-interactions-between-sdgs" id="toc-between-simplification-and-complexity-interactions-between-sdgs" class="nav-link" data-scroll-target="#between-simplification-and-complexity-interactions-between-sdgs"><span class="header-section-number">2.6</span> <strong>Between Simplification and Complexity: Interactions Between SDGs</strong></a></li>
   </ul>
 </nav>
     </div>
@@ -412,15 +464,21 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../2_approaches/2_intro.html">Approaches to Sustainability</a></li><li class="breadcrumb-item"><a href="../2_approaches/2_intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Approaches to Sustainability</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../2_approaches/2_intro.html">Approaches to Sustainability</a></li><li class="breadcrumb-item"><a href="../2_approaches/2_intro.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Approaches to Sustainable Development</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Approaches to Sustainability</span></h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Approaches to Sustainable Development</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Christoph Bader </p>
+          </div>
+  </div>
     
   
     
@@ -431,10 +489,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="approaches-to-sustainable-development" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="approaches-to-sustainable-development"><span class="header-section-number">2.1</span> Approaches to Sustainable Development</h2>
-<p><em>Christoph Bader</em></p>
-<p>The world is facing numerous challenges of sustainable development, including pressing environmental problems and social inequalities. Scientists, researchers, and activists are seeking innovative approaches to enable sustainable and equitable change. This chapter examines some of these approaches, which offer a complete rethink of current paradigms. Approaches discussed in this chapter:</p>
+<p>The world is facing numerous challenges of sustainable development, including pressing environmental problems and social inequalities. Scientists, researchers, and activists are seeking innovative approaches to enable sustainable and equitable change. This chapter examines some of these approaches, which offer a complete rethink of current paradigms.</p>
+<p>Approaches discussed in this chapter:</p>
 <ul>
 <li><p>Planetary boundaries framework</p></li>
 <li><p>Doughnut economics</p></li>
@@ -443,12 +499,11 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Post-growth approaches</p></li>
 <li><p>Implementing the 2030 Agenda</p></li>
 </ul>
-</section>
-<section id="debates-about-planetary-boundaries" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="debates-about-planetary-boundaries"><span class="header-section-number">2.2</span> Debates about planetary boundaries</h2>
+<section id="debates-about-planetary-boundaries" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="debates-about-planetary-boundaries"><span class="header-section-number">2.1</span> Debates about planetary boundaries</h2>
 <p>In 1798, British economist Thomas Robert Malthus published his influential essay, <em>An Essay on the Principle of Population</em>. Malthus’s core idea was that population growth would surpass Earth’s ability to produce food, sparking a debate on planetary carrying capacity that continues today. <em>The Limits to Growth</em> (1972), a report by the Club of Rome, built on Malthus’s ideas. It went beyond just food supply to consider a broader range of factors in calculating a planetary limit. These factors included resource availability, environmental pollution, and industrial output. The report remains relevant from an environmental point of view, as it challenges the assumptions of limitless growth, even though its specific predictions haven’t quite come true.</p>
 <p>A significant development in sustainability science is the planetary boundaries concept, introduced in 2009. Unlike earlier theories focused solely on population limits, this framework uses Earth system science parameters. Researchers identified the Holocene epoch as a baseline, as this was a period of remarkable stability for human development. Significant deviations from this ideal state could push humanity towards uncertain “tipping points” – critical thresholds that can either interrupt previous progress, alter its course, or even accelerate it in unintended ways. An example might be the extinction of megafauna at the end of the last ice age, potentially linked to human arrival in the Americas. The planetary boundaries concept promotes the precautionary principle, urging action to minimize potential harm to both humans and the environment.</p>
-<p>The concept, which puts forward nine planetary boundaries, was first introduced by Johan Rockström et al.&nbsp;(2009). It was updated by Will Steffen et al.&nbsp;(2015). A recent update by Richardson et al.&nbsp;(2023) shows that six out of nine planetary boundaries have already been transgressed.</p>
+<p>The concept, which puts forward nine planetary boundaries, was first introduced by Johan Rockström et al. <span class="citation" data-cites="rockstromPlanetaryBoundariesExploring2009">(<a href="../references.html#ref-rockstromPlanetaryBoundariesExploring2009" role="doc-biblioref">2009</a>)</span>. It was updated by Will Steffen et al. <span class="citation" data-cites="steffenPlanetaryBoundariesGuiding2015">(<a href="../references.html#ref-steffenPlanetaryBoundariesGuiding2015" role="doc-biblioref">2015</a>)</span>. A recent update by Richardson et al. <span class="citation" data-cites="richardsonEarthSixNine2023">(<a href="../references.html#ref-richardsonEarthSixNine2023" role="doc-biblioref">2023</a>)</span> shows that six out of nine planetary boundaries have already been transgressed.</p>
 <p>The planetary boundaries framework identifies nine critical Earth system processes. These processes regulate the planet’s stability and include, for example, land system change and ocean acidification (see all planetary boundaries here: <a href="#fig-development-planetary-boundaries" class="quarto-xref">Figure&nbsp;<span>2.8</span></a>). Each boundary has an inner circle, within which it can operate safely (“safe operating space”) and an outer circle, which represents increased uncertainty.</p>
 <p>The latest update to the planetary boundaries framework paints a concerning picture. We’re close to overstepping the safe operating space for ocean acidification, and regional atmospheric aerosol loading has already crossed its boundary. In a positive development, stratospheric ozone levels show some signs of recovery. However, the overall situation is alarming. The boundaries previously identified as transgressed (climate change, biosphere integrity (genetic diversity), land system change, and biogeochemical flows [N and P]) have all seen a worsening of their transgression since 2015.</p>
 <p>The study added human appropriation of net primary production as a control variable for the functional component of biosphere integrity, arguing that this boundary has also been exceeded. In addition, the significant transgression of the planetary boundaries for phosphorus and nitrogen cycles, along with genetic biodiversity, raise the risk of fatal consequences.</p>
@@ -456,41 +511,41 @@ ul.task-list li input[type="checkbox"] {
 <div id="fig-development-planetary-boundaries" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-development-planetary-boundaries-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="Images/Fig2_1__planetaryboundaries.png" class="img-fluid figure-img">
+<a href="Images/Fig2_1__planetaryboundaries.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;2.1: Development of control variables for all nine planetary boundaries. Source: Azote for Stockholm Resilience Centre, Stockholm University. Based on @rockstromPlanetaryBoundariesExploring2009, @steffenPlanetaryBoundariesGuiding2015, @richardsonEarthSixNine2023. Licenced under CC BY-NC-ND 3.0."><img src="Images/Fig2_1__planetaryboundaries.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-development-planetary-boundaries-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.1: Development of control variables for all nine planetary boundaries (Source: UNEP (2021b))
+Figure&nbsp;2.1: Development of control variables for all nine planetary boundaries. Source: Azote for Stockholm Resilience Centre, Stockholm University. Based on <span class="citation" data-cites="rockstromPlanetaryBoundariesExploring2009">Rockström et al. (<a href="../references.html#ref-rockstromPlanetaryBoundariesExploring2009" role="doc-biblioref">2009</a>)</span>, <span class="citation" data-cites="steffenPlanetaryBoundariesGuiding2015">Steffen et al. (<a href="../references.html#ref-steffenPlanetaryBoundariesGuiding2015" role="doc-biblioref">2015</a>)</span>, <span class="citation" data-cites="richardsonEarthSixNine2023">Richardson et al. (<a href="../references.html#ref-richardsonEarthSixNine2023" role="doc-biblioref">2023</a>)</span>. Licenced under CC BY-NC-ND 3.0.
 </figcaption>
 </figure>
 </div>
-<section id="tipping-points-of-the-earths-climate-system" class="level3" data-number="2.2.1">
-<h3 data-number="2.2.1" class="anchored" data-anchor-id="tipping-points-of-the-earths-climate-system"><span class="header-section-number">2.2.1</span> Tipping points of the Earth’s climate system</h3>
+<section id="tipping-points-of-the-earths-climate-system" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="tipping-points-of-the-earths-climate-system"><span class="header-section-number">2.1.1</span> Tipping points of the Earth’s climate system</h3>
 <div id="fig-tippingspoints" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-tippingspoints-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="Images/Tippingpoints.png" class="img-fluid figure-img">
+<a href="Images/Tippingpoints.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;2.2: Spatial distribution of global and regional tipping elements. The colours indicate the temperature range in which tipping is likely to occur. Source: Designed at PIK, based on @armstrongmckayExceeding15degCGlobal2022, expanded with interactions based on @lentonClimateTippingPoints2019. Licenced under CC-BY."><img src="Images/Tippingpoints.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-tippingspoints-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.2: Tipping points (Source:)
+Figure&nbsp;2.2: Spatial distribution of global and regional tipping elements. The colours indicate the temperature range in which tipping is likely to occur. Source: Designed at PIK, based on <span class="citation" data-cites="armstrongmckayExceeding15degCGlobal2022">Armstrong McKay et al. (<a href="../references.html#ref-armstrongmckayExceeding15degCGlobal2022" role="doc-biblioref">2022</a>)</span>, expanded with interactions based on <span class="citation" data-cites="lentonClimateTippingPoints2019">Lenton et al. (<a href="../references.html#ref-lentonClimateTippingPoints2019" role="doc-biblioref">2019</a>)</span>. Licenced under CC-BY.
 </figcaption>
 </figure>
 </div>
 <p>Tipping points in the Earth’s climate system are critical thresholds that, when crossed, can cause abrupt and often irreversible changes in the climate system. These tipping points can destabilize the climate and lead to accelerated climate change. Examples of tipping points include the melting of the Greenland ice sheet, the collapse of the Amazon rainforest, the thawing of permafrost soils, and changes in the Gulf Stream. If these tipping points are reached or exceeded, they can trigger self-reinforcing feedback effects that lead to further warming and an intensification of climate change.</p>
 <p>The concept of tipping points emphasizes the urgency of limiting global warming and reducing greenhouse gas emissions. If we exceed the tipping points, it will become increasingly difficult to control climate change and minimize its effects.</p>
 </section>
-<section id="quantifying-planetary-boundaries" class="level3" data-number="2.2.2">
-<h3 data-number="2.2.2" class="anchored" data-anchor-id="quantifying-planetary-boundaries"><span class="header-section-number">2.2.2</span> Quantifying planetary boundaries</h3>
-<p>A recent development within the planetary boundaries framework is the concept of “safe and just Earth system boundaries (ESBs)” for the following domains: climate, the biosphere, water and nutrient cycles, and aerosols at global and subglobal scales (Rockström et al., 2023). The ESBs are based on modelling and literature review, and account for uncertainty through different levels of likelihood. Staying within the ESBs protects stability and equity between species and future generations, although current generations, especially vulnerable groups, could still suffer harm. The authors therefore suggest stricter boundaries in some cases, and the addition of local standards to protect current generations and ecosystems. For example, they identify safe ESBs for warming (see Rockström et al.&nbsp;2023, Fig. 1 and Table 1). These are based on reducing the probability of triggering climate tipping points, maintaining biosphere and cryosphere functions, and considering climate variability of the Holocene (&lt;0.5-1.0°C) and earlier interglacial periods (&lt;1.5-2°C).</p>
-<p>The functions of the cryosphere include the preservation of permafrost in the northern high latitudes, the preservation of polar ice sheets and mountain glaciers, and the minimization of sea ice loss. The authors conclude that global warming of more than 1.0°C above pre-industrial levels, which has already been exceeded (IPPC 2021), could trigger tipping effects such as the collapse of the Greenland ice sheet or a localized abrupt thawing of the boreal permafrost with a moderate probability (Armstrong et al.&nbsp;2022). Global warming of one degree Celsius corresponds to the safe limit proposed in 1990 and the PB of 350 ppm CO2 (Steffen et al.&nbsp;2015). With a warming of more than 1.5°C or 2.0°C, the likelihood of triggering tipping points increases to high or very high.</p>
+<section id="quantifying-planetary-boundaries" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="quantifying-planetary-boundaries"><span class="header-section-number">2.1.2</span> Quantifying planetary boundaries</h3>
+<p>A recent development within the planetary boundaries framework is the concept of “safe and just Earth system boundaries (ESBs)” for the following domains: climate, the biosphere, water and nutrient cycles, and aerosols at global and subglobal scales <span class="citation" data-cites="rockstromSafeJustEarth2023">(<a href="../references.html#ref-rockstromSafeJustEarth2023" role="doc-biblioref">Rockström et al. 2023</a>)</span>. The ESBs are based on modelling and literature review, and account for uncertainty through different levels of likelihood. Staying within the ESBs protects stability and equity between species and future generations, although current generations, especially vulnerable groups, could still suffer harm. The authors therefore suggest stricter boundaries in some cases, and the addition of local standards to protect current generations and ecosystems. For example, they identify safe ESBs for warming <span class="citation" data-cites="rockstromSafeJustEarth2023">(<a href="../references.html#ref-rockstromSafeJustEarth2023" role="doc-biblioref">Rockström et al. 2023, fig. 1</a> and Table 1)</span>. These are based on reducing the probability of triggering climate tipping points, maintaining biosphere and cryosphere functions, and considering climate variability of the Holocene (&lt;0.5-1.0°C) and earlier interglacial periods (&lt;1.5-2°C).</p>
+<p>The functions of the cryosphere include the preservation of permafrost in the northern high latitudes, the preservation of polar ice sheets and mountain glaciers, and the minimization of sea ice loss. The authors conclude that global warming of more than 1.0°C above pre-industrial levels, which has already been exceeded (IPPC 2021), could trigger tipping effects such as the collapse of the Greenland ice sheet or a localized abrupt thawing of the boreal permafrost with a moderate probability <span class="citation" data-cites="armstrongmckayExceeding15degCGlobal2022">(<a href="../references.html#ref-armstrongmckayExceeding15degCGlobal2022" role="doc-biblioref">Armstrong McKay et al. 2022</a>)</span>. Global warming of one degree Celsius corresponds to the safe limit proposed in 1990 and the PB of 350 ppm CO2 <span class="citation" data-cites="steffenPlanetaryBoundariesGuiding2015">(<a href="../references.html#ref-steffenPlanetaryBoundariesGuiding2015" role="doc-biblioref">Steffen et al. 2015</a>)</span>. With a warming of more than 1.5°C or 2.0°C, the likelihood of triggering tipping points increases to high or very high.</p>
 </section>
-<section id="climate-resilience" class="level3" data-number="2.2.3">
-<h3 data-number="2.2.3" class="anchored" data-anchor-id="climate-resilience"><span class="header-section-number">2.2.3</span> Climate resilience</h3>
-<p>Resilience describes the ability of a system to withstand disruptions, “bounce back”, or recover from adversity. Originally used in psychology, resilience refers to the psychological robustness that an individual has actively acquired in dealing with challenges or stresses, particularly in childhood. In the context of ecosystems, resilience refers to the ability to absorb disturbances without a permanent systemic collapse, i.e.&nbsp;a collapse that would result in a different system regulated by new processes (Folke et al.&nbsp;2010). More recently, the concept of resilience has been extended to social systems (see section on doughnut economics). Studies focus on which specific characteristics of a region need to be strengthened, to better prepare it for future crises and disasters related to climate change, terrorism, resource scarcity, or financial crises. The climate crisis, for example, requires both adaptation and mitigation measures. Resilience approaches offer a way of combining these two concepts rather than playing them off against each other.</p>
+<section id="climate-resilience" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="climate-resilience"><span class="header-section-number">2.1.3</span> Climate resilience</h3>
+<p>Resilience describes the ability of a system to withstand disruptions, “bounce back”, or recover from adversity. Originally used in psychology, resilience refers to the psychological robustness that an individual has actively acquired in dealing with challenges or stresses, particularly in childhood. In the context of ecosystems, resilience refers to the ability to absorb disturbances without a permanent systemic collapse, i.e.&nbsp;a collapse that would result in a different system regulated by new processes <span class="citation" data-cites="folkeResilienceThinkingIntegrating2010">(<a href="../references.html#ref-folkeResilienceThinkingIntegrating2010" role="doc-biblioref">Folke et al. 2010</a>)</span>. More recently, the concept of resilience has been extended to social systems (see section on doughnut economics). Studies focus on which specific characteristics of a region need to be strengthened, to better prepare it for future crises and disasters related to climate change, terrorism, resource scarcity, or financial crises. The climate crisis, for example, requires both adaptation and mitigation measures. Resilience approaches offer a way of combining these two concepts rather than playing them off against each other.</p>
 <p><strong>Climate mitigation measures</strong> aim to reduce greenhouse gas emissions and curb climate change. Such measures include promoting renewable energies, improving energy efficiency, and expanding public transport. Resilience approaches emphasize the importance of climate mitigation, as limiting the rise in temperature will help to reduce the intensity and frequency of extreme weather events.</p>
 <p><strong>Climate adaptation measures</strong> aim to make societies and ecosystems more resilient to the current and expected effects of climate change. Adaptation measures include the development of early warning systems for extreme weather events, coastal protection against rising sea levels, the reduction of heat stress (e.g.&nbsp;through more urban green spaces), runoff or infiltration areas to reduce the damaging effects of heavy rainfall events, or the adaptation of agricultural practices to changing climatic conditions. Resilience approaches emphasize the need for climate adaptation to protect communities and ecosystems from the negative effects of climate change.</p>
 </section>
-<section id="conclusion" class="level3" data-number="2.2.4">
-<h3 data-number="2.2.4" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">2.2.4</span> Conclusion</h3>
+<section id="conclusion" class="level3" data-number="2.1.4">
+<h3 data-number="2.1.4" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">2.1.4</span> Conclusion</h3>
 <p>The concept of planetary boundaries tries to reduce complex ecological relationships to a small number of quantifiable limits. These specific limits and indicators for planetary boundaries are based on scientific findings that are not always clear or consistent. The boundaries are therefore contested by some scholars, who question the accuracy and reliability of the data and models used. Despite this criticism, the planetary boundaries framework makes a valuable contribution to the debate on sustainable development and raises awareness of the limited resources and resilience of our planet. To summarize:</p>
 <ul>
 <li><p>The planetary boundaries framework focuses on the ecological/biophysical limits of the Earth’s resilience, and thus the environmental dimension of sustainable development.</p></li>
@@ -498,33 +553,43 @@ Figure&nbsp;2.2: Tipping points (Source:)
 <li><p>In normative terms, the framework aims to maintain the stable Earth system (“state of equilibrium”) of the Holocene, thereby mitigating threats to human survival.</p></li>
 <li><p>The planetary boundaries framework can be used to set concrete targets in the environmental dimension (e.g.&nbsp;at the global or national level).</p></li>
 </ul>
-<div class="readings">
-<div class="readings-header">
-<p>Further readings</p>
-<p>Lenton TM, Rockström J, Gaffney O, Rahmstorf S, Richardson K, Steffen W, Schellnhuber HJ. 2019. Climate tipping points — too risky to bet against. <em>Nature</em>. 575(7784):592–595. doi:<a href="https://doi.org/10.1038/d41586-019-03595-0">10.1038/d41586-019-03595-0</a>.</p>
-<p>Rockström J, Gupta J, Qin D, Lade SJ, Abrams JF, Andersen LS, Armstrong McKay DI, Bai X, Bala G, Bunn SE, et al.&nbsp;2023. Safe and just Earth system boundaries. <em>Nature</em>. 619(7968):102–111. doi:<a href="https://doi.org/10.1038/s41586-023-06083-8">10.1038/s41586-023-06083-8</a>.</p>
-<p>Folke C, Carpenter SR, Walker B, Scheffer M, Chapin T, Rockström J. 2010. Resilience Thinking: Integrating Resilience, Adaptability and Transformability. <em>Ecology and Society</em>. 15(4).. <a href="https://www.jstor.org/stable/26268226" class="uri">https://www.jstor.org/stable/26268226</a>.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Further readings
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Folke, Carl, Stephen R. Carpenter, Brian Walker, Marten Scheffer, Terry Chapin, and Johan Rockström. 2010. ‘Resilience Thinking: Integrating Resilience, Adaptability and Transformability’. <em>Ecology and Society</em> 15 (4). <a href="https://www.jstor.org/stable/26268226" target="_blank">https://www.jstor.org/stable/26268226</a>.</p>
+<p>Lenton, Timothy M., Johan Rockström, Owen Gaffney, et al.&nbsp;2019. ‘Climate Tipping Points — Too Risky to Bet Against’. <em>Nature</em> 575 (7784): 7784. <a href="https://doi.org/10.1038/d41586-019-03595-0" target="_blank">https://doi.org/10.1038/d41586-019-03595-0</a>.</p>
+<p>Rockström, Johan, Joyeeta Gupta, Dahe Qin, et al.&nbsp;2023. ‘Safe and Just Earth System Boundaries’. <em>Nature</em> 619 (7968): 102–11. <a href="https://doi.org/10.1038/s41586-023-06083-8" target="_blank">https://doi.org/10.1038/s41586-023-06083-8</a>.</p>
+</div>
 </div>
 </div>
 </section>
 </section>
-<section id="from-planetary-boundaries-to-the-doughnut-model" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="from-planetary-boundaries-to-the-doughnut-model"><span class="header-section-number">2.3</span> From planetary boundaries to the doughnut model</h2>
+<section id="from-planetary-boundaries-to-the-doughnut-model" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="from-planetary-boundaries-to-the-doughnut-model"><span class="header-section-number">2.2</span> From planetary boundaries to the doughnut model</h2>
 <p>Economist Kate Raworth’s Doughnut Model is an innovative approach to sustainable development that recognizes social and environmental limits. This requires rejecting much of what has characterized 20<sup>th</sup>-century economics, as Raworth outlines in her 2017 book, <em>Doughnut Economics: Seven Ways to Think Like a 21st Century Economist</em>. Raworth depicts the ideal economy of the future in a simple image: a ring-shaped doughnut. The outer ring symbolizes an ecological ceiling that should not be crossed, as doing so would cause irreversible harm to the environment. The inner ring represents a social foundation covering people’s basic needs, such as food, housing, and income. The challenge is to ensure that economic activities take place within this ring – the doughnut – to ensure the well-being of both humanity and the environment (“safe and just space for humanity”).</p>
 <div id="fig-doughnut" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-doughnut-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="Images/Fig2_3__doughnut.png" class="img-fluid figure-img">
+<a href="Images/Fig2_3__doughnut.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;2.3: The Doughnut of social and planetary boundaries. Source: https://doughnuteconomics.org."><img src="Images/Fig2_3__doughnut.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-doughnut-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.3: Doughnut Model (Source:https://doughnuteconomics.org)
+Figure&nbsp;2.3: The Doughnut of social and planetary boundaries. Source: <a href="https://doughnuteconomics.org" target="_blank">https://doughnuteconomics.org</a>.
 </figcaption>
 </figure>
 </div>
-<p>The philosophy of the doughnut approach is based on three core principles: equitable distribution of wealth, regeneration of the resources used by the economy, and creation of wealth for all people. None of these principles should have to depend on economic growth, says Raworth. In other words, we don’t need to pursue unlimited growth for the economy to flourish – instead, we should pursue development that is sustainable, balanced, and equitable. The transition to the doughnut model requires a fundamental change in the way we think and act. It’s about moving from a growth paradigm to sustainable development, a development that takes social justice and environmental sustainability into equal account.</p>
-<section id="conclusion-1" class="level3" data-number="2.3.1">
-<h3 data-number="2.3.1" class="anchored" data-anchor-id="conclusion-1"><span class="header-section-number">2.3.1</span> Conclusion</h3>
-<p>Despite the Doughnut Model’s focus on the economy, critics say it doesn’t discuss the underlying framework conditions (i.e.&nbsp;the structures, rules, and institutional organization of the economy) or how money is created and managed (i.e.&nbsp;the financial sector). The Doughnut Model focuses on what kind of economic activity is desirable (i.e.&nbsp;staying within the doughnut), but it doesn’t explain how to get there. These points of criticism are being addressed by the Doughnut Economics Action Lab (DEAL), which provides tools and strategies to implement the Doughnut Model in real-world settings.</p>
+<p>The philosophy of the doughnut approach is based on three core principles: equitable distribution of wealth, regeneration of the resources used by the economy, and creation of wealth for all people. None of these principles should have to depend on economic growth, says <span class="citation" data-cites="raworthDoughnutEconomicsSeven2017">Raworth (<a href="../references.html#ref-raworthDoughnutEconomicsSeven2017" role="doc-biblioref">2017</a>)</span>. In other words, we don’t need to pursue unlimited growth for the economy to flourish – instead, we should pursue development that is sustainable, balanced, and equitable. The transition to the doughnut model requires a fundamental change in the way we think and act. It’s about moving from a growth paradigm to sustainable development, a development that takes social justice and environmental sustainability into equal account.</p>
+<section id="conclusion-1" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="conclusion-1"><span class="header-section-number">2.2.1</span> Conclusion</h3>
+<p>Despite the Doughnut Model’s focus on the economy, critics say it doesn’t discuss the underlying framework conditions (i.e.&nbsp;the structures, rules, and institutional organization of the economy) or how money is created and managed (i.e.&nbsp;the financial sector). The Doughnut Model focuses on what kind of economic activity is desirable (i.e.&nbsp;staying within the doughnut), but it doesn’t explain how to get there. These points of criticism are being addressed by the Doughnut Economics Action Lab <span class="citation" data-cites="dealDoughnutEconomicsAction">(<a href="../references.html#ref-dealDoughnutEconomicsAction" role="doc-biblioref">DEAL, n.d.</a>)</span>, which provides tools and strategies to implement the Doughnut Model in real-world settings.</p>
 <ul>
 <li><p>The Doughnut model builds on the concept of planetary boundaries, adding a social dimension and including goals and degrees of goal achievement.</p></li>
 <li><p>In normative terms, the model prescribes that</p>
@@ -535,21 +600,21 @@ Figure&nbsp;2.3: Doughnut Model (Source:https://doughnuteconomics.org)
 </ul>
 </section>
 </section>
-<section id="the-debate-about-the-great-transformation" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="the-debate-about-the-great-transformation"><span class="header-section-number">2.4</span> The debate about the Great Transformation</h2>
+<section id="the-debate-about-the-great-transformation" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="the-debate-about-the-great-transformation"><span class="header-section-number">2.3</span> The debate about the Great Transformation</h2>
 <p>Concepts of the “great transformation” refer to fundamental changes in social, economic, political, and ecological systems that are necessary to create a sustainable and just society.</p>
 <p>“Great transformation” was a term used by Karl Polanyi in his 1944 analysis that the shift to a free market in the 19th century brought about profound social, economic, and political changes that fundamentally transformed people’s lives and relationship with nature. Polanyi argued that unbridled market dynamics caused social and environmental problems, and that society needed to develop mechanisms to regulate and balance these problems. Similarly, today’s concepts of the great transformation emphasize the importance of regulation, redistribution, and the development of alternative economic models to create a sustainable and just society. While Polanyi stressed the need for social protection measures and the importance of integrating markets into social structures, current concepts of the great transformation additionally aim to fundamentally change production and consumption patterns to reduce environmental impact.</p>
-<section id="flagship-wbgu-report-world-in-transition" class="level3" data-number="2.4.1">
-<h3 data-number="2.4.1" class="anchored" data-anchor-id="flagship-wbgu-report-world-in-transition"><span class="header-section-number">2.4.1</span> Flagship WBGU report: <em>World in Transition</em></h3>
-<p>A flagship report by the German Advisory Council on Global Change (WBGU), <em>World in Transition,</em> is an important publication that addresses the challenges and opportunities of a sustainable transformation of society. It was first published in 1994 and has since been updated several times. The report analyses global environmental changes, including climate change, biodiversity loss, and resource consumption, and proposes concrete policies and social change to promote sustainable development.</p>
+<section id="flagship-wbgu-report-world-in-transition" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="flagship-wbgu-report-world-in-transition"><span class="header-section-number">2.3.1</span> Flagship WBGU report: <em>World in Transition</em></h3>
+<p>The flagship report by the German Advisory Council on Global Change <span class="citation" data-cites="wbguWorldTransitionSocial2011">(<a href="../references.html#ref-wbguWorldTransitionSocial2011" role="doc-biblioref">WBGU 2011</a>)</span>, <em>World in Transition,</em> is an important publication that addresses the challenges and opportunities of a sustainable transformation of society. It was first published in 1994 and has since been updated several times. The report analyses global environmental changes, including climate change, biodiversity loss, and resource consumption, and proposes concrete policies and social change to promote sustainable development.</p>
 <p><em>World in Transition</em> is significant to debates on the great transformation, as it argues for a far-reaching transformation of business, policy, and society. This vision extends beyond mere adaptation, demanding fundamental shifts in the structures and patterns of economic activity and daily life. The report underscores the urgency of driving forward the transition to a climate-friendly and environmentally sound economy and way of living. It emphasizes the critical role of a comprehensive sustainability policy. Finally, it identifies innovation, technology, education, institutional reforms, and international cooperation as key levers for achieving sustainable development.</p>
 <div id="fig-new-social-contract" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-new-social-contract-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="Images/.png" class="img-fluid figure-img">
+<a href="Images/WBGU-social-contract.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;2.4: New social contract. Source: @wbguWorldTransitionSocial2011 [pp. 275]."><img src="Images/WBGU-social-contract.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-new-social-contract-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.4: New social contract (Source: WBGU 2011, p.&nbsp;275)
+Figure&nbsp;2.4: New social contract. Source: <span class="citation" data-cites="wbguWorldTransitionSocial2011">WBGU (<a href="../references.html#ref-wbguWorldTransitionSocial2011" role="doc-biblioref">2011, 275</a>)</span>.
 </figcaption>
 </figure>
 </div>
@@ -559,35 +624,32 @@ Figure&nbsp;2.4: New social contract (Source: WBGU 2011, p.&nbsp;275)
 <p><em>Transformative research</em> not only generates knowledge but also goes a step further, by actively striving for change towards sustainability. It thus aims to influence social practice and develop solutions and innovations for sustainable development. Transformative research works closely with partners from practice, and strives to translate knowledge into action.</p>
 <p><em>Transformative education</em> fosters a shift in mindsets, values, and behaviour towards sustainability. It goes beyond imparting knowledge, by also promoting critical awareness, empathy, and action for sustainable changes in society.</p>
 <p>The WBGU believes that the state should take on tasks that are not adequately performed by individuals or the private sector. It recognizes that the state plays a decisive role in creating framework conditions and shaping political measures to promote sustainable development. The state can drive innovative solutions, steer investments, establish regulations, and implement policies that enable a sustainable transformation.</p>
-<div class="callout-quote">
 <blockquote class="blockquote">
-<p>“The important thing for Government is not to do things which individuals are doing already, and to do them a little bit better or a little worse; but to do those things which at present are not done at all.”</p>
-<p>— John M. Keynes, The End of Laissez-Faire, 1926</p>
+<p>“The important thing for Government is not to do things which individuals are doing already, and to do them a little bit better or a little worse; <strong>but to do those things which at present are not done at all</strong>.” John M. Keynes, The End of Laissez-Faire, 1926</p>
 </blockquote>
-</div>
 <p>However, the WBGU also emphasizes that effective government intervention should take place in collaboration with other actors and stakeholders, including civil society, the private sector, and academia. Jointly shaping a sustainable future is about creating partnerships and involving different expertise.</p>
 </section>
-<section id="schneidewinds-art-of-the-future" class="level3" data-number="2.4.2">
-<h3 data-number="2.4.2" class="anchored" data-anchor-id="schneidewinds-art-of-the-future"><span class="header-section-number">2.4.2</span> Schneidewind’s “art of the future”</h3>
-<p>The German economist and politician, Uwe Schneidewind, discusses the concept of the great transformation in his 2018 book, <em>Die grosse Transformation: Eine Einführung in die Kunst des gesellschaftlichen Wandels</em>, which translates as <em>The Great Transformation: An Introduction to the Art of Social Change</em>. Schneidewind points out that a great transformation isn’t dictated by the unstoppable development dynamics of modern societies or by a technocratic blueprint for an ecologically just society. Instead, he sees it as a process that should be actively shaped by many actors. As such, it’s important to have a clearly defined normative compass and to develop the ability to navigate complex social, cultural, economic, and technological processes. He describes this ability as the “art of the future” – the skill of making desirable futures possible – and thus builds a bridge to Harald Welzer’s FUTURZWEI. Welzer, a psychologist and sociologist, emphasizes the importance of imagination, creativity, and engagement in bringing about transformative change and developing alternative visions of the future.</p>
+<section id="schneidewinds-art-of-the-future" class="level3" data-number="2.3.2">
+<h3 data-number="2.3.2" class="anchored" data-anchor-id="schneidewinds-art-of-the-future"><span class="header-section-number">2.3.2</span> Schneidewind’s “art of the future”</h3>
+<p>The German economist and politician, Uwe Schneidewind, discusses the concept of the great transformation in his 2018 book, <em>Die grosse Transformation: Eine Einführung in die Kunst des gesellschaftlichen Wandels</em>, which translates as <em>The Great Transformation: An Introduction to the Art of Social Change</em>. <span class="citation" data-cites="schneidewindGrosseTransformationEinfuhrung2018">Schneidewind (<a href="../references.html#ref-schneidewindGrosseTransformationEinfuhrung2018" role="doc-biblioref">2018</a>)</span> points out that a great transformation isn’t dictated by the unstoppable development dynamics of modern societies or by a technocratic blueprint for an ecologically just society. Instead, he sees it as a process that should be actively shaped by many actors. As such, it’s important to have a clearly defined normative compass and to develop the ability to navigate complex social, cultural, economic, and technological processes. He describes this ability as the “art of the future” – the skill of making desirable futures possible – and thus builds a bridge to Harald Welzer’s FUTURZWEI. Welzer, a psychologist and sociologist, emphasizes the importance of imagination, creativity, and engagement in bringing about transformative change and developing alternative visions of the future.</p>
 <div id="fig-turningpoints" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-turningpoints-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="Images/Fig2_5_Schneidewind_turningpoints.jpg" class="img-fluid figure-img">
+<a href="Images/Fig2_5_Schneidewind_turningpoints.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Figure&nbsp;2.5: Understanding the interplay of the seven turning points of the great transformation. Source: Own illustration based on @schneidewindGrosseTransformationEinfuhrung2018."><img src="Images/Fig2_5_Schneidewind_turningpoints.jpg" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-turningpoints-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.5: Schneidewinds turningpoints (Source: Schneidewind (2018))
+Figure&nbsp;2.5: Understanding the interplay of the seven turning points of the great transformation. Source: Own illustration based on <span class="citation" data-cites="schneidewindGrosseTransformationEinfuhrung2018">Schneidewind (<a href="../references.html#ref-schneidewindGrosseTransformationEinfuhrung2018" role="doc-biblioref">2018</a>)</span>.
 </figcaption>
 </figure>
 </div>
-<p>For Schneidewind, the great transformation has seven transformative turning points. The four dimensions of the “art of the future” (technological, economic, cultural, institutional) can be found in all seven turning points. Resource and energy transformations are fundamental. However, according to the concept of “double decoupling”, they are inconceivable without a comprehensive transformation in ideas surrounding prosperity and consumption. Envisaging the desired transformation is easier in more specific sectors, such as mobility, food, cities, and key energy- and resource-intensive industries.</p>
+<p>For <span class="citation" data-cites="schneidewindGrosseTransformationEinfuhrung2018">Schneidewind (<a href="../references.html#ref-schneidewindGrosseTransformationEinfuhrung2018" role="doc-biblioref">2018</a>)</span>, the great transformation has seven transformative turning points. The four dimensions of the “art of the future” (technological, economic, cultural, institutional) can be found in all seven turning points. Resource and energy transformations are fundamental. However, according to the concept of “double decoupling”, they are inconceivable without a comprehensive transformation in ideas surrounding prosperity and consumption. Envisaging the desired transformation is easier in more specific sectors, such as mobility, food, cities, and key energy- and resource-intensive industries.</p>
 <div id="fig-double-decoupling" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-double-decoupling-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="Images/Fig2_6__double_decoupling.jpg" class="img-fluid figure-img">
+<a href="Images/Fig2_6__double_decoupling.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Figure&nbsp;2.6: Double decoupling. Linking technology and prosperity models. Source: Own illustration based on @schneidewindGrosseTransformationEinfuhrung2018."><img src="Images/Fig2_6__double_decoupling.jpg" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-double-decoupling-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.6: Double decoupling (Source: Schneidewind (2018))
+Figure&nbsp;2.6: Double decoupling. Linking technology and prosperity models. Source: Own illustration based on <span class="citation" data-cites="schneidewindGrosseTransformationEinfuhrung2018">Schneidewind (<a href="../references.html#ref-schneidewindGrosseTransformationEinfuhrung2018" role="doc-biblioref">2018</a>)</span>.
 </figcaption>
 </figure>
 </div>
@@ -598,38 +660,48 @@ Figure&nbsp;2.6: Double decoupling (Source: Schneidewind (2018))
 <li><p>Second-order decoupling: This focuses on “sufficiency”, decoupling quality of life and a “good life” from the traditional economic growth model, as measured by GDP.</p></li>
 </ul>
 </section>
-<section id="global-sustainable-development-report" class="level3" data-number="2.4.3">
-<h3 data-number="2.4.3" class="anchored" data-anchor-id="global-sustainable-development-report"><span class="header-section-number">2.4.3</span> Global Sustainable Development Report</h3>
-<p>In September 2019, the first Global Sustainable Development Report (GSDR) was published by a group of 15 independent scientists appointed by the UN Secretary-General. Intended for publication every four years, the aim of the GSDR is to synthesize existing knowledge and identify pathways to achieving the Sustainable Development Goals (SDGs). The latest report (2023) highlights the significant gap between current progress and achieving the SDGs. Building on the 2019 report, it introduces capacity building as a new lever to accelerate progress.</p>
+<section id="global-sustainable-development-report" class="level3" data-number="2.3.3">
+<h3 data-number="2.3.3" class="anchored" data-anchor-id="global-sustainable-development-report"><span class="header-section-number">2.3.3</span> Global Sustainable Development Report</h3>
+<p>In September 2019, the first Global Sustainable Development Report (GSDR) was published by a group of 15 independent scientists appointed by the UN Secretary-General. Intended for publication every four years, the aim of the GSDR is to synthesize existing knowledge and identify pathways to achieving the Sustainable Development Goals (SDGs). The latest report <span class="citation" data-cites="independentgroupofscientistsappointedbythesecretary-generalGlobalSustainableDevelopment2023">(<a href="../references.html#ref-independentgroupofscientistsappointedbythesecretary-generalGlobalSustainableDevelopment2023" role="doc-biblioref">2023</a>)</span> highlights the significant gap between current progress and achieving the SDGs. Building on the 2019 report, it introduces capacity building as a new lever to accelerate progress.</p>
 <div id="fig-GSDR" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-GSDR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="Images/Fig2_7__GSDR.png" class="img-fluid figure-img">
+<a href="Images/Fig2_7__GSDR.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Figure&nbsp;2.7: Levers and entry points for achieving the SDGs.Source: @independentgroupofscientistsappointedbythesecretary-generalGlobalSustainableDevelopment2023."><img src="Images/Fig2_7__GSDR.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-GSDR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.7: GSDR (Source: GSDR Report 2023)
+Figure&nbsp;2.7: Levers and entry points for achieving the SDGs.Source: <span class="citation" data-cites="independentgroupofscientistsappointedbythesecretary-generalGlobalSustainableDevelopment2023">Independent Group of Scientists appointed by the Secretary-General (<a href="../references.html#ref-independentgroupofscientistsappointedbythesecretary-generalGlobalSustainableDevelopment2023" role="doc-biblioref">2023</a>)</span>.
 </figcaption>
 </figure>
 </div>
 <p>The GSDR proposes six key areas, or “entry points”, with the highest potential to drive the large-scale and swift transformations needed. To initiate these transformations, active and multifaceted collaboration is crucial among actors from diverse fields: governance, business and finance, individual and collective action, and science and technology.</p>
 </section>
-<section id="conclusion-2" class="level3" data-number="2.4.4">
-<h3 data-number="2.4.4" class="anchored" data-anchor-id="conclusion-2"><span class="header-section-number">2.4.4</span> Conclusion</h3>
+<section id="conclusion-2" class="level3" data-number="2.3.4">
+<h3 data-number="2.3.4" class="anchored" data-anchor-id="conclusion-2"><span class="header-section-number">2.3.4</span> Conclusion</h3>
 <p>“Great transformation” concepts</p>
 <ul>
 <li><p>consider it necessary and possible to steer social development towards sustainability.</p></li>
 <li><p>are holistic concepts for managing social development. They propose entry points at various areas of society and at several levels of action.</p></li>
 <li><p>propose key areas with a major leverage effect (e.g.&nbsp;the WBGU proposes an energy transition, urban transition, land use transition, and transformative education and research).</p></li>
 </ul>
-<div class="readings">
-<div class="readings-header">
-<p>Further readings</p>
-<p>Polanyi K. 2024. The Great Transformation. UK: Penguin Random House.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Further reading
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Polanyi, Karl. 1944. <em>The Great Transformation: The Political and Economic Origins of Our Time</em>. Beacon Press.</p>
+</div>
 </div>
 </div>
 </section>
-<section id="green-economy" class="level3" data-number="2.4.5">
-<h3 data-number="2.4.5" class="anchored" data-anchor-id="green-economy"><span class="header-section-number">2.4.5</span> Green economy</h3>
+<section id="green-economy" class="level3" data-number="2.3.5">
+<h3 data-number="2.3.5" class="anchored" data-anchor-id="green-economy"><span class="header-section-number">2.3.5</span> Green economy</h3>
 <p>In a pioneering use of the term “green economy”, David Pearce and Edward Barbier launched their groundbreaking <em>Blueprint for a Green Economy</em> series in 1989. The series was the first to present economic frameworks and programmatic approaches for achieving the dual goals of economic prosperity and ecological well-being (Pearce et al.&nbsp;1989, 1991, 1993; Pearce/Barbier 2000; Barbier/Markandya 2013). The green economy’s core principle challenges the traditional view that economic growth and environmental well-being are inherently at odds. It proposes a paradigm shift, moving away from bans and restrictions. Instead, it advocates for economic incentives and strategies that promote environmental sustainability while fostering positive models of economic and technological development aligned with both ecological and social goals.</p>
 <p>In the run-up to Rio+20, the 2012 United Nations Conference on Sustainable Development, the green economy concept was finally developed into a guiding principle that shaped the debate (United Nations 2011a; 2011b; Bär et al.&nbsp;2011; Creech et al.&nbsp;2012). “Green economy” was one of two key themes of Rio +20; the other was the “institutional framework” for sustainable development. Accordingly, numerous documents on the green economy were published in 2011 and 2012, and a seminal definition of the term was published by the organizing agency of Rio+20, the United Nations Environment Programme (UNEP), in the report, <em>Towards a Green Economy: Pathways to Sustainable Development and Poverty Eradication</em> (UN 2011a, p.&nbsp;31; UNEP 2011, p.&nbsp;16). The OECD also contributed its own response to the financial crisis with its resolution on “Green Growth” (OECD 2009a).</p>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
@@ -647,14 +719,14 @@ Note
 </div>
 <p>While Rio+20 cemented the concept of a green economy, the need for a fundamental global change in thinking was already widely accepted. It had become clear that while environmental protection measures cost money, they also have a positive economic impact by creating jobs (see e.g.&nbsp;UBA 2008) and sparking innovation in technological efficiency advancements (cf.&nbsp;e.g.&nbsp;Weizsäcker et al.&nbsp;1995). The green economy concept systematizes such findings and calls for programmes to overcome the apparent contradictions between economy and ecology, growth and resource conservation, as well as prosperity and environmental protection. The concept thus marks a significant paradigm shift. Adhering to planetary boundaries or ecological guidelines in a green economy does not necessarily mean forgoing economic growth and technological progress (Rockström et al.&nbsp;2009; Steffen et al.&nbsp;2011; SRU 2011). Instead, the idea is that by harmonizing these apparently contradictory aims, we can achieve them even more efficiently. The EU Green Deal exemplifies this concept. The EU aims to be the first climate-neutral continent by 2050, aiming for a modern, resource-efficient, and competitive economy with net-zero greenhouse gas emissions. This plan seeks to decouple growth from resource use while ensuring a just transition that leaves no one behind.</p>
 </section>
-<section id="conclusion-3" class="level3" data-number="2.4.6">
-<h3 data-number="2.4.6" class="anchored" data-anchor-id="conclusion-3"><span class="header-section-number">2.4.6</span> Conclusion</h3>
+<section id="conclusion-3" class="level3" data-number="2.3.6">
+<h3 data-number="2.3.6" class="anchored" data-anchor-id="conclusion-3"><span class="header-section-number">2.3.6</span> Conclusion</h3>
 <p>The core thesis of the green economy is that environmental and economic goals are not contradictory. Instead, they can be reconciled through appropriate economic incentives and strategies. The green economy aims to foster both economic growth and environmental sustainability through public and private investment in low-emission, resource-efficient, and socially equitable economic systems.</p>
 <p>Critics, however, have raised concerns about the effectiveness of green economy measures. They argue that the proposed technologies and incentives are insufficient to bring about the far-reaching systemic changes needed. An overemphasis on economic growth and technological solutions could potentially neglect essential structural and behavioural changes. And they warn that the global transition to a green economy could leave behind disadvantaged communities and developing countries, if their specific needs are not addressed.</p>
 </section>
 </section>
-<section id="post-growth-societies" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="post-growth-societies"><span class="header-section-number">2.5</span> Post-growth societies</h2>
+<section id="post-growth-societies" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="post-growth-societies"><span class="header-section-number">2.4</span> Post-growth societies</h2>
 <p>The post-growth debate emerged from concerns raised in the 1970s, after publication of the influential Meadows Report, <em>The Limits to Growth</em> (1972). As previously mentioned, this report highlighted the Earth’s finite capacity to sustain humanity in the face of unrestrained economic growth.</p>
 <p>The post-growth debate advocates qualitative growth or even zero growth, and criticizes the effects of the “modern” economy and lifestyles (e.g.&nbsp;Binswanger 1985). It argues that the compulsion for constant growth is making us exceed ecological limits and leading to negative social and ecological consequences. “Ecological economics” is an important concept in this respect, as it aims to develop alternative models and approaches for evaluating economic growth.</p>
 <p>The dilemma in this debate is that most approaches to a sustainable economy assume that a growth-independent economy should not be profit-driven. However, capitalist economies are existentially dependent on growth (e.g.&nbsp;Binswanger 2019, Oberholzer 2021). This dilemma is key to the question of how to organize a successful transition from the current unsustainable system to a sustainable economic and social system. One main approach is to reduce dependencies on growth and promote alternative models that focus on sufficiency, without neglecting strategies that focus on efficiency and consistency. This requires changes in production and consumption patterns, in social norms, and in the political framework. The post-growth debate emphasizes the need for a comprehensive transformation that encompasses environmental, social, and economic dimensions – and aims to achieve a balance between human needs and planetary boundaries.</p>
@@ -662,7 +734,7 @@ Note
 <div id="fig-development-planetary-boundaries" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-development-planetary-boundaries-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="Images/Fig2_8__PoliticsSufficiency.png" class="img-fluid figure-img">
+<a href="Images/Fig2_8__PoliticsSufficiency.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Figure&nbsp;2.8: The four areas of a politics of sufficiency. (Source: Schneidewind &amp; Zahrnt (2014))"><img src="Images/Fig2_8__PoliticsSufficiency.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-development-planetary-boundaries-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2.8: The four areas of a politics of sufficiency. (Source: Schneidewind &amp; Zahrnt (2014))
@@ -670,14 +742,14 @@ Figure&nbsp;2.8: The four areas of a politics of sufficiency. (Source: Schneidew
 </figure>
 </div>
 <p>A policy to promote sufficiency can actively shape our choices, through attractive sufficiency-oriented offers and services. It can also foster awareness and provide guidance for adopting sufficiency-oriented lifestyles and practices. This comprehensive approach aims to shift consumption towards what is necessary and meaningful, ultimately reducing excessive resource use.</p>
-<section id="conclusion-4" class="level3" data-number="2.5.1">
-<h3 data-number="2.5.1" class="anchored" data-anchor-id="conclusion-4"><span class="header-section-number">2.5.1</span> Conclusion</h3>
+<section id="conclusion-4" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="conclusion-4"><span class="header-section-number">2.4.1</span> Conclusion</h3>
 <p>Post-growth debates analyse and criticize modern society’s dependency on economic growth, and the negative environmental and social effects of this growth. Rather than focus solely on technological progress and market forces, post-growth society theories strive for changes in society, structures, and institutional frameworks. Overall, post-growth debates emphasize the need for sustainable approaches to achieve a comprehensive transformation of the economy and society. Transformation to a post-growth society requires a reorientation of values, structures, and institutional frameworks. The challenge is to find ways to shape the transition to an economy independent of growth, while at the same time ensuring social justice and ecological sustainability.</p>
 <p>Critics of post-growth debates argue that a rejection of economic growth could have a negative impact on prosperity and social progress. They fear that an economy independent of growth could lead to stagnating innovation, fewer jobs, and falling living standards. And they point out that a negative attitude towards economic growth can have potential negative effects. Constructively addressing the challenges of growth and developing viable alternatives are important aspects of enabling sustainable and equitable change.</p>
 </section>
 </section>
-<section id="indicators-for-sustainable-development-from-principles-to-practice" class="level2" data-number="2.6">
-<h2 data-number="2.6" class="anchored" data-anchor-id="indicators-for-sustainable-development-from-principles-to-practice"><span class="header-section-number">2.6</span> <strong>Indicators for Sustainable Development: From Principles to Practice</strong></h2>
+<section id="indicators-for-sustainable-development-from-principles-to-practice" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="indicators-for-sustainable-development-from-principles-to-practice"><span class="header-section-number">2.5</span> <strong>Indicators for Sustainable Development: From Principles to Practice</strong></h2>
 <p>A key concern of sustainable development is the ability to systematically make visible both progress and setbacks—on global, national, and local levels. Indicators play a crucial role in this effort: they help capture complex socio-ecological realities, enable comparability, and support evidence-based policymaking. Precisely because sustainability is a normative objective, particular attention must be paid to the selection, design, and use of indicators.</p>
 <p>Importantly, indicators are not purely technical measurement tools. They inevitably reflect specific values, worldviews, and political goals. Their significance is not solely based on “objective data”, but also on decisions about what should be measured, how, and for what purpose. For instance, Gross Domestic Product (GDP) has long dominated as the main benchmark for economic success—despite ignoring ecological damage, social inequality, unpaid care work, and ecosystem services.</p>
 <p>In sustainability science and environmental policy, a useful distinction has emerged between different types of indicators, each serving a specific function (Vries, 2024):</p>
@@ -694,7 +766,7 @@ Figure&nbsp;2.8: The four areas of a politics of sufficiency. (Source: Schneidew
 <div id="fig-GDPxGPI" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-GDPxGPI-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="Images/Fig2_9__GDPxGPI.jpg" class="img-fluid figure-img">
+<a href="Images/Fig2_9__GDPxGPI.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Figure&nbsp;2.9: Comparison of global Gross Domestic Product (GDP) and Genuine Progress Indicator (GPI) (Source: Own ilustration)"><img src="Images/Fig2_9__GDPxGPI.jpg" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-GDPxGPI-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2.9: Comparison of global Gross Domestic Product (GDP) and Genuine Progress Indicator (GPI) (Source: Own ilustration)
@@ -705,7 +777,7 @@ Figure&nbsp;2.9: Comparison of global Gross Domestic Product (GDP) and Genuine P
 <div id="fig-EcoFootprintHDI" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-EcoFootprintHDI-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="Images/Fig2_10__EcoFootprintHDI.png" class="img-fluid figure-img">
+<a href="Images/Fig2_10__EcoFootprintHDI.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Figure&nbsp;2.10: Correlation between Ecological Footprint and Human Development Index (Source: x)"><img src="Images/Fig2_10__EcoFootprintHDI.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-EcoFootprintHDI-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2.10: Correlation between Ecological Footprint and Human Development Index (Source: x)
@@ -716,7 +788,7 @@ Figure&nbsp;2.10: Correlation between Ecological Footprint and Human Development
 <p>In the German-speaking world, the <strong>National Welfare Index (NWI)</strong> has been introduced as a GPI-based tool adapted to national data availability. It includes dimensions such as income distribution, environmental burden, and health costs. Initially developed by the Institute for Ecological Economy Research (IÖW) and the Environmental Policy Research Centre (FFU) at FU Berlin, the NWI has been tested in several German federal states (Diefenbacher &amp; Zieschank, 2011).</p>
 <p>Another particularly relevant measure is the <strong>Multidimensional Poverty Index (MPI)</strong>, developed by the Oxford Poverty and Human Development Initiative (OPHI) in collaboration with the UNDP. It captures poverty across three core dimensions: health, education, and standard of living. Indicators include child mortality, school attendance, access to electricity, and housing conditions. Unlike income-based measures, the MPI provides a nuanced understanding of deprivation across overlapping dimensions. Bader et al.&nbsp;(2017) demonstrate the value of the MPI in a longitudinal study on poverty in the Lao PDR, showing how rapid economic growth reduced income poverty while simultaneously exacerbating disparities in education, infrastructure, and health access.</p>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -725,7 +797,7 @@ Tip
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>The Ecological Footprint – Explanation and Critique</strong></p>
 <p>The <strong>Ecological Footprint</strong> measures how much biologically productive land and sea area (in global hectares) is required to sustain the resource use of an individual, population, or country over time. It includes land required for CO₂ absorption, food production, infrastructure, and other human needs. The concept was developed in the 1990ies by Mathis Wackernagel and William Rees and has become one of the most widely recognized tools for environmental communication.</p>
@@ -743,13 +815,51 @@ Tip
 </ul>
 <p>Despite these limitations, the Ecological Footprint remains a useful entry point for engaging broader audiences in discussions on global ecological justice and planetary responsibility—especially in educational and communication settings.</p>
 </section>
-<section id="between-simplification-and-complexity-interactions-between-sdgs" class="level2" data-number="2.7">
-<h2 data-number="2.7" class="anchored" data-anchor-id="between-simplification-and-complexity-interactions-between-sdgs"><span class="header-section-number">2.7</span> <strong>Between Simplification and Complexity: Interactions Between SDGs</strong></h2>
+<section id="between-simplification-and-complexity-interactions-between-sdgs" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="between-simplification-and-complexity-interactions-between-sdgs"><span class="header-section-number">2.6</span> <strong>Between Simplification and Complexity: Interactions Between SDGs</strong></h2>
 <p>A central challenge in designing sustainability indicators lies in balancing simplification with complexity. Indicators are intended to support decision-making, yet must account for a wide array of interactions, uncertainties, and contextual dependencies.</p>
 <p>This is particularly evident in the 2030 Agenda for Sustainable Development. While the Agenda includes 17 distinct goals and numerous sub-targets, these goals do not exist in isolation. Rather, they are intricately interconnected: progress in one area may reinforce, neutralize, or hinder progress in another. Consequently, indicators that illuminate these relationships are essential for coherent policy design.</p>
 <p>Breu et al.&nbsp;(2020) present a methodology based on the interactions framework developed by Nilsson et al.&nbsp;(2016), which systematically classifies the relationships between SDGs on a seven-point scale: from strongly negative (–3) to strongly positive (+3). They applied this approach to Switzerland’s national sustainability framework, revealing areas where policy actions toward one SDG may support or conflict with others. For example, measures to reduce poverty (SDG 1) could conflict with biodiversity goals (SDG 15) if not designed to be environmentally sustainable.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-armstrongmckayExceeding15degCGlobal2022" class="csl-entry" role="listitem">
+Armstrong McKay, David I., Arie Staal, Jesse F. Abrams, Ricarda Winkelmann, Boris Sakschewski, Sina Loriani, Ingo Fetzer, Sarah E. Cornell, Johan Rockström, and Timothy M. Lenton. 2022. <span>“Exceeding 1.5<span><span class="math inline">\(^\circ\)</span></span><span>C</span> Global Warming Could Trigger Multiple Climate Tipping Points.”</span> <em>Science</em> 377 (6611): eabn7950. <a href="https://doi.org/10.1126/science.abn7950">https://doi.org/10.1126/science.abn7950</a>.
+</div>
+<div id="ref-dealDoughnutEconomicsAction" class="csl-entry" role="listitem">
+DEAL. n.d. <span>“Doughnut <span>Economics</span> <span>Action</span> <span>Lab</span>.”</span> Doughnut Economics Action Lab (DEAL). <a href="https://doughnuteconomics.org/">https://doughnuteconomics.org/</a>.
+</div>
+<div id="ref-folkeResilienceThinkingIntegrating2010" class="csl-entry" role="listitem">
+Folke, Carl, Stephen R. Carpenter, Brian Walker, Marten Scheffer, Terry Chapin, and Johan Rockström. 2010. <span>“Resilience <span>Thinking</span>: <span>Integrating</span> <span>Resilience</span>, <span>Adaptability</span> and <span>Transformability</span>.”</span> <em>Ecology and Society</em> 15 (4). <a href="https://www.jstor.org/stable/26268226">https://www.jstor.org/stable/26268226</a>.
+</div>
+<div id="ref-independentgroupofscientistsappointedbythesecretary-generalGlobalSustainableDevelopment2023" class="csl-entry" role="listitem">
+Independent Group of Scientists appointed by the Secretary-General. 2023. <span>“Global <span>Sustainable Development Report</span> 2023: <span>Times</span> of Crisis, Times of Change: <span>Science</span> for Accelerating Transformations to Sustainable Development.”</span> New York: United Nations. <a href="https://doi.org/10.18356/9789210010788c003">https://doi.org/10.18356/9789210010788c003</a>.
+</div>
+<div id="ref-lentonClimateTippingPoints2019" class="csl-entry" role="listitem">
+Lenton, Timothy M., Johan Rockström, Owen Gaffney, Stefan Rahmstorf, Katherine Richardson, Will Steffen, and Hans Joachim Schellnhuber. 2019. <span>“Climate Tipping Points — Too Risky to Bet Against.”</span> <em>Nature</em> 575 (7784): 592–95. <a href="https://doi.org/10.1038/d41586-019-03595-0">https://doi.org/10.1038/d41586-019-03595-0</a>.
+</div>
+<div id="ref-raworthDoughnutEconomicsSeven2017" class="csl-entry" role="listitem">
+Raworth, Kate. 2017. <em>Doughnut <span>Economics</span> - <span>Seven Ways</span> to <span>Think Like</span> a 21st-<span>Century Economist</span></em>. London: Penguin Random House.
+</div>
+<div id="ref-richardsonEarthSixNine2023" class="csl-entry" role="listitem">
+Richardson, Katherine, Will Steffen, Wolfgang Lucht, Jørgen Bendtsen, Sarah E. Cornell, Jonathan F. Donges, Markus Drüke, et al. 2023. <span>“Earth Beyond Six of Nine Planetary Boundaries.”</span> <em>Science Advances</em> 9 (37): eadh2458. <a href="https://doi.org/10.1126/sciadv.adh2458">https://doi.org/10.1126/sciadv.adh2458</a>.
+</div>
+<div id="ref-rockstromSafeJustEarth2023" class="csl-entry" role="listitem">
+Rockström, Johan, Joyeeta Gupta, Dahe Qin, Steven J. Lade, Jesse F. Abrams, Lauren S. Andersen, David I. Armstrong McKay, et al. 2023. <span>“Safe and Just <span>Earth</span> System Boundaries.”</span> <em>Nature</em> 619 (7968): 102–11. <a href="https://doi.org/10.1038/s41586-023-06083-8">https://doi.org/10.1038/s41586-023-06083-8</a>.
+</div>
+<div id="ref-rockstromPlanetaryBoundariesExploring2009" class="csl-entry" role="listitem">
+Rockström, Johan, Will Steffen, Kevin Noone, Åsa Persson, F. Stuart III Chapin, Eric Lambin, Timothy Lenton, et al. 2009. <span>“Planetary <span>Boundaries</span>: <span>Exploring</span> the <span>Safe Operating Space</span> for <span>Humanity</span>.”</span> <em>Ecology and Society</em> 14 (2). <a href="https://doi.org/10.5751/ES-03180-140232">https://doi.org/10.5751/ES-03180-140232</a>.
+</div>
+<div id="ref-schneidewindGrosseTransformationEinfuhrung2018" class="csl-entry" role="listitem">
+Schneidewind, Uwe. 2018. <em>Die <span>Grosse Transformation</span>: <span class="nocase">Eine Einf<span class="nocase">ü</span>hrung</span> in Die <span>Kunst</span> Gesellschaftlichen <span>Wandels</span></em>. Frankfurt am Main: FISCHER Taschenbuch.
+</div>
+<div id="ref-steffenPlanetaryBoundariesGuiding2015" class="csl-entry" role="listitem">
+Steffen, Will, Katherine Richardson, Johan Rockström, Sarah E. Cornell, Ingo Fetzer, Elena M. Bennett, Reinette Biggs, et al. 2015. <span>“Planetary Boundaries: <span>Guiding</span> Human Development on a Changing Planet.”</span> <em>Science</em> 347 (6223): 1259855. <a href="https://doi.org/10.1126/science.1259855">https://doi.org/10.1126/science.1259855</a>.
+</div>
+<div id="ref-wbguWorldTransitionSocial2011" class="csl-entry" role="listitem">
+WBGU, ed. 2011. <em>World in <span>Transition</span> – <span>A</span> <span>Social</span> <span>Contract</span> for <span>Sustainability</span>. <span>Flagship</span> <span>Report</span> 2011</em>. Berlin, Germany: German Advisory Council on Global Change (WBGU).
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -1191,6 +1301,38 @@ Tip
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
