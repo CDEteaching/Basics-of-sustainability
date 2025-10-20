@@ -62,4 +62,5 @@ While a detailed exploration of neoclassical economics and other schools of thou
 In this video – *Economics is for Everyone* – Ha-Joon Chang provides a clear and concise introduction to the idea of plural economics. He explains why economic thinking is never neutral – and why we urgently need more economic pluralism.
 :::
 
-{{< include "5_key-elements.qmd" >}} {{< include "5_strategic-approaches.qmd" >}}
+{{< include "5_key-elements.qmd" >}} 
+{{< include "5_strategic-approaches.qmd" >}}
