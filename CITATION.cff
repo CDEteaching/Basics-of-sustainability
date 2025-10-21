@@ -6,7 +6,6 @@ version: "1.0"
 date-released: 2025-10-20
 license: "CC-BY-NC-SA-4.0"
 repository-code: "https://github.com/CDEteaching/Basics-of-sustainability"
-
 authors:
   - given-names: "Christoph"
     family-names: "Bader"
@@ -22,22 +21,7 @@ authors:
     family-names: "Poelsma"
     affiliation: "Centre for Development and Environment (CDE), University of Bern"
     orcid: "https://orcid.org/0009-0002-0221-6414"
-
-contributors:
-  - given-names: "Anna-Lisa"
-    family-names: "Honegger"
-    affiliation: "Centre for Development and Environment (CDE), University of Bern"
-    contribution: "Data curation and visualization"
-  - given-names: "Helen"
-    family-names: "Pérez"
-    affiliation: "Centre for Development and Environment (CDE), University of Bern"
-    contribution: "Data curation and visualization"
-  - given-names: "Tina"
-    family-names: "Hirschbühl"
-    affiliation: "Centre for Development and Environment (CDE), University of Bern"
-    contribution: "Translation and editing"
-
 keywords:
-  - sustainability
+  - "sustainability"
 
 
