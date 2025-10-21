@@ -1,4 +1,4 @@
-cff-version: 1.0
+cff-version: 1.2.0
 message: "If you use this lesson, please cite it as below."
 title: "Basics of Sustainability – Foundations and Challenges of Sustainability"
 abstract: "Additional attainments for the Master’s in Sustainability Transformations."
@@ -24,30 +24,18 @@ authors:
     orcid: "https://orcid.org/0009-0002-0221-6414"
 
 contributors:
-  - given-names: "Christoph"
-    family-names: "Bader"
-    affiliation: "Centre for Development and Environment (CDE), University of Bern"
-    orcid: "https://orcid.org/0000-0002-8991-353X"
-    roles:
-      - Editing
   - given-names: "Anna-Lisa"
     family-names: "Honegger"
     affiliation: "Centre for Development and Environment (CDE), University of Bern"
-    roles:
-      - Data curation
-      - Visualization
+    contribution: "Data curation and visualization"
   - given-names: "Helen"
     family-names: "Pérez"
     affiliation: "Centre for Development and Environment (CDE), University of Bern"
-    roles:
-      - Data curation
-      - Visualization
+    contribution: "Data curation and visualization"
   - given-names: "Tina"
     family-names: "Hirschbühl"
     affiliation: "Centre for Development and Environment (CDE), University of Bern"
-    roles:
-      - Translation
-      - Editing
+    contribution: "Translation and editing"
 
 keywords:
   - sustainability
