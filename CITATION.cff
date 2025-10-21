@@ -1,15 +1,18 @@
-cff-version: 1.2.0
+cff-version: 1.0
 message: "If you use this lesson, please cite it as below."
-title: "Basics of Sustainability - Foundations and challenges of sustainability"
-abstract: "Additional attainments for the Master’s in Sustainability Transformations"
-version: "1.1.0"
-date-released: 2025-10-15
-license: "CC BY-NC-SA 4.0"
+title: "Basics of Sustainability – Foundations and Challenges of Sustainability"
+abstract: "Additional attainments for the Master’s in Sustainability Transformations."
+version: "1.0"
+date-released: 2025-10-20
+license: "CC-BY-NC-SA-4.0"
+repository-code: "https://github.com/CDEteaching/Basics-of-sustainability"
+
 editor:
   - given-names: "Christoph"
     family-names: "Bader"
     affiliation: "Centre for Development and Environment (CDE), University of Bern"
     orcid: "https://orcid.org/0000-0002-8991-353X"
+
 authors:
   - given-names: "Christoph"
     family-names: "Bader"
@@ -25,6 +28,7 @@ authors:
     family-names: "Poelsma"
     affiliation: "Centre for Development and Environment (CDE), University of Bern"
     orcid: "https://orcid.org/0009-0002-0221-6414"
+
 contributors:
   - given-names: "Anna-Lisa"
     family-names: "Honegger"
@@ -44,8 +48,8 @@ contributors:
     roles:
       - Translation
       - Editing
+
 keywords:
-  - "sustainability""
-repository-code: "https://github.com/CDEteaching/Basics-of-sustainability"
+  - sustainability
 
 
