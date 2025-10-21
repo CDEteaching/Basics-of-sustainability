@@ -7,12 +7,6 @@ date-released: 2025-10-20
 license: "CC-BY-NC-SA-4.0"
 repository-code: "https://github.com/CDEteaching/Basics-of-sustainability"
 
-editor:
-  - given-names: "Christoph"
-    family-names: "Bader"
-    affiliation: "Centre for Development and Environment (CDE), University of Bern"
-    orcid: "https://orcid.org/0000-0002-8991-353X"
-
 authors:
   - given-names: "Christoph"
     family-names: "Bader"
@@ -30,6 +24,12 @@ authors:
     orcid: "https://orcid.org/0009-0002-0221-6414"
 
 contributors:
+  - given-names: "Christoph"
+    family-names: "Bader"
+    affiliation: "Centre for Development and Environment (CDE), University of Bern"
+    orcid: "https://orcid.org/0000-0002-8991-353X"
+    roles:
+      - Editing
   - given-names: "Anna-Lisa"
     family-names: "Honegger"
     affiliation: "Centre for Development and Environment (CDE), University of Bern"
