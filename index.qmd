@@ -12,12 +12,6 @@ Special thanks go to all the authors who have contributed to the creation of thi
 
 We hope that this book will provide a sound basis for your own engagement with sustainability - and encourage you to take responsibility and play an active role in shaping a fair and sustainable world.
 
-## About the book
-
-To contribute to sustainable development, we need to analyse the causes of symptoms such as biodiversity loss or global warming, and learn to understand how they are connected and how they interact. We will therefore look at current problems and challenges such as global warming, pollution, biodiversity loss, social inequality, and economic disparities, to understand how they can be tackled at both the local and the global level. The aim of this textbook is to encourage readers to think critically about the role of individuals, communities, businesses, and governments in the context of sustainable development – and thus to identify and pursue approaches to support sustainable development. In addition, we want to develop visions of the future, especially in the Master’s study programmes, that make it possible to imagine a high quality of life in a sustainable modern age, and that make changing the present seem attractive rather than daunting. We want to envision a different food culture, a different economic system, a different type of land use, and a different way of building and living. To make progress towards sustainability, it will be critical to engage stakeholders and foster collaboration across sectors and disciplines. As this textbook will emphasize, education, communication, and participation will also be indispensable in shaping a more sustainable future. With Christo’s Wrapped Globe in mind, and Daly’s understanding of the empty and the full world as a foundation, we will embark on a journey through the many aspects of sustainable development. We hope that you will find this journey both informative and inspiring, and that it will give you an understanding of both the urgency and the opportunities for sustainable development.
-
-Finally, we hope that our study programmes will inspire students to reflect on their own roles and responsibilities in relation to sustainability, and that it will equip you to make a difference to ensure that the Earth remains a place worth living in for future generations. Only together can we bring about the changes needed to create a sustainable, just, and environmentally friendly world.
-
 ## How to cite
 
 Bader, C. (Ed.). (2025). Basics of Sustainability (Version 1.0) \[Online book\]. CDE, University of Bern. Retrieved from https://cdeteaching.github.io/Basics-of-sustainability/
@@ -43,6 +37,20 @@ Poelsma, F., & Bader, C. (2025). Social Sustainability. In C. Bader (Ed.), Basic
 Chapter 5:
 
 Bader, C., & Bezzola, N. (2025). Economic Sustainability. In C. Bader (Ed.), Basics of Sustainability (Version 1.0) \[Online book\]. CDE, University of Bern. Retrieved from https://cdeteaching.github.io/Basics-of-sustainability/
+
+::: {.callout-note collapse="true"}
+### Contribution Matrix (CRediT Taxonomy)
+
+| Name | Affiliation | ORCID | Roles (CRediT) |
+|----|----|----|----|
+| Christoph Bader | CDE, University of Bern | [0000-0002-8991-353X](https://orcid.org/0000-0002-8991-353X) | Conceptualization, Software, Supervision, Writing - original draft, Writing – review & editing, Project administration |
+| Nicolà Bezzola | CDE, University of Bern | — | Writing - original draft, Writing – review & editing |
+| Juri Fitz | CDE, University of Bern | — | Writing - original draft, Writing – review & editing |
+| Anna-Lisa Honegger | CDE, University of Bern | — | Data curation, Visualization |
+| Helen Pérez | CDE, University of Bern | — | Data curation, Visualization |
+| Tina Hirschbühl | CDE, University of Bern | — | Writing – review & editing |
+| Felix Poelsma | CDE, University of Bern | [0009-0002-0221-6414](https://orcid.org/0009-0002-0221-6414) | Writing - original draft, Writing – review & editing |
+:::
 
 ## Reading guide
 

@@ -9,7 +9,8 @@ project:
 
 book:
   title: "Basics of sustainability"
-  subtitle: "Foundations and Challenges of sustainability"
+  subtitle: "Foundations and challenges of sustainability"
+  cover-image: CoverLehrbuch.png
   favicon: images/
   reader-mode: true
   page-navigation: true
@@ -59,6 +60,7 @@ bibliography: references.bib
 
 format:
   html:
+    cover-image: CoverLehrbuch.png
     mainfont: Roboto
     monofont: Fira Code
     highlight-style: arrow
@@ -74,6 +76,7 @@ format:
   # render pdf to separate folder -> do it manually via terminal
   # "quarto render --to pdf --output SP_BasicSustainability.pdf --output-dir pdf"
     documentclass: book
+    cover-image: CoverLehrbuch.png
     mainfont: "Times New Roman"
     sansfont: "Arial"
     monofont: "Courier New"
