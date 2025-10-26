@@ -1,13 +1,13 @@
 {
-  "title": "Basics of Sustainability - Foundations and challenges of sustainability",
+  "title": "Basics of Sustainability – Foundations and Challenges of Sustainability",
   "upload_type": "lesson",
   "keywords": [
     "Sustainability"
   ],
   "creators": [
     {
-      "name": "Bezzola, Nicolà",
-      "affiliation": "Centre for Development and Environment (CDE), University of Bern"
+      "name": "Bader, Christoph",
+      "affiliation": "Centre for Development and Environment (CDE), University of Bern",
       "orcid": "0000-0002-8991-353X"
     },
     {
@@ -24,7 +24,7 @@
       "orcid": "0009-0002-0221-6414"
     }
   ],
-  "description": "A special preparatory course on basics of sustainability for students of the Master in Sustainability Transformations at the University of Bern.",
-  "license": "CC BY-NC-SA 4.0",
+  "description": "An educational resource introducing the basics of sustainability for students of the Master in Sustainability Transformations at the University of Bern.",
+  "license": "CC-BY-NC-SA-4.0",
   "access_right": "open"
 }
