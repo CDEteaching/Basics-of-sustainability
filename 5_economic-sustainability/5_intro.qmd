@@ -17,16 +17,16 @@ Economic sustainability is a profoundly normative concept: it asks what understa
 #### Defining rent, profit, and wages
 
 > “The produce of the earth – all that is derived from its surface by the united application of labour, machinery, and capital, is divided among three classes of the community, namely, the proprietor of the land **\[Rent\]**, the owner of the stock or capital **\[Profit\]** necessary for its cultivation, and the labourers by whose industry it is cultivated **\[Wages\]**. …To determine the laws which regulate this distribution, is the principal problem in Political Economy.”\
-> Preface, p. 1 – David Ricardo: The Principles of Political Economy and Taxation (1821)
+> Preface, p. 1 – David Ricardo: The Principles of Political Economy and Taxation [-@ricardoPriniciplesPoliticalEconomy1821]
 :::
 
 ## Economics as a performative science
 
-From the very beginning, modern economics has not just observed and described social reality – it has also helped shape it. This discipline has formed our thinking about what is considered “economic” – e.g. through the ideal of the rationally deciding homo economicus, the norm of profit maximization, the focus on efficiency, or the idea that growth is synonymous with social progress (cf. Bontrup and Marquardt 2021, pp. 1–40).
+From the very beginning, modern economics has not just observed and described social reality – it has also helped shape it. This discipline has formed our thinking about what is considered “economic” – e.g. through the ideal of the rationally deciding homo economicus, the norm of profit maximization, the focus on efficiency, or the idea that growth is synonymous with social progress (cf. @bontrupVolkswirtschaftslehreAusOrthodoxer2021, pp. 1–40).
 
 These interpretations never remained purely theoretical. They continue to influence policy and practice to this day: from structural change to the market liberalization that took hold in the 1980s – to the shaping of climate policy through emissions trading systems and the construction of highly complex financial products. The history of economics is therefore also a history of its impact (Schneidewind et al. 2016). The most widely accepted definition of economics, originally coined by Lionel Robbins, focuses on the relationship between resource scarcity and the satisfaction of people’s needs:
 
-> “Economics is the science which studies human behaviour as a relationship between ends and scarce means which have alternatives uses.” (Robbins 1932, p. 15).
+> “Economics is the science which studies human behaviour as a relationship between ends and scarce means which have alternatives uses.” (@robbinsEssayNatureSignificance1932, p. 15).
 
 Robbins’s definition is influenced by his theoretical orientation towards neoclassical economics, the school of thought that came to be considered mainstream economics. Extending this concept, most textbooks define economics as a science of (rational) decision-making that explores how people decide to use scarce resources to achieve their aims.
 
@@ -42,7 +42,7 @@ Critics emphasize that *homo economicus* is a normative construct, and not a pur
 The *homo economicus* model is particularly relevant to the discussion on sustainable development. It contributes to obscuring the systemic causes of environmental destruction and social inequality, as it systematically ignores structural power relations, external effects, and long-term planetary boundaries.
 :::
 
-The heterodox economist Ha-Joon Chang criticizes Robbins’s definition as being too specific and as emerging from a theoretical approach, which subsequently causes it to prescribe a particular direction (Chang 2014). Chang defines economics not through a theoretical approach, but by its object of study: the economy. Economics is therefore the study of everything related to (re-)production, exchange, and distribution of goods and services for the satisfaction of human needs. There are of course many other definitions of economics. Building on these diverse understandings, various schools of thought consequently differ in their focus of study, which may include power structures, institutions, or macro-economic and social connections and structures (cf. Miyamura 2020; Newman 2020; Robertson 2020).
+The heterodox economist Ha-Joon Chang criticizes Robbins’s definition as being too specific and as emerging from a theoretical approach, which subsequently causes it to prescribe a particular direction (Chang 2014). Chang defines economics not through a theoretical approach, but by its object of study: the economy. Economics is therefore the study of everything related to (re-)production, exchange, and distribution of goods and services for the satisfaction of human needs. There are of course many other definitions of economics. Building on these diverse understandings, various schools of thought consequently differ in their focus of study, which may include power structures, institutions, or macro-economic and social connections and structures (cf. @miyamuraAreWeAll2020; @newmanEffectsModernMonetary2025).
 
 Economic sustainability requires that we systematically consider the consequences of economic activity on humans and nature. This includes asking questions about distribution. Who bears the costs of growth, and who benefits? How much material accumulation is enough? And who decides?
 
@@ -62,5 +62,4 @@ While a detailed exploration of neoclassical economics and other schools of thou
 In this video – *Economics is for Everyone* – Ha-Joon Chang provides a clear and concise introduction to the idea of plural economics. He explains why economic thinking is never neutral – and why we urgently need more economic pluralism.
 :::
 
-{{< include "5_key-elements.qmd" >}} 
-{{< include "5_strategic-approaches.qmd" >}}
+{{< include "5_key-elements.qmd" >}} {{< include "5_strategic-approaches.qmd" >}}
