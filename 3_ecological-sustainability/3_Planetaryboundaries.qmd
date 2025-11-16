@@ -56,7 +56,7 @@ The **Intergovernmental Panel on Climate Change (IPCC)**, established in 1988 by
 
 But what will it take to prevent the temperature from rising by more than 1.5 degrees? A whole lot. Anthropogenic CO~2~ emissions must fall by 45% between 2010 and 2030, and net CO~2~ emissions must fall to zero by 2050. While we are adopting greener technologies for marginal activities like car purchases or building efficiency, we still risk neglecting the serious threat posed by the carbon that is already in the atmosphere. It’s important to distinguish between ongoing emissions (flow) and accumulated atmospheric carbon (stock). Flow plays a subordinate role for the planet – it’s the stock that drives global warming. Climate change is therefore primarily a stock problem, rather than a flow problem. This is a challenging concept, not only for laypeople. Indeed, Sterman & Sweeney (2007) observed that most adults had difficulty in grasping the stock aspect of climate change.
 
-![Change to various components (Source: Solomon et al., 2019)](images/Images_en/Solomon.png){#fig-change-to-various-components}
+![Change to various components (Source: Solomon et al., 2019)](images/Solomon.png){#fig-change-to-various-components}
 
 An effective mental model is the bathtub analogy: if the inflow of water through the tap (i.e. our emissions, or flow) exceeds the outflow of water through the drain (carbon absorption by rainforests, oceans, etc.), the water level (the atmospheric carbon stock) increases. The past five years, and twenty of the last twenty-two, have been the warmest on record. This warming trend is a direct result of the rising water level in that “bathtub”.
 
