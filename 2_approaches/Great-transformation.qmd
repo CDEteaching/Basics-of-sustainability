@@ -50,7 +50,7 @@ Double decoupling refers to the following two types of decoupling:
 
 In September 2019, the first Global Sustainable Development Report (GSDR) was published by a group of 15 independent scientists appointed by the UN Secretary-General. Intended for publication every four years, the aim of the GSDR is to synthesize existing knowledge and identify pathways to achieving the Sustainable Development Goals (SDGs). The latest report [-@independentgroupofscientistsappointedbythesecretary-generalGlobalSustainableDevelopment2023] highlights the significant gap between current progress and achieving the SDGs. Building on the 2019 report, it introduces capacity building as a new lever to accelerate progress.
 
-![Levers and entry points for achieving the SDGs.Source: @independentgroupofscientistsappointedbythesecretary-generalGlobalSustainableDevelopment2023.](Images/Fig2_7__GSDR.png){#fig-GSDR}
+![Levers and entry points for achieving the SDGs. Source: @independentgroupofscientistsappointedbythesecretary-generalGlobalSustainableDevelopment2023.](Images/Fig2_7__GSDR.png){#fig-GSDR}
 
 The GSDR proposes six key areas, or “entry points”, with the highest potential to drive the large-scale and swift transformations needed. To initiate these transformations, active and multifaceted collaboration is crucial among actors from diverse fields: governance, business and finance, individual and collective action, and science and technology.
 

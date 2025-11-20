@@ -14,11 +14,11 @@ The study added human appropriation of net primary production as a control varia
 
 Two of the nine planetary boundaries – biosphere integrity and climate change – are considered “core boundaries”. These core systems encompass processes from many other subsystems and operate at a global scale. Reaching tipping points in these core systems could therefore push the entire Earth system into a new state.
 
-![Development of control variables for all nine planetary boundaries. Source: Azote for Stockholm Resilience Centre, Stockholm University. Based on @rockstromPlanetaryBoundariesExploring2009, @steffenPlanetaryBoundariesGuiding2015, @richardsonEarthSixNine2023. Licenced under CC BY-NC-ND 3.0.](Images/Fig2_1__planetaryboundaries.png){#fig-development-planetary-boundaries}
+![Development of control variables for all nine planetary boundaries. Source: Azote for Stockholm Resilience Centre, Stockholm University. Based on @rockstromPlanetaryBoundariesExploring2009, @steffenPlanetaryBoundariesGuiding2015, @richardsonEarthSixNine2023. Licensed under CC BY-NC-ND 3.0.](Images/Fig2_1__planetaryboundaries.png){#fig-development-planetary-boundaries}
 
 ### Tipping points of the Earth’s climate system
 
-![Spatial distribution of global and regional tipping elements. The colours indicate the temperature range in which tipping is likely to occur. Source: Designed at PIK, based on @armstrongmckayExceeding15degCGlobal2022, expanded with interactions based on @lentonClimateTippingPoints2019. Licenced under CC-BY.](Images/Tippingpoints.png){#fig-tippingspoints}
+![Spatial distribution of global and regional tipping elements. The colours indicate the temperature range in which tipping is likely to occur. Source: Designed at PIK, based on @armstrongmckayExceeding15degCGlobal2022, expanded with interactions based on @lentonClimateTippingPoints2019. Licensed under CC-BY.](Images/Tippingpoints.png){#fig-tippingspoints}
 
 Tipping points in the Earth’s climate system are critical thresholds that, when crossed, can cause abrupt and often irreversible changes in the climate system. These tipping points can destabilize the climate and lead to accelerated climate change. Examples of tipping points include the melting of the Greenland ice sheet, the collapse of the Amazon rainforest, the thawing of permafrost soils, and changes in the Gulf Stream. If these tipping points are reached or exceeded, they can trigger self-reinforcing feedback effects that lead to further warming and an intensification of climate change.
 

@@ -97,6 +97,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -545,8 +574,8 @@ Figure&nbsp;3.3: The monetary value of ecosystem services. Source: Own ilustrati
 </section>
 <section id="planetary-boundaries" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="planetary-boundaries"><span class="header-section-number">3.3</span> Planetary boundaries</h2>
-<p>The current era is called the Anthropocene because human activities are exerting an increasingly profound impact on the Earth and its systems. Although this term has not (yet) been recognized as an official geologic or geochronological epoch by geological bodies (Quelle: Zhong 2024), it is used to describe the enormous human impact on the environment. There is no uniform definition of the origins of the Anthropocene; possible markers include human impact on greenhouse gas concentrations through rice cultivation, the global spread of radioactivity from nuclear testing, or the appearance of plastic particles in geological sediments. The Industrial Revolution is generally considered the start of the Anthropocene.</p>
-<p>A quantitative definition of environmental sustainability was proposed by Rockström et al.&nbsp;(2009) and Steffen et al.&nbsp;(2015), who identified nine planetary boundaries: climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows, ocean acidification, atmospheric aerosol loading, stratospheric ozone depletion, and novel entities. These planetary boundaries serve as a scientific reference point and show the limits within which our global socio-economic systems must operate to ensure the well-being of humanity (see also the Debates section).</p>
+<p>The current era is called the Anthropocene because human activities are exerting an increasingly profound impact on the Earth and its systems. Although this term has not (yet) been recognized as an official geologic or geochronological epoch by geological bodies <span class="citation" data-cites="zhongAreWeAnthropocene2024">(<a href="../references.html#ref-zhongAreWeAnthropocene2024" role="doc-biblioref">Zhong 2024</a>)</span>, it is used to describe the enormous human impact on the environment. There is no uniform definition of the origins of the Anthropocene; possible markers include human impact on greenhouse gas concentrations through rice cultivation, the global spread of radioactivity from nuclear testing, or the appearance of plastic particles in geological sediments. The Industrial Revolution is generally considered the start of the Anthropocene.</p>
+<p>A quantitative definition of environmental sustainability was proposed by <span class="citation" data-cites="rockstromPlanetaryBoundariesExploring2009">Rockström et al. (<a href="../references.html#ref-rockstromPlanetaryBoundariesExploring2009" role="doc-biblioref">2009</a>)</span> and <span class="citation" data-cites="steffenPlanetaryBoundariesGuiding2015">Steffen et al. (<a href="../references.html#ref-steffenPlanetaryBoundariesGuiding2015" role="doc-biblioref">2015</a>)</span>, who identified nine planetary boundaries: climate change, biosphere integrity, land-system change, freshwater change, biogeochemical flows, ocean acidification, atmospheric aerosol loading, stratospheric ozone depletion, and novel entities. These planetary boundaries serve as a scientific reference point and show the limits within which our global socio-economic systems must operate to ensure the well-being of humanity (see also the Debates section).</p>
 <p>This chapter focuses on three of these boundaries, described here as <strong>climate change</strong>, <strong>land use change</strong>, and <strong>biodiversity loss</strong>. These three crises are mutually reinforcing and form a complex web of interactions.</p>
 <div id="fig-interactions" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -554,21 +583,21 @@ Figure&nbsp;3.3: The monetary value of ecosystem services. Source: Own ilustrati
 <img src="images/Fig3_4_LandClimateBiodiversity.jpg" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-interactions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.4: Interactions between biodiversity, climate change and land use. Source: UNEP (2021b), CC
+Figure&nbsp;3.4: Interactions between biodiversity, climate change and land use. Source: <span class="citation" data-cites="unepBecomingGenerationRestorationEcosystem2021">UNEP (<a href="../references.html#ref-unepBecomingGenerationRestorationEcosystem2021" role="doc-biblioref">2021</a>)</span>. Licensed under CC-BY.
 </figcaption>
 </figure>
 </div>
 <section id="the-climate-crisis-climate-change" class="level3" data-number="3.3.1">
 <h3 data-number="3.3.1" class="anchored" data-anchor-id="the-climate-crisis-climate-change"><span class="header-section-number">3.3.1</span> The climate crisis (climate change)</h3>
-<p><strong>Climate change</strong> – or, to use a term more illustrative of the urgency, the climate crisis – is one of the most pressing issues of our time. It receives much media attention and is exemplary of a “wicked” problem (see page 13; Hulme, 2009). It is the focus of the Fridays for Future movement that was initiated by Greta Thunberg, and it is a topic, of discussion at least, on the (global) political stage. While local conditions and natural fluctuations contribute to some uncertainties in climate models and statistics, the scientific evidence clearly shows that rising global temperatures have an enormous impact on environmental sustainability and human well-being. This is why climate change is one of the nine planetary boundaries.</p>
-<p>The term <strong>climate</strong> describes the average state of the atmosphere (temperature, precipitation, humidity, etc.) over a period of at least 30 years at a specific location. By contrast, <strong>weather</strong> describes the short-term state (i.e.&nbsp;from seconds to weeks) and includes weather phenomena such as thunderstorms or heat waves (source - NCCS.admin). The <strong>climate system</strong>, in turn, encompasses not only the atmosphere but also the hydrosphere (oceans, lakes, rivers, groundwater), the cryosphere (glaciers, snow cover, sea and lake ice, permafrost), the biosphere (living organisms), and the lithosphere (soils or the outermost layer of the earth). In particular, it refers to the physical, biological, and chemical interactions and interdependencies between these five spheres. In addition, the climate system is influenced by radiation from space (see figure below).</p>
+<p><strong>Climate change</strong> – or, to use a term more illustrative of the urgency, the climate crisis – is one of the most pressing issues of our time. It receives much media attention and is exemplary of a “wicked” problem <span class="citation" data-cites="hulmeWhyWeDisagree2009">(<a href="../references.html#ref-hulmeWhyWeDisagree2009" role="doc-biblioref">Hulme 2009, 9</a>)</span>. It is the focus of the Fridays for Future movement that was initiated by Greta Thunberg, and it is a topic, of discussion at least, on the (global) political stage. While local conditions and natural fluctuations contribute to some uncertainties in climate models and statistics, the scientific evidence clearly shows that rising global temperatures have an enormous impact on environmental sustainability and human well-being. This is why climate change is one of the nine planetary boundaries.</p>
+<p>The term <strong>climate</strong> describes the average state of the atmosphere (temperature, precipitation, humidity, etc.) over a period of at least 30 years at a specific location. By contrast, <strong>weather</strong> describes the short-term state (i.e.&nbsp;from seconds to weeks) and includes weather phenomena such as thunderstorms or heat waves <span class="citation" data-cites="nccsNationalCentreClimate">(<a href="../references.html#ref-nccsNationalCentreClimate" role="doc-biblioref">NCCS n.d.</a>)</span>. The <strong>climate system</strong>, in turn, encompasses not only the atmosphere but also the hydrosphere (oceans, lakes, rivers, groundwater), the cryosphere (glaciers, snow cover, sea and lake ice, permafrost), the biosphere (living organisms), and the lithosphere (soils or the outermost layer of the earth). In particular, it refers to the physical, biological, and chemical interactions and interdependencies between these five spheres. In addition, the climate system is influenced by radiation from space (see figure below).</p>
 <div id="fig-climate-system" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-climate-system-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/Fig3_5_ClimateSystem.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-climate-system-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.5: The components of the climate system, their processes, and interactions. This includes the atmosphere, biosphere (life), cryosphere (ice), hydrosphere (water), land and human influences, and the interactions between these components (shown with two-way arrows). The parts of the system that can change are labeled as “Changes”. Source: IPCC AR4 FAQ
+Figure&nbsp;3.5: The components of the climate system, their processes, and interactions. This includes the atmosphere, biosphere (life), cryosphere (ice), hydrosphere (water), land and human influences, and the interactions between these components (shown with two-way arrows). The parts of the system that can change are labeled as “Changes”. Source: IPCC AR4 FAQ (<a href="https://archive.ipcc.ch/publications_and_data/ar4/wg1/en/faq-1-2.html" class="uri">https://archive.ipcc.ch/publications_and_data/ar4/wg1/en/faq-1-2.html</a>).
 </figcaption>
 </figure>
 </div>
@@ -584,24 +613,24 @@ Figure&nbsp;3.5: The components of the climate system, their processes, and inte
 <img src="images/Fig3_6__HothouseEarth.jpeg" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hothouse-earth-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.6: Stability landscape showing the pathway of the Earth System out of the Holocene and thus, out of the glacial–interglacial limit cycle to its present position in the hotter Anthropocene. Source: Steffen et al.&nbsp;(2018), CC BY-NC-ND 4.0
+Figure&nbsp;3.6: Stability landscape showing the pathway of the Earth System out of the Holocene and thus, out of the glacial–interglacial limit cycle to its present position in the hotter Anthropocene. Source: <span class="citation" data-cites="steffenTrajectoriesEarthSystem2018">Steffen et al. (<a href="../references.html#ref-steffenTrajectoriesEarthSystem2018" role="doc-biblioref">2018</a>)</span>. Licensed under CC BY-NC-ND 4.0.
 </figcaption>
 </figure>
 </div>
-<p>A total of 16 tipping points are assumed to exist (<a href="#fig-16-tipping-points" class="quarto-xref">Figure&nbsp;<span>3.7</span></a>), including the Siberian permafrost soils or the West Antarctic Ice Sheet. These tipping points have different threshold values, meaning that some will be reached earlier, with less global warming than others. If these tipping points are reached or exceeded, they can trigger self-reinforcing feedback effects that lead to further warming, initiate further tipping points, and intensify climate change. Some of these tipping points are already in a critical state, as explained impressively by Johan Rockström, one of the founders of the Planetary Boundaries concept (<a href="https://m.youtube.com/watch?v=Vl6VhCAeEfQ" class="uri">https://m.youtube.com/watch?v=Vl6VhCAeEfQ</a>). In the Amazon, for example, some areas now emit more CO<sub>2</sub> than they absorb – becoming carbon <em>sources</em> rather than sinks – due to forest fires, climate-change-induced water stress, and deforestation (see Land use chapter) (Gatti et al.&nbsp;2021; Harris et al.&nbsp;2021). Consequently, the Amazon is already in transition and losing resilience (Flores et al.&nbsp;2024). Another worrying and very real tipping point is the <em>Atlantic Meridional Overturning Circulation</em>, or AMOC (Rahmstorf, 2024; <a href="https://www.youtube.com/watch?v=ZHNNW8c_FaA" class="uri">https://www.youtube.com/watch?v=ZHNNW8c_FaA</a>). The AMOC is nearing its tipping point (van Westen et al.&nbsp;2024), with projections suggesting it could collapse as early as the middle of this century (Ditlevsen &amp; Ditlevsen, 2023). A collapse would lead to increased European heat waves and sea-level rise along the north-eastern US coast (Rahmstorf, 2024).</p>
+<p>A total of 16 tipping points are assumed to exist (<a href="#fig-16-tipping-points" class="quarto-xref">Figure&nbsp;<span>3.7</span></a>), including the Siberian permafrost soils or the West Antarctic Ice Sheet. These tipping points have different threshold values, meaning that some will be reached earlier, with less global warming than others. If these tipping points are reached or exceeded, they can trigger self-reinforcing feedback effects that lead to further warming, initiate further tipping points, and intensify climate change. Some of these tipping points are already in a critical state, as explained impressively by Johan Rockström, one of the founders of the Planetary Boundaries concept (<a href="https://m.youtube.com/watch?v=Vl6VhCAeEfQ" class="uri">https://m.youtube.com/watch?v=Vl6VhCAeEfQ</a>). In the Amazon, for example, some areas now emit more CO<sub>2</sub> than they absorb – becoming carbon <em>sources</em> rather than sinks – due to forest fires, climate-change-induced water stress, and deforestation (see <em>chapter 3.3.2 on Land use change</em>) <span class="citation" data-cites="gattiAmazoniaCarbonSource2021 harrisGlobalMapsTwentyfirst2021">(<a href="../references.html#ref-gattiAmazoniaCarbonSource2021" role="doc-biblioref">Gatti et al. 2021</a>; <a href="../references.html#ref-harrisGlobalMapsTwentyfirst2021" role="doc-biblioref">Harris et al. 2021</a>)</span>. Consequently, the Amazon is already in transition and losing resilience <span class="citation" data-cites="floresCriticalTransitionsAmazon2024">(<a href="../references.html#ref-floresCriticalTransitionsAmazon2024" role="doc-biblioref">Flores et al. 2024</a>)</span>. Another worrying and very real tipping point is the <em>Atlantic Meridional Overturning Circulation</em>, or AMOC [<span class="citation" data-cites="rahmstorfAtlanticOverturningCirculation2024">Rahmstorf (<a href="../references.html#ref-rahmstorfAtlanticOverturningCirculation2024" role="doc-biblioref">2024</a>)</span>; <a href="https://www.youtube.com/watch?v=ZHNNW8c_FaA" class="uri">https://www.youtube.com/watch?v=ZHNNW8c_FaA</a>]. The AMOC is nearing its tipping point <span class="citation" data-cites="vanwestenPhysicsbasedEarlyWarning2024">(<a href="../references.html#ref-vanwestenPhysicsbasedEarlyWarning2024" role="doc-biblioref">van Westen, Kliphuis, and Dijkstra 2024</a>)</span>, with projections suggesting it could collapse as early as the middle of this century <span class="citation" data-cites="ditlevsenWarningForthcomingCollapse2023">(<a href="../references.html#ref-ditlevsenWarningForthcomingCollapse2023" role="doc-biblioref">Ditlevsen and Ditlevsen 2023</a>)</span>. A collapse would lead to increased European heat waves and sea-level rise along the north-eastern US coast <span class="citation" data-cites="rahmstorfAtlanticOverturningCirculation2024">(<a href="../references.html#ref-rahmstorfAtlanticOverturningCirculation2024" role="doc-biblioref">Rahmstorf 2024</a>)</span>.</p>
 <div id="fig-16-tipping-points" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-16-tipping-points-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/Fig3_7__tippingpoints.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-16-tipping-points-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.7: The 16 tipping points and their likelihood of occurring due to global warming. Source: https://www.pik-potsdam.de/en/output/infodesk/tipping-elements/tipping-elements, based on Armstrong McKay et al.&nbsp;(2022).
+Figure&nbsp;3.7: Spatial distribution of global and regional tipping elements. The colours indicate the temperature range in which tipping is likely to occur. Source: Designed at PIK, based on <span class="citation" data-cites="armstrongmckayExceeding15degCGlobal2022">Armstrong McKay et al. (<a href="../references.html#ref-armstrongmckayExceeding15degCGlobal2022" role="doc-biblioref">2022</a>)</span>, expanded with interactions based on <span class="citation" data-cites="lentonClimateTippingPoints2019">Lenton et al. (<a href="../references.html#ref-lentonClimateTippingPoints2019" role="doc-biblioref">2019</a>)</span>. Licensed under CC-BY.
 </figcaption>
 </figure>
 </div>
 <p>But what is causing the Earth to warm and climate change to occur? In addition to natural causes of climate change such as geological, long-term causes (Earth’s axial rotation, Milanković cycles, volcanic eruptions), the primary driver of global warming is the <strong>greenhouse gas effect</strong>. The greenhouse gas effect is a process where short-wave solar radiation enters the Earth’s atmosphere and is re-emitted from the Earth’s surface as long-wave infrared radiation. Greenhouse gases – such as carbon dioxide, methane, and water vapour – absorb some of this infrared radiation and emit it in all directions, causing some of the heat to return to the Earth’s surface. Without this effect, the Earth would be too cold to support life. Today, however, there are too many greenhouse gases in the atmosphere due to anthropogenic emissions, causing the earth to warm up.</p>
 <p>The largest share of human CO<sub>2</sub> emissions, around ¾ of the global total, originates from energy production, i.e.&nbsp;primarily electricity and heat generation (<a href="#fig-global-greenhouse-gas-emissions" class="quarto-xref">Figure&nbsp;<span>3.8</span></a>). This is largely due to the combustion of coal, gas, and oil, with emissions from industry (comprising 24.2% of the global total), transport (16.2%), buildings (17.5%), and agriculture (18.4%). The main drivers of agricultural emissions are livestock farming, deforestation for agricultural land, and the use of nitrogen fertilizers on agricultural soils.</p>
-<p>Within the transport sector, air traffic accounts for 1.9% of global emissions (see figure below). In Switzerland, however, flights account for about 11% of national emissions. These flight emissions are largely attributable to international air traffic (FOEN, 2025), although the calculations exclude Basel-Mulhouse Airport, which is located on French soil. Despite this evidence, Switzerland has not yet introduced a CO<sub>2</sub> tax on kerosene (the main component of aviation fuel), although there is one on fossil fuels such as heating oil and natural gas. It should however be noted that climate impact is not solely determined by greenhouse gas emissions (Allen et al., 2018; Lee et al., 2021; Neu, 2021). The warming potential of air travel can thus be significantly higher than indicated by greenhouse gas emissions alone, as non-CO<sub>2</sub> effects from flights – such as water vapour, nitrogen oxides (NOx), and soot – also affect the climate (Lee et al., 2021).</p>
+<p>Within the transport sector, air traffic accounts for 1.9% of global emissions (see figure below). In Switzerland, however, flights account for about 11% of national emissions. These flight emissions are largely attributable to international air traffic <span class="citation" data-cites="bundesamtfuerumweltbafuKenngroessenZurEntwicklung2025">(<a href="../references.html#ref-bundesamtfuerumweltbafuKenngroessenZurEntwicklung2025" role="doc-biblioref">Bundesamt für Umwelt (BAFU) 2025</a>)</span>, although the calculations exclude Basel-Mulhouse Airport, which is located on French soil. Despite this evidence, Switzerland has not yet introduced a CO<sub>2</sub> tax on kerosene (the main component of aviation fuel), although there is one on fossil fuels such as heating oil and natural gas. It should however be noted that climate impact is not solely determined by greenhouse gas emissions <span class="citation" data-cites="allenSolutionMisrepresentationsCO2equivalent2018 leeContributionGlobalAviation2021 neuAuswirkungenFlugverkehrsemissionenAuf2021">(<a href="../references.html#ref-allenSolutionMisrepresentationsCO2equivalent2018" role="doc-biblioref">Allen et al. 2018</a>; <a href="../references.html#ref-leeContributionGlobalAviation2021" role="doc-biblioref">Lee et al. 2021</a>; <a href="../references.html#ref-neuAuswirkungenFlugverkehrsemissionenAuf2021" role="doc-biblioref">Neu 2021</a>)</span>. The warming potential of air travel can thus be significantly higher than indicated by greenhouse gas emissions alone, as non-CO<sub>2</sub> effects from flights – such as water vapour, nitrogen oxides (NOx), and soot – also affect the climate <span class="citation" data-cites="leeContributionGlobalAviation2021">(<a href="../references.html#ref-leeContributionGlobalAviation2021" role="doc-biblioref">Lee et al. 2021</a>)</span>.</p>
 <p>Globally, air travel emissions have more than doubled since 1990, driven primarily by international flights. Despite a sharp drop in the number of flights in 2020 due to the pandemic, flight emissions have rebounded and are projected to surpass 2019’s record levels in the coming years.</p>
 <div id="fig-global-greenhouse-gas-emissions" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -609,22 +638,22 @@ Figure&nbsp;3.7: The 16 tipping points and their likelihood of occurring due to 
 <img src="images/Fig3_8__GreenhouseSector.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-global-greenhouse-gas-emissions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.8: Global greenhouse gas emissions by sector (Source: Climate Watch, the World Resources Institute (2020))
+Figure&nbsp;3.8: Global greenhouse gas emissions by sector. Source: <a href="https://ourworldindata.org/ghg-emissions-by-sector" class="uri">https://ourworldindata.org/ghg-emissions-by-sector</a>.
 </figcaption>
 </figure>
 </div>
-<p>Recent calculations and climate reports indicate that the Earth’s temperature has risen by around 1.2°C in the last 10 years (2014–2023) compared to pre-industrial levels (1850–1900). In addition, 2023 was the warmest year on record, with a global surface temperature of 1.45°C above the pre-industrial baseline. This may not sound like much, but it represents a substantial heat increase, given the oceans’ vast size and heat storage capacity. (https://www.un.org/sites/un2.un.org/files/temperaturerise_may2024.pdf) (https://ourworldindata.org/ghg-emissions-by-sector)</p>
+<p>Recent calculations and climate reports indicate that the Earth’s temperature has risen by around 1.2°C in the last 10 years (2014–2023) compared to pre-industrial levels (1850–1900)<span class="citation" data-cites="unClimateFastFacts2024">(<a href="../references.html#ref-unClimateFastFacts2024" role="doc-biblioref">UN 2024</a>)</span>. In addition, 2023 was the warmest year on record, with a global surface temperature of 1.45°C above the pre-industrial baseline. This may not sound like much, but it represents a substantial heat increase, given the oceans’ vast size and heat storage capacity <span class="citation" data-cites="ritchieSectorSectorWhere2020a">(<a href="../references.html#ref-ritchieSectorSectorWhere2020a" role="doc-biblioref">Ritchie 2020</a>)</span></p>
 <div id="fig-worlds" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-worlds-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/Fig3_9__KlimaCH.jpg" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-worlds-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.9: What is climate (Source: https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/climate-basics/what-is-climate-.html)
+Figure&nbsp;3.9: What is climate?. Source: <a href="https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/climate-basics/what-is-climate-.html" class="uri">https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/climate-basics/what-is-climate-.html</a>.
 </figcaption>
 </figure>
 </div>
-<p>The <strong>Paris Climate Agreement</strong>, adopted in December 2015, was the first international treaty where industrialized and emerging countries jointly pledged to curb greenhouse gas emissions. Its core objective is to limit global temperature rise to a maximum of 2°C, with efforts to pursue a 1.5°C limit, relative to pre-industrial times. In 2018, the Intergovernmental Panel on Climate Change (IPCC, see box) published a Special Report containing some startling facts: Most notably, that we only have few years left – until 2030 – to avoid exceeding 2°C. The next major decision in international efforts that built on the Paris Climate Agreement was the 2022 climate conference, COP 27. At COP 27, signatories agreed to establish the Loss and Damage Fund, a result of decades of prior discussion, designed to help developing countries to receive financial support after extreme weather events.</p>
+<p>The <strong>Paris Climate Agreement</strong>, adopted in December 2015, was the first international treaty where industrialized and emerging countries jointly pledged to curb greenhouse gas emissions. Its core objective is to limit global temperature rise to a maximum of 2°C, with efforts to pursue a 1.5°C limit, relative to pre-industrial times. In 2018, the Intergovernmental Panel on Climate Change (IPCC) published a Special Report containing some startling facts: Most notably, that we only have few years left – until 2030 – to avoid exceeding 2°C. The next major decision in international efforts that built on the Paris Climate Agreement was the 2022 climate conference, COP 27. At COP 27, signatories agreed to establish the Loss and Damage Fund, a result of decades of prior discussion, designed to help developing countries to receive financial support after extreme weather events.</p>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -647,18 +676,18 @@ The Intergovernmental Panel on Climate Change (IPCC)
 <img src="images/Fig3_10__IPCCas6Fig2.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hotter-and-different-world-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.10: Excerpt from AR6 Synthesis Report Figure SPM.1 (c): Observed (1900–2020) and projected (2021–2100) changes in global surface temperature (relative to 1850–1900), which are linked to changes in climate conditions and impacts, illustrate how the climate has already changed and will change along the lifespan of three representative generations (born in 1950, 1980 and 2020).
+Figure&nbsp;3.10: Excerpt from AR6 Synthesis Report Figure SPM.1 (c): Observed (1900–2020) and projected (2021–2100) changes in global surface temperature (relative to 1850–1900), which are linked to changes in climate conditions and impacts, illustrate how the climate has already changed and will change along the lifespan of three representative generations (born in 1950, 1980 and 2020). Source: <span class="citation" data-cites="ipccClimateChange20232023">IPCC (<a href="../references.html#ref-ipccClimateChange20232023" role="doc-biblioref">2023</a>)</span>.
 </figcaption>
 </figure>
 </div>
-<p>But what will it take to prevent the temperature from rising by more than 1.5 degrees? A whole lot. Anthropogenic CO<sub>2</sub> emissions must fall by 45% between 2010 and 2030, and net CO<sub>2</sub> emissions must fall to zero by 2050. While we are adopting greener technologies for marginal activities like car purchases or building efficiency, we still risk neglecting the serious threat posed by the carbon that is already in the atmosphere. It’s important to distinguish between ongoing emissions (flow) and accumulated atmospheric carbon (stock). Flow plays a subordinate role for the planet – it’s the stock that drives global warming. Climate change is therefore primarily a stock problem, rather than a flow problem. This is a challenging concept, not only for laypeople. Indeed, Sterman &amp; Sweeney (2007) observed that most adults had difficulty in grasping the stock aspect of climate change.</p>
+<p>But what will it take to prevent the temperature from rising by more than 1.5 degrees? A whole lot. Anthropogenic CO<sub>2</sub> emissions must fall by 45% between 2010 and 2030, and net CO<sub>2</sub> emissions must fall to zero by 2050. While we are adopting greener technologies for marginal activities like car purchases or building efficiency, we still risk neglecting the serious threat posed by the carbon that is already in the atmosphere. It’s important to distinguish between ongoing emissions (flow) and accumulated atmospheric carbon (stock). Flow plays a subordinate role for the planet – it’s the stock that drives global warming. Climate change is therefore primarily a stock problem, rather than a flow problem. This is a challenging concept, not only for laypeople. Indeed, <span class="citation" data-cites="stermanUnderstandingPublicComplacency2007">Sterman and Sweeney (<a href="../references.html#ref-stermanUnderstandingPublicComplacency2007" role="doc-biblioref">2007</a>)</span> observed that most adults had difficulty in grasping the stock aspect of climate change.</p>
 <div id="fig-change-to-various-components" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-change-to-various-components-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/Images_en/Solomon.png" class="img-fluid figure-img">
+<img src="images/Solomon.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-change-to-various-components-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.11: Change to various components (Source: Solomon et al., 2019)
+Figure&nbsp;3.11: Change to various components. Source: <span class="citation" data-cites="solomonIrreversibleClimateChange2009a">Solomon et al. (<a href="../references.html#ref-solomonIrreversibleClimateChange2009a" role="doc-biblioref">2009</a>)</span>.
 </figcaption>
 </figure>
 </div>
@@ -667,28 +696,28 @@ Figure&nbsp;3.11: Change to various components (Source: Solomon et al., 2019)
 </section>
 <section id="land-use-change" class="level3" data-number="3.3.2">
 <h3 data-number="3.3.2" class="anchored" data-anchor-id="land-use-change"><span class="header-section-number">3.3.2</span> Land use change</h3>
-<p>Land use change, like deforestation for agriculture or urban expansion, has a significant impact on the <strong>environmental dimension of sustainability</strong>. Land use change threatens biodiversity and disrupts ecosystem functions. It can also increase greenhouse gas emissions, alter water cycles, or deplete valuable agricultural land. This can result in a reduction of ecosystem services (see chapter on ecosystem services), ultimately restricting human well-being. Land use change is one of the nine <strong>planetary boundaries</strong> that has already been exceeded, according to Richardson et al.&nbsp;(2023).</p>
+<p>Land use change, like deforestation for agriculture or urban expansion, has a significant impact on the <strong>environmental dimension of sustainability</strong>. Land use change threatens biodiversity and disrupts ecosystem functions. It can also increase greenhouse gas emissions, alter water cycles, or deplete valuable agricultural land. This can result in a reduction of ecosystem services (see <em>chapter 3.2 on Ecosystems, Ecosystem management, and Ecosystem services</em>), ultimately restricting human well-being. Land use change is one of the nine <strong>planetary boundaries</strong> that has already been exceeded, according to <span class="citation" data-cites="richardsonEarthSixNine2023">Richardson et al. (<a href="../references.html#ref-richardsonEarthSixNine2023" role="doc-biblioref">2023</a>)</span>.</p>
 <p>Some key definitions are needed to understand land use change:</p>
 <ul>
-<li><p><strong>Land cover</strong> refers to the characteristics of the land surface and its immediate subsurface, including biota, topography, and human structures (Lambin et al.&nbsp;2000: 322).</p></li>
-<li><p><strong>Land use</strong> is the way in which humans use land cover (Lambin et al.&nbsp;2000: 322).</p></li>
-<li><p><strong>Land use change</strong> represents the change from one land use to another(Lambin et al.&nbsp;2000: 322).</p></li>
-<li><p><strong>Land degradation</strong> means “reduction or loss, in arid, semi-arid and dry sub-humid areas, of the biological or economic productivity and complexity of rainfed cropland, irrigated cropland, or range, pasture, forest and woodlands resulting from land uses” (UNCCD, 1994: 4).</p></li>
-<li><p><strong>Land systems</strong> “represent the terrestrial component of the Earth system and encompass all processes and activities related to the human use of land, including socioeconomic, technological and organizational investments and arrangements, as well as the benefits gained from land and the unintended social and ecological outcomes of societal activities” (Verburg et al.&nbsp;2013: 433).</p></li>
-<li><p>Land can also be understood as a <strong>socio-ecological system</strong> (Chapin et al.&nbsp;2006) in which the social and ecological subsystems interact and depend on each other. This system is characterized by mutual feedback, with humans considered integral components of nature(Verburg et al.&nbsp;2015).</p></li>
+<li><p><strong>Land cover</strong> refers to the characteristics of the land surface and its immediate subsurface, including biota, topography, and human structures <span class="citation" data-cites="lambinAreAgriculturalLanduse2000">(<a href="../references.html#ref-lambinAreAgriculturalLanduse2000" role="doc-biblioref">Lambin, Rounsevell, and Geist 2000, 322</a>)</span>.</p></li>
+<li><p><strong>Land use</strong> is the way in which humans use land cover <span class="citation" data-cites="lambinAreAgriculturalLanduse2000">(<a href="../references.html#ref-lambinAreAgriculturalLanduse2000" role="doc-biblioref">Lambin, Rounsevell, and Geist 2000, 322</a>)</span>.</p></li>
+<li><p><strong>Land use change</strong> represents the change from one land use to another <span class="citation" data-cites="lambinAreAgriculturalLanduse2000">(<a href="../references.html#ref-lambinAreAgriculturalLanduse2000" role="doc-biblioref">Lambin, Rounsevell, and Geist 2000, 322</a>)</span>.</p></li>
+<li><p><strong>Land degradation</strong> means “reduction or loss, in arid, semi-arid and dry sub-humid areas, of the biological or economic productivity and complexity of rainfed cropland, irrigated cropland, or range, pasture, forest and woodlands resulting from land uses” <span class="citation" data-cites="unUnitedNationConvention1994">(<a href="../references.html#ref-unUnitedNationConvention1994" role="doc-biblioref">UN 1994, 4</a>)</span>.</p></li>
+<li><p><strong>Land systems</strong> “represent the terrestrial component of the Earth system and encompass all processes and activities related to the human use of land, including socioeconomic, technological and organizational investments and arrangements, as well as the benefits gained from land and the unintended social and ecological outcomes of societal activities” <span class="citation" data-cites="verburgLandSystemScience2013">(<a href="../references.html#ref-verburgLandSystemScience2013" role="doc-biblioref">Peter H. Verburg et al. 2013, 433</a>)</span>.</p></li>
+<li><p>Land can also be understood as a <strong>socio-ecological system</strong> <span class="citation" data-cites="chapinPolicyStrategiesAddress2006">(<a href="../references.html#ref-chapinPolicyStrategiesAddress2006" role="doc-biblioref">Chapin et al. 2006</a>)</span> in which the social and ecological subsystems interact and depend on each other. This system is characterized by mutual feedback, with humans considered integral components of nature <span class="citation" data-cites="verburgLandSystemScience2015">(<a href="../references.html#ref-verburgLandSystemScience2015" role="doc-biblioref">Peter H. Verburg et al. 2015</a>)</span>.</p></li>
 </ul>
-<p>Various <strong>drivers</strong>, i.e.&nbsp;reasons or causes, are responsible for the occurrence of land use change. These factors vary depending on the type of land use. For example, the main drivers of global deforestation, a form of land use change, are commercial agriculture, slash-and-burn agriculture, commercial forestry, urbanization, and forest fires (Curtis et al.&nbsp;2018). Deforestation has already led to an alarming decline in biodiversity (see <em>next chapter</em>) and the disruption of carbon cycles (see previous chapter or box). For example, the Agriculture, Forestry, and Other Land Use (AFOLU) sector is a major contributor to <strong>global anthropogenic greenhouse gas</strong> <strong>emissions</strong>, accounting for approximately 13% of CO<sub>2</sub>, 44% of CH<sub>4</sub>, and 81% of N<sub>2</sub>O emissions (IPCC, 2019). These interactions between climate change and land use/land use change show that land systems and climate systems should be considered systemically, rather than in isolation (Richardson et al.&nbsp;2023). Figure X is a schematic representation of these interactions between land and greenhouse gases.</p>
+<p>Various <strong>drivers</strong>, i.e.&nbsp;reasons or causes, are responsible for the occurrence of land use change. These factors vary depending on the type of land use. For example, the main drivers of global deforestation, a form of land use change, are commercial agriculture, slash-and-burn agriculture, commercial forestry, urbanization, and forest fires <span class="citation" data-cites="curtisClassifyingDriversGlobal2018">(<a href="../references.html#ref-curtisClassifyingDriversGlobal2018" role="doc-biblioref">Curtis et al. 2018</a>)</span>. Deforestation has already led to an alarming decline in biodiversity (see <em>next chapter</em>) and the disruption of carbon cycles (see previous chapter or box). For example, the Agriculture, Forestry, and Other Land Use (AFOLU) sector is a major contributor to <strong>global anthropogenic greenhouse gas</strong> <strong>emissions</strong>, accounting for approximately 13% of CO<sub>2</sub>, 44% of CH<sub>4</sub>, and 81% of N<sub>2</sub>O emissions <span class="citation" data-cites="ipccClimateChangeLand2019">(<a href="../references.html#ref-ipccClimateChangeLand2019" role="doc-biblioref">IPCC 2019</a>)</span>. These interactions between climate change and land use/land use change show that land systems and climate systems should be considered systemically, rather than in isolation <span class="citation" data-cites="richardsonEarthSixNine2023">(<a href="../references.html#ref-richardsonEarthSixNine2023" role="doc-biblioref">Richardson et al. 2023</a>)</span>. <a href="#fig-land-climate-interaction" class="quarto-xref">Figure&nbsp;<span>3.12</span></a> is a schematic representation of these interactions between land and greenhouse gases.</p>
 <div id="fig-land-climate-interaction" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-land-climate-interaction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="images/Fig3_11__LandClimateInteraction.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-land-climate-interaction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.12: The structure and functioning of managed and unmanaged ecosystems that affect local, regional and global climate. Source: IPPC (2020) Special Report on Climate Change and Land, Box-2.1-Figure-1
+Figure&nbsp;3.12: The structure and functioning of managed and unmanaged ecosystems that affect local, regional and global climate. Source: IPPC (2020).
 </figcaption>
 </figure>
 </div>
-<p>Beyond their impact on climate-relevant greenhouse gas flows, land use and land use change also disrupt other <strong>biogeochemical material cycles</strong>, such as nitrate, phosphorus, or sulphur cycles, linking them to another already-exceeded planetary boundary, that of biogeochemical flows (Richardson et al.&nbsp;2023). A classic example of this is <strong>eutrophication</strong>, a process that occurs when agricultural fertilizer, such as phosphorus, enters nutrient-poor waters and leads to excessive growth of algae, known as algal blooms. As these blooms decompose, they deplete the oxygen level, ultimately restricting or even preventing aquatic life (Smith et al.&nbsp;2006; Galloway et al.&nbsp;2008).</p>
+<p>Beyond their impact on climate-relevant greenhouse gas flows, land use and land use change also disrupt other <strong>biogeochemical material cycles</strong>, such as nitrate, phosphorus, or sulphur cycles, linking them to another already-exceeded planetary boundary, that of biogeochemical flows (Richardson et al.&nbsp;2023). A classic example of this is <strong>eutrophication</strong>, a process that occurs when agricultural fertilizer, such as phosphorus, enters nutrient-poor waters and leads to excessive growth of algae, known as algal blooms. As these blooms decompose, they deplete the oxygen level, ultimately restricting or even preventing aquatic life <span class="citation" data-cites="gallowayTransformationNitrogenCycle2008 smithEutrophicationFreshwaterMarine2006">(<a href="../references.html#ref-gallowayTransformationNitrogenCycle2008" role="doc-biblioref">Galloway et al. 2008</a>; <a href="../references.html#ref-smithEutrophicationFreshwaterMarine2006" role="doc-biblioref">Smith, Joye, and Howarth 2006</a>)</span>.</p>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -719,7 +748,7 @@ Land use conflicts in Switzerland: the Solar Express
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Another example of a land use conflict can be observed in Switzerland, in a conflict of interest between a decentralized renewable energy project and landscape services (see Kienast et al.&nbsp;2017). In 2022, the Swiss government launched a “solar offensive” in the form of a project called “Solar Express”. The aim was to promote alpine photovoltaic systems through high subsidies that would cover up to 60% of investment costs. In the summer of 2024, the groundbreaking ceremony for the first large-scale plant, covering an area of 300,000 m<sup>2</sup>, took place in Sedrun, in Switzerland’s easternmost canton of Graubünden. However, such large-scale solar plants clash with other land uses, particularly affecting agricultural land, nature conservation areas, and tourist regions. Solar installations alter landscapes and could affect flora and fauna, leading to fears among farmers and nature conservation organizations about the loss of valuable farmland and biodiversity areas. At the same time, supporters of renewable energies are calling for the rapid implementation of these projects, to reduce Switzerland’s dependency on fossil fuels and protect the climate. This highlights the tension between the need for renewable energy on the one hand, and the desire to preserve the landscape and the environment on the other.</p>
+<p>Another example of a land use conflict can be observed in Switzerland, in a conflict of interest between a decentralized renewable energy project and landscape services <span class="citation" data-cites="kienastConflictsDecentralizedRenewable2017">(see <a href="../references.html#ref-kienastConflictsDecentralizedRenewable2017" role="doc-biblioref">Kienast et al. 2017</a>)</span>. In 2022, the Swiss government launched a “solar offensive” in the form of a project called “Solar Express”. The aim was to promote alpine photovoltaic systems through high subsidies that would cover up to 60% of investment costs. In the summer of 2024, the groundbreaking ceremony for the first large-scale plant, covering an area of 300,000 m<sup>2</sup>, took place in Sedrun, in Switzerland’s easternmost canton of Graubünden. However, such large-scale solar plants clash with other land uses, particularly affecting agricultural land, nature conservation areas, and tourist regions. Solar installations alter landscapes and could affect flora and fauna, leading to fears among farmers and nature conservation organizations about the loss of valuable farmland and biodiversity areas. At the same time, supporters of renewable energies are calling for the rapid implementation of these projects, to reduce Switzerland’s dependency on fossil fuels and protect the climate. This highlights the tension between the need for renewable energy on the one hand, and the desire to preserve the landscape and the environment on the other.</p>
 </div>
 </div>
 </div>
@@ -933,8 +962,20 @@ Further reading
 <div id="ref-albertApplyingEcosystemServices2016" class="csl-entry" role="listitem">
 Albert, Christian, Carolin Galler, Johannes Hermes, Felix Neuendorf, Christina von Haaren, and Andrew Lovett. 2016. <span>“Applying Ecosystem Services Indicators in Landscape Planning and Management: <span class="nocase">The ES-in-Planning</span> Framework.”</span> <em>Ecological Indicators</em>, Developing and <span>Applying Ecosystem Services Indicators</span> in <span>Decision-Support</span> at <span>Various Scales</span>, 61 (February): 100–113. <a href="https://doi.org/10.1016/j.ecolind.2015.03.029">https://doi.org/10.1016/j.ecolind.2015.03.029</a>.
 </div>
+<div id="ref-allenSolutionMisrepresentationsCO2equivalent2018" class="csl-entry" role="listitem">
+Allen, Myles R., Keith P. Shine, Jan S. Fuglestvedt, Richard J. Millar, Michelle Cain, David J. Frame, and Adrian H. Macey. 2018. <span>“A Solution to the Misrepresentations of <span class="nocase">CO2-equivalent</span> Emissions of Short-Lived Climate Pollutants Under Ambitious Mitigation.”</span> <em>Npj Climate and Atmospheric Science</em> 1 (1): 1–8. <a href="https://doi.org/10.1038/s41612-018-0026-8">https://doi.org/10.1038/s41612-018-0026-8</a>.
+</div>
+<div id="ref-armstrongmckayExceeding15degCGlobal2022" class="csl-entry" role="listitem">
+Armstrong McKay, David I., Arie Staal, Jesse F. Abrams, Ricarda Winkelmann, Boris Sakschewski, Sina Loriani, Ingo Fetzer, Sarah E. Cornell, Johan Rockström, and Timothy M. Lenton. 2022. <span>“Exceeding 1.5<span><span class="math inline">\(^\circ\)</span></span><span>C</span> Global Warming Could Trigger Multiple Climate Tipping Points.”</span> <em>Science</em> 377 (6611): eabn7950. <a href="https://doi.org/10.1126/science.abn7950">https://doi.org/10.1126/science.abn7950</a>.
+</div>
 <div id="ref-britannicaEcosystem2025" class="csl-entry" role="listitem">
 Britannica. 2025. <span>“Ecosystem.”</span> <em>Britannica</em>, August.
+</div>
+<div id="ref-bundesamtfuerumweltbafuKenngroessenZurEntwicklung2025" class="csl-entry" role="listitem">
+Bundesamt für Umwelt (BAFU). 2025. <span>“<span>Kenngr<span>ö</span>ssen zur Entwicklung der Treibhausgasemissionen in der Schweiz 1990–2023</span>.”</span> Bern: Eidgen<span>ö</span>ssisches Departement f<span>ü</span>r Umwelt, Verkehr, Energie und Kommunikation (UVEK).
+</div>
+<div id="ref-chapinPolicyStrategiesAddress2006" class="csl-entry" role="listitem">
+Chapin, F. Stuart, Amy L. Lovecraft, Erika S. Zavaleta, Joanna Nelson, Martin D. Robards, Gary P. Kofinas, Sarah F. Trainor, Garry D. Peterson, Henry P. Huntington, and Rosamond L. Naylor. 2006. <span>“Policy Strategies to Address Sustainability of <span>Alaskan</span> Boreal Forests in Response to a Directionally Changing Climate.”</span> <em>Proceedings of the National Academy of Sciences</em> 103 (45): 16637–43. <a href="https://doi.org/10.1073/pnas.0606955103">https://doi.org/10.1073/pnas.0606955103</a>.
 </div>
 <div id="ref-charpleixWhanganuiRiverTe2018" class="csl-entry" role="listitem">
 Charpleix, Liz. 2018. <span>“The <span>Whanganui River</span> as <span>Te Awa Tupua</span>: <span class="nocase">Place-based</span> Law in a Legally Pluralistic Society.”</span> <em>The Geographical Journal</em> 184 (1): 19–30. <a href="https://doi.org/10.1111/geoj.12238">https://doi.org/10.1111/geoj.12238</a>.
@@ -945,11 +986,17 @@ Costanza, R., R. D’Arge, R. De Groot, S. Farber, M. Grasso, B. Hannon, K. Limb
 <div id="ref-costanzaChangesGlobalValue2014" class="csl-entry" role="listitem">
 Costanza, Robert, Rudolf de Groot, Paul Sutton, Sander van der Ploeg, Sharolyn J. Anderson, Ida Kubiszewski, Stephen Farber, and R. Kerry Turner. 2014. <span>“Changes in the Global Value of Ecosystem Services.”</span> <em>Global Environmental Change</em> 26 (May): 152–58. <a href="https://doi.org/10.1016/j.gloenvcha.2014.04.002">https://doi.org/10.1016/j.gloenvcha.2014.04.002</a>.
 </div>
+<div id="ref-curtisClassifyingDriversGlobal2018" class="csl-entry" role="listitem">
+Curtis, Philip G., Christy M. Slay, Nancy L. Harris, Alexandra Tyukavina, and Matthew C. Hansen. 2018. <span>“Classifying Drivers of Global Forest Loss.”</span> <em>Science</em> 361 (6407): 1108–11. <a href="https://doi.org/10.1126/science.aau3445">https://doi.org/10.1126/science.aau3445</a>.
+</div>
 <div id="ref-dawsonRoleIndigenousPeoples2021" class="csl-entry" role="listitem">
 Dawson, Neil, Brendan Coolsaet, Eleanor Sterling, Robin Loveridge, Nicole Gross-Camp, Supin Wongbusarakum, Kamaljit Sangha, et al. 2021. <span>“The Role of <span>Indigenous</span> Peoples and Local Communities in Effective and Equitable Conservation.”</span> <em>Ecology and Society</em> 26 (3). <a href="https://doi.org/10.5751/ES-12625-260319">https://doi.org/10.5751/ES-12625-260319</a>.
 </div>
 <div id="ref-diazAssessingNaturesContributions2018" class="csl-entry" role="listitem">
 Díaz, Sandra, Unai Pascual, Marie Stenseke, Berta Martín-López, Robert T. Watson, Zsolt Molnár, Rosemary Hill, et al. 2018. <span>“Assessing Nature’s Contributions to People.”</span> <em>Science</em> 359 (6373): 270–72. <a href="https://doi.org/10.1126/science.aap8826">https://doi.org/10.1126/science.aap8826</a>.
+</div>
+<div id="ref-ditlevsenWarningForthcomingCollapse2023" class="csl-entry" role="listitem">
+Ditlevsen, Peter, and Susanne Ditlevsen. 2023. <span>“Warning of a Forthcoming Collapse of the <span>Atlantic</span> Meridional Overturning Circulation.”</span> <em>Nature Communications</em> 14 (1): 4254. <a href="https://doi.org/10.1038/s41467-023-39810-w">https://doi.org/10.1038/s41467-023-39810-w</a>.
 </div>
 <div id="ref-ehrlichExtinctionCausesConsequences1981" class="csl-entry" role="listitem">
 Ehrlich, Paul R., and Anne H. Ehrlich. 1981. <em>Extinction : The Causes and Consequences of the Disappearance of Species</em>. New York : Random House.
@@ -957,20 +1004,53 @@ Ehrlich, Paul R., and Anne H. Ehrlich. 1981. <em>Extinction : The Causes and Con
 <div id="ref-fairheadGreenGrabbingNew2012" class="csl-entry" role="listitem">
 Fairhead, James, Melissa Leach, and Ian Scoones. 2012. <span>“Green <span>Grabbing</span>: A New Appropriation of Nature?”</span> <em>The Journal of Peasant Studies</em> 39 (2): 237–61. <a href="https://doi.org/10.1080/03066150.2012.671770">https://doi.org/10.1080/03066150.2012.671770</a>.
 </div>
+<div id="ref-floresCriticalTransitionsAmazon2024" class="csl-entry" role="listitem">
+Flores, Bernardo M., Encarni Montoya, Boris Sakschewski, Nathália Nascimento, Arie Staal, Richard A. Betts, Carolina Levis, et al. 2024. <span>“Critical Transitions in the <span>Amazon</span> Forest System.”</span> <em>Nature</em> 626 (7999): 555–64. <a href="https://doi.org/10.1038/s41586-023-06970-0">https://doi.org/10.1038/s41586-023-06970-0</a>.
+</div>
+<div id="ref-gallowayTransformationNitrogenCycle2008" class="csl-entry" role="listitem">
+Galloway, James N., Alan R. Townsend, Jan Willem Erisman, Mateete Bekunda, Zucong Cai, John R. Freney, Luiz A. Martinelli, Sybil P. Seitzinger, and Mark A. Sutton. 2008. <span>“Transformation of the <span>Nitrogen Cycle</span>: <span>Recent Trends</span>, <span>Questions</span>, and <span>Potential Solutions</span>.”</span> <em>Science</em> 320 (5878): 889–92. <a href="https://doi.org/10.1126/science.1136674">https://doi.org/10.1126/science.1136674</a>.
+</div>
+<div id="ref-gattiAmazoniaCarbonSource2021" class="csl-entry" role="listitem">
+Gatti, Luciana V., Luana S. Basso, John B. Miller, Manuel Gloor, Lucas Gatti Domingues, Henrique L. G. Cassol, Graciela Tejada, et al. 2021. <span>“Amazonia as a Carbon Source Linked to Deforestation and Climate Change.”</span> <em>Nature</em> 595 (7867): 388–93. <a href="https://doi.org/10.1038/s41586-021-03629-6">https://doi.org/10.1038/s41586-021-03629-6</a>.
+</div>
 <div id="ref-gomez-baggethunHistoryEcosystemServices2010" class="csl-entry" role="listitem">
 Gómez-Baggethun, Erik, Rudolf de Groot, Pedro L. Lomas, and Carlos Montes. 2010. <span>“The History of Ecosystem Services in Economic Theory and Practice: <span>From</span> Early Notions to Markets and Payment Schemes.”</span> <em>Ecological Economics</em>, Special <span>Section</span> - <span>Payments</span> for <span>Environmental Services</span>: <span>Reconciling Theory</span> and <span>Practice</span>, 69 (6): 1209–18. <a href="https://doi.org/10.1016/j.ecolecon.2009.11.007">https://doi.org/10.1016/j.ecolecon.2009.11.007</a>.
 </div>
 <div id="ref-gongSustainableDevelopmentDigitization2024" class="csl-entry" role="listitem">
 Gong, Ke. 2024. <span>“Sustainable Development and Digitization.”</span> <em>Engineering Education Review</em> 2 (1): 1–6. <a href="https://doi.org/10.54844/eer.2023.0490">https://doi.org/10.54844/eer.2023.0490</a>.
 </div>
+<div id="ref-harrisGlobalMapsTwentyfirst2021" class="csl-entry" role="listitem">
+Harris, Nancy L., David A. Gibbs, Alessandro Baccini, Richard A. Birdsey, Sytze de Bruin, Mary Farina, Lola Fatoyinbo, et al. 2021. <span>“Global Maps of Twenty-First Century Forest Carbon Fluxes.”</span> <em>Nature Climate Change</em> 11 (3): 234–40. <a href="https://doi.org/10.1038/s41558-020-00976-6">https://doi.org/10.1038/s41558-020-00976-6</a>.
+</div>
+<div id="ref-hulmeWhyWeDisagree2009" class="csl-entry" role="listitem">
+Hulme, Mike. 2009. <em>Why <span>We Disagree</span> about <span>Climate Change</span>: <span>Understanding Controversy</span>, <span>Inaction</span> and <span>Opportunity</span></em>. Cambridge: Cambridge University Press. <a href="https://doi.org/10.1017/CBO9780511841200">https://doi.org/10.1017/CBO9780511841200</a>.
+</div>
+<div id="ref-ipccClimateChangeLand2019" class="csl-entry" role="listitem">
+IPCC. 2019. <em>Climate <span>Change</span> and <span>Land</span>: An <span>IPCC</span> Special Report on Climate Change, Desertification, Land Degradation, Sustainable Land Management, Food Security, and Greenhouse Gas Fluxes in Terrestrial Ecosystems</em>. Intergovernmental Panel on Climate Change (IPCC). <a href="https://doi.org/10.1017/9781009157988">https://doi.org/10.1017/9781009157988</a>.
+</div>
+<div id="ref-ipccClimateChange20232023" class="csl-entry" role="listitem">
+———. 2023. <em>Climate <span>Change</span> 2023: <span>Synthesis Report</span>. <span>Contribution</span> of <span>Working Groups I</span>, <span>II</span> and <span>III</span> to the <span>Sixth Assessment Report</span> of the <span>Intergovernmental Panel</span> on <span>Climate Change</span></em>. Edited by Core Writing Team, Hoesung Lee, and José Romero. Geneva, Switzerland: Intergovernmental Panel on Climate Change (IPCC). <a href="https://doi.org/10.59327/IPCC/AR6-9789291691647">https://doi.org/10.59327/IPCC/AR6-9789291691647</a>.
+</div>
 <div id="ref-jacobsPitfallsPluralValuation2023a" class="csl-entry" role="listitem">
 Jacobs, Sander, Eszter Kelemen, Patrick O’Farrell, Adrian Martin, Marije Schaafsma, Nicolas Dendoncker, Ram Pandit, et al. 2023. <span>“The Pitfalls of Plural Valuation.”</span> <em>Current Opinion in Environmental Sustainability</em> 64 (October): 101345. <a href="https://doi.org/10.1016/j.cosust.2023.101345">https://doi.org/10.1016/j.cosust.2023.101345</a>.
+</div>
+<div id="ref-kienastConflictsDecentralizedRenewable2017" class="csl-entry" role="listitem">
+Kienast, Felix, Nica Huber, Rico Hergert, Janine Bolliger, Lorena Segura Moran, and Anna M. Hersperger. 2017. <span>“Conflicts Between Decentralized Renewable Electricity Production and Landscape Services – <span>A</span> Spatially-Explicit Quantitative Assessment for <span>Switzerland</span>.”</span> <em>Renewable and Sustainable Energy Reviews</em> 67 (January): 397–407. <a href="https://doi.org/10.1016/j.rser.2016.09.045">https://doi.org/10.1016/j.rser.2016.09.045</a>.
 </div>
 <div id="ref-kosoyPaymentsEcosystemServices2010" class="csl-entry" role="listitem">
 Kosoy, Nicolás, and Esteve Corbera. 2010. <span>“Payments for Ecosystem Services as Commodity Fetishism.”</span> <em>Ecological Economics</em>, Special <span>Section</span> - <span>Payments</span> for <span>Environmental Services</span>: <span>Reconciling Theory</span> and <span>Practice</span>, 69 (6): 1228–36. <a href="https://doi.org/10.1016/j.ecolecon.2009.11.002">https://doi.org/10.1016/j.ecolecon.2009.11.002</a>.
 </div>
 <div id="ref-kubiszewskiFutureValueEcosystem2017" class="csl-entry" role="listitem">
 Kubiszewski, Ida, Robert Costanza, Sharolyn Anderson, and Paul Sutton. 2017. <span>“The Future Value of Ecosystem Services: <span>Global</span> Scenarios and National Implications.”</span> <em>Ecosystem Services</em> 26 (August): 289–301. <a href="https://doi.org/10.1016/j.ecoser.2017.05.004">https://doi.org/10.1016/j.ecoser.2017.05.004</a>.
+</div>
+<div id="ref-lambinAreAgriculturalLanduse2000" class="csl-entry" role="listitem">
+Lambin, E. F, M. D. A Rounsevell, and H. J Geist. 2000. <span>“Are Agricultural Land-Use Models Able to Predict Changes in Land-Use Intensity?”</span> <em>Agriculture, Ecosystems &amp; Environment</em> 82 (1): 321–31. <a href="https://doi.org/10.1016/S0167-8809(00)00235-8">https://doi.org/10.1016/S0167-8809(00)00235-8</a>.
+</div>
+<div id="ref-leeContributionGlobalAviation2021" class="csl-entry" role="listitem">
+Lee, D. S., D. W. Fahey, A. Skowron, M. R. Allen, U. Burkhardt, Q. Chen, S. J. Doherty, et al. 2021. <span>“The Contribution of Global Aviation to Anthropogenic Climate Forcing for 2000 to 2018.”</span> <em>Atmospheric Environment</em> 244 (January): 117834. <a href="https://doi.org/10.1016/j.atmosenv.2020.117834">https://doi.org/10.1016/j.atmosenv.2020.117834</a>.
+</div>
+<div id="ref-lentonClimateTippingPoints2019" class="csl-entry" role="listitem">
+Lenton, Timothy M., Johan Rockström, Owen Gaffney, Stefan Rahmstorf, Katherine Richardson, Will Steffen, and Hans Joachim Schellnhuber. 2019. <span>“Climate Tipping Points — Too Risky to Bet Against.”</span> <em>Nature</em> 575 (7784): 592–95. <a href="https://doi.org/10.1038/d41586-019-03595-0">https://doi.org/10.1038/d41586-019-03595-0</a>.
 </div>
 <div id="ref-loosEnvironmentalJusticePerspective2023" class="csl-entry" role="listitem">
 Loos, Jacqueline, Felipe Benra, Marta Berbés-Blázquez, Leah L. Bremer, Kai M. A. Chan, Benis Egoh, Maria Felipe-Lucia, et al. 2023. <span>“An Environmental Justice Perspective on Ecosystem Services.”</span> <em>Ambio</em> 52 (3): 477–88. <a href="https://doi.org/10.1007/s13280-022-01812-1">https://doi.org/10.1007/s13280-022-01812-1</a>.
@@ -981,6 +1061,12 @@ Millenium Ecosystem Assessment. 2005. <em>Ecosystems and <span>Human Well-Being<
 <div id="ref-muradianEcosystemServicesNatures2021" class="csl-entry" role="listitem">
 Muradian, Roldan, and Erik Gómez-Baggethun. 2021. <span>“Beyond Ecosystem Services and Nature’s Contributions: <span>Is</span> It Time to Leave Utilitarian Environmentalism Behind?”</span> <em>Ecological Economics</em> 185 (July): 107038. <a href="https://doi.org/10.1016/j.ecolecon.2021.107038">https://doi.org/10.1016/j.ecolecon.2021.107038</a>.
 </div>
+<div id="ref-nccsNationalCentreClimate" class="csl-entry" role="listitem">
+NCCS. n.d. <span>“National <span>Centre</span> for <span>Climate</span> <span>Services</span> <span>NCCS</span>.”</span> <em>National Centre for Climate Services (NCCS)</em>. Accessed November 17, 2025. <a href="https://www.nccs.admin.ch/nccs/de/home.html">https://www.nccs.admin.ch/nccs/de/home.html</a>.
+</div>
+<div id="ref-neuAuswirkungenFlugverkehrsemissionenAuf2021" class="csl-entry" role="listitem">
+Neu, Urs. 2021. <span>“<span>Die Auswirkungen der Flugverkehrsemissionen auf das Klima</span>.”</span> 16 (3).
+</div>
 <div id="ref-norgaardEcosystemServicesEyeopening2010" class="csl-entry" role="listitem">
 Norgaard, Richard B. 2010. <span>“Ecosystem Services: <span>From</span> Eye-Opening Metaphor to Complexity Blinder.”</span> <em>Ecological Economics</em>, Special <span>Section</span> - <span>Payments</span> for <span>Environmental Services</span>: <span>Reconciling Theory</span> and <span>Practice</span>, 69 (6): 1219–27. <a href="https://doi.org/10.1016/j.ecolecon.2009.11.009">https://doi.org/10.1016/j.ecolecon.2009.11.009</a>.
 </div>
@@ -990,14 +1076,62 @@ Pascual, Unai, Patricia Balvanera, Sandra Díaz, György Pataki, Eva Roth, Marie
 <div id="ref-porrasLearning20Years2013" class="csl-entry" role="listitem">
 Porras, I., D. N Barton, A. Chacón-Cascante, and M. Miranda. 2013. <em>Learning from 20 Years of <span>Payments</span> for <span>Ecosystem Services</span> in <span>Costa Rica</span></em>. London: <span>International Institute for Environment and Development (IIED)</span>.
 </div>
+<div id="ref-rahmstorfAtlanticOverturningCirculation2024" class="csl-entry" role="listitem">
+Rahmstorf, Stefan. 2024. <span>“Is the <span>Atlantic Overturning Circulation Approaching</span> a <span>Tipping Point</span>?”</span> <em>Oceanography</em> 37 (3): 1–0. <a href="https://doi.org/10.5670/oceanog.2024.501">https://doi.org/10.5670/oceanog.2024.501</a>.
+</div>
+<div id="ref-richardsonEarthSixNine2023" class="csl-entry" role="listitem">
+Richardson, Katherine, Will Steffen, Wolfgang Lucht, Jørgen Bendtsen, Sarah E. Cornell, Jonathan F. Donges, Markus Drüke, et al. 2023. <span>“Earth Beyond Six of Nine Planetary Boundaries.”</span> <em>Science Advances</em> 9 (37): eadh2458. <a href="https://doi.org/10.1126/sciadv.adh2458">https://doi.org/10.1126/sciadv.adh2458</a>.
+</div>
 <div id="ref-richterEffectsManagementPractices2024" class="csl-entry" role="listitem">
 Richter, Franziska J., Matthias Suter, Andreas Lüscher, Nina Buchmann, Nadja El Benni, Rafaela Feola Conz, Martin Hartmann, Pierrick Jan, and Valentin H. Klaus. 2024. <span>“Effects of Management Practices on the Ecosystem-Service Multifunctionality of Temperate Grasslands.”</span> <em>Nature Communications</em> 15 (1): 3829. <a href="https://doi.org/10.1038/s41467-024-48049-y">https://doi.org/10.1038/s41467-024-48049-y</a>.
+</div>
+<div id="ref-ritchieSectorSectorWhere2020a" class="csl-entry" role="listitem">
+Ritchie, Hannah. 2020. <span>“Sector by Sector: Where Do Global Greenhouse Gas Emissions Come From?”</span> <em>Our World in Data</em>. <a href="https://ourworldindata.org/ghg-emissions-by-sector">https://ourworldindata.org/ghg-emissions-by-sector</a>.
+</div>
+<div id="ref-rockstromPlanetaryBoundariesExploring2009" class="csl-entry" role="listitem">
+Rockström, Johan, Will Steffen, Kevin Noone, Åsa Persson, F. Stuart III Chapin, Eric Lambin, Timothy Lenton, et al. 2009. <span>“Planetary <span>Boundaries</span>: <span>Exploring</span> the <span>Safe Operating Space</span> for <span>Humanity</span>.”</span> <em>Ecology and Society</em> 14 (2). <a href="https://doi.org/10.5751/ES-03180-140232">https://doi.org/10.5751/ES-03180-140232</a>.
 </div>
 <div id="ref-schroterEcosystemServicesContested2014" class="csl-entry" role="listitem">
 Schröter, Matthias, Emma H. van der Zanden, Alexander P. E. van Oudenhoven, Roy P. Remme, Hector M. Serna-Chavez, Rudolf S. de Groot, and Paul Opdam. 2014. <span>“Ecosystem <span>Services</span> as a <span>Contested Concept</span>: A <span>Synthesis</span> of <span>Critique</span> and <span>Counter-Arguments</span>.”</span> <em>Conservation Letters</em> 7 (6): 514–23. <a href="https://doi.org/10.1111/conl.12091">https://doi.org/10.1111/conl.12091</a>.
 </div>
+<div id="ref-smithEutrophicationFreshwaterMarine2006" class="csl-entry" role="listitem">
+Smith, Val H., Samantha B. Joye, and Robert W. Howarth. 2006. <span>“Eutrophication of Freshwater and Marine Ecosystems.”</span> <em>Limnology and Oceanography</em> 51 (1part2): 351–55. <a href="https://doi.org/10.4319/lo.2006.51.1_part_2.0351">https://doi.org/10.4319/lo.2006.51.1_part_2.0351</a>.
+</div>
+<div id="ref-solomonIrreversibleClimateChange2009a" class="csl-entry" role="listitem">
+Solomon, Susan, Gian-Kasper Plattner, Reto Knutti, and Pierre Friedlingstein. 2009. <span>“Irreversible Climate Change Due to Carbon Dioxide Emissions.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em> 106 (6): 1704–9. <a href="https://doi.org/10.1073/pnas.0812721106">https://doi.org/10.1073/pnas.0812721106</a>.
+</div>
+<div id="ref-steffenPlanetaryBoundariesGuiding2015" class="csl-entry" role="listitem">
+Steffen, Will, Katherine Richardson, Johan Rockström, Sarah E. Cornell, Ingo Fetzer, Elena M. Bennett, Reinette Biggs, et al. 2015. <span>“Planetary Boundaries: <span>Guiding</span> Human Development on a Changing Planet.”</span> <em>Science</em> 347 (6223): 1259855. <a href="https://doi.org/10.1126/science.1259855">https://doi.org/10.1126/science.1259855</a>.
+</div>
+<div id="ref-steffenTrajectoriesEarthSystem2018" class="csl-entry" role="listitem">
+Steffen, Will, Johan Rockström, Katherine Richardson, Timothy M. Lenton, Carl Folke, Diana Liverman, Colin P. Summerhayes, et al. 2018. <span>“Trajectories of the <span>Earth System</span> in the <span>Anthropocene</span>.”</span> <em>Proceedings of the National Academy of Sciences</em> 115 (33): 8252–59. <a href="https://doi.org/10.1073/pnas.1810141115">https://doi.org/10.1073/pnas.1810141115</a>.
+</div>
+<div id="ref-stermanUnderstandingPublicComplacency2007" class="csl-entry" role="listitem">
+Sterman, John D., and Linda Booth Sweeney. 2007. <span>“Understanding Public Complacency about Climate Change: Adults’ Mental Models of Climate Change Violate Conservation of Matter.”</span> <em>Climatic Change</em> 80 (3): 213–38. <a href="https://doi.org/10.1007/s10584-006-9107-5">https://doi.org/10.1007/s10584-006-9107-5</a>.
+</div>
+<div id="ref-unUnitedNationConvention1994" class="csl-entry" role="listitem">
+UN. 1994. <span>“United <span>Nation Convention</span> to <span>Combat Desertification</span>.”</span> United Nations (UN).
+</div>
+<div id="ref-unClimateFastFacts2024" class="csl-entry" role="listitem">
+———. 2024. <span>“Climate <span>Fast</span> <span>Facts</span>: <span>Temperature</span> <span>Rise</span>.”</span> United Nations (UN). <a href="https://www.un.org/sites/un2.un.org/files/temperaturerise_may2024.pdf">https://www.un.org/sites/un2.un.org/files/temperaturerise_may2024.pdf</a>.
+</div>
+<div id="ref-unepBecomingGenerationRestorationEcosystem2021" class="csl-entry" role="listitem">
+UNEP. 2021. <em>Becoming #<span>GenerationRestoration</span>: <span>Ecosystem</span> Restoration for People, Nature and Climate</em>. Nairobi, Kenya: United Nations Environment Programme (UNEP).
+</div>
+<div id="ref-vanwestenPhysicsbasedEarlyWarning2024" class="csl-entry" role="listitem">
+van Westen, René M., Michael Kliphuis, and Henk A. Dijkstra. 2024. <span>“Physics-Based Early Warning Signal Shows That <span>AMOC</span> Is on Tipping Course.”</span> <em>Science Advances</em> 10 (6): eadk1189. <a href="https://doi.org/10.1126/sciadv.adk1189">https://doi.org/10.1126/sciadv.adk1189</a>.
+</div>
+<div id="ref-verburgLandSystemScience2015" class="csl-entry" role="listitem">
+Verburg, Peter H., Neville Crossman, Erle C. Ellis, Andreas Heinimann, Patrick Hostert, Ole Mertz, Harini Nagendra, et al. 2015. <span>“Land System Science and Sustainable Development of the Earth System: <span>A</span> Global Land Project Perspective.”</span> <em>Anthropocene</em> 12 (December): 29–41. <a href="https://doi.org/10.1016/j.ancene.2015.09.004">https://doi.org/10.1016/j.ancene.2015.09.004</a>.
+</div>
+<div id="ref-verburgLandSystemScience2013" class="csl-entry" role="listitem">
+Verburg, Peter H, Karl-Heinz Erb, Ole Mertz, and Giovana Espindola. 2013. <span>“Land <span>System Science</span>: Between Global Challenges and Local Realities.”</span> <em>Current Opinion in Environmental Sustainability</em>, Human settlements and industrial systems, 5 (5): 433–37. <a href="https://doi.org/10.1016/j.cosust.2013.08.001">https://doi.org/10.1016/j.cosust.2013.08.001</a>.
+</div>
 <div id="ref-westmanHowMuchAre1977" class="csl-entry" role="listitem">
 Westman, Walter E. 1977. <span>“How <span>Much Are Nature</span>’s <span>Services Worth</span>?”</span> <em>Science</em> 197 (4307): 960–64. <a href="https://doi.org/10.1126/science.197.4307.960">https://doi.org/10.1126/science.197.4307.960</a>.
+</div>
+<div id="ref-zhongAreWeAnthropocene2024" class="csl-entry" role="listitem">
+Zhong, Raymond. 2024. <span>“Are <span>We</span> in the <span>‘<span>Anthropocene</span>,’</span> the <span>Human Age</span>? <span>Nope</span>, <span>Scientists Say</span>.”</span> <em>The New York Times</em>, March.
 </div>
 </div>
 </section>
