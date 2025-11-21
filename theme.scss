@@ -94,3 +94,8 @@ $toc-active-background: #EEECEA!default;
   background-color: white;
   border-bottom-right-radius: 4px;
   }
+  
+.small-table {
+  font-size: 0.85rem;   // or 0.8rem if you need smaller
+  line-height: 1.25;
+}

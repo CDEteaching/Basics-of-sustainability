@@ -7,7 +7,7 @@ tbl-cap-location: top
 fig-cap-location: bottom
 ---
 
-The world is facing numerous challenges of sustainable development, including pressing environmental problems and social inequalities. Scientists, researchers, and activists are seeking innovative approaches to enable sustainable and equitable change. This chapter examines some of these approaches, which offer a complete rethink of current paradigms. 
+The world is facing numerous challenges of sustainable development, including pressing environmental problems and social inequalities. Scientists, researchers, and activists are seeking innovative approaches to enable sustainable and equitable change. This chapter examines some of these approaches, which offer a complete rethink of current paradigms.
 
 Approaches discussed in this chapter:
 
