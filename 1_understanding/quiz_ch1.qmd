@@ -1,0 +1,15 @@
+## Quiz me if you can
+
+
+
+```{r setup, include = FALSE}
+## package and list of various exercises
+library("exams2forms")
+exm <- list(
+  c("Exam_ch1_SDdef.Rmd", "Exam_ch1_WeakStrong.Rmd")
+)
+```
+
+```{r quiz, echo = FALSE, message = FALSE, results = "asis"}
+exams2forms(exm, n = 3)
+```

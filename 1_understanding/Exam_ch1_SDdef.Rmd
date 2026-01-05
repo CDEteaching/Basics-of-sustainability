@@ -1,0 +1,30 @@
+Question
+========
+Which statement best defines “sustainable development” according to the Brundtland Report?
+
+Answerlist
+----------
+* Economic growth without environmental harm
+* Development that meets present needs without compromising future generations
+* The improvement of living standards through industrialization
+* Reducing CO₂ emissions by 50% before 2030
+
+
+Solution
+========
+The Brundtland Report (1987) defines sustainable development as development that meets the needs of the present without compromising the ability of future generations to meet their own needs.
+
+Answerlist
+----------
+* False
+* True
+* False
+* False
+
+
+Meta-information
+================
+exname: Brundtland Definition
+extype: schoice
+exsolution: 0100
+exshuffle: 4

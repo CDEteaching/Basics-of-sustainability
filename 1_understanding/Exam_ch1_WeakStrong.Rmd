@@ -1,0 +1,30 @@
+Question
+========
+What distinguishes “strong” from “weak” sustainability?
+
+Answerlist
+----------
+* Strong sustainability allows full substitution of natural capital.
+* Weak sustainability restricts all technological innovation.
+* Strong sustainability requires preserving natural capital as non-substitutable.
+* Both concepts mean the same.
+
+
+Solution
+========
+Strong sustainability assumes that certain ecological functions and natural capital stocks are critical and cannot be substituted by human-made or technological capital, whereas weak sustainability allows for substitution.
+
+Answerlist
+----------
+* False
+* False
+* True
+* False
+
+
+Meta-information
+================
+exname: Strong vs Weak Sustainability
+extype: schoice
+exsolution: 0010
+exshuffle: 4
