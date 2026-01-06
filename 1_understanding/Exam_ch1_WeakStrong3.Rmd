@@ -1,0 +1,39 @@
+Question
+========
+Which of the following statements describe weak sustainability?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* A company only fulfilling its statutory environmental and social responsibilities.
+* The preservation of the total amount of all forms of capital from one generation to the next.
+* Forms of capital being, in principle, mutually exchangeable.
+* Increasing GDP.
+* The irreplaceability of human-made capital.
+* The preservation of natural capital when it promotes or preserves human well-being.
+* Insufficient environmental protection.
+* Giving priority to the needs of the current generation over the needs of future generations.
+
+
+Solution
+========
+Weak sustainability focuses on maintaining the overall stock of capital across generations, assuming that different forms of capital can substitute for one another. Natural capital is preserved primarily insofar as it contributes to human well-being, rather than being considered intrinsically irreplaceable.
+
+Answerlist
+----------
+* False
+* True
+* True
+* False
+* False
+* True
+* False
+* False
+
+
+Meta-information
+================
+exname: Weak Sustainability
+extype: mchoice
+exsolution: 01100100
+exshuffle: 8

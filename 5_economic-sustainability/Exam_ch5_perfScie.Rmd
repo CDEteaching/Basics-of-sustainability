@@ -1,0 +1,33 @@
+Question
+========
+Which of the following statements correctly describe economics as a performative science?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Economics not only describes social reality but also shapes economic thinking, policy, and practice.
+* Concepts such as homo economicus, profit maximization, and efficiency have influenced real-world economic institutions and policies.
+* The history of economics is also a history of its practical impacts on markets, policies, and societal structures.
+* Economics is a purely descriptive science that has no influence on political or economic decision-making.
+* All definitions of economics are theory-neutral and independent of underlying schools of thought.
+
+
+Solution
+========
+Economics has a performative character in that it actively shapes how societies understand and organize economic activity. Core concepts such as rational decision-making, efficiency, and growth have influenced policies and practices, from market liberalization to climate policy instruments. Different definitions of economics reflect distinct theoretical orientations, and the discipline’s history is closely intertwined with its real-world effects.
+
+Answerlist
+----------
+* True
+* True
+* True
+* False
+* False
+
+
+Meta-information
+================
+exname: Economics as a Performative Science
+extype: mchoice
+exsolution: 11100
+exshuffle: 5

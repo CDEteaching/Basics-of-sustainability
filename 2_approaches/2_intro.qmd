@@ -32,3 +32,5 @@ Approaches discussed in this chapter:
 {{< include "Green-economy.qmd" >}}
 
 {{< include "post-growth-societies.qmd" >}}
+
+{{< include "quiz_ch2.qmd" >}}

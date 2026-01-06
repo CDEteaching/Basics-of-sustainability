@@ -1,0 +1,31 @@
+Question
+========
+Which of the following are direct drivers of biodiversity loss?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Land use change
+* Pollution
+* Climate change
+* Economic policy
+
+
+Solution
+========
+Direct drivers of biodiversity loss are factors that have an immediate impact on ecosystems and species. These include land use change (e.g. habitat destruction), pollution, and climate change. Economic policy, by contrast, is considered an indirect driver, as it influences biodiversity loss through socio-economic pathways rather than through direct ecological pressure.
+
+Answerlist
+----------
+* True
+* True
+* True
+* False
+
+
+Meta-information
+================
+exname: Drivers of Biodiversity Loss
+extype: mchoice
+exsolution: 1110
+exshuffle: 4

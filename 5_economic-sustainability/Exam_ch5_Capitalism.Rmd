@@ -1,0 +1,33 @@
+Question
+========
+Which of the following statements correctly describe capitalism as a starting point for analyzing economic sustainability issues?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Many contemporary sustainability challenges, such as climate change and social inequality, are linked to the structural dynamics of modern global capitalism.
+* Capitalism is viewed as a historically developed economic and social system rather than a natural or universal form of economic organization.
+* The capitalist mode of production is characterized by the separation of capital and labour, private ownership of the means of production, and profit maximization.
+* Sustainability transformations can be achieved without examining underlying economic structures, as environmental problems are largely isolated phenomena.
+* The Industrial Revolution played a key role in consolidating capitalism through technological innovation, fossil energy use, and mass production.
+
+
+Solution
+========
+From a systemic perspective, sustainability challenges are understood as expressions of the structural dynamics of global capitalism rather than isolated problems. Capitalism is seen as a historically specific economic and social system that emerged through particular institutional developments and was consolidated during the Industrial Revolution. Its core features include the separation of capital and labour, private ownership of the means of production, and an orientation towards profit maximization. Ignoring these structures limits the ability to address sustainability challenges effectively.
+
+Answerlist
+----------
+* True
+* True
+* True
+* False
+* True
+
+
+Meta-information
+================
+exname: Capitalism and Sustainability Challenges
+extype: mchoice
+exsolution: 11101
+exshuffle: 5

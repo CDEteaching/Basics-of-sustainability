@@ -1,0 +1,28 @@
+Question
+========
+What is normativity?
+
+Answerlist
+----------
+* Refers to the way things are right now
+* Refers to values and morally justified views about what should be done and how things should be
+* Means that actions should be based on jointly agreed laws and norms
+
+
+Solution
+========
+Normativity refers to values, norms, and morally justified views about what ought to be done and how things should be, rather than describing how things currently are.
+
+Answerlist
+----------
+* False
+* True
+* False
+
+
+Meta-information
+================
+exname: Normativity
+extype: schoice
+exsolution: 010
+exshuffle: 3

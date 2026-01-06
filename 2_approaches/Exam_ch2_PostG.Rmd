@@ -1,0 +1,31 @@
+Question
+========
+Which of the following statements describe post-growth approaches?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Critique of growth dependency
+* Focus on sufficiency and well-being
+* Emphasis on GDP increase
+* Advocacy for structural change
+
+
+Solution
+========
+Post-growth approaches critically question the dependence of modern societies on continuous economic growth. They emphasize sufficiency, well-being, and quality of life rather than GDP growth, and they call for structural changes in economic and social systems to enable sustainable and just futures.
+
+Answerlist
+----------
+* True
+* True
+* False
+* True
+
+
+Meta-information
+================
+exname: Post-growth Approaches
+extype: mchoice
+exsolution: 1101
+exshuffle: 4

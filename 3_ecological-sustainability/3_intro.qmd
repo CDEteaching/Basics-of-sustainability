@@ -35,3 +35,5 @@ Protecting ecosystems: Should we establish protected areas to preserve threatene
 {{< include "3_Planetaryboundaries.qmd" >}}
 
 {{< include "3_strategies.qmd" >}}
+
+{{< include "quiz_ch3.qmd" >}}

@@ -1,0 +1,28 @@
+Question
+========
+What are the four main categories of ecosystem services?
+
+Answerlist
+----------
+* Provisioning, regulating, cultural, supporting
+* Material, spiritual, industrial, social
+* Economic, social, environmental, cultural
+
+
+Solution
+========
+Ecosystem services are commonly classified into four main categories: provisioning services (e.g. food and raw materials), regulating services (e.g. climate regulation), cultural services (e.g. recreational and spiritual benefits), and supporting services (e.g. nutrient cycling and soil formation).
+
+Answerlist
+----------
+* True
+* False
+* False
+
+
+Meta-information
+================
+exname: Categories of Ecosystem Services
+extype: schoice
+exsolution: 100
+exshuffle: 3

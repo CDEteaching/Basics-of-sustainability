@@ -1,0 +1,33 @@
+Question
+========
+Which of the following statements correctly describe key dimensions of social sustainability?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Inclusion refers to the access of all individuals and groups to economic, political, social, and cultural spheres.
+* Social cohesion describes a shared sense of belonging and trust that enables cooperation within communities.
+* Resilience refers to the ability of a community or society to avoid, absorb, or cope with internal or external shocks.
+* Inclusion focuses primarily on economic growth rather than participation in social and political life.
+* Social cohesion is defined mainly by the absence of diversity within a society.
+
+
+Solution
+========
+Inclusion concerns equal access and participation across economic, political, social, and cultural domains. Social cohesion emphasizes trust, belonging, and the ability of groups to work together constructively. Resilience describes the capacity of societies or communities to withstand or adapt to shocks such as environmental changes or political crises. The remaining statements misrepresent these concepts by narrowing their scope or attributing incorrect characteristics.
+
+Answerlist
+----------
+* True
+* True
+* True
+* False
+* False
+
+
+Meta-information
+================
+exname: Dimensions of Social Sustainability
+extype: mchoice
+exsolution: 11100
+exshuffle: 5

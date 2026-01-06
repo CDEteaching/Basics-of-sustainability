@@ -1,0 +1,33 @@
+Question
+========
+Which of the following statements correctly distinguish between individual and structural approaches to analyzing inequality?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Analyses of individual inequality focus on socio-economic characteristics such as income, education, and occupational status.
+* Individual inequality analyses assume that economic differences mainly result from personal attributes and individual effort.
+* Structural inequality is understood as the outcome of social frameworks such as positions in the mode of production, social hierarchies, or nationality.
+* Structural approaches to inequality are closely aligned with welfare economics and the concept of absolute inequality.
+* Structural inequality analyses are linked to concepts such as equity, the capability approach, and relative inequality.
+
+
+Solution
+========
+Individual approaches to inequality emphasize differences between individuals and typically draw on welfare economics and absolute inequality, attributing inequalities largely to personal characteristics and effort. Structural approaches, in contrast, focus on the social, economic, and political frameworks that shape unequal outcomes, and are closely connected to concepts such as equity, the capability approach, and relative inequality.
+
+Answerlist
+----------
+* True
+* True
+* True
+* False
+* True
+
+
+Meta-information
+================
+exname: Individual vs Structural Inequality
+extype: mchoice
+exsolution: 11101
+exshuffle: 5

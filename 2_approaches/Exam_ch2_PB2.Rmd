@@ -1,0 +1,30 @@
+Question
+========
+Which of the following is NOT one of the nine planetary boundaries identified by Rockström et al.?
+
+Answerlist
+----------
+* Climate change
+* Ocean acidification
+* Global financial stability
+* Biosphere integrity
+
+
+Solution
+========
+The planetary boundaries framework identifies biophysical Earth system processes that regulate the stability and resilience of the planet. Climate change, ocean acidification, and biosphere integrity are part of this framework, whereas global financial stability is not a planetary boundary.
+
+Answerlist
+----------
+* False
+* False
+* True
+* False
+
+
+Meta-information
+================
+exname: Planetary Boundaries – Non-member
+extype: schoice
+exsolution: 0010
+exshuffle: 4

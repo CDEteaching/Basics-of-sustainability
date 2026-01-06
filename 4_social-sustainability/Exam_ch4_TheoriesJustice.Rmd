@@ -1,0 +1,33 @@
+Question
+========
+Which of the following statements correctly reflect how different theories of justice assess the idea of an unconditional basic income?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Libertarian theories generally reject an unconditional basic income because redistribution through taxation is seen as an infringement on individual freedom and property rights.
+* Liberal theories may support an unconditional basic income because it can increase overall utility or strengthen equal basic freedoms.
+* Egalitarian perspectives uncritically support an unconditional basic income because strict equality automatically guarantees justice.
+* Collective theories of justice evaluate an unconditional basic income depending on historical, cultural, and social context.
+* All theories of justice agree that an unconditional basic income is the most just form of redistribution.
+
+
+Solution
+========
+Different theories of justice arrive at different conclusions regarding an unconditional basic income. Libertarian theories typically reject it due to concerns about state intervention and property rights. Liberal theories, such as utilitarianism or Rawlsian contractarianism, may support it under certain conditions, while egalitarian approaches emphasize the need to distinguish equality from equity. Collective theories stress that judgments depend on social and cultural context. There is no universal agreement across all theories.
+
+Answerlist
+----------
+* True
+* True
+* False
+* True
+* False
+
+
+Meta-information
+================
+exname: Theories of Justice and Basic Income
+extype: mchoice
+exsolution: 11010
+exshuffle: 5

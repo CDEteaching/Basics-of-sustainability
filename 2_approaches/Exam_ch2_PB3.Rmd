@@ -1,0 +1,30 @@
+Question
+========
+Which of the following tipping points does NOT belong to the Earth’s climate system?
+
+Answerlist
+----------
+* Greenland Ice Sheet melting
+* Gulf Stream collapse
+* Ocean plastic pollution
+* Amazon rainforest collapse
+
+
+Solution
+========
+Tipping points in the Earth’s climate system refer to large-scale components of the climate that can undergo abrupt and potentially irreversible change. The Greenland Ice Sheet, the Gulf Stream (AMOC), and the Amazon rainforest are all commonly discussed climate tipping elements, whereas ocean plastic pollution is an environmental problem but not a climate-system tipping point.
+
+Answerlist
+----------
+* False
+* False
+* True
+* False
+
+
+Meta-information
+================
+exname: Climate System Tipping Points
+extype: schoice
+exsolution: 0010
+exshuffle: 4

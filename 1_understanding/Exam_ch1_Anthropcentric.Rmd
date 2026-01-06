@@ -1,0 +1,31 @@
+Question
+========
+Which of the following statements are correct?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* The concept of sustainable development is a biocentric concept, which is why it also takes animal rights into consideration.
+* While the concept of sustainable development is an anthropocentric concept, the concept of ecosystem services is biocentric.
+* Protecting a whole landscape because one views it as an end in itself is an exclusively biocentric perspective.
+* Protecting plants because one views them as an end in themselves is a biocentric perspective.
+
+
+Solution
+========
+Biocentric perspectives attribute intrinsic value to nature and non-human beings, meaning they are protected as ends in themselves. Protecting a landscape or plants for their own sake reflects such a biocentric view. In contrast, sustainable development is generally anthropocentric, and the ecosystem services concept is also anthropocentric because it values nature based on benefits to humans.
+
+Answerlist
+----------
+* False
+* False
+* True
+* True
+
+
+Meta-information
+================
+exname: Anthropocentric vs Biocentric Perspectives
+extype: mchoice
+exsolution: 0011
+exshuffle: 4

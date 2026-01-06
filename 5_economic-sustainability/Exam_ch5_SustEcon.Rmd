@@ -1,0 +1,37 @@
+Question
+========
+Which of the following statements correctly describe the idea of a sustainable economy based on growth-independent economic sectors?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Many core institutions such as pension systems, labour markets, and public finances are currently structurally dependent on economic growth.
+* Designing growth-independent institutions requires decoupling social systems and public finances from GDP growth and questioning political growth fixation.
+* Sufficient lifestyles focus only on individual consumer restraint and do not involve changes in infrastructure or production systems.
+* Commons, cooperatives, and solidarity-based forms of production are seen as ways to strengthen resilience, social cohesion, and environmental responsibility.
+* A caring economy emphasizes the systematic upvaluation of care and reproductive work as the foundation of economic activity.
+* Overcoming the “imperial mode of living” involves questioning global power relations and the externalization of social and environmental costs to the Global South.
+* Sustainable economic transformation can be achieved without supportive tax, regulatory, or investment-related policy frameworks.
+
+
+Solution
+========
+Growth-independent economic sectors aim to reduce the structural dependence of societies on continuous economic growth. This involves redesigning institutions, promoting sufficient lifestyles supported by appropriate infrastructure, strengthening commons-based and cooperative forms of production, and recognizing care work as a central pillar of economic activity. From a global perspective, this also requires addressing unequal power relations and cost externalization. Such transformations depend on supportive policy frameworks; without them, alternative economic practices often remain niche phenomena.
+
+Answerlist
+----------
+* True
+* True
+* False
+* True
+* True
+* True
+* False
+
+
+Meta-information
+================
+exname: Growth-independent Economic Sectors
+extype: mchoice
+exsolution: 1101110
+exshuffle: 7

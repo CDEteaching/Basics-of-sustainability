@@ -1,0 +1,33 @@
+Question
+========
+Which of the following statements correctly describe growth dependency and structural growth constraints in capitalist economies?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Modern capitalist economies are structurally dependent on continuous economic growth to maintain employment, social security systems, and public finances.
+* Economic stagnation or decline in growth can trigger crises such as unemployment, poverty, and social benefit cuts.
+* The growth imperative results partly from market competition, as firms must expand and increase productivity to remain competitive.
+* Companies can remain profitable and competitive in the long term without generating profits or expanding production.
+* The logic of capitalist investment is often described by the formula M–C–M’, reflecting the aim of turning money into more money.
+
+
+Solution
+========
+In capitalist economies, continuous economic growth is structurally required to ensure the stability of labour markets, social systems, and public finances. Market competition and financial pressures reinforce a “grow or die” logic at the corporate level, captured by the investment formula M–C–M’. When growth stalls or reverses, economic crises can emerge with significant social and political consequences. The remaining statement contradicts the core logic of capitalist competition and investment.
+
+Answerlist
+----------
+* True
+* True
+* True
+* False
+* True
+
+
+Meta-information
+================
+exname: Growth Dependency and Capitalism
+extype: mchoice
+exsolution: 11101
+exshuffle: 5

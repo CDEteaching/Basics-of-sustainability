@@ -1,0 +1,30 @@
+Question
+========
+What does the inner circle of the Doughnut Model represent?
+
+Answerlist
+----------
+* The ecological ceiling
+* The safe and just space for humanity
+* The social foundation
+* The planetary limits
+
+
+Solution
+========
+In the Doughnut Model, the inner circle represents the social foundation, which defines the minimum social standards necessary for a just and equitable life for all people.
+
+Answerlist
+----------
+* False
+* False
+* True
+* False
+
+
+Meta-information
+================
+exname: Doughnut Model – Inner Circle
+extype: schoice
+exsolution: 0010
+exshuffle: 4

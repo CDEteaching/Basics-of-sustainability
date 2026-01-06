@@ -1,0 +1,30 @@
+Question
+========
+Which strategy for building resilience focuses on long-term systemic change rather than immediate responses to shocks?
+
+Answerlist
+----------
+* Coping strategies, such as relying on savings or social networks.
+* Risk reduction and mitigation, such as immunization or protective infrastructure.
+* Transformative strategies, such as institutional reforms and changes in social norms.
+* Emergency relief measures provided immediately after a disaster.
+
+
+Solution
+========
+Transformative strategies aim at long-term increases in resilience by introducing far-reaching reforms or new institutions. They typically combine elements of risk reduction and coping, but go beyond short-term responses by addressing underlying vulnerabilities and changing social, institutional, or structural conditions.
+
+Answerlist
+----------
+* False
+* False
+* True
+* False
+
+
+Meta-information
+================
+exname: Resilience Strategies
+extype: schoice
+exsolution: 0010
+exshuffle: 4

@@ -1,0 +1,31 @@
+Question
+========
+Which statements correctly describe the difference between strong and weak sustainability?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* In weak sustainability, different forms of capital can substitute each other.
+* In strong sustainability, natural capital is considered non-substitutable.
+* Weak sustainability assumes that technological innovation can fully replace nature’s functions.
+* Strong sustainability accepts unlimited substitution between natural and human-made capital.
+
+
+Solution
+========
+Weak sustainability is based on the assumption that different forms of capital (natural, human-made, social) can substitute each other and that technological progress can compensate for the loss of natural capital. Strong sustainability, in contrast, holds that natural capital is essential and cannot be substituted without risking irreversible damage.
+
+Answerlist
+----------
+* True
+* True
+* True
+* False
+
+
+Meta-information
+================
+exname: Strong vs Weak Sustainability
+extype: mchoice
+exsolution: 1110
+exshuffle: 4

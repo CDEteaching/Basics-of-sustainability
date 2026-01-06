@@ -1,0 +1,30 @@
+Question
+========
+Which of the following best describes resilience in a social sustainability context?
+
+Answerlist
+----------
+* The ability of societies to avoid all internal and external shocks entirely.
+* The capacity of individuals and societies to prepare for, cope with, and recover from shocks.
+* The short-term use of resources to stabilize economic growth after a crisis.
+* The equal distribution of income to prevent social conflict.
+
+
+Solution
+========
+Resilience refers to the ability of individuals, households, communities, or entire societies to prepare for, cope with, and recover from shocks such as economic crises, natural disasters, or social conflicts. It does not imply the complete avoidance of shocks, but rather the capacity to deal with them and regain quality of life and stability.
+
+Answerlist
+----------
+* False
+* True
+* False
+* False
+
+
+Meta-information
+================
+exname: Definition of Resilience
+extype: schoice
+exsolution: 0100
+exshuffle: 4

@@ -1,0 +1,31 @@
+Question
+========
+Which of the following statements about sustainability strategies are correct?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Efficiency aims to use fewer resources per unit of output.
+* Consistency means producing goods that can be recycled infinitely.
+* Sufficiency encourages higher production levels.
+* All three sustainability strategies have the same effect on consumption.
+
+
+Solution
+========
+Efficiency focuses on reducing resource use per unit of output. Consistency aims at aligning production with natural cycles, for example through closed-loop or infinitely recyclable systems. Sufficiency questions levels of production and consumption, and the three strategies therefore differ in how they affect consumption.
+
+Answerlist
+----------
+* True
+* True
+* False
+* False
+
+
+Meta-information
+================
+exname: Sustainability Strategies – Multiple Choice
+extype: mchoice
+exsolution: 1100
+exshuffle: 4

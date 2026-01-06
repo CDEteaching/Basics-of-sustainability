@@ -1,0 +1,30 @@
+Question
+========
+What term refers to the decoupling of economic growth from environmental degradation while maintaining prosperity?
+
+Answerlist
+----------
+* Resilience
+* Green economy
+* Double decoupling
+* Planetary boundaries
+
+
+Solution
+========
+The concept of a green economy refers to an economic model that aims to achieve economic growth and human well-being while reducing environmental risks and ecological scarcities, thereby decoupling prosperity from environmental degradation.
+
+Answerlist
+----------
+* False
+* True
+* False
+* False
+
+
+Meta-information
+================
+exname: Green Economy
+extype: schoice
+exsolution: 0100
+exshuffle: 4

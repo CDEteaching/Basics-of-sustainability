@@ -1,0 +1,30 @@
+Question
+========
+What is the primary goal of the consistency strategy in sustainability?
+
+Answerlist
+----------
+* Reducing energy consumption in production
+* Meeting consumer needs through environmentally sustainable methods
+* Minimizing the use of raw materials in production
+* Reducing social inequality
+
+
+Solution
+========
+The consistency strategy aims to align economic activities and consumption patterns with natural systems by designing products, processes, and services in ways that are environmentally sustainable while still meeting human needs.
+
+Answerlist
+----------
+* False
+* True
+* False
+* False
+
+
+Meta-information
+================
+exname: Consistency Strategy
+extype: schoice
+exsolution: 0100
+exshuffle: 4

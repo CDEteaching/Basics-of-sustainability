@@ -1,0 +1,39 @@
+Question
+========
+Which of the following statements about the concept of ecosystem services are correct?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* The concept of ecosystem services represents a measure for biodiversity and therefore also a measure for an ecosystem’s resilience.
+* The concept of ecosystem services represents the direct and indirect benefits that humans obtain from ecosystems.
+* The concept of ecosystem services represents the accumulation of biomass within an ecosystem within a year, measured in kilojoules.
+* Four different types of ecosystem services can be distinguished: regulating services, provisioning services, cultural services, and supporting services.
+* The concept of ecosystem services represents all measures taken by humans in order to preserve ecosystems.
+* Unlike the concept of Sustainable Development, the concept of ecosystem services is not anthropocentric, but ecocentric.
+* Three different types of ecosystem services can be distinguished: services of avoidance, improvement, and shifting.
+* The term ‘ecosystem services’ is a scientific term that describes the congregations of nature-oriented religions (so-called nature religions), such as animism, during which nature as a whole is worshipped.
+
+
+Solution
+========
+The ecosystem services concept refers to the direct and indirect benefits that humans derive from ecosystems and is therefore explicitly anthropocentric. A commonly used classification distinguishes four types of ecosystem services: provisioning, regulating, cultural, and supporting services. The other statements confuse ecosystem services with biodiversity metrics, ecological productivity measures, conservation actions, alternative classifications, or unrelated cultural or religious concepts.
+
+Answerlist
+----------
+* False
+* True
+* False
+* True
+* False
+* False
+* False
+* False
+
+
+Meta-information
+================
+exname: Ecosystem Services
+extype: mchoice
+exsolution: 01010000
+exshuffle: 8

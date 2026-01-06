@@ -1,0 +1,30 @@
+Question
+========
+What is the main critique of GDP as a measure of prosperity?
+
+Answerlist
+----------
+* It includes unpaid work and environmental degradation.
+* It measures only financial market performance.
+* It ignores unpaid work, inequality, and environmental damage.
+* It accounts for both well-being and happiness.
+
+
+Solution
+========
+GDP measures the monetary value of goods and services produced in an economy, but it does not account for unpaid work, social inequalities, or environmental degradation. As a result, it provides a limited and potentially misleading picture of overall prosperity and well-being.
+
+Answerlist
+----------
+* False
+* False
+* True
+* False
+
+
+Meta-information
+================
+exname: Critique of GDP
+extype: schoice
+exsolution: 0010
+exshuffle: 4

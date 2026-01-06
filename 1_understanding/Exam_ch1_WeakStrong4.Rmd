@@ -1,0 +1,35 @@
+Question
+========
+Which of the following statements describe strong sustainability?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Natural capital and human-made capital complement each other and humans cannot survive without both.
+* The sixth wave of extinctions is considered to be the most important sustainability problem.
+* Environmental problems are resolved through innovative energy technologies.
+* Preserving critical natural capital from one generation to the next is required.
+* An increase to the total amount of all forms of capital is called for.
+* Nature is viewed as a form of capital that contributes to the well-being of people in an invaluable way.
+
+
+Solution
+========
+Strong sustainability emphasizes the essential and non-substitutable role of natural capital for human survival and well-being. It requires the preservation of critical natural capital across generations and recognizes that nature provides indispensable contributions to human well-being that cannot be fully replaced by human-made capital or technological innovation.
+
+Answerlist
+----------
+* True
+* False
+* False
+* True
+* False
+* True
+
+
+Meta-information
+================
+exname: Strong Sustainability
+extype: mchoice
+exsolution: 100101
+exshuffle: 6

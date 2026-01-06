@@ -1,0 +1,11 @@
+## Quiz me if you can
+
+```{r quiz-ch2-setup, include = FALSE}
+## package and list of various exercises
+library("exams2forms")
+exm_ch2 <- c("Exam_ch2_PB.Rmd", "Exam_ch2_PB2.Rmd", "Exam_ch2_PB3.Rmd", "Exam_ch2_GreenEc.Rmd", "Exam_ch2_Doughnut.Rmd", "Exam_ch2_PostG.Rmd")
+```
+
+```{r quiz-ch2, echo = FALSE, message = FALSE, results = "asis"}
+exams2forms(exm_ch2, n=1)
+```

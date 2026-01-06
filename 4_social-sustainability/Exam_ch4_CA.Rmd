@@ -1,0 +1,30 @@
+Question
+========
+According to the capabilities approach, which of the following statements is correct?
+
+Answerlist
+----------
+* Equal legal rights are sufficient for a society to be fair.
+* Resources, such as clean drinking water, must be evenly distributed.
+* Development must be measured with GDP.
+* Resources must be divided so that everyone has access to the functionings and states of being required for a good life.
+
+
+Solution
+========
+The capabilities approach focuses on what people are actually able to be and to do. It therefore emphasizes that resources should be distributed in ways that enable all individuals to achieve essential functionings and states of being necessary for a good life, rather than focusing solely on formal rights, equal resource distribution, or GDP growth.
+
+Answerlist
+----------
+* False
+* False
+* False
+* True
+
+
+Meta-information
+================
+exname: Capabilities Approach
+extype: schoice
+exsolution: 0001
+exshuffle: 4

@@ -1,0 +1,30 @@
+Question
+========
+What is meant by the term financialization?
+
+Answerlist
+----------
+* The growing importance of financial markets, institutions, and motives in the economy.
+* The replacement of banking systems by cooperatives.
+* The withdrawal of finance from the real economy.
+* The total elimination of private credit.
+
+
+Solution
+========
+Financialization refers to the increasing dominance of financial markets, financial institutions, and financial motives in shaping economic activities, corporate behavior, and public policy. It does not imply the disappearance of banking systems, a retreat of finance from the real economy, or the elimination of private credit.
+
+Answerlist
+----------
+* True
+* False
+* False
+* False
+
+
+Meta-information
+================
+exname: Financialization
+extype: schoice
+exsolution: 1000
+exshuffle: 4

@@ -1,0 +1,33 @@
+Question
+========
+Which of the following statements correctly describe different types of economic systems and their modes of ownership and coordination?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* In a capitalist market economy, coordination is largely decentralized through markets, and the means of production are predominantly privately owned.
+* In a socialist, centralized economy, production and distribution are mainly coordinated through state planning, and the means of production are generally publicly owned.
+* Mixed economies combine private ownership with state intervention to regulate markets and promote social justice.
+* Community-based networks and commons economies rely primarily on centralized state control and private ownership.
+* The concept of “varieties of capitalism” highlights that capitalist systems have taken different institutional forms over time and across countries.
+
+
+Solution
+========
+Economic systems differ in how ownership and coordination are organized. Capitalist market economies rely on decentralized market coordination and private ownership, while socialist economies are characterized by centralized state planning and public ownership. Mixed economies combine market mechanisms with state intervention to address market failures and promote social goals. Community-based and commons-based economies emphasize self-organization and common property rather than centralized control. The notion of “varieties of capitalism” captures the diversity of capitalist models that have evolved historically.
+
+Answerlist
+----------
+* True
+* True
+* True
+* False
+* True
+
+
+Meta-information
+================
+exname: Economic Systems and Coordination
+extype: mchoice
+exsolution: 11101
+exshuffle: 5

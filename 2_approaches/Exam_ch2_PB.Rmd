@@ -1,0 +1,30 @@
+Question
+========
+Which two planetary boundaries are considered “core boundaries”?
+
+Answerlist
+----------
+* Climate change and biosphere integrity
+* Ozone depletion and land use
+* Ocean acidification and nitrogen cycles
+* Freshwater and aerosols
+
+
+Solution
+========
+Within the planetary boundaries framework, climate change and biosphere integrity are identified as core boundaries because they play a fundamental role in regulating the state of the Earth system and strongly influence the other planetary boundaries.
+
+Answerlist
+----------
+* True
+* False
+* False
+* False
+
+
+Meta-information
+================
+exname: Core Planetary Boundaries
+extype: schoice
+exsolution: 1000
+exshuffle: 4

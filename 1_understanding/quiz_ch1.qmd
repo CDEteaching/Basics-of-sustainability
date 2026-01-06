@@ -1,15 +1,11 @@
 ## Quiz me if you can
 
-
-
-```{r setup, include = FALSE}
+```{r quiz-ch1-setup, include = FALSE}
 ## package and list of various exercises
 library("exams2forms")
-exm <- list(
-  c("Exam_ch1_SDdef.Rmd", "Exam_ch1_WeakStrong.Rmd")
-)
+exm_ch1 <- c("Exam_ch1_SDdef.Rmd", "Exam_ch1_Normativity.Rmd", "Exam_ch1_GreatAcc.Rmd", "Exam_ch1_WeakStrong.Rmd", "Exam_ch1_WeakStrong2.Rmd", "Exam_ch1_WeakStrong3.Rmd", "Exam_ch1_WeakStrong4.Rmd", "Exam_ch1_Consistency.Rmd", "Exam_ch1_SDstrategies.Rmd")
 ```
 
-```{r quiz, echo = FALSE, message = FALSE, results = "asis"}
-exams2forms(exm, n = 3)
+```{r quiz-ch1, echo = FALSE, message = FALSE, results = "asis"}
+exams2forms(exm_ch1, n=1)
 ```

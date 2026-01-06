@@ -28,7 +28,7 @@ These courses are designed to:
 
 ## 📜 License
 
-Unless otherwise indicated, all materials are licensed under the Creative Commons BY-NC-SA 4.0 License.
+Unless otherwise indicated, all materials are licensed under the Creative Commons BY-NC-SA 4.0 License. We used <a href="https://quarto.org/">Quarto</a> for the online book and pdf printout as well as the open-source R package <a href="https://cran.r-project.org/package=exams">“exams”</a> for the *Quiz me if you can* sections in each chapter.
 
 ## 📖 How to cite
 

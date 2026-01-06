@@ -1,0 +1,30 @@
+Question
+========
+What is meant by profit maximization?
+
+Answerlist
+----------
+* Firms aim to sell at the lowest possible price.
+* Firms seek to achieve the highest possible return on investment.
+* Firms focus on social well-being.
+* Firms invest only in public goods.
+
+
+Solution
+========
+Profit maximization refers to the objective of firms to maximize the difference between revenues and costs, thereby achieving the highest possible return on investment. It does not primarily aim at minimizing prices, promoting social well-being, or investing exclusively in public goods.
+
+Answerlist
+----------
+* False
+* True
+* False
+* False
+
+
+Meta-information
+================
+exname: Profit Maximization
+extype: schoice
+exsolution: 0100
+exshuffle: 4

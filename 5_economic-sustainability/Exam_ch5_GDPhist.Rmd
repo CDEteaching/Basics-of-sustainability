@@ -1,0 +1,31 @@
+Question
+========
+Why did economies (measured by GDP per capita) not grow significantly before the 19th century?
+(More than one answer may be correct.)
+
+Answerlist
+----------
+* Economic production was largely limited by land and natural resource availability.
+* Most societies were agrarian, with low productivity and little technological innovation.
+* Global trade and industrialization had not yet developed on a large scale.
+* Governments deliberately restricted economic growth to avoid inflation.
+
+
+Solution
+========
+Before the 19th century, most economies were characterized by agrarian production systems with low productivity and slow technological change. Economic output was strongly constrained by land and natural resource availability, and large-scale industrialization and global trade had not yet emerged. There is no historical evidence that governments systematically restricted growth to prevent inflation.
+
+Answerlist
+----------
+* True
+* True
+* True
+* False
+
+
+Meta-information
+================
+exname: Pre-Industrial Economic Growth
+extype: mchoice
+exsolution: 1110
+exshuffle: 4

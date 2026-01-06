@@ -63,4 +63,7 @@ In this video – *Economics is for Everyone* – Ha-Joon Chang provides a clear
 :::
 
 {{< include "5_key-elements.qmd" >}} 
+
 {{< include "5_strategic-approaches.qmd" >}}
+
+{{< include "quiz_ch5.qmd" >}}

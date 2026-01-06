@@ -1,0 +1,31 @@
+Question
+========
+Which of the following statements apply to the concept of ecosystem services, and which do not?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Ecosystem services represent a measure of biodiversity and, consequently, the resilience of an ecosystem.
+* Ecosystem services represent the direct and indirect contributions of ecosystems to human well-being.
+* Ecosystem services represent the annual accumulation of biomass within an ecosystem measured in kilojoules.
+* Ecosystem services can be divided into the categories supporting, provisioning, regulating, and cultural.
+
+
+Solution
+========
+The ecosystem services concept refers to the direct and indirect contributions of ecosystems to human well-being and is commonly structured into four categories: provisioning, regulating, cultural, and supporting services. It does not serve as a direct measure of biodiversity or ecosystem resilience, nor does it describe biophysical productivity metrics such as annual biomass accumulation.
+
+Answerlist
+----------
+* False
+* True
+* False
+* True
+
+
+Meta-information
+================
+exname: Ecosystem Services – Applicability
+extype: mchoice
+exsolution: 0101
+exshuffle: 4

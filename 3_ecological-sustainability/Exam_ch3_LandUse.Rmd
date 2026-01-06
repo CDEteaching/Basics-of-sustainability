@@ -1,0 +1,35 @@
+Question
+========
+Which of the following statements correctly describe land use change and related concepts?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Land cover refers to the physical and biological characteristics of the land surface, including vegetation, topography, and human-made structures.
+* Land use describes how humans utilize land cover, for example for agriculture, settlement, or infrastructure.
+* Land use change refers to changes in land cover only, independent of human activities.
+* Land use change can negatively affect biodiversity, ecosystem functions, and ecosystem services, thereby restricting human well-being.
+* Land degradation refers to the reduction or loss of biological or economic productivity of land due to land uses, particularly in dryland areas.
+* Land systems only describe ecological processes and exclude social, economic, and technological factors.
+
+
+Solution
+========
+Land cover describes the biophysical characteristics of the land surface, while land use refers to how humans use that land. Land use change involves shifts from one land use to another and is closely linked to human activities. Such changes can threaten biodiversity, disrupt ecosystem functions, increase greenhouse gas emissions, and reduce ecosystem services, thereby affecting human well-being. Land degradation captures the loss of land productivity due to land use, and land systems explicitly integrate social, economic, technological, and ecological dimensions.
+
+Answerlist
+----------
+* True
+* True
+* False
+* True
+* True
+* False
+
+
+Meta-information
+================
+exname: Land Use Change and Related Concepts
+extype: mchoice
+exsolution: 110110
+exshuffle: 6

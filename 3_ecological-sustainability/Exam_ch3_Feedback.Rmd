@@ -1,0 +1,29 @@
+Question
+========
+Which of the following are types of feedback mechanisms in the climate system?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Positive feedback
+* Neutral feedback
+* Negative feedback
+
+
+Solution
+========
+Feedback mechanisms in the climate system describe processes that either amplify (positive feedback) or dampen (negative feedback) changes in the climate system. A neutral feedback is not commonly used as a category in climate science.
+
+Answerlist
+----------
+* True
+* False
+* True
+
+
+Meta-information
+================
+exname: Climate Feedback Mechanisms
+extype: mchoice
+exsolution: 101
+exshuffle: 3

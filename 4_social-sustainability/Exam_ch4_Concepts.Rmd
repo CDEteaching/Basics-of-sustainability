@@ -1,0 +1,33 @@
+Question
+========
+Which of the following statements correctly describe the three dimensions of justice commonly discussed in social sustainability?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Distributive justice focuses on the fair distribution of goods and burdens, such as access to clean water or exposure to environmental pollution.
+* Procedural justice emphasizes the inclusivity and fairness of decision-making processes and representation.
+* Recognition justice centers on respecting social and cultural differences and acknowledging structural injustices.
+* Distributive justice primarily concerns the recognition of cultural identities and historical experiences.
+* Procedural justice is mainly concerned with the outcomes of policies rather than how decisions are made.
+
+
+Solution
+========
+In social sustainability debates, distributive justice addresses the fair allocation of benefits and burdens. Procedural justice focuses on who is included in decision-making processes and how decisions are made. Recognition justice highlights the importance of respecting diverse identities, cultural contexts, and historical experiences, and of addressing structural injustices. The remaining statements incorrectly attribute the focus of one justice dimension to another.
+
+Answerlist
+----------
+* True
+* True
+* True
+* False
+* False
+
+
+Meta-information
+================
+exname: Dimensions of Justice in Social Sustainability
+extype: mchoice
+exsolution: 11100
+exshuffle: 5

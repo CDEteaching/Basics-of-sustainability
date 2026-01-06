@@ -1,0 +1,30 @@
+Question
+========
+What is the “Great Acceleration”?
+
+Answerlist
+----------
+* A rapid increase in global resource use following World War I
+* The exponential growth in socio-economic and Earth system trends starting in the mid-20th century
+* The sudden reduction in biodiversity in the early 21st century
+* The rapid decline of industrialization during the 1960s
+
+
+Solution
+========
+The “Great Acceleration” refers to the rapid and exponential increase in socio-economic activities (such as population growth, industrialization, and resource use) and corresponding changes in Earth system processes that began around the mid-20th century.
+
+Answerlist
+----------
+* False
+* True
+* False
+* False
+
+
+Meta-information
+================
+exname: Great Acceleration
+extype: schoice
+exsolution: 0100
+exshuffle: 4

@@ -1,0 +1,31 @@
+Question
+========
+Which characteristics distinguish “Nature’s Contributions to People (NCP)” from “ecosystem services”?
+(More than one statement may be correct.)
+
+Answerlist
+----------
+* Includes intrinsic and relational values
+* Based solely on monetary valuation
+* Integrates Indigenous perspectives
+* Focuses only on provisioning functions
+
+
+Solution
+========
+The concept of Nature’s Contributions to People (NCP), introduced by IPBES, broadens the ecosystem services framework by explicitly including intrinsic and relational values of nature and by integrating Indigenous and local knowledge systems. It is not limited to monetary valuation and does not focus solely on provisioning functions.
+
+Answerlist
+----------
+* True
+* False
+* True
+* False
+
+
+Meta-information
+================
+exname: NCP vs Ecosystem Services
+extype: mchoice
+exsolution: 1010
+exshuffle: 4
