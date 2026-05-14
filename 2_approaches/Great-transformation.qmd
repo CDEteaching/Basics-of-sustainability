@@ -6,7 +6,7 @@ Concepts of the “great transformation” refer to fundamental changes in socia
 
 ### Flagship WBGU report: *World in Transition*
 
-The flagship report by the German Advisory Council on Global Change [@wbguWorldTransitionSocial2011], *World in Transition,* is an important publication that addresses the challenges and opportunities of a sustainable transformation of society. It was first published in 1994 and has since been updated several times. The report analyses global environmental changes, including climate change, biodiversity loss, and resource consumption, and proposes concrete policies and social change to promote sustainable development.
+The flagship report by the German Advisory Council on Global Change [@wbguWorldTransitionSocial2011], *World in Transition,* is an important publication that addresses the challenges and opportunities of a sustainable transformation of society. It was first published in 1994 and has since been updated several times. The report analyses global environmental changes, including climate change, biodiversity loss, and resource consumption, and it proposes concrete policies and social change to promote sustainable development.
 
 *World in Transition* is significant to debates on the great transformation, as it argues for a far-reaching transformation of business, policy, and society. This vision extends beyond mere adaptation, demanding fundamental shifts in the structures and patterns of economic activity and daily life. The report underscores the urgency of driving forward the transition to a climate-friendly and environmentally sound economy and way of living. It emphasizes the critical role of a comprehensive sustainability policy. Finally, it identifies innovation, technology, education, institutional reforms, and international cooperation as key levers for achieving sustainable development.
 
@@ -14,23 +14,23 @@ The flagship report by the German Advisory Council on Global Change [@wbguWorldT
 
 In Chapter 8, *World in Transition* distinguishes between two concepts: “transformation research and education” and “transformative research and education”. These concepts are key to promoting fundamental change towards sustainability.
 
-*Transformation research* analyses processes of change, particularly in the context of sustainable development. It seeks to understand the dynamics and complexity of transformations, and to identify possible courses of action for a sustainable future. Transformation research offers an inter- and transdisciplinary perspective, and it involves different actors and stakeholders in the research process.
+**Transformation research** analyses processes of change, particularly in the context of sustainable development. It seeks to understand the dynamics and complexity of transformations, and to identify possible courses of action for a sustainable future. Transformation research offers an inter- and transdisciplinary perspective, and it involves different actors and stakeholders in the research process.
 
-*Transformation education* is education that aims to impart the knowledge, skills, and values needed to achieve a sustainable transformation of society. It includes formal and informal educational measures that enable people to actively participate in transformation processes and to promote sustainable thinking and action.
+**Transformation education** is education that aims to impart the knowledge, skills, and values needed to achieve a sustainable transformation of society. It includes formal and informal educational measures that enable people to actively participate in transformation processes and to promote sustainable thinking and action.
 
-*Transformative research* not only generates knowledge but also goes a step further, by actively striving for change towards sustainability. It thus aims to influence social practice and develop solutions and innovations for sustainable development. Transformative research works closely with partners from practice, and strives to translate knowledge into action.
+Transformative research not only generates knowledge but also goes a step further by actively striving for change towards sustainability. It thus aims to influence social practice and develop solutions and innovations for sustainable development. Transformative research works closely with partners from practice and strives to translate knowledge into action.
 
-*Transformative education* fosters a shift in mindsets, values, and behaviour towards sustainability. It goes beyond imparting knowledge, by also promoting critical awareness, empathy, and action for sustainable changes in society.
+Transformative education fosters a shift in mindsets, values, and behaviour towards sustainability. It goes beyond imparting knowledge, by also promoting critical awareness, empathy, and action for sustainable changes in society.
 
 The WBGU believes that the state should take on tasks that are not adequately performed by individuals or the private sector. It recognizes that the state plays a decisive role in creating framework conditions and shaping political measures to promote sustainable development. The state can drive innovative solutions, steer investments, establish regulations, and implement policies that enable a sustainable transformation.
 
 > “The important thing for Government is not to do things which individuals are doing already, and to do them a little bit better or a little worse; **but to do those things which at present are not done at all**.” John M. Keynes, The End of Laissez-Faire, 1926
 
-However, the WBGU also emphasizes that effective government intervention should take place in collaboration with other actors and stakeholders, including civil society, the private sector, and academia. Jointly shaping a sustainable future is about creating partnerships and involving different expertise.
+However, the WBGU also emphasizes that effective government intervention should take place in collaboration with other actors and stakeholders, including civil society, the private sector, and academia. Jointly shaping a sustainable future is about creating partnerships and involving a variety of expertise.
 
 ### Schneidewind's "art of the future"
 
-The German economist and politician, Uwe Schneidewind, discusses the concept of the great transformation in his 2018 book, *Die grosse Transformation: Eine Einführung in die Kunst des gesellschaftlichen Wandels*, which translates as *The Great Transformation: An Introduction to the Art of Social Change*. @schneidewindGrosseTransformationEinfuhrung2018 points out that a great transformation isn’t dictated by the unstoppable development dynamics of modern societies or by a technocratic blueprint for an ecologically just society. Instead, he sees it as a process that should be actively shaped by many actors. As such, it’s important to have a clearly defined normative compass and to develop the ability to navigate complex social, cultural, economic, and technological processes. He describes this ability as the “art of the future” – the skill of making desirable futures possible – and thus builds a bridge to Harald Welzer's FUTURZWEI. Welzer, a psychologist and sociologist, emphasizes the importance of imagination, creativity, and engagement in bringing about transformative change and developing alternative visions of the future.
+The German economist and politician, Uwe Schneidewind, discusses the concept of the great transformation in his 2018 book, *Die grosse Transformation: Eine Einführung in die Kunst des gesellschaftlichen Wandels*, which translates as *The Great Transformation: An Introduction to the Art of Social Change*. @schneidewindGrosseTransformationEinfuhrung2018 points out that a great transformation isn’t dictated by the unstoppable development dynamics of modern societies or by a technocratic blueprint for an ecologically just society. Instead, he sees it as a process that should be actively shaped by many actors. As such, it’s important to have a clearly defined normative compass and to develop the ability to navigate complex social, cultural, economic, and technological processes. He describes this ability as the “art of the future” -- the skill of making desirable futures possible -- and thus builds a bridge to Harald Welzer’s “FuturZwei” approach. Welzer, a psychologist and sociologist, emphasizes the importance of imagination, creativity, and engagement in bringing about transformative change and developing alternative visions of the future.
 
 ![Understanding the interplay of the seven turning points of the great transformation. Source: Own illustration based on @schneidewindGrosseTransformationEinfuhrung2018.](Images/Fig2_5_Schneidewind_turningpoints.jpg){#fig-turningpoints}
 
@@ -42,9 +42,9 @@ For @schneidewindGrosseTransformationEinfuhrung2018, the great transformation ha
 
 Double decoupling refers to the following two types of decoupling:
 
--   First-order decoupling: This focuses on increasing resource efficiency and consistency within the traditional economic growth model, mainly through technological advancements, and
+-   **First-order decoupling**: This focuses on increasing resource efficiency and consistency within the traditional economic growth model, mainly through technological advancements, and
 
--   Second-order decoupling: This focuses on “sufficiency”, decoupling quality of life and a “good life” from the traditional economic growth model, as measured by GDP.
+-   **Second-order decoupling**: This focuses on “sufficiency”, decoupling quality of life and a “good life” from the traditional economic growth model, as measured by GDP.
 
 ### Global Sustainable Development Report
 

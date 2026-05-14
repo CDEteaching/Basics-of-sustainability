@@ -13,7 +13,7 @@ Answerlist
 
 Solution
 ========
-Direct drivers of biodiversity loss are factors that have an immediate impact on ecosystems and species. These include land use change (e.g. habitat destruction), pollution, and climate change. Economic policy, by contrast, is considered an indirect driver, as it influences biodiversity loss through socio-economic pathways rather than through direct ecological pressure.
+Direct drivers of biodiversity loss are factors that have an immediate impact on ecosystems and species. These include land use change (e.g. habitat destruction), pollution, and climate change. Economic policy, by contrast, is considered an indirect driver, as it influences biodiversity loss through socioeconomic pathways rather than through direct ecological pressure.
 
 Answerlist
 ----------

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,6 +10,9 @@
 
 <title>2&nbsp; Approaches to Sustainable Development – Basics of sustainability</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -25,7 +28,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -60,14 +62,14 @@ div.csl-indent {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-71fc20417728fc502f32f4d9a1df6ab1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-60b716ab65d401520622fb3b811f5bf6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-71fc20417728fc502f32f4d9a1df6ab1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-0fa854f13349ed7d0e5b5bd4c237b45d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-e8282bee7637e0ceba70fdf198bf2ab0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-0fa854f13349ed7d0e5b5bd4c237b45d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -100,7 +102,7 @@ div.csl-indent {
 }</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -113,7 +115,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -318,7 +320,8 @@ window.Quarto = {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src="../images/cdelogo_e.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../images/cdelogo_e.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../images/cdelogo_e.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="../">Basics of sustainability</a> 
@@ -365,7 +368,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../1_understanding/1_intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Understandings and concepts of sustainability</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Understandings and Concepts of Sustainability</span></span></a>
   </div>
 </li>
       </ul>
@@ -390,7 +393,7 @@ window.Quarto = {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Transforming (Un-)sustainable systems: Key areas and strategic approaches</span></a>
+ <span class="menu-text">Transforming (Un-)sustainable Systems: Key Areas and Strategic Approaches</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -449,16 +452,18 @@ window.Quarto = {
   <li><a href="#schneidewinds-art-of-the-future" id="toc-schneidewinds-art-of-the-future" class="nav-link" data-scroll-target="#schneidewinds-art-of-the-future"><span class="header-section-number">2.3.2</span> Schneidewind’s “art of the future”</a></li>
   <li><a href="#global-sustainable-development-report" id="toc-global-sustainable-development-report" class="nav-link" data-scroll-target="#global-sustainable-development-report"><span class="header-section-number">2.3.3</span> Global Sustainable Development Report</a></li>
   <li><a href="#conclusion-2" id="toc-conclusion-2" class="nav-link" data-scroll-target="#conclusion-2"><span class="header-section-number">2.3.4</span> Conclusion</a></li>
-  <li><a href="#green-economy" id="toc-green-economy" class="nav-link" data-scroll-target="#green-economy"><span class="header-section-number">2.3.5</span> Green economy</a></li>
-  <li><a href="#conclusion-3" id="toc-conclusion-3" class="nav-link" data-scroll-target="#conclusion-3"><span class="header-section-number">2.3.6</span> Conclusion</a></li>
   </ul></li>
-  <li><a href="#post-growth-societies" id="toc-post-growth-societies" class="nav-link" data-scroll-target="#post-growth-societies"><span class="header-section-number">2.4</span> Post-growth societies</a>
+  <li><a href="#green-economy" id="toc-green-economy" class="nav-link" data-scroll-target="#green-economy"><span class="header-section-number">2.4</span> Green economy</a>
   <ul class="collapse">
-  <li><a href="#conclusion-4" id="toc-conclusion-4" class="nav-link" data-scroll-target="#conclusion-4"><span class="header-section-number">2.4.1</span> Conclusion</a></li>
+  <li><a href="#conclusion-3" id="toc-conclusion-3" class="nav-link" data-scroll-target="#conclusion-3"><span class="header-section-number">2.4.1</span> Conclusion</a></li>
   </ul></li>
-  <li><a href="#indicators-for-sustainable-development-from-principles-to-practice" id="toc-indicators-for-sustainable-development-from-principles-to-practice" class="nav-link" data-scroll-target="#indicators-for-sustainable-development-from-principles-to-practice"><span class="header-section-number">2.5</span> Indicators for Sustainable Development: From Principles to Practice</a></li>
-  <li><a href="#between-simplification-and-complexity-interactions-between-sdgs" id="toc-between-simplification-and-complexity-interactions-between-sdgs" class="nav-link" data-scroll-target="#between-simplification-and-complexity-interactions-between-sdgs"><span class="header-section-number">2.6</span> Between Simplification and Complexity: Interactions Between SDGs</a></li>
-  <li><a href="#quiz-me-if-you-can" id="toc-quiz-me-if-you-can" class="nav-link" data-scroll-target="#quiz-me-if-you-can"><span class="header-section-number">2.7</span> Quiz me if you can</a></li>
+  <li><a href="#post-growth-societies" id="toc-post-growth-societies" class="nav-link" data-scroll-target="#post-growth-societies"><span class="header-section-number">2.5</span> Post-growth societies</a>
+  <ul class="collapse">
+  <li><a href="#conclusion-4" id="toc-conclusion-4" class="nav-link" data-scroll-target="#conclusion-4"><span class="header-section-number">2.5.1</span> Conclusion</a></li>
+  </ul></li>
+  <li><a href="#indicators-for-sustainable-development-from-principles-to-practice" id="toc-indicators-for-sustainable-development-from-principles-to-practice" class="nav-link" data-scroll-target="#indicators-for-sustainable-development-from-principles-to-practice"><span class="header-section-number">2.6</span> Indicators for Sustainable Development: From Principles to Practice</a></li>
+  <li><a href="#between-simplification-and-complexity-interactions-between-sdgs" id="toc-between-simplification-and-complexity-interactions-between-sdgs" class="nav-link" data-scroll-target="#between-simplification-and-complexity-interactions-between-sdgs"><span class="header-section-number">2.7</span> Between Simplification and Complexity: Interactions Between SDGs</a></li>
+  <li><a href="#quiz-me-if-you-can" id="toc-quiz-me-if-you-can" class="nav-link" data-scroll-target="#quiz-me-if-you-can"><span class="header-section-number">2.8</span> Quiz me if you can</a></li>
   </ul>
 </nav>
     </div>
@@ -505,8 +510,8 @@ window.Quarto = {
 <h2 data-number="2.1" class="anchored" data-anchor-id="debates-about-planetary-boundaries"><span class="header-section-number">2.1</span> Debates about planetary boundaries</h2>
 <p>In 1798, British economist Thomas Robert Malthus published his influential essay, <em>An Essay on the Principle of Population</em>. Malthus’s core idea was that population growth would surpass Earth’s ability to produce food, sparking a debate on planetary carrying capacity that continues today. <em>The Limits to Growth</em> (1972), a report by the Club of Rome, built on Malthus’s ideas. It went beyond just food supply to consider a broader range of factors in calculating a planetary limit. These factors included resource availability, environmental pollution, and industrial output. The report remains relevant from an environmental point of view, as it challenges the assumptions of limitless growth, even though its specific predictions haven’t quite come true.</p>
 <p>A significant development in sustainability science is the planetary boundaries concept, introduced in 2009. Unlike earlier theories focused solely on population limits, this framework uses Earth system science parameters. Researchers identified the Holocene epoch as a baseline, as this was a period of remarkable stability for human development. Significant deviations from this ideal state could push humanity towards uncertain “tipping points” – critical thresholds that can either interrupt previous progress, alter its course, or even accelerate it in unintended ways. An example might be the extinction of megafauna at the end of the last ice age, potentially linked to human arrival in the Americas. The planetary boundaries concept promotes the precautionary principle, urging action to minimize potential harm to both humans and the environment.</p>
-<p>The concept, which puts forward nine planetary boundaries, was first introduced by Johan Rockström et al. <span class="citation" data-cites="rockstromPlanetaryBoundariesExploring2009">(<a href="../references.html#ref-rockstromPlanetaryBoundariesExploring2009" role="doc-biblioref">2009</a>)</span>. It was updated by Will Steffen et al. <span class="citation" data-cites="steffenPlanetaryBoundariesGuiding2015">(<a href="../references.html#ref-steffenPlanetaryBoundariesGuiding2015" role="doc-biblioref">2015</a>)</span>. A recent update by Richardson et al. <span class="citation" data-cites="richardsonEarthSixNine2023">(<a href="../references.html#ref-richardsonEarthSixNine2023" role="doc-biblioref">2023</a>)</span> shows that six out of nine planetary boundaries have already been transgressed.</p>
-<p>The planetary boundaries framework identifies nine critical Earth system processes. These processes regulate the planet’s stability and include, for example, land system change and ocean acidification (see all planetary boundaries here: <a href="#fig-development-planetary-boundaries" class="quarto-xref">Figure&nbsp;<span>2.8</span></a>). Each boundary has an inner circle, within which it can operate safely (“safe operating space”) and an outer circle, which represents increased uncertainty.</p>
+<p>The concept, which puts forward nine planetary boundaries, was first introduced by Johan Rockström et al. <span class="citation" data-cites="rockstromPlanetaryBoundariesExploring2009">(<a href="../references.html#ref-rockstromPlanetaryBoundariesExploring2009" role="doc-biblioref">2009</a>)</span>. It was updated by Will Steffen et al. <span class="citation" data-cites="steffenPlanetaryBoundariesGuiding2015">(<a href="../references.html#ref-steffenPlanetaryBoundariesGuiding2015" role="doc-biblioref">2015</a>)</span>. A recent update by <span class="citation" data-cites="richardsonEarthSixNine2023">Richardson et al. (<a href="../references.html#ref-richardsonEarthSixNine2023" role="doc-biblioref">2023</a>)</span> shows that six out of nine planetary boundaries have already been transgressed.</p>
+<p>The planetary boundaries framework identifies nine critical Earth system processes. These processes regulate the planet’s stability and include, for example, land system change and ocean acidification (see all planetary boundaries in <a href="#fig-development-planetary-boundaries" class="quarto-xref">Figure&nbsp;<span>2.8</span></a>). Each boundary has an inner circle, within which it can operate safely (“safe operating space”) and an outer circle, which represents increased uncertainty.</p>
 <p>The latest update to the planetary boundaries framework paints a concerning picture. We’re close to overstepping the safe operating space for ocean acidification, and regional atmospheric aerosol loading has already crossed its boundary. In a positive development, stratospheric ozone levels show some signs of recovery. However, the overall situation is alarming. The boundaries previously identified as transgressed (climate change, biosphere integrity (genetic diversity), land system change, and biogeochemical flows [N and P]) have all seen a worsening of their transgression since 2015.</p>
 <p>The study added human appropriation of net primary production as a control variable for the functional component of biosphere integrity, arguing that this boundary has also been exceeded. In addition, the significant transgression of the planetary boundaries for phosphorus and nitrogen cycles, along with genetic biodiversity, raise the risk of fatal consequences.</p>
 <p>Two of the nine planetary boundaries – biosphere integrity and climate change – are considered “core boundaries”. These core systems encompass processes from many other subsystems and operate at a global scale. Reaching tipping points in these core systems could therefore push the entire Earth system into a new state.</p>
@@ -516,7 +521,7 @@ window.Quarto = {
 <a href="Images/Fig2_1__planetaryboundaries.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;2.1: Development of control variables for all nine planetary boundaries. Source: Azote for Stockholm Resilience Centre, Stockholm University. Based on @rockstromPlanetaryBoundariesExploring2009, @steffenPlanetaryBoundariesGuiding2015, @richardsonEarthSixNine2023. Licensed under CC BY-NC-ND 3.0."><img src="Images/Fig2_1__planetaryboundaries.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-development-planetary-boundaries-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.1: Development of control variables for all nine planetary boundaries. Source: Azote for Stockholm Resilience Centre, Stockholm University. Based on <span class="citation" data-cites="rockstromPlanetaryBoundariesExploring2009">Rockström et al. (<a href="../references.html#ref-rockstromPlanetaryBoundariesExploring2009" role="doc-biblioref">2009</a>)</span>, <span class="citation" data-cites="steffenPlanetaryBoundariesGuiding2015">Steffen et al. (<a href="../references.html#ref-steffenPlanetaryBoundariesGuiding2015" role="doc-biblioref">2015</a>)</span>, <span class="citation" data-cites="richardsonEarthSixNine2023">Richardson et al. (<a href="../references.html#ref-richardsonEarthSixNine2023" role="doc-biblioref">2023</a>)</span>. Licensed under CC BY-NC-ND 3.0.
+Figure&nbsp;2.1: Development of control variables for all nine planetary boundaries. Source: Azote for Stockholm Resilience Centre, Stockholm University. Based on <span class="citation" data-cites="rockstromPlanetaryBoundariesExploring2009"><span class="nocase">Rockström, Steffen, Noone, Persson, F. S. I. Chapin, et al.</span> (<a href="../references.html#ref-rockstromPlanetaryBoundariesExploring2009" role="doc-biblioref">2009</a>)</span>, <span class="citation" data-cites="steffenPlanetaryBoundariesGuiding2015"><span class="nocase">Steffen et al.</span> (<a href="../references.html#ref-steffenPlanetaryBoundariesGuiding2015" role="doc-biblioref">2015</a>)</span>, <span class="citation" data-cites="richardsonEarthSixNine2023">Richardson et al. (<a href="../references.html#ref-richardsonEarthSixNine2023" role="doc-biblioref">2023</a>)</span>. Licensed under CC BY-NC-ND 3.0.
 </figcaption>
 </figure>
 </div>
@@ -538,11 +543,11 @@ Figure&nbsp;2.2: Spatial distribution of global and regional tipping elements. T
 <section id="quantifying-planetary-boundaries" class="level3" data-number="2.1.2">
 <h3 data-number="2.1.2" class="anchored" data-anchor-id="quantifying-planetary-boundaries"><span class="header-section-number">2.1.2</span> Quantifying planetary boundaries</h3>
 <p>A recent development within the planetary boundaries framework is the concept of “safe and just Earth system boundaries (ESBs)” for the following domains: climate, the biosphere, water and nutrient cycles, and aerosols at global and subglobal scales <span class="citation" data-cites="rockstromSafeJustEarth2023">(<a href="../references.html#ref-rockstromSafeJustEarth2023" role="doc-biblioref">Rockström et al. 2023</a>)</span>. The ESBs are based on modelling and literature review, and account for uncertainty through different levels of likelihood. Staying within the ESBs protects stability and equity between species and future generations, although current generations, especially vulnerable groups, could still suffer harm. The authors therefore suggest stricter boundaries in some cases, and the addition of local standards to protect current generations and ecosystems. For example, they identify safe ESBs for warming <span class="citation" data-cites="rockstromSafeJustEarth2023">(<a href="../references.html#ref-rockstromSafeJustEarth2023" role="doc-biblioref">Rockström et al. 2023, fig. 1</a> and Table 1)</span>. These are based on reducing the probability of triggering climate tipping points, maintaining biosphere and cryosphere functions, and considering climate variability of the Holocene (&lt;0.5-1.0°C) and earlier interglacial periods (&lt;1.5-2°C).</p>
-<p>The functions of the cryosphere include the preservation of permafrost in the northern high latitudes, the preservation of polar ice sheets and mountain glaciers, and the minimization of sea ice loss. The authors conclude that global warming of more than 1.0°C above pre-industrial levels, which has already been exceeded (IPPC 2021), could trigger tipping effects such as the collapse of the Greenland ice sheet or a localized abrupt thawing of the boreal permafrost with a moderate probability <span class="citation" data-cites="armstrongmckayExceeding15degCGlobal2022">(<a href="../references.html#ref-armstrongmckayExceeding15degCGlobal2022" role="doc-biblioref">Armstrong McKay et al. 2022</a>)</span>. Global warming of one degree Celsius corresponds to the safe limit proposed in 1990 and the PB of 350 ppm CO<sub>2</sub> <span class="citation" data-cites="steffenPlanetaryBoundariesGuiding2015">(<a href="../references.html#ref-steffenPlanetaryBoundariesGuiding2015" role="doc-biblioref">Steffen et al. 2015</a>)</span>. With a warming of more than 1.5°C or 2.0°C, the likelihood of triggering tipping points increases to high or very high.</p>
+<p>The functions of the cryosphere include the preservation of permafrost in the northern high latitudes, the preservation of polar ice sheets and mountain glaciers, and the minimization of sea ice loss. The authors conclude that global warming of more than 1.0°C above pre-industrial levels, which has already been exceeded <span class="citation" data-cites="ipccClimateChange20212021">(<a href="../references.html#ref-ipccClimateChange20212021" role="doc-biblioref">IPCC 2021</a>)</span>, could trigger tipping effects such as the collapse of the Greenland ice sheet or a localized abrupt thawing of the boreal permafrost with a moderate probability <span class="citation" data-cites="armstrongmckayExceeding15degCGlobal2022">(<a href="../references.html#ref-armstrongmckayExceeding15degCGlobal2022" role="doc-biblioref">Armstrong McKay et al. 2022</a>)</span>. Global warming of one degree Celsius corresponds to the safe limit proposed in 1990 and the PB of 350 ppm CO<sub>2</sub> <span class="citation" data-cites="steffenPlanetaryBoundariesGuiding2015">(<a href="../references.html#ref-steffenPlanetaryBoundariesGuiding2015" role="doc-biblioref"><span class="nocase">Steffen et al.</span> 2015</a>)</span>. With a warming of more than 1.5°C or 2.0°C, the likelihood of triggering tipping points increases to high or very high.</p>
 </section>
 <section id="climate-resilience" class="level3" data-number="2.1.3">
 <h3 data-number="2.1.3" class="anchored" data-anchor-id="climate-resilience"><span class="header-section-number">2.1.3</span> Climate resilience</h3>
-<p>Resilience describes the ability of a system to withstand disruptions, “bounce back”, or recover from adversity. Originally used in psychology, resilience refers to the psychological robustness that an individual has actively acquired in dealing with challenges or stresses, particularly in childhood. In the context of ecosystems, resilience refers to the ability to absorb disturbances without a permanent systemic collapse, i.e.&nbsp;a collapse that would result in a different system regulated by new processes <span class="citation" data-cites="folkeResilienceThinkingIntegrating2010">(<a href="../references.html#ref-folkeResilienceThinkingIntegrating2010" role="doc-biblioref">Folke et al. 2010</a>)</span>. More recently, the concept of resilience has been extended to social systems (see section on doughnut economics). Studies focus on which specific characteristics of a region need to be strengthened, to better prepare it for future crises and disasters related to climate change, terrorism, resource scarcity, or financial crises. The climate crisis, for example, requires both adaptation and mitigation measures. Resilience approaches offer a way of combining these two concepts rather than playing them off against each other.</p>
+<p>Resilience describes the ability of a system to withstand disruptions, “bounce back”, or recover from adversity. Originally used in psychology, resilience refers to the psychological robustness that an individual has actively acquired in dealing with challenges or stresses, particularly in childhood. In the context of ecosystems, resilience refers to the ability to absorb disturbances without a permanent systemic collapse, i.e.&nbsp;a collapse that would result in a different system regulated by new processes <span class="citation" data-cites="folkeResilienceThinkingIntegrating2010">(<a href="../references.html#ref-folkeResilienceThinkingIntegrating2010" role="doc-biblioref">Folke et al. 2010</a>)</span>. More recently, the concept of resilience has been extended to social systems (see Section 2.2, <em>From planetary boundaries to the doughnut model</em>). Studies focus on which specific characteristics of a region need to be strengthened, to better prepare it for future crises and disasters related to climate change, terrorism, resource scarcity, or financial crises. The climate crisis, for example, requires both adaptation and mitigation measures. Resilience approaches offer a way of combining these two concepts rather than playing them off against each other.</p>
 <p><strong>Climate mitigation measures</strong> aim to reduce greenhouse gas emissions and curb climate change. Such measures include promoting renewable energies, improving energy efficiency, and expanding public transport. Resilience approaches emphasize the importance of climate mitigation, as limiting the rise in temperature will help to reduce the intensity and frequency of extreme weather events.</p>
 <p><strong>Climate adaptation measures</strong> aim to make societies and ecosystems more resilient to the current and expected effects of climate change. Adaptation measures include the development of early warning systems for extreme weather events, coastal protection against rising sea levels, the reduction of heat stress (e.g.&nbsp;through more urban green spaces), runoff or infiltration areas to reduce the damaging effects of heavy rainfall events, or the adaptation of agricultural practices to changing climatic conditions. Resilience approaches emphasize the need for climate adaptation to protect communities and ecosystems from the negative effects of climate change.</p>
 </section>
@@ -556,12 +561,12 @@ Figure&nbsp;2.2: Spatial distribution of global and regional tipping elements. T
 <li><p>The planetary boundaries framework can be used to set concrete targets in the environmental dimension (e.g.&nbsp;at the global or national level).</p></li>
 </ul>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Further readings
+<span class="screen-reader-only">Note</span>Further readings
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -608,7 +613,7 @@ Figure&nbsp;2.3: The Doughnut of social and planetary boundaries. Source: <a hre
 <p>“Great transformation” was a term used by Karl Polanyi in his 1944 analysis that the shift to a free market in the 19th century brought about profound social, economic, and political changes that fundamentally transformed people’s lives and relationship with nature. Polanyi argued that unbridled market dynamics caused social and environmental problems, and that society needed to develop mechanisms to regulate and balance these problems. Similarly, today’s concepts of the great transformation emphasize the importance of regulation, redistribution, and the development of alternative economic models to create a sustainable and just society. While Polanyi stressed the need for social protection measures and the importance of integrating markets into social structures, current concepts of the great transformation additionally aim to fundamentally change production and consumption patterns to reduce environmental impact.</p>
 <section id="flagship-wbgu-report-world-in-transition" class="level3" data-number="2.3.1">
 <h3 data-number="2.3.1" class="anchored" data-anchor-id="flagship-wbgu-report-world-in-transition"><span class="header-section-number">2.3.1</span> Flagship WBGU report: <em>World in Transition</em></h3>
-<p>The flagship report by the German Advisory Council on Global Change <span class="citation" data-cites="wbguWorldTransitionSocial2011">(<a href="../references.html#ref-wbguWorldTransitionSocial2011" role="doc-biblioref">WBGU 2011</a>)</span>, <em>World in Transition,</em> is an important publication that addresses the challenges and opportunities of a sustainable transformation of society. It was first published in 1994 and has since been updated several times. The report analyses global environmental changes, including climate change, biodiversity loss, and resource consumption, and proposes concrete policies and social change to promote sustainable development.</p>
+<p>The flagship report by the German Advisory Council on Global Change <span class="citation" data-cites="wbguWorldTransitionSocial2011">(<a href="../references.html#ref-wbguWorldTransitionSocial2011" role="doc-biblioref">WBGU 2011</a>)</span>, <em>World in Transition,</em> is an important publication that addresses the challenges and opportunities of a sustainable transformation of society. It was first published in 1994 and has since been updated several times. The report analyses global environmental changes, including climate change, biodiversity loss, and resource consumption, and it proposes concrete policies and social change to promote sustainable development.</p>
 <p><em>World in Transition</em> is significant to debates on the great transformation, as it argues for a far-reaching transformation of business, policy, and society. This vision extends beyond mere adaptation, demanding fundamental shifts in the structures and patterns of economic activity and daily life. The report underscores the urgency of driving forward the transition to a climate-friendly and environmentally sound economy and way of living. It emphasizes the critical role of a comprehensive sustainability policy. Finally, it identifies innovation, technology, education, institutional reforms, and international cooperation as key levers for achieving sustainable development.</p>
 <div id="fig-new-social-contract" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -621,19 +626,19 @@ Figure&nbsp;2.4: New social contract. Source: <span class="citation" data-cites=
 </figure>
 </div>
 <p>In Chapter 8, <em>World in Transition</em> distinguishes between two concepts: “transformation research and education” and “transformative research and education”. These concepts are key to promoting fundamental change towards sustainability.</p>
-<p><em>Transformation research</em> analyses processes of change, particularly in the context of sustainable development. It seeks to understand the dynamics and complexity of transformations, and to identify possible courses of action for a sustainable future. Transformation research offers an inter- and transdisciplinary perspective, and it involves different actors and stakeholders in the research process.</p>
-<p><em>Transformation education</em> is education that aims to impart the knowledge, skills, and values needed to achieve a sustainable transformation of society. It includes formal and informal educational measures that enable people to actively participate in transformation processes and to promote sustainable thinking and action.</p>
-<p><em>Transformative research</em> not only generates knowledge but also goes a step further, by actively striving for change towards sustainability. It thus aims to influence social practice and develop solutions and innovations for sustainable development. Transformative research works closely with partners from practice, and strives to translate knowledge into action.</p>
-<p><em>Transformative education</em> fosters a shift in mindsets, values, and behaviour towards sustainability. It goes beyond imparting knowledge, by also promoting critical awareness, empathy, and action for sustainable changes in society.</p>
+<p><strong>Transformation research</strong> analyses processes of change, particularly in the context of sustainable development. It seeks to understand the dynamics and complexity of transformations, and to identify possible courses of action for a sustainable future. Transformation research offers an inter- and transdisciplinary perspective, and it involves different actors and stakeholders in the research process.</p>
+<p><strong>Transformation education</strong> is education that aims to impart the knowledge, skills, and values needed to achieve a sustainable transformation of society. It includes formal and informal educational measures that enable people to actively participate in transformation processes and to promote sustainable thinking and action.</p>
+<p>Transformative research not only generates knowledge but also goes a step further by actively striving for change towards sustainability. It thus aims to influence social practice and develop solutions and innovations for sustainable development. Transformative research works closely with partners from practice and strives to translate knowledge into action.</p>
+<p>Transformative education fosters a shift in mindsets, values, and behaviour towards sustainability. It goes beyond imparting knowledge, by also promoting critical awareness, empathy, and action for sustainable changes in society.</p>
 <p>The WBGU believes that the state should take on tasks that are not adequately performed by individuals or the private sector. It recognizes that the state plays a decisive role in creating framework conditions and shaping political measures to promote sustainable development. The state can drive innovative solutions, steer investments, establish regulations, and implement policies that enable a sustainable transformation.</p>
 <blockquote class="blockquote">
 <p>“The important thing for Government is not to do things which individuals are doing already, and to do them a little bit better or a little worse; <strong>but to do those things which at present are not done at all</strong>.” John M. Keynes, The End of Laissez-Faire, 1926</p>
 </blockquote>
-<p>However, the WBGU also emphasizes that effective government intervention should take place in collaboration with other actors and stakeholders, including civil society, the private sector, and academia. Jointly shaping a sustainable future is about creating partnerships and involving different expertise.</p>
+<p>However, the WBGU also emphasizes that effective government intervention should take place in collaboration with other actors and stakeholders, including civil society, the private sector, and academia. Jointly shaping a sustainable future is about creating partnerships and involving a variety of expertise.</p>
 </section>
 <section id="schneidewinds-art-of-the-future" class="level3" data-number="2.3.2">
 <h3 data-number="2.3.2" class="anchored" data-anchor-id="schneidewinds-art-of-the-future"><span class="header-section-number">2.3.2</span> Schneidewind’s “art of the future”</h3>
-<p>The German economist and politician, Uwe Schneidewind, discusses the concept of the great transformation in his 2018 book, <em>Die grosse Transformation: Eine Einführung in die Kunst des gesellschaftlichen Wandels</em>, which translates as <em>The Great Transformation: An Introduction to the Art of Social Change</em>. <span class="citation" data-cites="schneidewindGrosseTransformationEinfuhrung2018">Schneidewind (<a href="../references.html#ref-schneidewindGrosseTransformationEinfuhrung2018" role="doc-biblioref">2018</a>)</span> points out that a great transformation isn’t dictated by the unstoppable development dynamics of modern societies or by a technocratic blueprint for an ecologically just society. Instead, he sees it as a process that should be actively shaped by many actors. As such, it’s important to have a clearly defined normative compass and to develop the ability to navigate complex social, cultural, economic, and technological processes. He describes this ability as the “art of the future” – the skill of making desirable futures possible – and thus builds a bridge to Harald Welzer’s FUTURZWEI. Welzer, a psychologist and sociologist, emphasizes the importance of imagination, creativity, and engagement in bringing about transformative change and developing alternative visions of the future.</p>
+<p>The German economist and politician, Uwe Schneidewind, discusses the concept of the great transformation in his 2018 book, <em>Die grosse Transformation: Eine Einführung in die Kunst des gesellschaftlichen Wandels</em>, which translates as <em>The Great Transformation: An Introduction to the Art of Social Change</em>. <span class="citation" data-cites="schneidewindGrosseTransformationEinfuhrung2018">Schneidewind (<a href="../references.html#ref-schneidewindGrosseTransformationEinfuhrung2018" role="doc-biblioref">2018</a>)</span> points out that a great transformation isn’t dictated by the unstoppable development dynamics of modern societies or by a technocratic blueprint for an ecologically just society. Instead, he sees it as a process that should be actively shaped by many actors. As such, it’s important to have a clearly defined normative compass and to develop the ability to navigate complex social, cultural, economic, and technological processes. He describes this ability as the “art of the future” – the skill of making desirable futures possible – and thus builds a bridge to Harald Welzer’s “FuturZwei” approach. Welzer, a psychologist and sociologist, emphasizes the importance of imagination, creativity, and engagement in bringing about transformative change and developing alternative visions of the future.</p>
 <div id="fig-turningpoints" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-turningpoints-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -658,8 +663,8 @@ Figure&nbsp;2.6: Double decoupling. Linking technology and prosperity models. So
 <p>“Decoupling” refers to the separation of economic activity from environmental impact. A key concept in the sustainability debate, <strong>double decoupling</strong> states that sustainable development can only be achieved through increases in technological efficiency in combination with new models of prosperity and consumption. It aims to promote a more comprehensive and systemic understanding of innovation, to include both technological and social innovations.</p>
 <p>Double decoupling refers to the following two types of decoupling:</p>
 <ul>
-<li><p>First-order decoupling: This focuses on increasing resource efficiency and consistency within the traditional economic growth model, mainly through technological advancements, and</p></li>
-<li><p>Second-order decoupling: This focuses on “sufficiency”, decoupling quality of life and a “good life” from the traditional economic growth model, as measured by GDP.</p></li>
+<li><p><strong>First-order decoupling</strong>: This focuses on increasing resource efficiency and consistency within the traditional economic growth model, mainly through technological advancements, and</p></li>
+<li><p><strong>Second-order decoupling</strong>: This focuses on “sufficiency”, decoupling quality of life and a “good life” from the traditional economic growth model, as measured by GDP.</p></li>
 </ul>
 </section>
 <section id="global-sustainable-development-report" class="level3" data-number="2.3.3">
@@ -686,12 +691,12 @@ Figure&nbsp;2.7: Levers and entry points for achieving the SDGs. Source: <span c
 <li><p>propose key areas with a major leverage effect (e.g.&nbsp;the WBGU proposes an energy transition, urban transition, land use transition, and transformative education and research).</p></li>
 </ul>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Further reading
+<span class="screen-reader-only">Note</span>Further reading
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -702,10 +707,11 @@ Further reading
 </div>
 </div>
 </section>
-<section id="green-economy" class="level3" data-number="2.3.5">
-<h3 data-number="2.3.5" class="anchored" data-anchor-id="green-economy"><span class="header-section-number">2.3.5</span> Green economy</h3>
-<p>In a pioneering use of the term “green economy”, David Pearce and Edward Barbier launched their groundbreaking <em>Blueprint for a Green Economy</em> series in 1989. The series was the first to present economic frameworks and programmatic approaches for achieving the dual goals of economic prosperity and ecological well-being <span class="citation" data-cites="pearceBluePrintGreen1989 pearceSustainableDevelopmentEconomics2000 barbierNewBlueprintGreen2013">(e.g. <a href="../references.html#ref-pearceBluePrintGreen1989" role="doc-biblioref">Pearce, Markandya, and Barbier n.d.</a>; <a href="../references.html#ref-pearceSustainableDevelopmentEconomics2000" role="doc-biblioref">Pearce, Barbier, and Markandya 2000</a>; <a href="../references.html#ref-barbierNewBlueprintGreen2013" role="doc-biblioref">Barbier and Markandya 2013</a>)</span>. The green economy’s core principle challenges the traditional view that economic growth and environmental well-being are inherently at odds. It proposes a paradigm shift, moving away from bans and restrictions. Instead, it advocates for economic incentives and strategies that promote environmental sustainability while fostering positive models of economic and technological development aligned with both ecological and social goals.</p>
-<p>In the run-up to Rio+20, the 2012 United Nations Conference on Sustainable Development, the green economy concept was finally developed into a guiding principle that shaped the debate <span class="citation" data-cites="unepGreenEconomyPathways2011 barGreenEconomyDiscourses2011">(<a href="../references.html#ref-unepGreenEconomyPathways2011" role="doc-biblioref">UNEP 2011</a>; <a href="../references.html#ref-barGreenEconomyDiscourses2011" role="doc-biblioref">Bär, Jacob, and Werland 2011</a>)</span>. “Green economy” was one of two key themes of Rio +20; the other was the “institutional framework” for sustainable development. Accordingly, numerous documents on the green economy were published in 2011 and 2012, and a seminal definition of the term was published by the organizing agency of Rio+20, the United Nations Environment Programme (UNEP), in the report, <em>Towards a Green Economy: Pathways to Sustainable Development and Poverty Eradication</em> <span class="citation" data-cites="unepGreenEconomyPathways2011">(<a href="../references.html#ref-unepGreenEconomyPathways2011" role="doc-biblioref">UNEP 2011</a>)</span>. The OECD also contributed its own response to the financial crisis with its resolution on “Green Growth” <span class="citation" data-cites="oecdDeclarationGreenGrowth2009">(<a href="../references.html#ref-oecdDeclarationGreenGrowth2009" role="doc-biblioref">OECD 2009</a>)</span>.</p>
+</section>
+<section id="green-economy" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="green-economy"><span class="header-section-number">2.4</span> Green economy</h2>
+<p>In a pioneering use of the term “green economy”, David Pearce and Edward Barbier launched their groundbreaking <em>Blueprint for a Green Economy</em> series in 1989. The series was the first to present economic frameworks and programmatic approaches for achieving the dual goals of economic prosperity and ecological well-being <span class="citation" data-cites="pearceBluePrintGreen1989 pearceSustainableDevelopmentEconomics2000 barbierNewBlueprintGreen2013">(e.g. <a href="../references.html#ref-pearceBluePrintGreen1989" role="doc-biblioref">Pearce et al. 1989</a>, <a href="../references.html#ref-pearceSustainableDevelopmentEconomics2000" role="doc-biblioref">2000</a>; <a href="../references.html#ref-barbierNewBlueprintGreen2013" role="doc-biblioref">Barbier and Markandya 2013</a>)</span>. The core principle of the green economy challenges the traditional view that economic growth and environmental well-being are inherently at odds. It proposes a paradigm shift away from bans and restrictions, instead favouring economic incentives and strategies that promote environmental sustainability. This approach fosters models of economic and technological development that align with both ecological and social goals.</p>
+<p>In the run-up to Rio+20, the 2012 United Nations Conference on Sustainable Development, the green economy concept was finally developed into a guiding principle that shaped the debate <span class="citation" data-cites="unepGreenEconomyPathways2011 barGreenEconomyDiscourses2011">(<a href="../references.html#ref-unepGreenEconomyPathways2011" role="doc-biblioref">UNEP 2011</a>; <a href="../references.html#ref-barGreenEconomyDiscourses2011" role="doc-biblioref">Bär et al. 2011</a>)</span>. “Green economy” was one of two key themes of Rio +20; the other was the “institutional framework” for sustainable development. Accordingly, numerous documents on the green economy were published in 2011 and 2012, and a seminal definition of the term was published by the organizing agency of Rio+20, the United Nations Environment Programme (UNEP), in the report, <em>Towards a Green Economy: Pathways to Sustainable Development and Poverty Eradication</em> <span class="citation" data-cites="unepGreenEconomyPathways2011">(<a href="../references.html#ref-unepGreenEconomyPathways2011" role="doc-biblioref">UNEP 2011</a>)</span>. The OECD also contributed its own response to the financial crisis with its resolution on “Green Growth” <span class="citation" data-cites="oecdDeclarationGreenGrowth2009">(<a href="../references.html#ref-oecdDeclarationGreenGrowth2009" role="doc-biblioref">OECD 2009</a>)</span>.</p>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -719,17 +725,16 @@ Note
 <p>“UNEP defines a green economy as one that results in improved human well-being and social equity, while significantly reducing environmental risks and ecological scarcities. In its simplest expression, a green economy can be thought of as one which is low carbon, resource efficient and socially inclusive. In a green economy, growth in income and employment should be driven by public and private investments that reduce carbon emissions and pollution, enhance energy and resource efficiency, and prevent the loss of biodiversity and ecosystem services.” <span class="citation" data-cites="unepGreenEconomyPathways2011">(<a href="../references.html#ref-unepGreenEconomyPathways2011" role="doc-biblioref">UNEP 2011, 2</a>)</span></p>
 </div>
 </div>
-<p>While Rio+20 cemented the concept of a green economy, the need for a fundamental global change in thinking was already widely accepted. It had become clear that while environmental protection measures cost money, they also have a positive economic impact by creating jobs <span class="citation" data-cites="umweltbundesamtubaBeschaftigungswirkungenUmweltschutzesFur2008">(see e.g. <a href="../references.html#ref-umweltbundesamtubaBeschaftigungswirkungenUmweltschutzesFur2008" role="doc-biblioref">(UBA) 2008</a>)</span> and sparking innovation in technological efficiency advancements <span class="citation" data-cites="vonweizsackerFaktorVierDoppelter1995">(cf.&nbsp;e.g. <a href="../references.html#ref-vonweizsackerFaktorVierDoppelter1995" role="doc-biblioref">von Weizsäcker, Lovins, and Lovins 1995</a>)</span>. The green economy concept systematizes such findings and calls for programmes to overcome the apparent contradictions between economy and ecology, growth and resource conservation, as well as prosperity and environmental protection. The concept thus marks a significant paradigm shift. Adhering to planetary boundaries or ecological guidelines in a green economy does not necessarily mean forgoing economic growth and technological progress <span class="citation" data-cites="rockstromSafeOperatingSpace2009 sachverstandigenratfurumweltfragensruUmweltgutachten2012Verantwortung2012">(<a href="../references.html#ref-rockstromSafeOperatingSpace2009" role="doc-biblioref"><strong>rockstromSafeOperatingSpace2009?</strong></a>; <a href="../references.html#ref-sachverstandigenratfurumweltfragensruUmweltgutachten2012Verantwortung2012" role="doc-biblioref">Sachverständigenrat für Umweltfragen (SRU) 2012</a>)</span>. Instead, the idea is that by harmonizing these apparently contradictory aims, we can achieve them even more efficiently. The EU Green Deal exemplifies this concept. The EU aims to be the first climate-neutral continent by 2050, aiming for a modern, resource-efficient, and competitive economy with net-zero greenhouse gas emissions. This plan seeks to decouple growth from resource use while ensuring a just transition that leaves no one behind.</p>
-</section>
-<section id="conclusion-3" class="level3" data-number="2.3.6">
-<h3 data-number="2.3.6" class="anchored" data-anchor-id="conclusion-3"><span class="header-section-number">2.3.6</span> Conclusion</h3>
+<p>While Rio+20 cemented the concept of a green economy, the need for a fundamental global change in thinking was already widely accepted. It had become clear that while environmental protection measures cost money, they also have a positive economic impact by creating jobs <span class="citation" data-cites="ubaBeschaftigungswirkungenUmweltschutzesFur2008">(see e.g. <a href="../references.html#ref-ubaBeschaftigungswirkungenUmweltschutzesFur2008" role="doc-biblioref">UBA 2008</a>)</span> and sparking innovation in technological efficiency advancements <span class="citation" data-cites="vonweizsackerFaktorVierDoppelter1995">(cf.&nbsp;e.g. <a href="../references.html#ref-vonweizsackerFaktorVierDoppelter1995" role="doc-biblioref"><span class="nocase">von Weizsäcker et al.</span> 1995</a>)</span>. The green economy concept systematizes such findings and calls for programmes to overcome the apparent contradictions between economy and ecology, growth and resource conservation, and prosperity and environmental protection. The concept thus marks a significant paradigm shift. Adhering to planetary boundaries or ecological guidelines in a green economy does not necessarily mean forgoing economic growth and technological progress <span class="citation" data-cites="rockstromSafeOperatingSpace2009 sruUmweltgutachten2012Verantwortung2012">(<a href="../references.html#ref-rockstromSafeOperatingSpace2009" role="doc-biblioref">Rockström, Steffen, Noone, Persson, F. S. Chapin, et al. 2009</a>; <a href="../references.html#ref-sruUmweltgutachten2012Verantwortung2012" role="doc-biblioref">Sachverständigenrat für Umweltfragen (SRU) 2012</a>)</span>. Instead, the idea is that by harmonizing these apparently contradictory aims, we can achieve them even more efficiently. The EU Green Deal exemplifies this concept. The EU aims to be the first climate-neutral continent by 2050, aiming for a modern, resource-efficient, and competitive economy with net-zero greenhouse gas emissions. This plan seeks to decouple growth from resource use while ensuring a just transition that leaves no one behind.</p>
+<section id="conclusion-3" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="conclusion-3"><span class="header-section-number">2.4.1</span> Conclusion</h3>
 <p>The core thesis of the green economy is that environmental and economic goals are not contradictory. Instead, they can be reconciled through appropriate economic incentives and strategies. The green economy aims to foster both economic growth and environmental sustainability through public and private investment in low-emission, resource-efficient, and socially equitable economic systems.</p>
 <p>Critics, however, have raised concerns about the effectiveness of green economy measures. They argue that the proposed technologies and incentives are insufficient to bring about the far-reaching systemic changes needed. An overemphasis on economic growth and technological solutions could potentially neglect essential structural and behavioural changes. And they warn that the global transition to a green economy could leave behind disadvantaged communities and developing countries, if their specific needs are not addressed.</p>
 </section>
 </section>
-<section id="post-growth-societies" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="post-growth-societies"><span class="header-section-number">2.4</span> Post-growth societies</h2>
-<p>The post-growth debate emerged from concerns raised in the 1970s, after publication of the influential Meadows Report, <em>The Limits to Growth</em> (1972). As previously mentioned, this report highlighted the Earth’s finite capacity to sustain humanity in the face of unrestrained economic growth.</p>
+<section id="post-growth-societies" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="post-growth-societies"><span class="header-section-number">2.5</span> Post-growth societies</h2>
+<p>The post-growth debate emerged from concerns raised in the 1970s, after publication of the influential Meadows Report, <em>The Limits to Growth</em> <span class="citation" data-cites="meadowsLimitsGrowthReport1972a">(<a href="../references.html#ref-meadowsLimitsGrowthReport1972a" role="doc-biblioref">1972</a>)</span>. As previously mentioned, this report highlighted the Earth’s finite capacity to sustain humanity in the face of unrestrained economic growth.</p>
 <p>The post-growth debate advocates qualitative growth or even zero growth, and criticizes the effects of the “modern” economy and lifestyles (e.g.&nbsp;Binswanger 1985). It argues that the compulsion for constant growth is making us exceed ecological limits and leading to negative social and ecological consequences. “Ecological economics” is an important concept in this respect, as it aims to develop alternative models and approaches for evaluating economic growth.</p>
 <p>The dilemma in this debate is that most approaches to a sustainable economy assume that a growth-independent economy should not be profit-driven. However, capitalist economies are existentially dependent on growth <span class="citation" data-cites="binswangerWachstumszwangWarumVolkswirtschaft2019">Oberholzer (<a href="../references.html#ref-oberholzerWieBringenWir2021" role="doc-biblioref">2021</a>)</span>. This dilemma is key to the question of how to organize a successful transition from the current unsustainable system to a sustainable economic and social system. One main approach is to reduce dependencies on growth and promote alternative models that focus on sufficiency, without neglecting strategies that focus on efficiency and consistency. This requires changes in production and consumption patterns, in social norms, and in the political framework. The post-growth debate emphasizes the need for a comprehensive transformation that encompasses environmental, social, and economic dimensions – and aims to achieve a balance between human needs and planetary boundaries.</p>
 <p>The concept of “sufficiency” is an integral part of the post-growth debate <span class="citation" data-cites="schneidewindDamitGutesLeben2013">(<a href="../references.html#ref-schneidewindDamitGutesLeben2013" role="doc-biblioref">Schneidewind and Zahrnt 2013</a>)</span>. Sufficiency aims to reduce overconsumption and promote alternative lifestyles, consumption habits, and production patterns. To promote widespread adoption of sufficiency, a legal and institutional framework that incentivizes and facilitates sufficiency-oriented practices is necessary.</p>
@@ -744,17 +749,17 @@ Figure&nbsp;2.8: The four areas of a politics of sufficiency. Source: <span clas
 </figure>
 </div>
 <p>A policy to promote sufficiency can actively shape our choices, through attractive sufficiency-oriented offers and services. It can also foster awareness and provide guidance for adopting sufficiency-oriented lifestyles and practices. This comprehensive approach aims to shift consumption towards what is necessary and meaningful, ultimately reducing excessive resource use.</p>
-<section id="conclusion-4" class="level3" data-number="2.4.1">
-<h3 data-number="2.4.1" class="anchored" data-anchor-id="conclusion-4"><span class="header-section-number">2.4.1</span> Conclusion</h3>
+<section id="conclusion-4" class="level3" data-number="2.5.1">
+<h3 data-number="2.5.1" class="anchored" data-anchor-id="conclusion-4"><span class="header-section-number">2.5.1</span> Conclusion</h3>
 <p>Post-growth debates analyse and criticize modern society’s dependency on economic growth, and the negative environmental and social effects of this growth. Rather than focus solely on technological progress and market forces, post-growth society theories strive for changes in society, structures, and institutional frameworks. Overall, post-growth debates emphasize the need for sustainable approaches to achieve a comprehensive transformation of the economy and society. Transformation to a post-growth society requires a reorientation of values, structures, and institutional frameworks. The challenge is to find ways to shape the transition to an economy independent of growth, while at the same time ensuring social justice and ecological sustainability.</p>
 <p>Critics of post-growth debates argue that a rejection of economic growth could have a negative impact on prosperity and social progress. They fear that an economy independent of growth could lead to stagnating innovation, fewer jobs, and falling living standards. And they point out that a negative attitude towards economic growth can have potential negative effects. Constructively addressing the challenges of growth and developing viable alternatives are important aspects of enabling sustainable and equitable change.</p>
 </section>
 </section>
-<section id="indicators-for-sustainable-development-from-principles-to-practice" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="indicators-for-sustainable-development-from-principles-to-practice"><span class="header-section-number">2.5</span> Indicators for Sustainable Development: From Principles to Practice</h2>
+<section id="indicators-for-sustainable-development-from-principles-to-practice" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="indicators-for-sustainable-development-from-principles-to-practice"><span class="header-section-number">2.6</span> Indicators for Sustainable Development: From Principles to Practice</h2>
 <p>A key concern of sustainable development is the ability to systematically make visible both progress and setbacks—on global, national, and local levels. Indicators play a crucial role in this effort: they help capture complex socio-ecological realities, enable comparability, and support evidence-based policymaking. Precisely because sustainability is a normative objective, particular attention must be paid to the selection, design, and use of indicators.</p>
 <p>Importantly, indicators are not purely technical measurement tools. They inevitably reflect specific values, worldviews, and political goals. Their significance is not solely based on “objective data”, but also on decisions about what should be measured, how, and for what purpose. For instance, Gross Domestic Product (GDP) has long dominated as the main benchmark for economic success—despite ignoring ecological damage, social inequality, unpaid care work, and ecosystem services.</p>
-<p>In sustainability science and environmental policy, a useful distinction has emerged between different types of indicators, each serving a specific function <span class="citation" data-cites="devriesConceptsMethodsIndicators2024">(<a href="../references.html#ref-devriesConceptsMethodsIndicators2024" role="doc-biblioref">de Vries 2024</a>)</span>:</p>
+<p>In sustainability science and environmental policy, a useful distinction has emerged between different types of indicators, each serving a specific function <span class="citation" data-cites="devriesConceptsMethodsIndicators2024">(<a href="../references.html#ref-devriesConceptsMethodsIndicators2024" role="doc-biblioref"><span class="nocase">de Vries</span> 2024</a>)</span>:</p>
 <ul>
 <li><p><strong>State indicators</strong> describe the condition of a system or resource—such as CO₂ concentration in the atmosphere, the proportion of protected forest area, or average life expectancy. These are primarily used to monitor trends and system states.</p></li>
 <li><p><strong>Causal indicators</strong> capture underlying drivers or influencing factors that lead to changes within a system. These include, for example, fossil fuel consumption or socio-economic drivers like urbanization rates or consumption patterns.</p></li>
@@ -764,7 +769,7 @@ Figure&nbsp;2.8: The four areas of a politics of sufficiency. Source: <span clas
 <p>This classification illustrates that individual indicators often lack significance in isolation. It is the interaction of indicators—e.g., within impact models or causal frameworks—that enables a robust assessment of sustainability trends and policy responses.</p>
 <p>Over the past decades, a wide range of alternative indicator systems has been developed to provide a more comprehensive picture of societal development beyond GDP. These approaches aim to integrate economic, social, and environmental dimensions while making distributional and non-market contributions visible.</p>
 <p>A significant milestone was the development of the <strong>Human Development Index (HDI)</strong> by the United Nations Development Programme (UNDP) in the 1990ies. The HDI combines three dimensions: life expectancy at birth (as a proxy for health), average and expected years of schooling (education), and per capita income adjusted for purchasing power (material living standard). The HDI sought to broaden the narrow monetary focus of GDP by offering a capability-based understanding of development as “the expansion of people’s choices” (Sen, 1999). Today, it remains a standard reference in development economics (see UNDP Human Development Reports since 1990).</p>
-<p>A more advanced approach is the <strong>Genuine Progress Indicator (GPI)</strong>, which starts with personal consumption (as GDP does) but adjusts for external costs such as environmental degradation, resource use, crime, and income inequality to reveal trade-offs between costs and benefits of economic growth. It also adds value for unpaid services like domestic work and volunteering. First proposed by Daly and Cobb (1989) as Sustainable Economic Welfare (ISEW), the GPI is well established in ecological economics <span class="citation" data-cites="talberthGenuineProgressIndicator2007a">(see <a href="../references.html#ref-talberthGenuineProgressIndicator2007a" role="doc-biblioref">Talberth, Cobb, and Slattery 2007</a>)</span>. Unlike GDP, which typically increases over time, the GPI has stagnated or declined in many high-income countries since the 1980s—indicating a possible decoupling between growth and well-being.</p>
+<p>A more advanced approach is the <strong>Genuine Progress Indicator (GPI)</strong>, which starts with personal consumption (as GDP does) but adjusts for external costs such as environmental degradation, resource use, crime, and income inequality to reveal trade-offs between costs and benefits of economic growth. It also adds value for unpaid services like domestic work and volunteering. First proposed by Daly and Cobb (1989) as Sustainable Economic Welfare (ISEW), the GPI is well established in ecological economics <span class="citation" data-cites="talberthGenuineProgressIndicator2007a">(see <a href="../references.html#ref-talberthGenuineProgressIndicator2007a" role="doc-biblioref">Talberth et al. 2007</a>)</span>. Unlike GDP, which typically increases over time, the GPI has stagnated or declined in many high-income countries since the 1980s—indicating a possible decoupling between growth and well-being.</p>
 <div id="fig-GDPxGPI" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-GDPxGPI-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -790,12 +795,12 @@ Figure&nbsp;2.10: Correlation between Ecological Footprint and Human Development
 <p>In the German-speaking world, the <strong>National Welfare Index (NWI)</strong> has been introduced as a GPI-based tool adapted to national data availability. It includes dimensions such as income distribution, environmental burden, and health costs. Initially developed by the Institute for Ecological Economy Research (IÖW) and the Environmental Policy Research Centre (FFU) at FU Berlin, the NWI has been tested in several German federal states <span class="citation" data-cites="diefenbacherWoranSichWohlstand2011">(<a href="../references.html#ref-diefenbacherWoranSichWohlstand2011" role="doc-biblioref">Diefenbacher and Zieschank 2011</a>)</span>.</p>
 <p>Another particularly relevant measure is the <strong>Multidimensional Poverty Index (MPI)</strong>, developed by the Oxford Poverty and Human Development Initiative (OPHI) in collaboration with the UNDP. It captures poverty across three core dimensions: health, education, and standard of living. Indicators include child mortality, school attendance, access to electricity, and housing conditions. Unlike income-based measures, the MPI provides a nuanced understanding of deprivation across overlapping dimensions. <span class="citation" data-cites="baderEconomicGrowthIncreasing2017">Bader et al. (<a href="../references.html#ref-baderEconomicGrowthIncreasing2017" role="doc-biblioref">2017</a>)</span> demonstrate the value of the MPI in a longitudinal study on poverty in the Lao PDR, showing how rapid economic growth reduced income poverty while simultaneously exacerbating disparities in education, infrastructure, and health access.</p>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-The Ecological Footprint – Explanation and Critique
+<span class="screen-reader-only">Tip</span>The Ecological Footprint – Explanation and Critique
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -806,7 +811,7 @@ The Ecological Footprint – Explanation and Critique
 </div>
 </div>
 </div>
-<p><strong>Main limitations of the indicator based on <span class="citation" data-cites="globalfootprintnetworkEcologicalFootprintAccounting2020">Network (<a href="../references.html#ref-globalfootprintnetworkEcologicalFootprintAccounting2020" role="doc-biblioref">2020</a>)</span>:</strong></p>
+<p><strong>Main limitations of the indicator based on <span class="citation" data-cites="globalfootprintnetworkEcologicalFootprintAccounting2020">Global Footprint Network (<a href="../references.html#ref-globalfootprintnetworkEcologicalFootprintAccounting2020" role="doc-biblioref">2020</a>)</span>:</strong></p>
 <ul>
 <li><p>Non-ecological aspects of sustainability: having a footprint smaller than the biosphere is a necessary minimum condition for a sustainable society, but it is not sufficient. For instance, the ecological footprint does not consider social well-being. In addition, on the resource side, even if the ecological footprint is within biocapacity, poor management can still lead to depletion. A footprint smaller than biocapacity is merely a necessary condition for making quality improvements replicable and scalable.</p></li>
 <li><p>Depletion of non-renewable resources: the footprint does not track the amount of non-renewable resource stocks, such as oil, natural gas, coal or metal deposits. The footprint associated with these materials is based on the regenerative capacity used or compromised by their extraction and, in the case of fossil fuels, the area required to assimilate the wastes they generate.</p></li>
@@ -816,27 +821,27 @@ The Ecological Footprint – Explanation and Critique
 </ul>
 <p>Despite these limitations, the Ecological Footprint remains a useful entry point for engaging broader audiences in discussions on global ecological justice and planetary responsibility—especially in educational and communication settings.</p>
 </section>
-<section id="between-simplification-and-complexity-interactions-between-sdgs" class="level2" data-number="2.6">
-<h2 data-number="2.6" class="anchored" data-anchor-id="between-simplification-and-complexity-interactions-between-sdgs"><span class="header-section-number">2.6</span> Between Simplification and Complexity: Interactions Between SDGs</h2>
+<section id="between-simplification-and-complexity-interactions-between-sdgs" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="between-simplification-and-complexity-interactions-between-sdgs"><span class="header-section-number">2.7</span> Between Simplification and Complexity: Interactions Between SDGs</h2>
 <p>A central challenge in designing sustainability indicators lies in balancing simplification with complexity. Indicators are intended to support decision-making, yet must account for a wide array of interactions, uncertainties, and contextual dependencies.</p>
 <p>This is particularly evident in the 2030 Agenda for Sustainable Development. While the Agenda includes 17 distinct goals and numerous sub-targets, these goals do not exist in isolation. Rather, they are intricately interconnected: progress in one area may reinforce, neutralize, or hinder progress in another. Consequently, indicators that illuminate these relationships are essential for coherent policy design.</p>
-<p><span class="citation" data-cites="breuWhereBeginDefining2020">Breu et al. (<a href="../references.html#ref-breuWhereBeginDefining2020" role="doc-biblioref">2020</a>)</span> present a methodology based on the interactions framework developed by <span class="citation" data-cites="nilssonMapInteractionsSustainable2016">Nilsson, Griggs, and Visbeck (<a href="../references.html#ref-nilssonMapInteractionsSustainable2016" role="doc-biblioref">2016</a>)</span>, which systematically classifies the relationships between SDGs on a seven-point scale: from strongly negative (–3) to strongly positive (+3). They applied this approach to Switzerland’s national sustainability framework, revealing areas where policy actions toward one SDG may support or conflict with others. For example, measures to reduce poverty (SDG 1) could conflict with biodiversity goals (SDG 15) if not designed to be environmentally sustainable.</p>
+<p><span class="citation" data-cites="breuWhereBeginDefining2020">Breu et al. (<a href="../references.html#ref-breuWhereBeginDefining2020" role="doc-biblioref">2020</a>)</span> present a methodology based on the interactions framework developed by <span class="citation" data-cites="nilssonMapInteractionsSustainable2016">Nilsson et al. (<a href="../references.html#ref-nilssonMapInteractionsSustainable2016" role="doc-biblioref">2016</a>)</span>, which systematically classifies the relationships between SDGs on a seven-point scale: from strongly negative (–3) to strongly positive (+3). They applied this approach to Switzerland’s national sustainability framework, revealing areas where policy actions toward one SDG may support or conflict with others. For example, measures to reduce poverty (SDG 1) could conflict with biodiversity goals (SDG 15) if not designed to be environmentally sustainable.</p>
 </section>
-<section id="quiz-me-if-you-can" class="level2" data-number="2.7">
-<h2 data-number="2.7" class="anchored" data-anchor-id="quiz-me-if-you-can"><span class="header-section-number">2.7</span> Quiz me if you can</h2>
+<section id="quiz-me-if-you-can" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="quiz-me-if-you-can"><span class="header-section-number">2.8</span> Quiz me if you can</h2>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which two planetary boundaries are considered “core boundaries”?</p>
-<div id="webex-675ba60684acf2166a56d2ee36c721da" class="webex-radiogroup" data-answer="bQcZUk0HHAZl">
-<label><input type="radio" autocomplete="off" name="675ba60684acf2166a56d2ee36c721da"><span>Ozone depletion and land use</span></label><label><input type="radio" autocomplete="off" name="675ba60684acf2166a56d2ee36c721da"><span>Freshwater and aerosols</span></label><label><input type="radio" autocomplete="off" name="675ba60684acf2166a56d2ee36c721da"><span>Climate change and biosphere integrity</span></label><label><input type="radio" autocomplete="off" name="675ba60684acf2166a56d2ee36c721da"><span>Ocean acidification and nitrogen cycles</span></label>
+<div id="webex-06cf16b95c2e509e42938f30fe730449" class="webex-radiogroup" data-answer="awdPVh0GTglo">
+<label><input type="radio" autocomplete="off" name="06cf16b95c2e509e42938f30fe730449"><span>Climate change and biosphere integrity</span></label><label><input type="radio" autocomplete="off" name="06cf16b95c2e509e42938f30fe730449"><span>Freshwater and aerosols</span></label><label><input type="radio" autocomplete="off" name="06cf16b95c2e509e42938f30fe730449"><span>Ocean acidification and nitrogen cycles</span></label><label><input type="radio" autocomplete="off" name="06cf16b95c2e509e42938f30fe730449"><span>Ozone depletion and land use</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>Within the planetary boundaries framework, climate change and biosphere integrity are identified as core boundaries because they play a fundamental role in regulating the state of the Earth system and strongly influence the other planetary boundaries.</p>
 <ul>
-<li>False</li>
-<li>False</li>
 <li>True</li>
+<li>False</li>
+<li>False</li>
 <li>False</li>
 </ul>
 </div>
@@ -844,25 +849,25 @@ The Ecological Footprint – Explanation and Critique
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following is NOT one of the nine planetary boundaries identified by Rockström et al.?</p>
-<div id="webex-bf96a87b9cd27c5bd3e39214236e8998" class="webex-radiogroup" data-answer="OVYVB00IG1Jk">
-<label><input type="radio" autocomplete="off" name="bf96a87b9cd27c5bd3e39214236e8998"><span>Biosphere integrity</span></label><label><input type="radio" autocomplete="off" name="bf96a87b9cd27c5bd3e39214236e8998"><span>Global financial stability</span></label><label><input type="radio" autocomplete="off" name="bf96a87b9cd27c5bd3e39214236e8998"><span>Climate change</span></label><label><input type="radio" autocomplete="off" name="bf96a87b9cd27c5bd3e39214236e8998"><span>Ocean acidification</span></label>
+<div id="webex-507c6254ede20f61e95f9a392a92be49" class="webex-radiogroup" data-answer="bgAbUxoCGQU4">
+<label><input type="radio" autocomplete="off" name="507c6254ede20f61e95f9a392a92be49"><span>Ocean acidification</span></label><label><input type="radio" autocomplete="off" name="507c6254ede20f61e95f9a392a92be49"><span>Climate change</span></label><label><input type="radio" autocomplete="off" name="507c6254ede20f61e95f9a392a92be49"><span>Biosphere integrity</span></label><label><input type="radio" autocomplete="off" name="507c6254ede20f61e95f9a392a92be49"><span>Global financial stability</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>The planetary boundaries framework identifies biophysical Earth system processes that regulate the stability and resilience of the planet. Climate change, ocean acidification, and biosphere integrity are part of this framework, whereas global financial stability is not a planetary boundary.</p>
 <ul>
 <li>False</li>
+<li>False</li>
+<li>False</li>
 <li>True</li>
-<li>False</li>
-<li>False</li>
 </ul>
 </div>
 </div>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following tipping points does NOT belong to the Earth’s climate system?</p>
-<div id="webex-5995f71160897081a27a393953ef4708" class="webex-radiogroup" data-answer="bggVBUoHHQFr">
-<label><input type="radio" autocomplete="off" name="5995f71160897081a27a393953ef4708"><span>Ocean plastic pollution</span></label><label><input type="radio" autocomplete="off" name="5995f71160897081a27a393953ef4708"><span>Amazon rainforest collapse</span></label><label><input type="radio" autocomplete="off" name="5995f71160897081a27a393953ef4708"><span>Greenland Ice Sheet melting</span></label><label><input type="radio" autocomplete="off" name="5995f71160897081a27a393953ef4708"><span>Gulf Stream collapse</span></label>
+<div id="webex-8fd6844fe31987ed6c9cd711f9e5d4e1" class="webex-radiogroup" data-answer="Y1dIBhQEGFY4">
+<label><input type="radio" autocomplete="off" name="8fd6844fe31987ed6c9cd711f9e5d4e1"><span>Ocean plastic pollution</span></label><label><input type="radio" autocomplete="off" name="8fd6844fe31987ed6c9cd711f9e5d4e1"><span>Amazon rainforest collapse</span></label><label><input type="radio" autocomplete="off" name="8fd6844fe31987ed6c9cd711f9e5d4e1"><span>Gulf Stream collapse</span></label><label><input type="radio" autocomplete="off" name="8fd6844fe31987ed6c9cd711f9e5d4e1"><span>Greenland Ice Sheet melting</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -878,15 +883,15 @@ The Ecological Footprint – Explanation and Critique
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>What term refers to the decoupling of economic growth from environmental degradation while maintaining prosperity?</p>
-<div id="webex-491e7672da14a2da0500635861cc8f3d" class="webex-radiogroup" data-answer="bwgdVRsGGwI5">
-<label><input type="radio" autocomplete="off" name="491e7672da14a2da0500635861cc8f3d"><span>Green economy</span></label><label><input type="radio" autocomplete="off" name="491e7672da14a2da0500635861cc8f3d"><span>Double decoupling</span></label><label><input type="radio" autocomplete="off" name="491e7672da14a2da0500635861cc8f3d"><span>Planetary boundaries</span></label><label><input type="radio" autocomplete="off" name="491e7672da14a2da0500635861cc8f3d"><span>Resilience</span></label>
+<div id="webex-6189e582fa9a99c49da2898099913640" class="webex-radiogroup" data-answer="bQEUCEkFFAI7">
+<label><input type="radio" autocomplete="off" name="6189e582fa9a99c49da2898099913640"><span>Planetary boundaries</span></label><label><input type="radio" autocomplete="off" name="6189e582fa9a99c49da2898099913640"><span>Green economy</span></label><label><input type="radio" autocomplete="off" name="6189e582fa9a99c49da2898099913640"><span>Double decoupling</span></label><label><input type="radio" autocomplete="off" name="6189e582fa9a99c49da2898099913640"><span>Resilience</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>The concept of a green economy refers to an economic model that aims to achieve economic growth and human well-being while reducing environmental risks and ecological scarcities, thereby decoupling prosperity from environmental degradation.</p>
 <ul>
-<li>True</li>
 <li>False</li>
+<li>True</li>
 <li>False</li>
 <li>False</li>
 </ul>
@@ -895,15 +900,15 @@ The Ecological Footprint – Explanation and Critique
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>What does the inner circle of the Doughnut Model represent?</p>
-<div id="webex-7bae00b18f38dee702afea05a6b870b6" class="webex-radiogroup" data-answer="bFNNVRwATgFl">
-<label><input type="radio" autocomplete="off" name="7bae00b18f38dee702afea05a6b870b6"><span>The social foundation</span></label><label><input type="radio" autocomplete="off" name="7bae00b18f38dee702afea05a6b870b6"><span>The planetary limits</span></label><label><input type="radio" autocomplete="off" name="7bae00b18f38dee702afea05a6b870b6"><span>The ecological ceiling</span></label><label><input type="radio" autocomplete="off" name="7bae00b18f38dee702afea05a6b870b6"><span>The safe and just space for humanity</span></label>
+<div id="webex-9e173a44745a47802b2a5021890fa69c" class="webex-radiogroup" data-answer="YlUdBh9RGARq">
+<label><input type="radio" autocomplete="off" name="9e173a44745a47802b2a5021890fa69c"><span>The planetary limits</span></label><label><input type="radio" autocomplete="off" name="9e173a44745a47802b2a5021890fa69c"><span>The social foundation</span></label><label><input type="radio" autocomplete="off" name="9e173a44745a47802b2a5021890fa69c"><span>The ecological ceiling</span></label><label><input type="radio" autocomplete="off" name="9e173a44745a47802b2a5021890fa69c"><span>The safe and just space for humanity</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>In the Doughnut Model, the inner circle represents the social foundation, which defines the minimum social standards necessary for a just and equitable life for all people.</p>
 <ul>
-<li>True</li>
 <li>False</li>
+<li>True</li>
 <li>False</li>
 <li>False</li>
 </ul>
@@ -912,124 +917,133 @@ The Ecological Footprint – Explanation and Critique
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following statements describe post-growth approaches? (More than one statement may be correct.)</p>
-<div id="webex-f89761a5700200a64f0c5b9139804f66" class="webex-checkboxgroup" data-answer="PQkVBhoATQVq">
-<label><input type="checkbox" autocomplete="off" name="f89761a5700200a64f0c5b9139804f66"><span>Advocacy for structural change</span></label><label><input type="checkbox" autocomplete="off" name="f89761a5700200a64f0c5b9139804f66"><span>Focus on sufficiency and well-being</span></label><label><input type="checkbox" autocomplete="off" name="f89761a5700200a64f0c5b9139804f66"><span>Critique of growth dependency</span></label><label><input type="checkbox" autocomplete="off" name="f89761a5700200a64f0c5b9139804f66"><span>Emphasis on GDP increase</span></label>
+<div id="webex-367013a0e771040183cf7d50e8bb3ef5" class="webex-checkboxgroup" data-answer="aAYbAR0CTQE4">
+<label><input type="checkbox" autocomplete="off" name="367013a0e771040183cf7d50e8bb3ef5"><span>Emphasis on GDP increase</span></label><label><input type="checkbox" autocomplete="off" name="367013a0e771040183cf7d50e8bb3ef5"><span>Advocacy for structural change</span></label><label><input type="checkbox" autocomplete="off" name="367013a0e771040183cf7d50e8bb3ef5"><span>Critique of growth dependency</span></label><label><input type="checkbox" autocomplete="off" name="367013a0e771040183cf7d50e8bb3ef5"><span>Focus on sufficiency and well-being</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>Post-growth approaches critically question the dependence of modern societies on continuous economic growth. They emphasize sufficiency, well-being, and quality of life rather than GDP growth, and they call for structural changes in economic and social systems to enable sustainable and just futures.</p>
 <ul>
-<li>True</li>
-<li>True</li>
-<li>True</li>
 <li>False</li>
+<li>True</li>
+<li>True</li>
+<li>True</li>
 </ul>
 </div>
 </div>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-armstrongmckayExceeding15degCGlobal2022" class="csl-entry" role="listitem">
-Armstrong McKay, David I., Arie Staal, Jesse F. Abrams, Ricarda Winkelmann, Boris Sakschewski, Sina Loriani, Ingo Fetzer, Sarah E. Cornell, Johan Rockström, and Timothy M. Lenton. 2022. <span>“Exceeding 1.5<span><span class="math inline">\(^\circ\)</span></span><span>C</span> Global Warming Could Trigger Multiple Climate Tipping Points.”</span> <em>Science</em> 377 (6611): eabn7950. <a href="https://doi.org/10.1126/science.abn7950">https://doi.org/10.1126/science.abn7950</a>.
+Armstrong McKay, David I., Arie Staal, Jesse F. Abrams, et al. 2022. <span>“Exceeding 1.5<span><span class="math inline">\(^\circ\)</span></span><span>C</span> Global Warming Could Trigger Multiple Climate Tipping Points.”</span> <em>Science</em> 377 (6611): eabn7950. <a href="https://doi.org/10.1126/science.abn7950">https://doi.org/10.1126/science.abn7950</a>.
 </div>
 <div id="ref-baderEconomicGrowthIncreasing2017" class="csl-entry" role="listitem">
 Bader, Christoph, Sabin Bieri, Urs Martin Wiesmann, and Andreas Heinimann. 2017. <span>“Is Economic Growth Increasing Disparities? <span>A</span> Multidimensional Analysis of Poverty in the <span>Lao PDR</span> Between 2003 and 2013.”</span> <em>Journal of Development Studies</em> 53 (12): 2067–85.
 </div>
 <div id="ref-barGreenEconomyDiscourses2011" class="csl-entry" role="listitem">
-Bär, Holger, Klaus Jacob, and Stefan Werland. 2011. <span>“Green <span>Economy Discourses</span> in the <span>Run-Up</span> to <span>Rio</span> 2012.”</span> Environmental Policy Research Centre, Freie Universität Berlin.
+Bär, Holger, Klaus Jacob, and Stefan Werland. 2011. <em>Green <span>Economy Discourses</span> in the <span>Run-Up</span> to <span>Rio</span> 2012</em>. Environmental Policy Research Centre, Freie Universität Berlin.
 </div>
 <div id="ref-barbierNewBlueprintGreen2013" class="csl-entry" role="listitem">
-Barbier, Edward B., and Anil Markandya. 2013. <em>A <span>New Blueprint</span> for a <span>Green Economy</span></em>. London: Routledge. <a href="https://doi.org/10.4324/9780203097298">https://doi.org/10.4324/9780203097298</a>.
+Barbier, Edward B., and Anil Markandya. 2013. <em>A <span>New Blueprint</span> for a <span>Green Economy</span></em>. Routledge. <a href="https://doi.org/10.4324/9780203097298">https://doi.org/10.4324/9780203097298</a>.
 </div>
 <div id="ref-binswangerWachstumszwangWarumVolkswirtschaft2019" class="csl-entry" role="listitem">
-Binswanger, Mathias. 2019. <em><span>Der Wachstumszwang: warum die Volkswirtschaft immer weiterwachsen muss, selbst wenn wir genug haben</span></em>. Weinheim: Wiley-VCH Verlag GmbH &amp; Co. KGaA.
+Binswanger, Mathias. 2019. <em><span>Der Wachstumszwang: warum die Volkswirtschaft immer weiterwachsen muss, selbst wenn wir genug haben</span></em>. Wiley-VCH Verlag GmbH &amp; Co. KGaA.
 </div>
 <div id="ref-breuWhereBeginDefining2020" class="csl-entry" role="listitem">
-Breu, Thomas Michael, Michael Bergöö, Laura Isabella Ebneter, Myriam Pham, Sabin Bieri, Peter Messerli, Cordula Ott, and Christoph Bader. 2020. <span>“Where to Begin? <span>Defining</span> National Strategies for Implementing the 2030 <span>Agenda</span>: The Case of <span>Switzerland</span>.”</span> <em>Sustainability Science</em> 16 (1): 183–201.
+Breu, Thomas Michael, Michael Bergöö, Laura Isabella Ebneter, et al. 2020. <span>“Where to Begin? <span>Defining</span> National Strategies for Implementing the 2030 <span>Agenda</span>: The Case of <span>Switzerland</span>.”</span> <em>Sustainability Science</em> 16 (1): 183–201.
 </div>
 <div id="ref-devriesConceptsMethodsIndicators2024" class="csl-entry" role="listitem">
-de Vries, Bert J. M. 2024. <span>“Concepts, <span>Methods</span> and <span>Indicators</span>.”</span> In <em>Sustainability <span>Science</span></em>, second edition. CAmbridge/New York: Cambridge University Press.
+<span class="nocase">de Vries, Bert J. M.</span> 2024. <span>“Concepts, <span>Methods</span> and <span>Indicators</span>.”</span> In <em>Sustainability <span>Science</span></em>, second edition. Cambridge University Press.
 </div>
 <div id="ref-dealDoughnutEconomicsAction" class="csl-entry" role="listitem">
-DEAL. n.d. <span>“Doughnut <span>Economics</span> <span>Action</span> <span>Lab</span>.”</span> Doughnut Economics Action Lab (DEAL). <a href="https://doughnuteconomics.org/">https://doughnuteconomics.org/</a>.
+DEAL. n.d. <em>Doughnut <span>Economics</span> <span>Action</span> <span>Lab</span></em>. Doughnut Economics Action Lab (DEAL). <a href="https://doughnuteconomics.org/">https://doughnuteconomics.org/</a>.
 </div>
 <div id="ref-diefenbacherWoranSichWohlstand2011" class="csl-entry" role="listitem">
-Diefenbacher, Hans, and Roland Zieschank. 2011. <em>Woran Sich <span>Wohlstand</span> Wirklich Messen Lässt</em>. München: oekom.
+Diefenbacher, Hans, and Roland Zieschank. 2011. <em>Woran Sich <span>Wohlstand</span> Wirklich Messen Lässt</em>. Oekom.
 </div>
 <div id="ref-folkeResilienceThinkingIntegrating2010" class="csl-entry" role="listitem">
 Folke, Carl, Stephen R. Carpenter, Brian Walker, Marten Scheffer, Terry Chapin, and Johan Rockström. 2010. <span>“Resilience <span>Thinking</span>: <span>Integrating</span> <span>Resilience</span>, <span>Adaptability</span> and <span>Transformability</span>.”</span> <em>Ecology and Society</em> 15 (4). <a href="https://www.jstor.org/stable/26268226">https://www.jstor.org/stable/26268226</a>.
 </div>
+<div id="ref-globalfootprintnetworkEcologicalFootprintAccounting2020" class="csl-entry" role="listitem">
+Global Footprint Network. 2020. <em>Ecological <span>Footprint</span> <span>Accounting</span>: <span>Limitations</span> and <span>Criticism</span></em>. <a href="https://www.footprintnetwork.org/content/uploads/2020/08/Footprint-Limitations-and-Criticism.pdf">https://www.footprintnetwork.org/content/uploads/2020/08/Footprint-Limitations-and-Criticism.pdf</a>.
+</div>
 <div id="ref-independentgroupofscientistsappointedbythesecretary-generalGlobalSustainableDevelopment2023" class="csl-entry" role="listitem">
-Independent Group of Scientists appointed by the Secretary-General. 2023. <span>“Global <span>Sustainable Development Report</span> 2023: <span>Times</span> of Crisis, Times of Change: <span>Science</span> for Accelerating Transformations to Sustainable Development.”</span> New York: United Nations. <a href="https://doi.org/10.18356/9789210010788c003">https://doi.org/10.18356/9789210010788c003</a>.
+Independent Group of Scientists appointed by the Secretary-General. 2023. <em>Global <span>Sustainable Development Report</span> 2023: <span>Times</span> of Crisis, Times of Change: <span>Science</span> for Accelerating Transformations to Sustainable Development</em>. United Nations. <a href="https://doi.org/10.18356/9789210010788c003">https://doi.org/10.18356/9789210010788c003</a>.
+</div>
+<div id="ref-ipccClimateChange20212021" class="csl-entry" role="listitem">
+IPCC. 2021. <em>Climate <span>Change</span> 2021: <span>The</span> <span>Physical</span> <span>Science</span> <span>Basis</span>. <span>Contribution</span> of <span>Working</span> <span>Group</span> <span>I</span> to the <span>Sixth</span> <span>Assessment</span> <span>Report</span> of the <span>Intergovernmental</span> <span>Panel</span> on <span>Climate</span> <span>Change</span></em>. 1st ed. Edited by Valérie Masson-Delmotte, Panmao Zhai, Anna Pirani, et al. Intergovernmental Panel on Climate Change (IPCC). <a href="https://doi.org/10.1017/9781009157896">https://doi.org/10.1017/9781009157896</a>.
 </div>
 <div id="ref-kubiszewskiFutureValueEcosystem2017" class="csl-entry" role="listitem">
 Kubiszewski, Ida, Robert Costanza, Sharolyn Anderson, and Paul Sutton. 2017. <span>“The Future Value of Ecosystem Services: <span>Global</span> Scenarios and National Implications.”</span> <em>Ecosystem Services</em> 26 (August): 289–301. <a href="https://doi.org/10.1016/j.ecoser.2017.05.004">https://doi.org/10.1016/j.ecoser.2017.05.004</a>.
 </div>
 <div id="ref-lentonClimateTippingPoints2019" class="csl-entry" role="listitem">
-Lenton, Timothy M., Johan Rockström, Owen Gaffney, Stefan Rahmstorf, Katherine Richardson, Will Steffen, and Hans Joachim Schellnhuber. 2019. <span>“Climate Tipping Points — Too Risky to Bet Against.”</span> <em>Nature</em> 575 (7784): 592–95. <a href="https://doi.org/10.1038/d41586-019-03595-0">https://doi.org/10.1038/d41586-019-03595-0</a>.
+Lenton, Timothy M., Johan Rockström, Owen Gaffney, et al. 2019. <span>“Climate Tipping Points — Too Risky to Bet Against.”</span> <em>Nature</em> 575 (7784): 592–95. <a href="https://doi.org/10.1038/d41586-019-03595-0">https://doi.org/10.1038/d41586-019-03595-0</a>.
 </div>
-<div id="ref-globalfootprintnetworkEcologicalFootprintAccounting2020" class="csl-entry" role="listitem">
-Network, Global Footprint. 2020. <span>“Ecological <span>Footprint Accounting</span>: <span>Limitations</span> and <span>Criticism</span>.”</span>
+<div id="ref-meadowsLimitsGrowthReport1972a" class="csl-entry" role="listitem">
+Meadows, Donella H., Dennis L. Meadows, Jørgen Randers, and William W. Behrens. 1972. <em>The <span>Limits</span> to <span>Growth</span>: <span>A</span> Report for the <span>Club</span> of <span>Rome</span>’s <span>Project</span> on the <span>Predicament</span> of <span>Mankind</span></em>. Universe Books. <a href="https://doi.org/10.1349/ddlp.1">https://doi.org/10.1349/ddlp.1</a>.
 </div>
 <div id="ref-nilssonMapInteractionsSustainable2016" class="csl-entry" role="listitem">
 Nilsson, Måns, Dave Griggs, and Martin Visbeck. 2016. <span>“Map the Interactions Between <span>Sustainable Development Goals</span>.”</span> <em>Nature</em> 534: 320–22.
 </div>
 <div id="ref-oberholzerWieBringenWir2021" class="csl-entry" role="listitem">
-Oberholzer, Basil. 2021. <span>“Wie Bringen Wir Die <span>Wachstumsmotoren</span> Unter <span>Kontrolle</span>?”</span> In <em>Postwachstums? <span>Aktuelle Auseinandersetzungen</span> Um Einen Grundlegenden Gesellschaftlichen <span>Wandel</span></em>, 2021st ed. Denknetz <span>Jahrbuch</span>. Zürich: edition 8.
+Oberholzer, Basil. 2021. <span>“Wie Bringen Wir Die <span>Wachstumsmotoren</span> Unter <span>Kontrolle</span>?”</span> In <em>Postwachstums? <span>Aktuelle Auseinandersetzungen</span> Um Einen Grundlegenden Gesellschaftlichen <span>Wandel</span></em>, 2021st ed. Denknetz <span>Jahrbuch</span>. Edition 8.
 </div>
 <div id="ref-oecdDeclarationGreenGrowth2009" class="csl-entry" role="listitem">
-OECD. 2009. <span>“Declaration on <span>Green Growth</span>.”</span>
+OECD. 2009. <em>Declaration on <span>Green Growth</span></em>.
 </div>
 <div id="ref-pearceSustainableDevelopmentEconomics2000" class="csl-entry" role="listitem">
 Pearce, D., Edward B. Barbier, and Anil Markandya. 2000. <em>Sustainable <span>Development</span>: <span>Economics</span> and <span>Environment</span> in the <span>Third World</span></em>. Routledge.
 </div>
 <div id="ref-pearceBluePrintGreen1989" class="csl-entry" role="listitem">
-Pearce, D., Anil Markandya, and Edward B. Barbier. n.d. <em>Blue <span>Print</span> for a <span>Green Economy</span></em>. London: Earthscan. Accessed November 13, 2025.
+Pearce, D., Anil Markandya, and Edward B. Barbier. 1989. <em>Blue <span>Print</span> for a <span>Green</span> <span>Economy</span></em>. Earthscan. <a href="https://www.scirp.org/reference/referencespapers?referenceid=1637348">https://www.scirp.org/reference/referencespapers?referenceid=1637348</a>.
 </div>
 <div id="ref-raworthDoughnutEconomicsSeven2017" class="csl-entry" role="listitem">
-Raworth, Kate. 2017. <em>Doughnut <span>Economics</span> - <span>Seven Ways</span> to <span>Think Like</span> a 21st-<span>Century Economist</span></em>. London: Penguin Random House.
+Raworth, Kate. 2017. <em>Doughnut <span>Economics</span> - <span>Seven Ways</span> to <span>Think Like</span> a 21st-<span>Century Economist</span></em>. Penguin Random House.
 </div>
 <div id="ref-richardsonEarthSixNine2023" class="csl-entry" role="listitem">
-Richardson, Katherine, Will Steffen, Wolfgang Lucht, Jørgen Bendtsen, Sarah E. Cornell, Jonathan F. Donges, Markus Drüke, et al. 2023. <span>“Earth Beyond Six of Nine Planetary Boundaries.”</span> <em>Science Advances</em> 9 (37): eadh2458. <a href="https://doi.org/10.1126/sciadv.adh2458">https://doi.org/10.1126/sciadv.adh2458</a>.
+Richardson, Katherine, Will Steffen, Wolfgang Lucht, et al. 2023. <span>“Earth Beyond Six of Nine Planetary Boundaries.”</span> <em>Science Advances</em> 9 (37): eadh2458. <a href="https://doi.org/10.1126/sciadv.adh2458">https://doi.org/10.1126/sciadv.adh2458</a>.
 </div>
 <div id="ref-rockstromSafeJustEarth2023" class="csl-entry" role="listitem">
-Rockström, Johan, Joyeeta Gupta, Dahe Qin, Steven J. Lade, Jesse F. Abrams, Lauren S. Andersen, David I. Armstrong McKay, et al. 2023. <span>“Safe and Just <span>Earth</span> System Boundaries.”</span> <em>Nature</em> 619 (7968): 102–11. <a href="https://doi.org/10.1038/s41586-023-06083-8">https://doi.org/10.1038/s41586-023-06083-8</a>.
+Rockström, Johan, Joyeeta Gupta, Dahe Qin, et al. 2023. <span>“Safe and Just <span>Earth</span> System Boundaries.”</span> <em>Nature</em> 619 (7968): 102–11. <a href="https://doi.org/10.1038/s41586-023-06083-8">https://doi.org/10.1038/s41586-023-06083-8</a>.
+</div>
+<div id="ref-rockstromSafeOperatingSpace2009" class="csl-entry" role="listitem">
+Rockström, Johan, Will Steffen, Kevin Noone, Åsa Persson, F. Stuart Chapin, et al. 2009. <span>“A Safe Operating Space for Humanity.”</span> <em>Nature</em> 461 (7263): 472–75. <a href="https://doi.org/10.1038/461472a">https://doi.org/10.1038/461472a</a>.
 </div>
 <div id="ref-rockstromPlanetaryBoundariesExploring2009" class="csl-entry" role="listitem">
-Rockström, Johan, Will Steffen, Kevin Noone, Åsa Persson, F. Stuart III Chapin, Eric Lambin, Timothy Lenton, et al. 2009. <span>“Planetary <span>Boundaries</span>: <span>Exploring</span> the <span>Safe Operating Space</span> for <span>Humanity</span>.”</span> <em>Ecology and Society</em> 14 (2). <a href="https://doi.org/10.5751/ES-03180-140232">https://doi.org/10.5751/ES-03180-140232</a>.
+<span class="nocase">Rockström, Johan, Will Steffen, Kevin Noone, Åsa Persson, F. Stuart III Chapin, et al.</span> 2009. <span>“Planetary <span>Boundaries</span>: <span>Exploring</span> the <span>Safe Operating Space</span> for <span>Humanity</span>.”</span> <em>Ecology and Society</em> 14 (2). <a href="https://doi.org/10.5751/ES-03180-140232">https://doi.org/10.5751/ES-03180-140232</a>.
 </div>
-<div id="ref-sachverstandigenratfurumweltfragensruUmweltgutachten2012Verantwortung2012" class="csl-entry" role="listitem">
-Sachverständigenrat für Umweltfragen (SRU). 2012. <span>“Umweltgutachten 2012 – <span>Verantwortung</span> in Einer Begrenzten <span>Welt</span>.”</span> Berlin.
+<div id="ref-sruUmweltgutachten2012Verantwortung2012" class="csl-entry" role="listitem">
+Sachverständigenrat für Umweltfragen (SRU). 2012. <em>Umweltgutachten 2012 – <span>Verantwortung</span> in Einer Begrenzten <span>Welt</span></em>. Berlin.
 </div>
 <div id="ref-schneidewindGrosseTransformationEinfuhrung2018" class="csl-entry" role="listitem">
-Schneidewind, Uwe. 2018. <em>Die <span>Grosse Transformation</span>: <span class="nocase">Eine Einf<span class="nocase">ü</span>hrung</span> in Die <span>Kunst</span> Gesellschaftlichen <span>Wandels</span></em>. Frankfurt am Main: FISCHER Taschenbuch.
+Schneidewind, Uwe. 2018. <em>Die <span>Grosse Transformation</span>: <span class="nocase">Eine Einf<span class="nocase">ü</span>hrung</span> in Die <span>Kunst</span> Gesellschaftlichen <span>Wandels</span></em>. FISCHER Taschenbuch.
 </div>
 <div id="ref-schneidewindDamitGutesLeben2013" class="csl-entry" role="listitem">
 Schneidewind, Uwe, and Angelika Zahrnt. 2013. <em>Damit Gutes <span>Leben</span> Einfacher Wird. <span>Perspektiven</span> Einer <span>Suffizienzpolitik</span></em>. München.
 </div>
 <div id="ref-schneidewindInstitutionalFrameworkSufficiency2014" class="csl-entry" role="listitem">
-———. 2014. <span>“The Institutional Framework for a Sufficiency Driven Economy.”</span> <em>Ökologisches Wirtschaften - Fachzeitschrift</em> 29 (3): 30. <a href="https://doi.org/10.14512/OEW290330">https://doi.org/10.14512/OEW290330</a>.
+Schneidewind, Uwe, and Angelika Zahrnt. 2014. <span>“The Institutional Framework for a Sufficiency Driven Economy.”</span> <em>Ökologisches Wirtschaften - Fachzeitschrift</em> 29 (3): 30. <a href="https://doi.org/10.14512/OEW290330">https://doi.org/10.14512/OEW290330</a>.
 </div>
 <div id="ref-steffenPlanetaryBoundariesGuiding2015" class="csl-entry" role="listitem">
-Steffen, Will, Katherine Richardson, Johan Rockström, Sarah E. Cornell, Ingo Fetzer, Elena M. Bennett, Reinette Biggs, et al. 2015. <span>“Planetary Boundaries: <span>Guiding</span> Human Development on a Changing Planet.”</span> <em>Science</em> 347 (6223): 1259855. <a href="https://doi.org/10.1126/science.1259855">https://doi.org/10.1126/science.1259855</a>.
+<span class="nocase">Steffen, Will, Katherine Richardson, Johan Rockström, et al.</span> 2015. <span>“Planetary Boundaries: <span>Guiding</span> Human Development on a Changing Planet.”</span> <em>Science</em> 347 (6223): 1259855. <a href="https://doi.org/10.1126/science.1259855">https://doi.org/10.1126/science.1259855</a>.
 </div>
 <div id="ref-talberthGenuineProgressIndicator2007a" class="csl-entry" role="listitem">
-Talberth, John, Clifford Cobb, and Noah Slattery. 2007. <span>“The <span>Genuine Progress Indicator</span> 2006.”</span> Oakland CA: Redefining Progress.
+Talberth, John, Clifford Cobb, and Noah Slattery. 2007. <em>The <span>Genuine Progress Indicator</span> 2006</em>. Redefining Progress.
 </div>
-<div id="ref-umweltbundesamtubaBeschaftigungswirkungenUmweltschutzesFur2008" class="csl-entry" role="listitem">
-(UBA), Umweltbundesamt. 2008. <span>“Beschäftigungswirkungen Des <span>Umweltschutzes</span> Für Das <span>Jahr</span> 2006.”</span> Hintergrundpapier 3288. Dessau-Rosslau: Umweltbundesamt.
+<div id="ref-ubaBeschaftigungswirkungenUmweltschutzesFur2008" class="csl-entry" role="listitem">
+UBA. 2008. <em>Beschäftigungswirkungen Des <span>Umweltschutzes</span> Für Das <span>Jahr</span> 2006</em>. Hintergrundpapier No. 3288. Umweltbundesamt (UBA). <a href="http://www.umweltbundesamt.de/sites/default/files/medien/515/dokumente/3288.pdf">http://www.umweltbundesamt.de/sites/default/files/medien/515/dokumente/3288.pdf</a>.
 </div>
 <div id="ref-unepGreenEconomyPathways2011" class="csl-entry" role="listitem">
-UNEP. 2011. <span>“Towards a <span>Green Economy</span>: <span>Pathways</span> to <span>Sustainable Development</span> and <span>Poverty Eradication</span>.”</span>
+UNEP. 2011. <em>Towards a <span>Green Economy</span>: <span>Pathways</span> to <span>Sustainable Development</span> and <span>Poverty Eradication</span></em>.
 </div>
 <div id="ref-vonweizsackerFaktorVierDoppelter1995" class="csl-entry" role="listitem">
-von Weizsäcker, Ernst-Ulrich, Amory B. Lovins, and Hunter L. Lovins. 1995. <em>Faktor <span>Vier</span>: <span>Doppelter Wohlstand</span> - Halbierter <span>Naturverbrauch</span></em>. Der Neue <span>Berich</span> an Den <span>Club</span> of <span>Rome</span>. M<span>ü</span>nchen: Droemer Knaur.
+<span class="nocase">von Weizsäcker, Ernst-Ulrich, Amory B. Lovins, and Hunter L. Lovins</span>. 1995. <em>Faktor <span>Vier</span>: <span>Doppelter Wohlstand</span> - Halbierter <span>Naturverbrauch</span></em>. Der Neue <span>Berich</span> an Den <span>Club</span> of <span>Rome</span>. Droemer Knaur.
 </div>
 <div id="ref-wackernagelOurEcologicalFootprint1996" class="csl-entry" role="listitem">
-Wackernagel, M., and William Rees. 1996. <em>Our <span>Ecological Footprint</span>: <span>Reducing Human Impact</span> on the <span>Earth</span></em>. Gabriola Island, B.C. Canada: New Society Publishers.
+Wackernagel, M., and William Rees. 1996. <em>Our <span>Ecological Footprint</span>: <span>Reducing Human Impact</span> on the <span>Earth</span></em>. New Society Publishers.
 </div>
 <div id="ref-wbguWorldTransitionSocial2011" class="csl-entry" role="listitem">
-WBGU, ed. 2011. <em>World in <span>Transition</span> – <span>A</span> <span>Social</span> <span>Contract</span> for <span>Sustainability</span>. <span>Flagship</span> <span>Report</span> 2011</em>. Berlin, Germany: German Advisory Council on Global Change (WBGU).
+WBGU, ed. 2011. <em>World in <span>Transition</span> – <span>A</span> <span>Social</span> <span>Contract</span> for <span>Sustainability</span>. <span>Flagship</span> <span>Report</span> 2011</em>. German Advisory Council on Global Change (WBGU).
 </div>
 </div>
 </section>
@@ -2268,13 +2282,14 @@ window.onload = function() {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -2618,8 +2633,8 @@ window.onload = function() {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../1_understanding/1_intro.html" class="pagination-link" aria-label="Understandings and concepts of sustainability">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Understandings and concepts of sustainability</span></span>
+      <a href="../1_understanding/1_intro.html" class="pagination-link" aria-label="Understandings and Concepts of Sustainability">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Understandings and Concepts of Sustainability</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

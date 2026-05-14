@@ -49,7 +49,7 @@ book:
   - part: "Approaches to Sustainability" 
     chapters: 
     - 2_approaches/2_intro.qmd
-  - part: "Transforming (Un-)sustainable systems: Key areas and strategic approaches"
+  - part: "Transforming (Un-)sustainable Systems: Key Areas and Strategic Approaches"
     chapters:
     - 3_ecological-sustainability/3_intro.qmd
     - 4_social-sustainability/4_intro.qmd
@@ -77,7 +77,7 @@ format:
   
   pdf:
   # render pdf to separate folder -> do it manually via terminal
-  # "quarto render --to pdf --output SP_BasicSustainability.pdf --output-dir pdf"
+  # "quarto render SP_BasicSustainability.qmd --to pdf --output pdf/SP_BasicSustainability.pdf"
     title: BASICS OF SUSTAINABILITY
     documentclass: scrreprt
     classoption: ["oneside", "openany"]
@@ -99,7 +99,7 @@ format:
        \usepackage{pdfpages}
        \usepackage[font=footnotesize,labelfont={footnotesize}]{caption}
        \renewcommand{\maketitle}{}
-       
+
     include-before-body: 
       text: |
         \includepdf[pages=1]{CoverLehrbuch.pdf}

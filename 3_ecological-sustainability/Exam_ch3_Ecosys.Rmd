@@ -12,7 +12,7 @@ Answerlist
 * The concept of ecosystem services represents all measures taken by humans in order to preserve ecosystems.
 * Unlike the concept of Sustainable Development, the concept of ecosystem services is not anthropocentric, but ecocentric.
 * Three different types of ecosystem services can be distinguished: services of avoidance, improvement, and shifting.
-* The term ‘ecosystem services’ is a scientific term that describes the congregations of nature-oriented religions (so-called nature religions), such as animism, during which nature as a whole is worshipped.
+* The term "ecosystem services" is a scientific term that describes the congregations of nature-oriented religions (so-called nature religions), such as animism, during which nature as a whole is worshipped.
 
 
 Solution

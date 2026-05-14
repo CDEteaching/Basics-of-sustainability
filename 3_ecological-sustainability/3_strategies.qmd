@@ -1,10 +1,10 @@
 ## Strategic approaches
 
-These days, various strategies are being pursued or at least considered to achieve a transformation in the environmental dimension of sustainable development (see @fig-GDSR for a non-exhaustive list). Some of these strategies were previously discussed in this textbook. While the approaches mentioned do not necessarily have to be transformative per se, they can certainly have an impact on the environmental dimension of sustainability if applied appropriately. The approaches presented in this section are categorized according to the “Levers for Transformation” of the Global Sustainable Development Report (GSDR). The 2019 GSDR defines four levers: governance, economy and finance, individual and collective action, and science and technology. The 2023 GSDR added a fifth lever, capacity building, as this is essential for a transformative process both as a lever itself and as a supporting factor for the other levers (Independent Group of Scientists appointed by the Secretary-General, 2023).
+These days, various strategies are being pursued or at least considered to achieve a transformation in the environmental dimension of sustainable development (see @fig-GDSR for a non-exhaustive list). Some of these strategies were previously discussed in this textbook. While the approaches mentioned do not necessarily have to be transformative per se, they can certainly have an impact on the environmental dimension of sustainability if applied appropriately. The approaches presented in this section are categorized according to the “Levers for Transformation” of the Global Sustainable Development Report (GSDR). The 2019 GSDR defines four levers: governance, economy and finance, individual and collective action, and science and technology. The 2023 GSDR added a fifth lever, capacity building, as this is essential for a transformative process both as a lever itself and as a supporting factor for the other levers [@independentgroupofscientistsappointedbythesecretary-generalGlobalSustainableDevelopment2023].
 
-![Model of transformation to sustainable development goals (SDGs) given by Global Report of Sustainable Development 2023. Source: @gongSustainableDevelopmentDigitization2024, licenced under CC BY-NC-SA 4.0](images/Fig3_17__GSDR.png){#fig-GDSR}
+![Entry points for transformation to the Sustainable Development Goals (SDGs), as proposed by the Global Sustainable Development Report 2023. Source: @independentgroupofscientistsappointedbythesecretary-generalGlobalSustainableDevelopment2023.](images/Fig3_17__GSDR.png){#fig-GDSR}
 
-For each lever, we present selected strategies related to our three topics of focus in this Chapter, climate, land use, or biodiversity:
+For each lever, we present selected strategies related to climate, land use, or biodiversity (our three topics of focus in this Chapter):
 
 The **governance** lever involves institutions and spaces that determine the direction of development by setting goals, coordinating measures, creating regulations, and facilitating funding at national and regional level. Good governance should also promote synergies, take into account conflicts of interest, and strengthen cooperation between a wide range of stakeholders. Governance thus plays a key role in the development and implementation of environmental sustainability strategies, as it can establish the policy framework for sustainable practices through regulatory mechanisms, incentive structures, and laws. Governance levers include:
 
@@ -24,7 +24,7 @@ The **science and technology** lever refers to social and technological innovati
 
 -   Nature-based solutions that use natural processes to address climate change and environmental problems
 
--   Innovative land use systems, such as agroforestry\
+-   Innovative land use systems, such as agroforestry
 
 **Individual and collective action**\
 Social change often begins in people’s hearts and minds through local organization and mobilization before translating into laws and economic policy. When a critical mass adopts new practices or norms, this can be supported by education, information campaigns, financial incentives, and legislation, and extended to the whole of society. Examples of sustainability strategies and policies in the field of individual and collective action include:
@@ -33,8 +33,8 @@ Social change often begins in people’s hearts and minds through local organiza
 
 -   Promotion of solidarity-based farming models (SoLaWi) that strengthen regional and organic food production
 
-**Capacity building\
-**Capacity building to support the transformation to achieve the SDGs is multifaceted and depends on the goal, the required transformations, and the specific country or regional context. Among other things, competences are required in the areas of strategic orientation, innovation, coordination, learning, and resilience. Environmental sustainability strategies and policies related to the capacity building lever include:
+**Capacity building**\
+Capacity building to support the transformation to achieve the SDGs is multifaceted and depends on the goal, the required transformations, and the specific country or regional context. Among other things, competences are required in the areas of strategic orientation, innovation, coordination, learning, and resilience. Environmental sustainability strategies and policies related to the capacity building lever include:
 
 -   Establishment of advice centres or digital platforms to enable continuous learning and the exchange of best practices, e.g. in the field of agroforestry
 

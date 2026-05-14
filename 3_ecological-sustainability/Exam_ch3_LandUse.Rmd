@@ -9,7 +9,7 @@ Answerlist
 * Land use describes how humans utilize land cover, for example for agriculture, settlement, or infrastructure.
 * Land use change refers to changes in land cover only, independent of human activities.
 * Land use change can negatively affect biodiversity, ecosystem functions, and ecosystem services, thereby restricting human well-being.
-* Land degradation refers to the reduction or loss of biological or economic productivity of land due to land uses, particularly in dryland areas.
+* Land degradation refers to the reduction or loss of biological or economic productivity of land due to land use, particularly in dryland areas.
 * Land systems only describe ecological processes and exclude social, economic, and technological factors.
 
 

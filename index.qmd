@@ -1,16 +1,16 @@
 # Preface {.unnumbered}
 
-This introduction to the foundations and challenges of sustainable development is aimed at students and lecturers who deal with the most pressing issues of our time from different disciplinary perspectives. It arose from the desire to promote a common understanding - across disciplinary boundaries, in teaching, research and social practice.
+This introduction to the foundations and challenges of sustainable development is aimed at students and lecturers dealing with the most pressing issues of our time from different disciplinary perspectives. It arose from the desire to promote a common understanding -- across disciplinary boundaries -- in teaching, in research, and in social practice.
 
-The world as we know it today is characterised by a multitude of interwoven crises: Climate change, loss of biodiversity, social inequalities, economic instability and political polarisation - in short, a polycrisis. These challenges are neither linear nor easy to solve. They call for a profound rethink of our economic, social and ecological systems, our actions and our idea of development and progress.
+The world as we know it today is characterized by a multitude of interwoven crises: Climate change, biodiversity loss, social inequalities, economic instability, and political polarization -- in short, a polycrisis. These challenges are neither linear nor easy to solve. They call for a profound rethink of our economic, social, and ecological systems, as well as our actions and our idea of development and progress.
 
-Against this background, this textbook sees itself as a shared learning space: it offers systematic access to central concepts, scientific perspectives, normative questions and specific fields of action for sustainable development. The aim is not only to impart knowledge, but also to promote the ability to reflect, think critically and be creative.
+Against this background, this textbook sees itself as a shared learning space: it offers systematic access to central concepts, scientific perspectives, normative questions, and specific fields of action for sustainable development. The aim is not only to impart knowledge, but also to promote the ability to reflect, think critically, and be creative.
 
-This book was written in the context of the study programmes of the Centre for Development and Environment (CDE) at the University of Bern. It reflects the many years of experience in research and teaching on sustainable development and brings together contributions from various disciplines - from environmental sciences, geography and economics to sociology, ethics and law.
+This book was written in the context of the study programmes of the Centre for Development and Environment (CDE) at the University of Bern. It reflects the many years of experience in research and teaching on sustainable development and brings together contributions from various disciplines -- from the environmental sciences, geography, and economics to sociology, ethics, and law.
 
-Special thanks go to all the authors who have contributed to the creation of this book with their expertise, passion and commitment. We would also like to thank the students, whose critical questions and perspectives are a key driver for the further development of the content. After all, sustainable development is not only a scientific project, but above all a social project - and this begins with education.
+Special thanks go to all the authors who have contributed to the creation of this book with their expertise, passion, and commitment, and to our translator (each Chapter was written in German and subsequently translated into English). We would also like to thank the students, whose critical questions and perspectives are a key driver for the further development of the content. After all, sustainable development is not only a scientific project, but above all a social project -- and this begins with education.
 
-We hope that this book will provide a sound basis for your own engagement with sustainability - and encourage you to take responsibility and play an active role in shaping a fair and sustainable world.
+We hope that this book will provide a sound basis for your own engagement with sustainability -- and encourage you to take responsibility and play an active role in shaping a fair and sustainable world.
 
 ## How to cite
 
@@ -38,18 +38,18 @@ Chapter 5:
 
 Bader, C., & Bezzola, N. (2025). Economic Sustainability. In C. Bader (Ed.), Basics of Sustainability (Version 1.0) \[Online book\]. CDE, University of Bern. Retrieved from https://cdeteaching.github.io/Basics-of-sustainability/
 
-::: {.callout-note collapse="true"}
+::: {.callout-note collapse="true" appearance="simple"}
 ### Contribution Matrix (CRediT Taxonomy)
 
 | Name | Affiliation | ORCID | Roles (CRediT) |
-|----|----|----|----|
-| Christoph Bader | CDE, University of Bern | [0000-0002-8991-353X](https://orcid.org/0000-0002-8991-353X) | Conceptualization, Software, Supervision, Writing - original draft, Writing – review & editing, Project administration |
-| Nicolà Bezzola | CDE, University of Bern | — | Writing - original draft, Writing – review & editing |
-| Juri Fitz | CDE, University of Bern | — | Writing - original draft, Writing – review & editing |
+|------------------|------------------|------------------|------------------|
+| Christoph Bader | CDE, University of Bern | [0000-0002-8991-353X](https://orcid.org/0000-0002-8991-353X) | Conceptualization, Software, Supervision, Writing -- original draft, Writing -- review & editing, Project administration |
+| Nicolà Bezzola | CDE, University of Bern | — | Writing -- original draft, Writing -- review & editing |
+| Juri Fitz | CDE, University of Bern | — | Writing -- original draft, Writing -- review & editing |
+| Tina Hirschbuehl | CDE, University of Bern | — | Writing -- translation, review & editing |
 | Anna-Lisa Honegger | CDE, University of Bern | — | Data curation, Visualization |
 | Helen Pérez | CDE, University of Bern | — | Data curation, Visualization |
-| Tina Hirschbühl | CDE, University of Bern | — | Writing – review & editing |
-| Felix Poelsma | CDE, University of Bern | [0009-0002-0221-6414](https://orcid.org/0009-0002-0221-6414) | Writing - original draft, Writing – review & editing |
+| Felix Poelsma | CDE, University of Bern | [0009-0002-0221-6414](https://orcid.org/0009-0002-0221-6414) | Writing -- original draft, Writing -- review & editing |
 :::
 
 ## Reading guide
@@ -60,8 +60,4 @@ Bader, C., & Bezzola, N. (2025). Economic Sustainability. In C. Bader (Ed.), Bas
 
 ::: {.callout-tip collapse="true"}
 ### Examples and reflections
-:::
-
-::: {.callout-caution collapse="true"}
-### Exercises and links to ILIAS
 :::

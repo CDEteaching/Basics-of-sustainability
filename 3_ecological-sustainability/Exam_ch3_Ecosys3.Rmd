@@ -8,7 +8,7 @@ Answerlist
 * Ecosystem services represent a measure of biodiversity and, consequently, the resilience of an ecosystem.
 * Ecosystem services represent the direct and indirect contributions of ecosystems to human well-being.
 * Ecosystem services represent the annual accumulation of biomass within an ecosystem measured in kilojoules.
-* Ecosystem services can be divided into the categories supporting, provisioning, regulating, and cultural.
+* Ecosystem services can be divided into the following categories: supporting, provisioning, regulating, and cultural.
 
 
 Solution

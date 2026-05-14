@@ -7,7 +7,7 @@ Answerlist
 ----------
 * Distributive justice focuses on the fair distribution of goods and burdens, such as access to clean water or exposure to environmental pollution.
 * Procedural justice emphasizes the inclusivity and fairness of decision-making processes and representation.
-* Recognition justice centers on respecting social and cultural differences and acknowledging structural injustices.
+* Recognition justice centres on respecting social and cultural differences and acknowledging structural injustices.
 * Distributive justice primarily concerns the recognition of cultural identities and historical experiences.
 * Procedural justice is mainly concerned with the outcomes of policies rather than how decisions are made.
 

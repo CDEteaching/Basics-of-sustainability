@@ -12,7 +12,7 @@ Answerlist
 
 Solution
 ========
-Feedback mechanisms in the climate system describe processes that either amplify (positive feedback) or dampen (negative feedback) changes in the climate system. A neutral feedback is not commonly used as a category in climate science.
+Feedback mechanisms in the climate system describe processes that either amplify (positive feedback) or dampen (negative feedback) changes in the climate system. Neutral feedback is not commonly used as a category in climate science.
 
 Answerlist
 ----------

@@ -1,4 +1,4 @@
-## Quiz me if you can
+## Sustainability Basics: The Quiz -- Chapter 4
 
 ```{r quiz-ch4-setup, include = FALSE}
 ## package and list of various exercises
