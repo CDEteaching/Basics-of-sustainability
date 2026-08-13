@@ -1,36 +1,42 @@
-# Online Learning Courses – Master in Sustainability Transformations
-
-Welcome to the online learning space of the Master's in Sustainability Transformations at the University of Bern.
+# Open Education Resources - CDE, University of Bern
 
 This platform is hosted by the [Centre for Development and Environment (CDE)](https://www.cde.unibe.ch/), a leading research centre for sustainable development. CDE combines research, education, and practice to co-create knowledge for just and sustainable transformations worldwide.
 
-## 🎓 About the Master in Sustainability Transformations
+## 🎓 About the course
 
-The Master's in Sustainability Transformations equips students to respond to pressing global challenges and design pathways toward a sustainable future.
+This online course introduces you to the fundamentals of sustainable development (SD) and provides a solid foundation for understanding sustainability-related challenges and approaches. Sustainable development explores the interconnections between environmental, economic, and social dimensions and offers key perspectives for addressing today’s global issues. The course emphasizes the normative character of sustainability — showing how different values, worldviews, and priorities shape competing understandings of what “sustainability” means and how it should be pursued.
 
-The programme provides:
+The course is structured into five thematic units:
 
--   Inter- and transdisciplinary knowledge for understanding complex sustainability challenges.
--   Target knowledge to envision alternative futures and assess their feasibility.
--   Transformation knowledge to initiate, lead, and evaluate change processes in science, policy, and practice.
+- Understandings and concepts of sustainability – Origins, definitions, and the evolution of the concept.
+- Approaches to sustainability – Different models and frameworks.
+- Ecological Dimension – Planetary boundaries, resource use, and environmental limits.
+- Social Dimension – Justice, inclusion, and the social foundations of sustainability.
+- Economic Dimension – Growth, inequality, and alternative economic paradigms.
 
-Graduates are prepared to work in academia, public administration, NGOs, civil society, and the private sector, in Switzerland and internationally.
+## 🎯 Learning outcomes
+
+Upon successful completion of this course, you will:
+
+- Know the foundations, different concepts, and dimensions of sustainable development (SD), its normative character, and, as a consequence, the diverse perspectives on SD.
+- Understand the various comprehensions, concepts, and debates on SD, as well as the resulting challenges for society and its different groups of actors.
+- Be able to integrate these elements into a coherent and well-founded line of argument.
+
+## 👥 Target group
+
+The course is designed for students and professionals from diverse disciplinary backgrounds who seek to build or strengthen their foundational understanding of sustainable development.
+
+**Online script:** Please find the online self-paced course [here](https://cdeteaching.github.io/Basics-of-sustainability/)
 
 ## 📚 About This Platform – Additional Attainments
 
-At present, we provide additional attainments for new students of the Master's in Sustainability Transformations.
-
-These courses are designed to:
-
--   Close knowledge gaps for students joining the programme from diverse academic backgrounds
-
--   Provide introductory insights into key areas of sustainability research and practice.
+This course is part of CDE's Open Education Resources. A full overview of our openly accessible resources you can find [here](https://cdeteaching.github.io/CDEteaching/)
 
 ## 📜 License
 
 Unless otherwise indicated, all materials are licensed under the Creative Commons BY-NC-SA 4.0 License. We used <a href="https://quarto.org/">Quarto</a> for the online book and pdf printout as well as the open-source R package <a href="https://cran.r-project.org/package=exams">“exams”</a> for the *Quiz me if you can* sections in each chapter.
 
-## 📖 How to cite
+## 📖 How to cite this course
 
 Bader, C. (Ed.). (2025). Basics of Sustainability (Version 1.0) \[Online book\]. CDE, University of Bern. Retrieved from https://cdeteaching.github.io/Basics-of-sustainability/
 

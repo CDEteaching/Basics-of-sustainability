@@ -8,11 +8,12 @@ format: html
 tbl-cap-location: top
 fig-cap-location: bottom
 ---
+
 Economic sustainability is a profoundly normative concept. It asks what kind of economy is socially desirable, which goals economic activity should pursue, whom it should serve, and within which social and ecological boundaries it must operate. Questions of economic growth, prosperity, work, distribution, and stability are therefore not merely technical issues, but central societal and political concerns that shape everyday life. At the same time, it has become increasingly clear that dominant economic models significantly contribute to the transgression of planetary boundaries, rising social inequalities, and the destabilization of socio-ecological systems.
 
 Contrary to widespread belief, economic theories are not value-neutral descriptions of how the economy “works”. They are normative and performative: they shape political decisions, institutional arrangements, corporate practices, and individual action. As a result, answers to the core questions of economics -- who produces and consumes what and why, how profits are distributed, and what they are used for -- vary fundamentally depending on the underlying economic theory and its implicit assumptions about humans, society, and nature.
 
-> “The produce of the earth -- all that is derived from its surface by the united application of labour, machinery, and capital, is divided among three classes of the community, namely, the proprietor of the land **\[Rent\]**, the owner of the stock or capital **\[Profit\]** necessary for its cultivation, and the labourers by whose industry it is cultivated **\[Wages\]**. […] To determine the laws which regulate this distribution, is the principal problem in Political Economy.”\
+> “The produce of the earth -- all that is derived from its surface by the united application of labour, machinery, and capital, is divided among three classes of the community, namely, the proprietor of the land **\[Rent\]**, the owner of the stock or capital **\[Profit\]** necessary for its cultivation, and the labourers by whose industry it is cultivated **\[Wages\]**. \[…\] To determine the laws which regulate this distribution, is the principal problem in Political Economy.”\
 > Preface, p. 1 -- David Ricardo: *The Principles of Political Economy and Taxation* [-@ricardoPriniciplesPoliticalEconomy1821]
 
 ![Economic Sustainability. Source: Own illustration.](images/Fig5_1_NEeconomic.png){#fig-ne-econ}
@@ -56,13 +57,15 @@ Plural economics emphasizes that there isn’t just “one” economics, but a v
 
 However, this is not about a wholesale rejection of neoclassical economics. Instead, the key lies in discerning which perspective best suits a given question. Neoclassical analysis provides useful insights into markets, price formation, and incentive structures. However, its utility is limited when it comes to non-monetary processes, power relations, or social reproduction work. For example, its focus on market-based exchange relationships and price mechanisms makes it difficult to take unpaid work into account. This is where alternative approaches such as feminist economics come in, as they systematically incorporate care work, social relations, and power structures into economic analysis. Consequently, plural economics advocates a methodologically open, problem-oriented approach, viewing the diversity of theoretical approaches as an enrichment -- especially given the complex challenges of sustainable development.
 
-While a detailed exploration of neoclassical economics and other schools of thought is beyond the scope of this discussion, you can delve deeper into this topic in our *Introduction to Sustainable Economics* course. More information on plural economics is also available on the *Exploring Economics* e-learning platform.
+While a detailed exploration of neoclassical economics and other schools of thought is beyond the scope of this discussion, you can delve deeper into this topic in our [*Introduction to Sustainable Economics*](https://cdeteaching.github.io/SP_SustainableEconomics/){target="_blank"} course. More information on plural economics is also available on the [*Exploring Economics*](https://www.exploring-economics.org/en/){target="_blank"} e-learning platform.
 
 In this video -- *Economics is for Everyone* -- Ha-Joon Chang provides a clear and concise introduction to the idea of plural economics. He explains why economic thinking is never neutral -- and why we urgently need more economic pluralism.
+
+{{< https://youtu.be/NdbbcO35arw?si=VlUrTTLGlvQTN1vQ >}}
 :::
 
-{{< include "5_key-elements.qmd" >}} 
+{{< include "5-1_key-elements.qmd" >}}
 
-{{< include "5_strategic-approaches.qmd" >}}
+{{< include "5-2_strategic-approaches.qmd" >}}
 
 {{< include "quiz_ch5.qmd" >}}

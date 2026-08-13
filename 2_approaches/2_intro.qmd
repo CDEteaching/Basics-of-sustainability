@@ -23,14 +23,14 @@ Approaches discussed in this chapter:
 
 -   Implementing the 2030 Agenda
 
-{{< include "planetary-boundaries.qmd" >}}
+{{< include "2-1_planetary-boundaries.qmd" >}}
 
-{{< include "Doughnut-model.qmd" >}}
+{{< include "2-2_Doughnut-model.qmd" >}}
 
-{{< include "Great-transformation.qmd" >}}
+{{< include "2-3_Great-transformation.qmd" >}}
 
-{{< include "Green-economy.qmd" >}}
+{{< include "2-4_Green-economy.qmd" >}}
 
-{{< include "post-growth-societies.qmd" >}}
+{{< include "2-5_post-growth-societies.qmd" >}}
 
 {{< include "quiz_ch2.qmd" >}}

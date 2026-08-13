@@ -1,11 +1,16 @@
 project:
   type: book
+
   output-dir: docs
   resources: 
     - "*.png"
     - "*.jpeg"
     - "*.jfif"
     - "*.svg"
+    
+execute:
+  engine: knitr
+  echo: false
 
 book:
   title: "Basics of sustainability"
@@ -24,7 +29,7 @@ book:
     logo: images/cdelogo_e.png
     tools:
       - icon: file-earmark-pdf
-        href: https://github.com/CDEteaching/Basics-of-sustainability/blob/master/pdf/SP_BasicSustainability.pdf
+        href: https://github.com/CDEteaching/Basics-of-sustainability/blob/master/pdf/Basics-of-sustainability.pdf
         text: "Course Script (PDF)"
       - icon: bug
         href: https://github.com/CDEteaching/Basics-of-sustainability/issues/new
@@ -37,7 +42,7 @@ book:
     center: |
       
     right: |
-      This book was built with <a href="https://quarto.org/">Quarto</a>. This work is licensed under a [CC-BY-NC-ND 4.0 Int License](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+      This book was built with <a href="https://quarto.org/">Quarto</a>. This work is licensed under a [CC-BY-NC-ND 4.0 Int License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
   
   chapters:
@@ -58,6 +63,8 @@ book:
 
 bibliography: references.bib
 
+number-depth: 3
+
 format:
   html:
     cover-image: CoverLehrbuch.png
@@ -73,11 +80,13 @@ format:
     callout-icon: false
     css: webex.css
     include-after-body: webex.js
-  
+    df-print: kable
+    
   
   pdf:
+    output-file: SP_BasicSustainability
   # render pdf to separate folder -> do it manually via terminal
-  # "quarto render SP_BasicSustainability.qmd --to pdf --output pdf/SP_BasicSustainability.pdf"
+  # "quarto render SP_BasicSustainability.qmd --to pdf --output-dir pdf --output SP_BasicSustainability.pdf"
     title: BASICS OF SUSTAINABILITY
     documentclass: scrreprt
     classoption: ["oneside", "openany"]
@@ -93,12 +102,22 @@ format:
     pdf-engine: xelatex
     callout-icon: false
     
-    
+    keep-tex: true
+    tables: true
     include-in-header:
       text: |
-       \usepackage{pdfpages}
-       \usepackage[font=footnotesize,labelfont={footnotesize}]{caption}
-       \renewcommand{\maketitle}{}
+        \usepackage{booktabs}
+        \usepackage{longtable}
+        \usepackage{microtype}
+        \hyphenpenalty=10000
+        \exhyphenpenalty=10000
+        \usepackage{pdfpages}
+        \usepackage[font=footnotesize,labelfont={footnotesize}]{caption}
+        \renewcommand{\maketitle}{}
+        \usepackage[skins]{tcolorbox}
+        \makeatletter
+        \pgfkeys{/tcb/breakable/.code=\relax}
+        \makeatother
 
     include-before-body: 
       text: |
