@@ -73,7 +73,7 @@ df |>
 
 As sustainable development is a normative model, it is important to distinguish between descriptive (empirical-analytical) research and prescriptive (normative) research. Descriptive statements describe the current state (“is”), while normative statements describe the ideal state (“ought”). In everyday life, the distinction between “is” and “ought” is often not recognized, but it is crucial for science.
 
-![Distinction between empirical analytical and normative. Source: Own illustration.](images/emprical-analytical_normative.jpg){#fig-emprical-analytical_normative}
+![Distinction between empirical analytical and normative. Source: Own illustration.](images/emprical-analytical_normative.png){#fig-emprical-analytical_normative}
 
 It is important to note that “is” and “ought” statements have different qualities and focus areas, and they cannot simply be linked without further explanation. This understanding forms the basis of Hume's law, which declares that normative statements about “what ought to be” cannot be derived from descriptive statements about “what is”. To give an extreme example: The fact that around 24,000 people starve to death every day does not allow any conclusions to be drawn as to whether this is good or bad. Without an evaluation, no normative statement can be made about whether this should be prevented. Hume pointed out that many scientists of his time often neglected this crucial distinction, and this is still the case today:
 
@@ -95,7 +95,7 @@ Weber’s call for value freedom in empirical science was often misunderstood [@
 
 Sustainability research focuses on challenges that threaten the long-term safeguarding of social development conditions. In the context of SD as a challenge for society as a whole, the Forum for Climate and Global Change of the Swiss Academy of Sciences has described three different types of knowledge [@proclimResearchSustainabilityGlobal1997]: systems, target, and transformation. These three knowledge types take place at three fundamental levels: 1) the analytical level, which aims to generate systems knowledge; 2) the normative level, which develops target and orientation knowledge; and 3) the operational level, which seeks to generate design or transformation knowledge. @fig-Three-Knowledge-Types shows the three knowledge types in relation to empirical-analytical and normative research.
 
-![The three types of knowledge. Source: Own illustration based on @proclimResearchSustainabilityGlobal1997.](images/Three-Knowledge-Types.jpg){#fig-Three-Knowledge-Types}
+![The three types of knowledge. Source: Own illustration based on @proclimResearchSustainabilityGlobal1997.](images/Three-Knowledge-Types.png){#fig-Three-Knowledge-Types}
 
 **Systems knowledge** refers to the understanding of the current state. In relation to sustainable development, research examines relevant structures and processes, describing and explaining their complexity and dynamics. It uses various methods, including qualitative and quantitative approaches, mixed methods, experiments, and systems dynamics approaches. It also uses forecasts, retrospectives, and scenario analyses. Most of the studies that generate systems knowledge fall within the field of empirical research.
 

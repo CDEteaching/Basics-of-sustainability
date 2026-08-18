@@ -28,7 +28,7 @@ Calculating the **monetary value of ecosystem services** typically involves thre
 
 One such method is “green accounting”, which uses existing market values, if available, or exchange values as an approximation (e.g. comparing avalanche barriers and protection forests). Another method is cost–benefit analysis, which can be divided into two types: stated preferences and revealed preferences.
 
-![The monetary value of ecosystem services. Source: Own illustration.](images/Fig3_3__EcosystemValuation.jpg){#fig-monetary-value}
+![The monetary value of ecosystem services. Source: Own illustration.](images/Fig3_3__EcosystemValuation.png){#fig-monetary-value}
 
 **Stated preferences** involve people stating (e.g. in a survey) the extent to which they would be willing to pay for certain ecosystem services, or which changes they would be willing to accept (contingent valuation). Another variation of this method involves choosing between different (usually sub-optimal) options, each representing a trade-off based on changes in ecosystem services (which are then analysed econometrically). In contrast, **revealed preferences** are based on actual behaviour. For example, they involve analysing avoidance costs (e.g. how much people pay for noise barriers) or calculating travel costs (which assumes that the time and travel costs incurred for visiting a destination reflect the value of the place, and thus, in a broader sense, an ecosystem service). Other methods include using hedonic approaches to determine the extent to which favourable or unfavourable environmental influences, and thus their quality, can affect the value of a property.
 

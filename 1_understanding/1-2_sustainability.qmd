@@ -47,7 +47,7 @@ Already in the late 1970s, therefore, Hans Jonas articulated a fundamental uncer
 
 Jonas’ imperative of responsibility can be considered in connection with various areas of responsibility that represent different ethical approaches: anthropocentrism, pathocentrism, biocentrism, and physiocentrism.
 
-![Different ethical approaches. Source: Own illustration based on @carnauNachhaltigkeitsethikNormativerGestaltungsansatz2011 [pp. 143].](images/Anthropocentrism.jpg){#fig-anthropocentrism}
+![Different ethical approaches. Source: Own illustration based on @carnauNachhaltigkeitsethikNormativerGestaltungsansatz2011 [pp. 143].](images/Anthropocentrism.png){#fig-anthropocentrism}
 
 Anthropocentrism is the world view that places humans at the centre of importance, emphasizing a primary responsibility towards human society and its well-being. This includes considering the needs and interests of both present and future generations. Pathocentrism, on the other hand, extends responsibility towards all sentient beings and their well-being. It recognizes that not only humans, but also animals and other living beings, have the right to be free from suffering and harm. Biocentrism, in turn, recognizes the intrinsic value of all living organisms and focuses on the protection and preservation of biodiversity.
 
@@ -133,7 +133,7 @@ The established three-sector model of sustainability, introduced in the 1987 Bru
 
 ### Sustainability as an intersection
 
-![Sustainability as an intersection. Source: Own illustration.](images/sustainability-intersection.jpg){#fig-sustainability-intersection}
+![Sustainability as an intersection. Source: Own illustration.](images/sustainability-intersection.png){#fig-sustainability-intersection}
 
 A model displaying the three sectors as a Venn diagram (overlapping rings or circles, sometimes known as the intersection or triad model) offers an alternative to the separate pillars, emphasizing the interconnectedness of the three dimensions. This model illustrates that there can be a closer connection between two areas, and that the boundaries are fluid.
 
@@ -147,7 +147,7 @@ A model displaying the three sectors as a Venn diagram (overlapping rings or cir
 
 One problem with the three-sector model of sustainability is that that it is unclear what falls within the broad “social” sphere. It has therefore been suggested that a fourth dimension be added, to emphasize certain aspects that might otherwise remain hidden in the social sector. For example, Jon Hawkes, an Australian cultural commentator, has suggested adding “cultural vitality” as a fourth pillar of sustainability, in addition to environmental, economic, and social concerns.
 
-![Four-dimensional model of sustainability. Source: Own illustration, adapted from @hawkesFourthPillarSustainability2001.](images/sustainability-4-dimensions.jpg){#fig-sustainability-4-dimensions}
+![Four-dimensional model of sustainability. Source: Own illustration, adapted from @hawkesFourthPillarSustainability2001.](images/sustainability-4-dimensions.png){#fig-sustainability-4-dimensions}
 
 Cultural sustainability is often seen as a part of social sustainability. Sometimes the term “sociocultural sustainability” is also used. In this context, “culture” refers to aspects such as equity, opportunities for participation, awareness of sustainability, and general operating and behavioural models [@murphySocialPillarSustainable2012]. It’s clear that the social and cultural dimensions are closely linked. Cultural processes influence our social lives and how we view social sustainability, like the value we place on equality as a social goal. In turn, social structures and institutions influence cultural practices and judgements. Despite this strong connection, cultural and social sustainability can also be seen as separate dimensions or perspectives of sustainability.
 

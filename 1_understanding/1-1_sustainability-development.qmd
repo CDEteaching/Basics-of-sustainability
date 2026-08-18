@@ -1,6 +1,6 @@
 ## A normative concept
 
-![Sustainable Development as a normative concept. Source: Own illustration.](images/SD_normative.jpg){#fig-sd-normative}
+![Sustainable Development as a normative concept. Source: Own illustration.](images/SD_normative.png){#fig-sd-normative}
 
 To achieve sustainability, we need **sustainable development**: a strategic process that requires changes in our socio-ecological systems and institutions. “Development” implies controlled improvement, and the ethical question of what exactly “better” means is key. The use of the term “development” has been criticized by some [e.g. @langDevelopmentAlternativeVisions2013; @kothariPluriversePostdevelopmentDictionary2019], as it is often equated with unbridled growth. The unbridled growth of our “ecological footprint” -- the proportion of the biosphere used for human production, consumption, and waste -- is unsustainable in the long term. Nonetheless, there are different interpretations of development, ranging from economic growth to improving quality of life. Sustainable development therefore remains a stimulating and controversial concept. Sustainability and sustainable development play a key role in today’s political discourse. The term **unsustainability** refers to conditions or developments that are considered negative, while **sustainability** represents a positive state.
 
