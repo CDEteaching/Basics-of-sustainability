@@ -141,7 +141,7 @@ A model displaying the three sectors as a Venn diagram (overlapping rings or cir
 
 @giddingsEnvironmentEconomySociety2002 challenge the idea of separate spheres for the economy, society, and environment. They propose a “nested” model, where the economy is seen as part of society, which in turn is embedded in the environment. This model, they argue, ensures that economic decisions are always constrained by social and environmental factors. Global ecosystems form the basis for social systems (i.e. society). Embedded therein is the economy, which serves society’s needs. A potential drawback of this model, however, is that if the economy is the starting point for all sustainability considerations, there is a risk of prioritizing it over social and environmental considerations.
 
-![The nested model of sustainability. Source: Own illustration based on @giddingsEnvironmentEconomySociety2002 [pp. 192].](images/sustainability-nested.jpg){#fig-sustainability-nested}
+![The nested model of sustainability. Source: Own illustration based on @giddingsEnvironmentEconomySociety2002 [pp. 192].](images/sustainability-nested.png){#fig-sustainability-nested}
 
 ### A four-dimensional model of sustainability
 
