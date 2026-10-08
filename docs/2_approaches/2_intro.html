@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0fa854f13349ed7d0e5b5bd4c237b45d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-e8282bee7637e0ceba70fdf198bf2ab0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-0fa854f13349ed7d0e5b5bd4c237b45d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a88e72afc315744f8d19603537d19afa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-db150b37408ade8d98d47d3c9edab02a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-a88e72afc315744f8d19603537d19afa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -100,9 +103,12 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&amp;family=Fira+Code:wght@400;500&amp;display=swap" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -735,10 +741,10 @@ Figure&nbsp;2.7: Levers and entry points for achieving the SDGs. Source: <span c
 <div id="fig-development-planetary-boundaries" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-development-planetary-boundaries-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="Images/Fig2_8__PoliticsSufficiency.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Figure&nbsp;2.8: The four pathways to sufficiency. Source: @schneidewindInstitutionalFrameworkSufficiency2014"><img src="Images/Fig2_8__PoliticsSufficiency.png" class="img-fluid figure-img"></a>
+<a href="Images/Fig2_8__PoliticsSufficiency.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Figure&nbsp;2.8: The four pathways to sufficiency. Source: @schneidewindInstitutionalFrameworkSufficiency2014."><img src="Images/Fig2_8__PoliticsSufficiency.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-development-planetary-boundaries-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;2.8: The four pathways to sufficiency. Source: <span class="citation" data-cites="schneidewindInstitutionalFrameworkSufficiency2014">Schneidewind and Zahrnt (<a href="../references.html#ref-schneidewindInstitutionalFrameworkSufficiency2014" role="doc-biblioref">2014</a>)</span>
+Figure&nbsp;2.8: The four pathways to sufficiency. Source: <span class="citation" data-cites="schneidewindInstitutionalFrameworkSufficiency2014">Schneidewind and Zahrnt (<a href="../references.html#ref-schneidewindInstitutionalFrameworkSufficiency2014" role="doc-biblioref">2014</a>)</span>.
 </figcaption>
 </figure>
 </div>
@@ -826,8 +832,8 @@ Figure&nbsp;2.10: Correlation between Ecological Footprint and Human Development
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which two planetary boundaries are considered “core boundaries”?</p>
-<div id="webex-f69877a6ec83948e95b52bb6c17194c5" class="webex-radiogroup" data-answer="PQcVCBsHTQY4">
-<label><input type="radio" autocomplete="off" name="f69877a6ec83948e95b52bb6c17194c5"><span>Climate change and biosphere integrity</span></label><label><input type="radio" autocomplete="off" name="f69877a6ec83948e95b52bb6c17194c5"><span>Ocean acidification and nitrogen cycles</span></label><label><input type="radio" autocomplete="off" name="f69877a6ec83948e95b52bb6c17194c5"><span>Freshwater and aerosols</span></label><label><input type="radio" autocomplete="off" name="f69877a6ec83948e95b52bb6c17194c5"><span>Ozone depletion and land use</span></label>
+<div id="webex-926c4de5bbc97ceb1a3f5e30a8197f85" class="webex-radiogroup" data-answer="YgMaUxhUSQU/">
+<label><input type="radio" autocomplete="off" name="926c4de5bbc97ceb1a3f5e30a8197f85"><span>Climate change and biosphere integrity</span></label><label><input type="radio" autocomplete="off" name="926c4de5bbc97ceb1a3f5e30a8197f85"><span>Ocean acidification and nitrogen cycles</span></label><label><input type="radio" autocomplete="off" name="926c4de5bbc97ceb1a3f5e30a8197f85"><span>Ozone depletion and land use</span></label><label><input type="radio" autocomplete="off" name="926c4de5bbc97ceb1a3f5e30a8197f85"><span>Freshwater and aerosols</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -843,25 +849,25 @@ Figure&nbsp;2.10: Correlation between Ecological Footprint and Human Development
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following is NOT one of the nine planetary boundaries identified by Rockström et al.?</p>
-<div id="webex-9e0730e16d5bc87bdc806d3341e2c9a9" class="webex-radiogroup" data-answer="YlUcBh8ASQFr">
-<label><input type="radio" autocomplete="off" name="9e0730e16d5bc87bdc806d3341e2c9a9"><span>Climate change</span></label><label><input type="radio" autocomplete="off" name="9e0730e16d5bc87bdc806d3341e2c9a9"><span>Global financial stability</span></label><label><input type="radio" autocomplete="off" name="9e0730e16d5bc87bdc806d3341e2c9a9"><span>Ocean acidification</span></label><label><input type="radio" autocomplete="off" name="9e0730e16d5bc87bdc806d3341e2c9a9"><span>Biosphere integrity</span></label>
+<div id="webex-5e4621c94175dd35dbb12cff901ca58c" class="webex-radiogroup" data-answer="blUYBh4BTwhp">
+<label><input type="radio" autocomplete="off" name="5e4621c94175dd35dbb12cff901ca58c"><span>Climate change</span></label><label><input type="radio" autocomplete="off" name="5e4621c94175dd35dbb12cff901ca58c"><span>Ocean acidification</span></label><label><input type="radio" autocomplete="off" name="5e4621c94175dd35dbb12cff901ca58c"><span>Biosphere integrity</span></label><label><input type="radio" autocomplete="off" name="5e4621c94175dd35dbb12cff901ca58c"><span>Global financial stability</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>The planetary boundaries framework identifies biophysical Earth system processes that regulate the stability and resilience of the planet. Climate change, ocean acidification, and biosphere integrity are part of this framework, whereas global financial stability is not a planetary boundary.</p>
 <ul>
 <li>False</li>
+<li>False</li>
+<li>False</li>
 <li>True</li>
-<li>False</li>
-<li>False</li>
 </ul>
 </div>
 </div>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following tipping points does NOT belong to the Earth’s climate system?</p>
-<div id="webex-b3f89eb816d9e41bbd6a6d6eb412d2a0" class="webex-radiogroup" data-answer="OQNKCBVUTghs">
-<label><input type="radio" autocomplete="off" name="b3f89eb816d9e41bbd6a6d6eb412d2a0"><span>Amazon rainforest collapse</span></label><label><input type="radio" autocomplete="off" name="b3f89eb816d9e41bbd6a6d6eb412d2a0"><span>Greenland Ice Sheet melting</span></label><label><input type="radio" autocomplete="off" name="b3f89eb816d9e41bbd6a6d6eb412d2a0"><span>Ocean plastic pollution</span></label><label><input type="radio" autocomplete="off" name="b3f89eb816d9e41bbd6a6d6eb412d2a0"><span>Gulf Stream collapse</span></label>
+<div id="webex-6a7fcbfe7a305399cd4421307c85ff5a" class="webex-radiogroup" data-answer="bVEbVk9SSlRq">
+<label><input type="radio" autocomplete="off" name="6a7fcbfe7a305399cd4421307c85ff5a"><span>Gulf Stream collapse</span></label><label><input type="radio" autocomplete="off" name="6a7fcbfe7a305399cd4421307c85ff5a"><span>Greenland Ice Sheet melting</span></label><label><input type="radio" autocomplete="off" name="6a7fcbfe7a305399cd4421307c85ff5a"><span>Amazon rainforest collapse</span></label><label><input type="radio" autocomplete="off" name="6a7fcbfe7a305399cd4421307c85ff5a"><span>Ocean plastic pollution</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -869,24 +875,24 @@ Figure&nbsp;2.10: Correlation between Ecological Footprint and Human Development
 <ul>
 <li>False</li>
 <li>False</li>
-<li>True</li>
 <li>False</li>
+<li>True</li>
 </ul>
 </div>
 </div>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>What term refers to the decoupling of economic growth from environmental degradation while maintaining prosperity?</p>
-<div id="webex-034daa9b46c09524a2019517ccaf71ef" class="webex-radiogroup" data-answer="awMYVE1QFVJp">
-<label><input type="radio" autocomplete="off" name="034daa9b46c09524a2019517ccaf71ef"><span>Planetary boundaries</span></label><label><input type="radio" autocomplete="off" name="034daa9b46c09524a2019517ccaf71ef"><span>Resilience</span></label><label><input type="radio" autocomplete="off" name="034daa9b46c09524a2019517ccaf71ef"><span>Green economy</span></label><label><input type="radio" autocomplete="off" name="034daa9b46c09524a2019517ccaf71ef"><span>Double decoupling</span></label>
+<div id="webex-5efb97f6826b1f069cb35b83205d2793" class="webex-radiogroup" data-answer="blRKUhUHSgZl">
+<label><input type="radio" autocomplete="off" name="5efb97f6826b1f069cb35b83205d2793"><span>Green economy</span></label><label><input type="radio" autocomplete="off" name="5efb97f6826b1f069cb35b83205d2793"><span>Double decoupling</span></label><label><input type="radio" autocomplete="off" name="5efb97f6826b1f069cb35b83205d2793"><span>Resilience</span></label><label><input type="radio" autocomplete="off" name="5efb97f6826b1f069cb35b83205d2793"><span>Planetary boundaries</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>The concept of a green economy refers to an economic model that aims to achieve economic growth and human well-being while reducing environmental risks and ecological scarcities, thereby decoupling prosperity from environmental degradation.</p>
 <ul>
-<li>False</li>
-<li>False</li>
 <li>True</li>
+<li>False</li>
+<li>False</li>
 <li>False</li>
 </ul>
 </div>
@@ -894,16 +900,16 @@ Figure&nbsp;2.10: Correlation between Ecological Footprint and Human Development
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>What does the inner circle of the Doughnut Model represent?</p>
-<div id="webex-576e8ed2a16be53b79ce829d086e9d56" class="webex-radiogroup" data-answer="bgcaVRRUSAI8">
-<label><input type="radio" autocomplete="off" name="576e8ed2a16be53b79ce829d086e9d56"><span>The ecological ceiling</span></label><label><input type="radio" autocomplete="off" name="576e8ed2a16be53b79ce829d086e9d56"><span>The safe and just space for humanity</span></label><label><input type="radio" autocomplete="off" name="576e8ed2a16be53b79ce829d086e9d56"><span>The social foundation</span></label><label><input type="radio" autocomplete="off" name="576e8ed2a16be53b79ce829d086e9d56"><span>The planetary limits</span></label>
+<div id="webex-fed35fbb325f75df2c4aec4a5fc459f2" class="webex-radiogroup" data-answer="PVRIAxlWTlJu">
+<label><input type="radio" autocomplete="off" name="fed35fbb325f75df2c4aec4a5fc459f2"><span>The social foundation</span></label><label><input type="radio" autocomplete="off" name="fed35fbb325f75df2c4aec4a5fc459f2"><span>The ecological ceiling</span></label><label><input type="radio" autocomplete="off" name="fed35fbb325f75df2c4aec4a5fc459f2"><span>The planetary limits</span></label><label><input type="radio" autocomplete="off" name="fed35fbb325f75df2c4aec4a5fc459f2"><span>The safe and just space for humanity</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>In the Doughnut Model, the inner circle represents the social foundation, which defines the minimum social standards necessary for a just and equitable life for all people.</p>
 <ul>
-<li>False</li>
-<li>False</li>
 <li>True</li>
+<li>False</li>
+<li>False</li>
 <li>False</li>
 </ul>
 </div>
@@ -911,8 +917,8 @@ Figure&nbsp;2.10: Correlation between Ecological Footprint and Human Development
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following statements describe post-growth approaches? (More than one statement may be correct.)</p>
-<div id="webex-306dc308d4305cea6e3a96913c61a2e0" class="webex-checkboxgroup" data-answer="aAEaVU8CHAg5">
-<label><input type="checkbox" autocomplete="off" name="306dc308d4305cea6e3a96913c61a2e0"><span>Critique of growth dependency</span></label><label><input type="checkbox" autocomplete="off" name="306dc308d4305cea6e3a96913c61a2e0"><span>Advocacy for structural change</span></label><label><input type="checkbox" autocomplete="off" name="306dc308d4305cea6e3a96913c61a2e0"><span>Focus on sufficiency and well-being</span></label><label><input type="checkbox" autocomplete="off" name="306dc308d4305cea6e3a96913c61a2e0"><span>Emphasis on GDP increase</span></label>
+<div id="webex-4d9ef669248273b98444fda62f5d97eb" class="webex-checkboxgroup" data-answer="b1UVVEoHGglv">
+<label><input type="checkbox" autocomplete="off" name="4d9ef669248273b98444fda62f5d97eb"><span>Focus on sufficiency and well-being</span></label><label><input type="checkbox" autocomplete="off" name="4d9ef669248273b98444fda62f5d97eb"><span>Critique of growth dependency</span></label><label><input type="checkbox" autocomplete="off" name="4d9ef669248273b98444fda62f5d97eb"><span>Advocacy for structural change</span></label><label><input type="checkbox" autocomplete="off" name="4d9ef669248273b98444fda62f5d97eb"><span>Emphasis on GDP increase</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -2653,7 +2659,7 @@ window.onload = function() {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>“This a product of <a href="www.cde.unibe.ch/"><img src="..\images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+<p>“This a product of <a href="www.cde.unibe.ch/"><img src="../images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

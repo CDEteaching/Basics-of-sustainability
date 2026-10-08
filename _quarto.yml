@@ -68,8 +68,16 @@ number-depth: 3
 format:
   html:
     cover-image: CoverLehrbuch.png
-    mainfont: Roboto
-    monofont: Fira Code
+    # Fonts are loaded from Google Fonts (header link below) so that every
+    # visitor sees Roboto, not only those who have it installed locally;
+    # the fallbacks keep the page sans-serif if the download is blocked.
+    mainfont: "Roboto, 'Helvetica Neue', Arial, sans-serif"
+    monofont: "'Fira Code', Consolas, monospace"
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
     highlight-style: arrow
     monobackgroundcolor: "#F7F7F7"
     theme:

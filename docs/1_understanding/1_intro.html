@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0fa854f13349ed7d0e5b5bd4c237b45d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-e8282bee7637e0ceba70fdf198bf2ab0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-0fa854f13349ed7d0e5b5bd4c237b45d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a88e72afc315744f8d19603537d19afa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-db150b37408ade8d98d47d3c9edab02a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-a88e72afc315744f8d19603537d19afa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -104,6 +107,9 @@ div.csl-indent {
 
 <link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&amp;family=Fira+Code:wght@400;500&amp;display=swap" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../webex.css">
@@ -587,15 +593,15 @@ Figure&nbsp;1.3: Sustainability challenges as wicked problems. Source: Own illus
 <div aria-describedby="fig-acceleration-trends-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><a href="images/Great-Acceleration_socio-economic_trends.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;1.4: 12 socioeconomic and 12 Earth system trends from 1750 to today are a strong indication that the Earth system has entered a new state. Source: https://futureearth.org/2015/01/16/the-great-acceleration/."><img src="images/Great-Acceleration_socio-economic_trends.jpg" class="img-fluid figure-img"></a></p>
+<p><a href="images/Great-Acceleration_socio-economic_trends.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;1.4: 12 socioeconomic and 12 Earth system trends from 1750 to today are a strong indication that the Earth system has entered a new state. Source: https://futureearth.org/the-great-acceleration/."><img src="images/Great-Acceleration_socio-economic_trends.jpg" class="img-fluid figure-img"></a></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><a href="images/Great-Acceleration_earth-system_trends.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Figure&nbsp;1.4: 12 socioeconomic and 12 Earth system trends from 1750 to today are a strong indication that the Earth system has entered a new state. Source: https://futureearth.org/2015/01/16/the-great-acceleration/."><img src="images/Great-Acceleration_earth-system_trends.jpg" class="img-fluid figure-img"></a></p>
+<p><a href="images/Great-Acceleration_earth-system_trends.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Figure&nbsp;1.4: 12 socioeconomic and 12 Earth system trends from 1750 to today are a strong indication that the Earth system has entered a new state. Source: https://futureearth.org/the-great-acceleration/."><img src="images/Great-Acceleration_earth-system_trends.jpg" class="img-fluid figure-img"></a></p>
 </div>
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-acceleration-trends-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.4: 12 socioeconomic and 12 Earth system trends from 1750 to today are a strong indication that the Earth system has entered a new state. Source: <a href="https://futureearth.org/2015/01/16/the-great-acceleration/" class="uri">https://futureearth.org/2015/01/16/the-great-acceleration/</a>.
+Figure&nbsp;1.4: 12 socioeconomic and 12 Earth system trends from 1750 to today are a strong indication that the Earth system has entered a new state. Source: <a href="https://futureearth.org/the-great-acceleration/" class="uri">https://futureearth.org/the-great-acceleration/</a>.
 </figcaption>
 </figure>
 </div>
@@ -671,7 +677,7 @@ Figure&nbsp;1.6: Demonstration against air pollution, Zurich, December 1986. Sou
 <p>Gro Harlem Brundtland appointed 22 commission members, ¾ of whom were from the Global South. During this time, the Soviet Union, facing economic stagnation, was beginning to change political course. As the arms race with the US had contributed to a substantial budget deficit, Mikhail Gorbachev, the newly appointed General Secretary of the Communist Party of the Soviet Union, introduced major reforms. At the same time, a new world view and global consciousness were starting to emerge. It was against this background that the Brundtland Commission was tasked with drawing up a report on the perspective of global, sustainable, environmentally friendly development up to and beyond the year 2000. The report presented in 1987 was entitled <em>Our Common Future</em>, but it’s often referred to as the <em>Brundtland Report</em>.</p>
 <p>The Brundtland Report found that global environmental problems were mainly caused by unsustainable consumption and production patterns in the North and severe poverty in the South. The overexploitation of nature and the depletion of natural resources were exacerbating inequalities (of income and wealth), increasing absolute poverty, and posing a threat to peace and security. The Report sought to develop a fair and just definition of sustainability:</p>
 <blockquote class="blockquote">
-<p>“Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.” <span class="citation" data-cites="wcedOurCommonFuture1987a">(<a href="../references.html#ref-wcedOurCommonFuture1987a" role="doc-biblioref"><strong>wcedOurCommonFuture1987a?</strong></a>)</span></p>
+<p>“Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.” <span class="citation" data-cites="wcedOurCommonFuture1987">(<a href="../references.html#ref-wcedOurCommonFuture1987" role="doc-biblioref">WCED 1987</a>)</span></p>
 </blockquote>
 <p>This definition introduced an ethical perspective into the sustainability debate, placing the principle of responsibility – for both present and future generations – at its centre. By focusing on human needs, the Brundtland Commission adopted an anthropocentric position. The Commission thus identified three key principles for analysing problems and guiding action: a global perspective, the interconnectedness of environment and development, and the pursuit of justice or equity. The concept of justice/equity was further divided into two distinct perspectives:</p>
 <ol type="1">
@@ -962,7 +968,7 @@ Figure&nbsp;1.9: Sustainability as an intersection. Source: Own illustration.
 <div id="fig-sustainability-nested" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sustainability-nested-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/sustainability-nested.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Figure&nbsp;1.10: The nested model of sustainability. Source: Own illustration based on @giddingsEnvironmentEconomySociety2002 [pp. 192]."><img src="images/sustainability-nested.jpg" class="img-fluid figure-img"></a>
+<a href="images/sustainability-nested.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Figure&nbsp;1.10: The nested model of sustainability. Source: Own illustration based on @giddingsEnvironmentEconomySociety2002 [pp. 192]."><img src="images/sustainability-nested.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sustainability-nested-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1.10: The nested model of sustainability. Source: Own illustration based on <span class="citation" data-cites="giddingsEnvironmentEconomySociety2002">Giddings et al. (<a href="../references.html#ref-giddingsEnvironmentEconomySociety2002" role="doc-biblioref">2002, 192</a>)</span>.
@@ -1373,8 +1379,8 @@ Figure&nbsp;1.17: The three types of knowledge. Source: Own illustration based o
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which statement best defines “sustainable development” according to the Brundtland Report?</p>
-<div id="webex-d55f17d9d297d66a75ce2f7fcafc095b" class="webex-radiogroup" data-answer="PwUZVh0GSAk5">
-<label><input type="radio" autocomplete="off" name="d55f17d9d297d66a75ce2f7fcafc095b"><span>Economic growth without environmental harm</span></label><label><input type="radio" autocomplete="off" name="d55f17d9d297d66a75ce2f7fcafc095b"><span>Reducing CO₂ emissions by 50% before 2030</span></label><label><input type="radio" autocomplete="off" name="d55f17d9d297d66a75ce2f7fcafc095b"><span>Development that meets present needs without compromising future generations</span></label><label><input type="radio" autocomplete="off" name="d55f17d9d297d66a75ce2f7fcafc095b"><span>The improvement of living standards through industrialization</span></label>
+<div id="webex-4ae531fed86d99ce3a6ca7c569e0d7d3" class="webex-radiogroup" data-answer="b1FJBR8BSlQ5">
+<label><input type="radio" autocomplete="off" name="4ae531fed86d99ce3a6ca7c569e0d7d3"><span>The improvement of living standards through industrialization</span></label><label><input type="radio" autocomplete="off" name="4ae531fed86d99ce3a6ca7c569e0d7d3"><span>Economic growth without environmental harm</span></label><label><input type="radio" autocomplete="off" name="4ae531fed86d99ce3a6ca7c569e0d7d3"><span>Reducing CO₂ emissions by 50% before 2030</span></label><label><input type="radio" autocomplete="off" name="4ae531fed86d99ce3a6ca7c569e0d7d3"><span>Development that meets present needs without compromising future generations</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -1382,40 +1388,40 @@ Figure&nbsp;1.17: The three types of knowledge. Source: Own illustration based o
 <ul>
 <li>False</li>
 <li>False</li>
-<li>True</li>
 <li>False</li>
+<li>True</li>
 </ul>
 </div>
 </div>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>What is normativity?</p>
-<div id="webex-2bf47b5ee2b82fd77743ba93c55e7395" class="webex-radiogroup" data-answer="aVJKBRtSaA==">
-<label><input type="radio" autocomplete="off" name="2bf47b5ee2b82fd77743ba93c55e7395"><span>Means that actions should be based on jointly agreed laws and norms</span></label><label><input type="radio" autocomplete="off" name="2bf47b5ee2b82fd77743ba93c55e7395"><span>Refers to values and morally justified views about what should be done and how things should be</span></label><label><input type="radio" autocomplete="off" name="2bf47b5ee2b82fd77743ba93c55e7395"><span>Refers to the way things are right now</span></label>
+<div id="webex-64ac1134e37643136e595610d3e2fd81" class="webex-radiogroup" data-answer="bQRNUx0Abg==">
+<label><input type="radio" autocomplete="off" name="64ac1134e37643136e595610d3e2fd81"><span>Means that actions should be based on jointly agreed laws and norms</span></label><label><input type="radio" autocomplete="off" name="64ac1134e37643136e595610d3e2fd81"><span>Refers to the way things are right now</span></label><label><input type="radio" autocomplete="off" name="64ac1134e37643136e595610d3e2fd81"><span>Refers to values and morally justified views about what should be done and how things should be</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>Normativity refers to values, norms, and morally justified views about what ought to be done and how things should be, rather than describing how things currently are.</p>
 <ul>
 <li>False</li>
-<li>True</li>
 <li>False</li>
+<li>True</li>
 </ul>
 </div>
 </div>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>What is the “Great Acceleration”?</p>
-<div id="webex-87c7bc5b139b2fe726cdb95a2c71b1c0" class="webex-radiogroup" data-answer="YwdPB05SGVJs">
-<label><input type="radio" autocomplete="off" name="87c7bc5b139b2fe726cdb95a2c71b1c0"><span>The sudden reduction in biodiversity in the early 21st century</span></label><label><input type="radio" autocomplete="off" name="87c7bc5b139b2fe726cdb95a2c71b1c0"><span>The rapid decline of industrialization during the 1960s</span></label><label><input type="radio" autocomplete="off" name="87c7bc5b139b2fe726cdb95a2c71b1c0"><span>The exponential growth in socioeconomic and Earth system trends starting in the mid-20th century</span></label><label><input type="radio" autocomplete="off" name="87c7bc5b139b2fe726cdb95a2c71b1c0"><span>A rapid increase in global resource use following World War I</span></label>
+<div id="webex-06701de338a36d5b85465312244a442d" class="webex-radiogroup" data-answer="awcbAB1USQNu">
+<label><input type="radio" autocomplete="off" name="06701de338a36d5b85465312244a442d"><span>The exponential growth in socioeconomic and Earth system trends starting in the mid-20th century</span></label><label><input type="radio" autocomplete="off" name="06701de338a36d5b85465312244a442d"><span>The sudden reduction in biodiversity in the early 21st century</span></label><label><input type="radio" autocomplete="off" name="06701de338a36d5b85465312244a442d"><span>The rapid decline of industrialization during the 1960s</span></label><label><input type="radio" autocomplete="off" name="06701de338a36d5b85465312244a442d"><span>A rapid increase in global resource use following World War I</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>The “Great Acceleration” refers to the rapid and exponential increase in socioeconomic activities (such as population growth, industrialization, and resource use) and corresponding changes in Earth system processes that began around the mid-20th century.</p>
 <ul>
-<li>False</li>
-<li>False</li>
 <li>True</li>
+<li>False</li>
+<li>False</li>
 <li>False</li>
 </ul>
 </div>
@@ -1423,16 +1429,16 @@ Figure&nbsp;1.17: The three types of knowledge. Source: Own illustration based o
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>What distinguishes “strong” from “weak” sustainability?</p>
-<div id="webex-7d6270b1f87eee38240eadec8520635a" class="webex-radiogroup" data-answer="bFQaAhsBTgE7">
-<label><input type="radio" autocomplete="off" name="7d6270b1f87eee38240eadec8520635a"><span>Strong sustainability allows full substitution of natural capital.</span></label><label><input type="radio" autocomplete="off" name="7d6270b1f87eee38240eadec8520635a"><span>Weak sustainability restricts all technological innovation.</span></label><label><input type="radio" autocomplete="off" name="7d6270b1f87eee38240eadec8520635a"><span>Strong sustainability requires preserving natural capital as non-substitutable.</span></label><label><input type="radio" autocomplete="off" name="7d6270b1f87eee38240eadec8520635a"><span>Both concepts mean the same.</span></label>
+<div id="webex-125083a21c744dbfdfba70d53e893041" class="webex-radiogroup" data-answer="agIZARQDTQJs">
+<label><input type="radio" autocomplete="off" name="125083a21c744dbfdfba70d53e893041"><span>Strong sustainability allows full substitution of natural capital.</span></label><label><input type="radio" autocomplete="off" name="125083a21c744dbfdfba70d53e893041"><span>Strong sustainability requires preserving natural capital as non-substitutable.</span></label><label><input type="radio" autocomplete="off" name="125083a21c744dbfdfba70d53e893041"><span>Both concepts mean the same.</span></label><label><input type="radio" autocomplete="off" name="125083a21c744dbfdfba70d53e893041"><span>Weak sustainability restricts all technological innovation.</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>Strong sustainability assumes that certain ecological functions and natural capital stocks are critical and cannot be substituted by human-made or technological capital, whereas weak sustainability allows for substitution.</p>
 <ul>
 <li>False</li>
-<li>False</li>
 <li>True</li>
+<li>False</li>
 <li>False</li>
 </ul>
 </div>
@@ -1440,16 +1446,16 @@ Figure&nbsp;1.17: The three types of knowledge. Source: Own illustration based o
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which statements correctly describe the difference between strong and weak sustainability? (More than one statement may be correct.)</p>
-<div id="webex-c86d94fa577951e1ec84f33b5aca5cc4" class="webex-checkboxgroup" data-answer="OAgaVRUFSlBo">
-<label><input type="checkbox" autocomplete="off" name="c86d94fa577951e1ec84f33b5aca5cc4"><span>Strong sustainability accepts unlimited substitution between natural and human-made capital.</span></label><label><input type="checkbox" autocomplete="off" name="c86d94fa577951e1ec84f33b5aca5cc4"><span>In weak sustainability, different forms of capital can substitute each other.</span></label><label><input type="checkbox" autocomplete="off" name="c86d94fa577951e1ec84f33b5aca5cc4"><span>In strong sustainability, natural capital is considered non-substitutable.</span></label><label><input type="checkbox" autocomplete="off" name="c86d94fa577951e1ec84f33b5aca5cc4"><span>Weak sustainability assumes that technological innovation can fully replace nature’s functions.</span></label>
+<div id="webex-661af8b26d395d15d94e4e41cdfc9831" class="webex-checkboxgroup" data-answer="bQcdUEoITgNr">
+<label><input type="checkbox" autocomplete="off" name="661af8b26d395d15d94e4e41cdfc9831"><span>Weak sustainability assumes that technological innovation can fully replace nature’s functions.</span></label><label><input type="checkbox" autocomplete="off" name="661af8b26d395d15d94e4e41cdfc9831"><span>In weak sustainability, different forms of capital can substitute each other.</span></label><label><input type="checkbox" autocomplete="off" name="661af8b26d395d15d94e4e41cdfc9831"><span>Strong sustainability accepts unlimited substitution between natural and human-made capital.</span></label><label><input type="checkbox" autocomplete="off" name="661af8b26d395d15d94e4e41cdfc9831"><span>In strong sustainability, natural capital is considered non-substitutable.</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>Weak sustainability is based on the assumption that different forms of capital (natural, human-made, social) can substitute each other and that technological progress can compensate for the loss of natural capital. Strong sustainability, in contrast, holds that natural capital is essential and cannot be substituted without risking irreversible damage.</p>
 <ul>
+<li>True</li>
+<li>True</li>
 <li>False</li>
-<li>True</li>
-<li>True</li>
 <li>True</li>
 </ul>
 </div>
@@ -1457,48 +1463,48 @@ Figure&nbsp;1.17: The three types of knowledge. Source: Own illustration based o
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following statements describe weak sustainability? (More than one statement may be correct.)</p>
-<div id="webex-6671bdae7ff0e6b45e2b71fb356b9dae" class="webex-checkboxgroup" data-answer="bQcbAU5UTVUbVkoBSQZOBWg=">
-<label><input type="checkbox" autocomplete="off" name="6671bdae7ff0e6b45e2b71fb356b9dae"><span>The preservation of natural capital when it promotes or preserves human well-being.</span></label><label><input type="checkbox" autocomplete="off" name="6671bdae7ff0e6b45e2b71fb356b9dae"><span>The irreplaceability of human-made capital.</span></label><label><input type="checkbox" autocomplete="off" name="6671bdae7ff0e6b45e2b71fb356b9dae"><span>A company only fulfilling its statutory environmental and social responsibilities.</span></label><label><input type="checkbox" autocomplete="off" name="6671bdae7ff0e6b45e2b71fb356b9dae"><span>Insufficient environmental protection.</span></label><label><input type="checkbox" autocomplete="off" name="6671bdae7ff0e6b45e2b71fb356b9dae"><span>Giving priority to the needs of the current generation over the needs of future generations.</span></label><label><input type="checkbox" autocomplete="off" name="6671bdae7ff0e6b45e2b71fb356b9dae"><span>The preservation of the total amount of all forms of capital from one generation to the next.</span></label><label><input type="checkbox" autocomplete="off" name="6671bdae7ff0e6b45e2b71fb356b9dae"><span>Increasing GDP.</span></label><label><input type="checkbox" autocomplete="off" name="6671bdae7ff0e6b45e2b71fb356b9dae"><span>Forms of capital being, in principle, mutually exchangeable.</span></label>
+<div id="webex-ccd4063e9ec5f22283cc2b2047064a6f" class="webex-checkboxgroup" data-answer="OFNIBBwHH1UVVE8FSgMeAmU=">
+<label><input type="checkbox" autocomplete="off" name="ccd4063e9ec5f22283cc2b2047064a6f"><span>A company only fulfilling its statutory environmental and social responsibilities.</span></label><label><input type="checkbox" autocomplete="off" name="ccd4063e9ec5f22283cc2b2047064a6f"><span>Increasing GDP.</span></label><label><input type="checkbox" autocomplete="off" name="ccd4063e9ec5f22283cc2b2047064a6f"><span>Forms of capital being, in principle, mutually exchangeable.</span></label><label><input type="checkbox" autocomplete="off" name="ccd4063e9ec5f22283cc2b2047064a6f"><span>Insufficient environmental protection.</span></label><label><input type="checkbox" autocomplete="off" name="ccd4063e9ec5f22283cc2b2047064a6f"><span>The preservation of natural capital when it promotes or preserves human well-being.</span></label><label><input type="checkbox" autocomplete="off" name="ccd4063e9ec5f22283cc2b2047064a6f"><span>The irreplaceability of human-made capital.</span></label><label><input type="checkbox" autocomplete="off" name="ccd4063e9ec5f22283cc2b2047064a6f"><span>The preservation of the total amount of all forms of capital from one generation to the next.</span></label><label><input type="checkbox" autocomplete="off" name="ccd4063e9ec5f22283cc2b2047064a6f"><span>Giving priority to the needs of the current generation over the needs of future generations.</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>Weak sustainability focuses on maintaining the overall stock of capital across generations, assuming that different forms of capital can substitute for one another. Natural capital is preserved primarily insofar as it contributes to human well-being, rather than being considered intrinsically irreplaceable.</p>
 <ul>
-<li>True</li>
-<li>False</li>
-<li>False</li>
 <li>False</li>
 <li>False</li>
 <li>True</li>
 <li>False</li>
 <li>True</li>
+<li>False</li>
+<li>True</li>
+<li>False</li>
 </ul>
 </div>
 </div>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following statements describe strong sustainability? (More than one statement may be correct.)</p>
-<div id="webex-d5e4324c6057e0622cc53e7d32dd0b7e" class="webex-checkboxgroup" data-answer="PwVJBB8DGFMaARkGOA==">
-<label><input type="checkbox" autocomplete="off" name="d5e4324c6057e0622cc53e7d32dd0b7e"><span>An increase to the total amount of all forms of capital is called for.</span></label><label><input type="checkbox" autocomplete="off" name="d5e4324c6057e0622cc53e7d32dd0b7e"><span>The sixth wave of extinctions is considered to be the most important sustainability problem.</span></label><label><input type="checkbox" autocomplete="off" name="d5e4324c6057e0622cc53e7d32dd0b7e"><span>Preserving critical natural capital from one generation to the next is required.</span></label><label><input type="checkbox" autocomplete="off" name="d5e4324c6057e0622cc53e7d32dd0b7e"><span>Environmental problems are resolved through innovative energy technologies.</span></label><label><input type="checkbox" autocomplete="off" name="d5e4324c6057e0622cc53e7d32dd0b7e"><span>Natural capital and human-made capital complement each other and humans cannot survive without both.</span></label><label><input type="checkbox" autocomplete="off" name="d5e4324c6057e0622cc53e7d32dd0b7e"><span>Nature is viewed as a form of capital that contributes to the well-being of people in an invaluable way.</span></label>
+<div id="webex-a67e1822491a0b5d7e123281628451c2" class="webex-checkboxgroup" data-answer="OgcbVB0IHgIYCB1RbQ==">
+<label><input type="checkbox" autocomplete="off" name="a67e1822491a0b5d7e123281628451c2"><span>Nature is viewed as a form of capital that contributes to the well-being of people in an invaluable way.</span></label><label><input type="checkbox" autocomplete="off" name="a67e1822491a0b5d7e123281628451c2"><span>Natural capital and human-made capital complement each other and humans cannot survive without both.</span></label><label><input type="checkbox" autocomplete="off" name="a67e1822491a0b5d7e123281628451c2"><span>Environmental problems are resolved through innovative energy technologies.</span></label><label><input type="checkbox" autocomplete="off" name="a67e1822491a0b5d7e123281628451c2"><span>An increase to the total amount of all forms of capital is called for.</span></label><label><input type="checkbox" autocomplete="off" name="a67e1822491a0b5d7e123281628451c2"><span>Preserving critical natural capital from one generation to the next is required.</span></label><label><input type="checkbox" autocomplete="off" name="a67e1822491a0b5d7e123281628451c2"><span>The sixth wave of extinctions is considered to be the most important sustainability problem.</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>Strong sustainability emphasizes the essential and non-substitutable role of natural capital for human survival and well-being. It requires the preservation of critical natural capital across generations and recognizes that nature provides indispensable contributions to human well-being that cannot be fully replaced by human-made capital or technological innovation.</p>
 <ul>
+<li>True</li>
+<li>True</li>
 <li>False</li>
 <li>False</li>
 <li>True</li>
 <li>False</li>
-<li>True</li>
-<li>True</li>
 </ul>
 </div>
 </div>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>What is the primary goal of the consistency strategy in sustainability?</p>
-<div id="webex-9cec79944476e7a017b194257f6b6e40" class="webex-radiogroup" data-answer="YlNJUxsIFQRp">
-<label><input type="radio" autocomplete="off" name="9cec79944476e7a017b194257f6b6e40"><span>Reducing social inequality</span></label><label><input type="radio" autocomplete="off" name="9cec79944476e7a017b194257f6b6e40"><span>Minimizing the use of raw materials in production</span></label><label><input type="radio" autocomplete="off" name="9cec79944476e7a017b194257f6b6e40"><span>Meeting consumer needs through environmentally sustainable methods</span></label><label><input type="radio" autocomplete="off" name="9cec79944476e7a017b194257f6b6e40"><span>Reducing energy consumption in production</span></label>
+<div id="webex-bf368744322f1056260257ea7bc2e429" class="webex-radiogroup" data-answer="OVYfBhQGGARu">
+<label><input type="radio" autocomplete="off" name="bf368744322f1056260257ea7bc2e429"><span>Reducing energy consumption in production</span></label><label><input type="radio" autocomplete="off" name="bf368744322f1056260257ea7bc2e429"><span>Minimizing the use of raw materials in production</span></label><label><input type="radio" autocomplete="off" name="bf368744322f1056260257ea7bc2e429"><span>Meeting consumer needs through environmentally sustainable methods</span></label><label><input type="radio" autocomplete="off" name="bf368744322f1056260257ea7bc2e429"><span>Reducing social inequality</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -1514,17 +1520,17 @@ Figure&nbsp;1.17: The three types of knowledge. Source: Own illustration based o
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following statements about sustainability strategies are correct? (More than one statement may be correct.)</p>
-<div id="webex-279b5ab909e9f93d9e082fc527df8db0" class="webex-checkboxgroup" data-answer="aQcVUhlQTght">
-<label><input type="checkbox" autocomplete="off" name="279b5ab909e9f93d9e082fc527df8db0"><span>All three sustainability strategies have the same effect on consumption.</span></label><label><input type="checkbox" autocomplete="off" name="279b5ab909e9f93d9e082fc527df8db0"><span>Sufficiency encourages higher production levels.</span></label><label><input type="checkbox" autocomplete="off" name="279b5ab909e9f93d9e082fc527df8db0"><span>Efficiency aims to use fewer resources per unit of output.</span></label><label><input type="checkbox" autocomplete="off" name="279b5ab909e9f93d9e082fc527df8db0"><span>Consistency means producing goods that can be recycled infinitely.</span></label>
+<div id="webex-338161091b7444421d87651b350e3d19" class="webex-checkboxgroup" data-answer="aAIUARoAHAls">
+<label><input type="checkbox" autocomplete="off" name="338161091b7444421d87651b350e3d19"><span>Consistency means producing goods that can be recycled infinitely.</span></label><label><input type="checkbox" autocomplete="off" name="338161091b7444421d87651b350e3d19"><span>All three sustainability strategies have the same effect on consumption.</span></label><label><input type="checkbox" autocomplete="off" name="338161091b7444421d87651b350e3d19"><span>Efficiency aims to use fewer resources per unit of output.</span></label><label><input type="checkbox" autocomplete="off" name="338161091b7444421d87651b350e3d19"><span>Sufficiency encourages higher production levels.</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>Efficiency focuses on reducing resource use per unit of output. Consistency aims at aligning production with natural cycles, for example through closed-loop or infinitely recyclable systems. Sufficiency questions levels of production and consumption, and the three strategies therefore differ in how they affect consumption.</p>
 <ul>
-<li>False</li>
+<li>True</li>
 <li>False</li>
 <li>True</li>
-<li>True</li>
+<li>False</li>
 </ul>
 </div>
 </div>
@@ -1713,6 +1719,9 @@ UNEP. 2016. <em><span>Global Material Flows and Resource Productivity. An Assess
 </div>
 <div id="ref-vonweizsackerFaktorVierDoppelter1995" class="csl-entry" role="listitem">
 <span class="nocase">von Weizsäcker, Ernst-Ulrich, Amory B. Lovins, and Hunter L. Lovins</span>. 1995. <em>Faktor <span>Vier</span>: <span>Doppelter Wohlstand</span> - Halbierter <span>Naturverbrauch</span></em>. Der Neue <span>Berich</span> an Den <span>Club</span> of <span>Rome</span>. Droemer Knaur.
+</div>
+<div id="ref-wcedOurCommonFuture1987" class="csl-entry" role="listitem">
+WCED. 1987. <em>Our <span>Common Future</span></em>. <span>World Commission on Environment and Development (WCED), United Nations (UN)</span>.
 </div>
 <div id="ref-weberGesammelteAufsatzeZur1999" class="csl-entry" role="listitem">
 Weber, Max. 1999. <em>Gesammelte <span>Aufsätze</span> Zur <span>Wissenschaftslehre</span> von <span>Max</span> <span>Weber</span></em>. Institut für Pädagogik der Universität Potsdam. <a href="https://verlagsarchivweb.ub.uni-potsdam.de/494/html/WL.pdf">https://verlagsarchivweb.ub.uni-potsdam.de/494/html/WL.pdf</a>.
@@ -3322,7 +3331,7 @@ window.onload = function() {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>“This a product of <a href="www.cde.unibe.ch/"><img src="..\images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+<p>“This a product of <a href="www.cde.unibe.ch/"><img src="../images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

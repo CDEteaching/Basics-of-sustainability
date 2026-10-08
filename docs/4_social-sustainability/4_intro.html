@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -62,14 +65,14 @@ div.csl-indent {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0fa854f13349ed7d0e5b5bd4c237b45d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-e8282bee7637e0ceba70fdf198bf2ab0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-0fa854f13349ed7d0e5b5bd4c237b45d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a88e72afc315744f8d19603537d19afa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-db150b37408ade8d98d47d3c9edab02a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-a88e72afc315744f8d19603537d19afa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -104,6 +107,9 @@ div.csl-indent {
 
 <link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&amp;family=Fira+Code:wght@400;500&amp;display=swap" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../webex.css">
@@ -429,10 +435,7 @@ div.csl-indent {
   <li><a href="#procedural-justice" id="toc-procedural-justice" class="nav-link" data-scroll-target="#procedural-justice"><span class="header-section-number">4.6.1</span> Procedural Justice</a></li>
   <li><a href="#distributive-justice" id="toc-distributive-justice" class="nav-link" data-scroll-target="#distributive-justice"><span class="header-section-number">4.6.2</span> Distributive justice</a></li>
   </ul></li>
-  <li><a href="#cultural-sustainability" id="toc-cultural-sustainability" class="nav-link" data-scroll-target="#cultural-sustainability"><span class="header-section-number">4.7</span> Cultural sustainability</a>
-  <ul class="collapse">
-  <li><a href="#links-to-the-other-three-dimensions-of-sustainability" id="toc-links-to-the-other-three-dimensions-of-sustainability" class="nav-link" data-scroll-target="#links-to-the-other-three-dimensions-of-sustainability"><span class="header-section-number">4.7.1</span> Links to the other three dimensions of sustainability:</a></li>
-  </ul></li>
+  <li><a href="#cultural-sustainability" id="toc-cultural-sustainability" class="nav-link" data-scroll-target="#cultural-sustainability"><span class="header-section-number">4.7</span> Cultural sustainability</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">4.8</span> Conclusion</a></li>
   <li><a href="#sustainability-basics-the-quiz-chapter-4" id="toc-sustainability-basics-the-quiz-chapter-4" class="nav-link" data-scroll-target="#sustainability-basics-the-quiz-chapter-4"><span class="header-section-number">4.9</span> Sustainability Basics: The Quiz – Chapter 4</a></li>
   </ul>
@@ -516,7 +519,7 @@ Figure&nbsp;4.3: The respective focus areas of distributive justice, procedural 
 <p><strong>Distributive justice</strong> is a results-oriented concept that aims at a fair distribution of goods and burdens, regardless of social differences. This principle applies to issues such as access to clean water, the unequal burden of environmental pollution, or equal pay.</p>
 <p><strong>Procedural justice</strong> focuses on the inclusivity of decision-making processes. It calls for underrepresented groups to be fairly represented in institutions so that their perspectives can be heard and incorporated into decision-making processes.</p>
 <p><strong>Recognition justice</strong> emphasizes the importance of the context, and of respect for social and cultural differences. It involves recognizing structural injustices, respecting the dignities and values of different people and social groups, and understanding that diverse needs and preferences are rooted in different historical experiences, identities, and cultural backgrounds.</p>
-<p><a href="#tbl-justice-matrix" class="quarto-xref">Table&nbsp;<span>4.1</span></a> shows how these three dimensions influence each other <span class="citation" data-cites="wijsmanWhatWeMean2022">(<a href="../references.html#ref-wijsmanWhatWeMean2022" role="doc-biblioref">Wijsman and Berbés-Blázquez 2022</a>)</span>. A more detailed discussion of distributive and procedural justice follows in Section 4.6, as these are the dimensions that most affect social sustainability debates.</p>
+<p><a href="#tbl-justice-matrix" class="quarto-xref">Table&nbsp;<span>4.1</span></a> shows how these three dimensions influence each other <span class="citation" data-cites="wijsmanWhatWeMean2022">(<a href="../references.html#ref-wijsmanWhatWeMean2022" role="doc-biblioref">Wijsman and Berbés-Blázquez 2022</a>)</span>. A more detailed discussion of distributive and procedural justice follows in Section 4.6 (<em>Justice</em>), as these are the dimensions that most affect social sustainability debates.</p>
 <div class="cell">
 <div id="tbl-justice-matrix" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
@@ -973,14 +976,12 @@ Note&nbsp;4.2: Concepts of justice based on <span class="citation" data-cites="n
 <p>Sustainability models typically describe three dimensions of sustainable development: the environmental, the economic, and the social. Social sustainability – which was the focus of this chapter – often includes cultural aspects. However, there is growing debate as to whether culture should be understood as a fourth dimension of sustainability <span class="citation" data-cites="sabatiniCultureFourthPillar2019">(<a href="../references.html#ref-sabatiniCultureFourthPillar2019" role="doc-biblioref">Sabatini 2019</a>)</span>.</p>
 <p>Although the term has not yet become firmly established in the political discourse or yet been clearly defined, it is gaining traction in academic debates and in policy programmes <span class="citation" data-cites="zhengConsiderationCultureVital2021">(<a href="../references.html#ref-zhengConsiderationCultureVital2021" role="doc-biblioref">Zheng et al. 2021</a>)</span>. <strong>Cultural sustainability</strong> refers to both tangible and intangible cultural assets. However, it remains a challenge to implement. At a global level, UNESCO plays a key role in the protection of cultural heritage, working to preserve cultural diversity through various conventions and programmes. Today, there are numerous UNESCO World Heritage Sites that preserve culturally significant places. UNESCO also protects intangible cultural assets, for example through programmes to preserve endangered languages or traditional practices.</p>
 <p>The cultural dimension of sustainability emphasizes the role of values, traditions, beliefs, and cultural practices in shaping sustainable development. Culture influences how societies respond to environmental, economic, and social challenges – and it provides the framework within which sustainable solutions can be understood, accepted, and implemented. Sustainable development must therefore consider not just technological and economic factors, but also the cultural context in which measures are implemented. Proponents of an independent view of cultural sustainability argue that culture is more than just a part of the social sphere: it shapes how people interpret the world, form identities, and understand their relationship to society and nature. Culture shapes values, traditions, language, and knowledge systems that extend beyond social structures. In addition, the preservation of cultural diversity is viewed as a goal in its own right, because culture significantly influences all other dimensions of sustainability.</p>
-<section id="links-to-the-other-three-dimensions-of-sustainability" class="level3" data-number="4.7.1">
-<h3 data-number="4.7.1" class="anchored" data-anchor-id="links-to-the-other-three-dimensions-of-sustainability"><span class="header-section-number">4.7.1</span> Links to the other three dimensions of sustainability:</h3>
+<p><strong>Links to the other three dimensions of sustainability:</strong></p>
 <ul>
 <li><p><strong>Culture and social sustainability</strong>: Culture is a key means of shaping values, behaviours, and social assumptions. It influences the openness, inclusivity, and cohesion of societies, as well as respect for human rights, health, and quality of life. Culture provides orientation and conveys shared values such as trust, solidarity, the rule of law, and democracy – and thus creates the basis for individual and social development.</p></li>
 <li><p><strong>Culture and economic sustainability</strong>: Culture and the economy are closely connected. As UNESCO emphasizes, cultural heritage, creative industries, sustainable cultural tourism, and cultural infrastructure not only contribute to economic development and poverty reduction – they also create social and identity-forming values, especially in countries with a rich cultural heritage and great cultural diversity.</p></li>
 <li><p><strong>Culture and environmental sustainability</strong>: Cultural factors shape lifestyles, consumption patterns, and our relationship with the environment. Local and indigenous knowledge systems and traditional environmental practices offer valuable approaches to dealing with environmental challenges. They help to prevent biodiversity loss, reduce land degradation, and mitigate climate change.</p></li>
 </ul>
-</section>
 </section>
 <section id="conclusion" class="level2" data-number="4.8">
 <h2 data-number="4.8" class="anchored" data-anchor-id="conclusion"><span class="header-section-number">4.8</span> Conclusion</h2>
@@ -1013,35 +1014,35 @@ Inclusion, social cohesion, resilience, and procedural justice are the key lever
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following statements correctly describe the three dimensions of justice commonly discussed in social sustainability? (More than one statement may be correct.)</p>
-<div id="webex-bd37c499adcbb8e4fd34b56630e0d24d" class="webex-checkboxgroup" data-answer="OVUfBk8FFQlNVD4=">
-<label><input type="checkbox" autocomplete="off" name="bd37c499adcbb8e4fd34b56630e0d24d"><span>Distributive justice focuses on the fair distribution of goods and burdens, such as access to clean water or exposure to environmental pollution.</span></label><label><input type="checkbox" autocomplete="off" name="bd37c499adcbb8e4fd34b56630e0d24d"><span>Recognition justice centres on respecting social and cultural differences and acknowledging structural injustices.</span></label><label><input type="checkbox" autocomplete="off" name="bd37c499adcbb8e4fd34b56630e0d24d"><span>Procedural justice emphasizes the inclusivity and fairness of decision-making processes and representation.</span></label><label><input type="checkbox" autocomplete="off" name="bd37c499adcbb8e4fd34b56630e0d24d"><span>Distributive justice primarily concerns the recognition of cultural identities and historical experiences.</span></label><label><input type="checkbox" autocomplete="off" name="bd37c499adcbb8e4fd34b56630e0d24d"><span>Procedural justice is mainly concerned with the outcomes of policies rather than how decisions are made.</span></label>
+<div id="webex-0083e065aa12871d66b21ee8a1360b9b" class="webex-checkboxgroup" data-answer="awAUA0kBGgRNUGw=">
+<label><input type="checkbox" autocomplete="off" name="0083e065aa12871d66b21ee8a1360b9b"><span>Distributive justice primarily concerns the recognition of cultural identities and historical experiences.</span></label><label><input type="checkbox" autocomplete="off" name="0083e065aa12871d66b21ee8a1360b9b"><span>Procedural justice is mainly concerned with the outcomes of policies rather than how decisions are made.</span></label><label><input type="checkbox" autocomplete="off" name="0083e065aa12871d66b21ee8a1360b9b"><span>Procedural justice emphasizes the inclusivity and fairness of decision-making processes and representation.</span></label><label><input type="checkbox" autocomplete="off" name="0083e065aa12871d66b21ee8a1360b9b"><span>Distributive justice focuses on the fair distribution of goods and burdens, such as access to clean water or exposure to environmental pollution.</span></label><label><input type="checkbox" autocomplete="off" name="0083e065aa12871d66b21ee8a1360b9b"><span>Recognition justice centres on respecting social and cultural differences and acknowledging structural injustices.</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>In social sustainability debates, distributive justice addresses the fair allocation of benefits and burdens. Procedural justice focuses on who is included in decision-making processes and how decisions are made. Recognition justice highlights the importance of respecting diverse identities, cultural contexts, and historical experiences, and of addressing structural injustices. The remaining statements incorrectly attribute the focus of one justice dimension to another.</p>
 <ul>
-<li>True</li>
-<li>True</li>
-<li>True</li>
 <li>False</li>
 <li>False</li>
+<li>True</li>
+<li>True</li>
+<li>True</li>
 </ul>
 </div>
 </div>
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following statements correctly describe key dimensions of social sustainability? (More than one statement may be correct.)</p>
-<div id="webex-80fa09b0577669f303763cbb7c2c05e8" class="webex-checkboxgroup" data-answer="YwFKURwITgAZBmo=">
-<label><input type="checkbox" autocomplete="off" name="80fa09b0577669f303763cbb7c2c05e8"><span>Social cohesion describes a shared sense of belonging and trust that enables cooperation within communities.</span></label><label><input type="checkbox" autocomplete="off" name="80fa09b0577669f303763cbb7c2c05e8"><span>Social cohesion is defined mainly by the absence of diversity within a society.</span></label><label><input type="checkbox" autocomplete="off" name="80fa09b0577669f303763cbb7c2c05e8"><span>Inclusion refers to the access of all individuals and groups to economic, political, social, and cultural spheres.</span></label><label><input type="checkbox" autocomplete="off" name="80fa09b0577669f303763cbb7c2c05e8"><span>Inclusion focuses primarily on economic growth rather than participation in social and political life.</span></label><label><input type="checkbox" autocomplete="off" name="80fa09b0577669f303763cbb7c2c05e8"><span>Resilience refers to the ability of a community or society to avoid, absorb, or cope with internal or external shocks.</span></label>
+<div id="webex-224389c25cd3b7e7689d235c2ece0d0c" class="webex-checkboxgroup" data-answer="aQIYAhQJTwMZUjk=">
+<label><input type="checkbox" autocomplete="off" name="224389c25cd3b7e7689d235c2ece0d0c"><span>Social cohesion is defined mainly by the absence of diversity within a society.</span></label><label><input type="checkbox" autocomplete="off" name="224389c25cd3b7e7689d235c2ece0d0c"><span>Resilience refers to the ability of a community or society to avoid, absorb, or cope with internal or external shocks.</span></label><label><input type="checkbox" autocomplete="off" name="224389c25cd3b7e7689d235c2ece0d0c"><span>Inclusion focuses primarily on economic growth rather than participation in social and political life.</span></label><label><input type="checkbox" autocomplete="off" name="224389c25cd3b7e7689d235c2ece0d0c"><span>Inclusion refers to the access of all individuals and groups to economic, political, social, and cultural spheres.</span></label><label><input type="checkbox" autocomplete="off" name="224389c25cd3b7e7689d235c2ece0d0c"><span>Social cohesion describes a shared sense of belonging and trust that enables cooperation within communities.</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>Inclusion concerns equal access and participation across economic, political, social, and cultural domains. Social cohesion emphasizes trust, belonging, and the ability of groups to work together constructively. Resilience describes the capacity of societies or communities to withstand or adapt to shocks such as environmental changes or political crises. The remaining statements misrepresent these concepts by narrowing their scope or attributing incorrect characteristics.</p>
 <ul>
-<li>True</li>
 <li>False</li>
 <li>True</li>
 <li>False</li>
+<li>True</li>
 <li>True</li>
 </ul>
 </div>
@@ -1049,8 +1050,8 @@ Inclusion, social cohesion, resilience, and procedural justice are the key lever
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>According to the capabilities approach, which of the following statements is correct?</p>
-<div id="webex-80381b81e8e8429823282859db942a43" class="webex-radiogroup" data-answer="YwAfCR1SFAE4">
-<label><input type="radio" autocomplete="off" name="80381b81e8e8429823282859db942a43"><span>Development must be measured with GDP.</span></label><label><input type="radio" autocomplete="off" name="80381b81e8e8429823282859db942a43"><span>Resources must be divided so that everyone has access to the functionings and states of being required for a good life.</span></label><label><input type="radio" autocomplete="off" name="80381b81e8e8429823282859db942a43"><span>Resources, such as clean drinking water, must be evenly distributed.</span></label><label><input type="radio" autocomplete="off" name="80381b81e8e8429823282859db942a43"><span>Equal legal rights are sufficient for a society to be fair.</span></label>
+<div id="webex-7b30646a912c080a6d961a5d09381c23" class="webex-radiogroup" data-answer="bFIfARoEGlFk">
+<label><input type="radio" autocomplete="off" name="7b30646a912c080a6d961a5d09381c23"><span>Development must be measured with GDP.</span></label><label><input type="radio" autocomplete="off" name="7b30646a912c080a6d961a5d09381c23"><span>Resources must be divided so that everyone has access to the functionings and states of being required for a good life.</span></label><label><input type="radio" autocomplete="off" name="7b30646a912c080a6d961a5d09381c23"><span>Equal legal rights are sufficient for a society to be fair.</span></label><label><input type="radio" autocomplete="off" name="7b30646a912c080a6d961a5d09381c23"><span>Resources, such as clean drinking water, must be evenly distributed.</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -1066,16 +1067,16 @@ Inclusion, social cohesion, resilience, and procedural justice are the key lever
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following statements correctly distinguish between individual and structural approaches to analysing inequality? (More than one statement may be correct.)</p>
-<div id="webex-c4bafd9cbd263bc836e384044bac124b" class="webex-checkboxgroup" data-answer="OAVOUUpVFVJOVW8=">
-<label><input type="checkbox" autocomplete="off" name="c4bafd9cbd263bc836e384044bac124b"><span>Structural inequality is understood as the outcome of social frameworks such as positions in the mode of production, social hierarchies, or nationality.</span></label><label><input type="checkbox" autocomplete="off" name="c4bafd9cbd263bc836e384044bac124b"><span>Structural approaches to inequality are closely aligned with welfare economics and the concept of absolute inequality.</span></label><label><input type="checkbox" autocomplete="off" name="c4bafd9cbd263bc836e384044bac124b"><span>Analyses of individual inequality focus on socioeconomic characteristics such as income, education, and occupational status.</span></label><label><input type="checkbox" autocomplete="off" name="c4bafd9cbd263bc836e384044bac124b"><span>Individual inequality analyses assume that economic differences mainly result from personal attributes and individual effort.</span></label><label><input type="checkbox" autocomplete="off" name="c4bafd9cbd263bc836e384044bac124b"><span>Structural inequality analyses are linked to concepts such as equity, the capability approach, and relative inequality.</span></label>
+<div id="webex-fecd7724ab1a2df74abfce2a28f70697" class="webex-checkboxgroup" data-answer="PVRPVRsHHgVNU2w=">
+<label><input type="checkbox" autocomplete="off" name="fecd7724ab1a2df74abfce2a28f70697"><span>Structural inequality analyses are linked to concepts such as equity, the capability approach, and relative inequality.</span></label><label><input type="checkbox" autocomplete="off" name="fecd7724ab1a2df74abfce2a28f70697"><span>Individual inequality analyses assume that economic differences mainly result from personal attributes and individual effort.</span></label><label><input type="checkbox" autocomplete="off" name="fecd7724ab1a2df74abfce2a28f70697"><span>Structural approaches to inequality are closely aligned with welfare economics and the concept of absolute inequality.</span></label><label><input type="checkbox" autocomplete="off" name="fecd7724ab1a2df74abfce2a28f70697"><span>Analyses of individual inequality focus on socioeconomic characteristics such as income, education, and occupational status.</span></label><label><input type="checkbox" autocomplete="off" name="fecd7724ab1a2df74abfce2a28f70697"><span>Structural inequality is understood as the outcome of social frameworks such as positions in the mode of production, social hierarchies, or nationality.</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>Individual approaches to inequality emphasize differences between individuals and typically draw on welfare economics and absolute inequality, attributing inequalities largely to personal characteristics and effort. Structural approaches, in contrast, focus on the social, economic, and political frameworks that shape unequal outcomes, and are closely connected to concepts such as equity, the capability approach, and relative inequality.</p>
 <ul>
 <li>True</li>
-<li>False</li>
 <li>True</li>
+<li>False</li>
 <li>True</li>
 <li>True</li>
 </ul>
@@ -1084,8 +1085,8 @@ Inclusion, social cohesion, resilience, and procedural justice are the key lever
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following best describes resilience in a social sustainability context?</p>
-<div id="webex-1ccd8c00c65ace0986a7bb55702d5b6a" class="webex-radiogroup" data-answer="alNPVRRTHAA+">
-<label><input type="radio" autocomplete="off" name="1ccd8c00c65ace0986a7bb55702d5b6a"><span>The short-term use of resources to stabilize economic growth after a crisis.</span></label><label><input type="radio" autocomplete="off" name="1ccd8c00c65ace0986a7bb55702d5b6a"><span>The capacity of individuals and societies to prepare for, cope with, and recover from shocks.</span></label><label><input type="radio" autocomplete="off" name="1ccd8c00c65ace0986a7bb55702d5b6a"><span>The equal distribution of income to prevent social conflict.</span></label><label><input type="radio" autocomplete="off" name="1ccd8c00c65ace0986a7bb55702d5b6a"><span>The ability of societies to avoid all internal and external shocks entirely.</span></label>
+<div id="webex-80d1deb5219017c3ddcacb124501e83a" class="webex-radiogroup" data-answer="YwBIAEhVTgVv">
+<label><input type="radio" autocomplete="off" name="80d1deb5219017c3ddcacb124501e83a"><span>The short-term use of resources to stabilize economic growth after a crisis.</span></label><label><input type="radio" autocomplete="off" name="80d1deb5219017c3ddcacb124501e83a"><span>The capacity of individuals and societies to prepare for, cope with, and recover from shocks.</span></label><label><input type="radio" autocomplete="off" name="80d1deb5219017c3ddcacb124501e83a"><span>The ability of societies to avoid all internal and external shocks entirely.</span></label><label><input type="radio" autocomplete="off" name="80d1deb5219017c3ddcacb124501e83a"><span>The equal distribution of income to prevent social conflict.</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -1101,8 +1102,8 @@ Inclusion, social cohesion, resilience, and procedural justice are the key lever
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which strategy for building resilience focuses on long-term systemic change rather than immediate responses to shocks?</p>
-<div id="webex-122deb471c88f6f58aac44eef2631170" class="webex-radiogroup" data-answer="agIeVUlSGAds">
-<label><input type="radio" autocomplete="off" name="122deb471c88f6f58aac44eef2631170"><span>Coping strategies, such as relying on savings or social networks.</span></label><label><input type="radio" autocomplete="off" name="122deb471c88f6f58aac44eef2631170"><span>Transformative strategies, such as institutional reforms and changes in social norms.</span></label><label><input type="radio" autocomplete="off" name="122deb471c88f6f58aac44eef2631170"><span>Emergency relief measures provided immediately after a disaster.</span></label><label><input type="radio" autocomplete="off" name="122deb471c88f6f58aac44eef2631170"><span>Risk reduction and mitigation, such as immunization or protective infrastructure.</span></label>
+<div id="webex-0c08167fc344884447d56b9050a4898a" class="webex-radiogroup" data-answer="a1McCR0GG1Y+">
+<label><input type="radio" autocomplete="off" name="0c08167fc344884447d56b9050a4898a"><span>Emergency relief measures provided immediately after a disaster.</span></label><label><input type="radio" autocomplete="off" name="0c08167fc344884447d56b9050a4898a"><span>Transformative strategies, such as institutional reforms and changes in social norms.</span></label><label><input type="radio" autocomplete="off" name="0c08167fc344884447d56b9050a4898a"><span>Coping strategies, such as relying on savings or social networks.</span></label><label><input type="radio" autocomplete="off" name="0c08167fc344884447d56b9050a4898a"><span>Risk reduction and mitigation, such as immunization or protective infrastructure.</span></label>
 </div>
 </div>
 <div class="webex-solution">
@@ -1118,18 +1119,18 @@ Inclusion, social cohesion, resilience, and procedural justice are the key lever
 <div class="webex-question">
 <div class="webex-check webex-box">
 <p>Which of the following statements correctly reflect how different theories of justice assess the idea of an unconditional basic income? (More than one statement may be correct.)</p>
-<div id="webex-3e93a086d3ace74cdcd43307d2d2bf02" class="webex-checkboxgroup" data-answer="aFQVA00AFAdIAjw=">
-<label><input type="checkbox" autocomplete="off" name="3e93a086d3ace74cdcd43307d2d2bf02"><span>Libertarian theories generally reject an unconditional basic income because redistribution through taxation is seen as an infringement on individual freedom and property rights.</span></label><label><input type="checkbox" autocomplete="off" name="3e93a086d3ace74cdcd43307d2d2bf02"><span>All theories of justice agree that an unconditional basic income is the most just form of redistribution.</span></label><label><input type="checkbox" autocomplete="off" name="3e93a086d3ace74cdcd43307d2d2bf02"><span>Egalitarian perspectives uncritically support an unconditional basic income because strict equality automatically guarantees justice.</span></label><label><input type="checkbox" autocomplete="off" name="3e93a086d3ace74cdcd43307d2d2bf02"><span>Liberal theories may support an unconditional basic income because it can increase overall utility or strengthen equal basic freedoms.</span></label><label><input type="checkbox" autocomplete="off" name="3e93a086d3ace74cdcd43307d2d2bf02"><span>Collective theories of justice evaluate an unconditional basic income depending on historical, cultural, and social context.</span></label>
+<div id="webex-f90aa3c815f018b4c753e629ae81bf19" class="webex-checkboxgroup" data-answer="PQkcUE0CTwkdBTs=">
+<label><input type="checkbox" autocomplete="off" name="f90aa3c815f018b4c753e629ae81bf19"><span>All theories of justice agree that an unconditional basic income is the most just form of redistribution.</span></label><label><input type="checkbox" autocomplete="off" name="f90aa3c815f018b4c753e629ae81bf19"><span>Collective theories of justice evaluate an unconditional basic income depending on historical, cultural, and social context.</span></label><label><input type="checkbox" autocomplete="off" name="f90aa3c815f018b4c753e629ae81bf19"><span>Libertarian theories generally reject an unconditional basic income because redistribution through taxation is seen as an infringement on individual freedom and property rights.</span></label><label><input type="checkbox" autocomplete="off" name="f90aa3c815f018b4c753e629ae81bf19"><span>Liberal theories may support an unconditional basic income because it can increase overall utility or strengthen equal basic freedoms.</span></label><label><input type="checkbox" autocomplete="off" name="f90aa3c815f018b4c753e629ae81bf19"><span>Egalitarian perspectives uncritically support an unconditional basic income because strict equality automatically guarantees justice.</span></label>
 </div>
 </div>
 <div class="webex-solution">
 <p>Different theories of justice arrive at different conclusions regarding an unconditional basic income. Libertarian theories typically reject it due to concerns about state intervention and property rights. Liberal theories, such as utilitarianism or Rawlsian contractarianism, may support it under certain conditions, while egalitarian approaches emphasize the need to distinguish equality from equity. Collective theories stress that judgments depend on social and cultural context. There is no universal agreement across all theories.</p>
 <ul>
-<li>True</li>
-<li>False</li>
 <li>False</li>
 <li>True</li>
 <li>True</li>
+<li>True</li>
+<li>False</li>
 </ul>
 </div>
 </div>
@@ -2921,7 +2922,7 @@ window.onload = function() {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>“This a product of <a href="www.cde.unibe.ch/"><img src="..\images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
+<p>“This a product of <a href="www.cde.unibe.ch/"><img src="../images/cdelogo_e.png" class="img-fluid" style="width: auto; height: 35px; padding-left: 10px; padding-right: 10px; margin-bottom:5px;"></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

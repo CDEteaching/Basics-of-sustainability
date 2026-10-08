@@ -49,7 +49,7 @@ In analysing these comprehensive challenges we must also consider the temporal d
 
 ![](images/Great-Acceleration_earth-system_trends.jpg)
 
-12 socioeconomic and 12 Earth system trends from 1750 to today are a strong indication that the Earth system has entered a new state. Source: <https://futureearth.org/2015/01/16/the-great-acceleration/>.
+12 socioeconomic and 12 Earth system trends from 1750 to today are a strong indication that the Earth system has entered a new state. Source: <https://futureearth.org/the-great-acceleration/>.
 :::
 
 The Great Acceleration described the exponential growth dynamics that occurred as a result of the Industrial Revolution, which led to a surge in productivity in the mode of production and a significant increase in material wealth. At the same time, but to a much lesser extent, there was a massive increase in natural resource consumption and emissions. Socioeconomic growth went hand in hand with the acceleration of biophysical trends. @fig-acceleration-trends describes some examples of important biophysical and socioeconomic indicators, all of which start to increase with the Industrial Revolution. From the middle of the 20th century, the trend towards exponential growth becomes apparent.
@@ -110,7 +110,7 @@ Gro Harlem Brundtland appointed 22 commission members, ¾ of whom were from the 
 
 The Brundtland Report found that global environmental problems were mainly caused by unsustainable consumption and production patterns in the North and severe poverty in the South. The overexploitation of nature and the depletion of natural resources were exacerbating inequalities (of income and wealth), increasing absolute poverty, and posing a threat to peace and security. The Report sought to develop a fair and just definition of sustainability:
 
-> “Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.” [@wcedOurCommonFuture1987a]
+> “Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.” [@wcedOurCommonFuture1987]
 
 This definition introduced an ethical perspective into the sustainability debate, placing the principle of responsibility -- for both present and future generations -- at its centre. By focusing on human needs, the Brundtland Commission adopted an anthropocentric position. The Commission thus identified three key principles for analysing problems and guiding action: a global perspective, the interconnectedness of environment and development, and the pursuit of justice or equity. The concept of justice/equity was further divided into two distinct perspectives:
 

@@ -13,8 +13,7 @@ Economic sustainability is a profoundly normative concept. It asks what kind of 
 
 Contrary to widespread belief, economic theories are not value-neutral descriptions of how the economy “works”. They are normative and performative: they shape political decisions, institutional arrangements, corporate practices, and individual action. As a result, answers to the core questions of economics -- who produces and consumes what and why, how profits are distributed, and what they are used for -- vary fundamentally depending on the underlying economic theory and its implicit assumptions about humans, society, and nature.
 
-> “The produce of the earth -- all that is derived from its surface by the united application of labour, machinery, and capital, is divided among three classes of the community, namely, the proprietor of the land **\[Rent\]**, the owner of the stock or capital **\[Profit\]** necessary for its cultivation, and the labourers by whose industry it is cultivated **\[Wages\]**. \[…\] To determine the laws which regulate this distribution, is the principal problem in Political Economy.”\
-> Preface, p. 1 -- David Ricardo: *The Principles of Political Economy and Taxation* [-@ricardoPriniciplesPoliticalEconomy1821]
+> “The produce of the earth -- all that is derived from its surface by the united application of labour, machinery, and capital, is divided among three classes of the community, namely, the proprietor of the land **\[Rent\]**, the owner of the stock or capital **\[Profit\]** necessary for its cultivation, and the labourers by whose industry it is cultivated **\[Wages\]**. \[…\] To determine the laws which regulate this distribution, is the principal problem in Political Economy.” David Ricardo: *The Principles of Political Economy and Taxation* [-@ricardoPriniciplesPoliticalEconomy1821, Preface]
 
 ![Economic Sustainability. Source: Own illustration.](images/Fig5_1_NEeconomic.png){#fig-ne-econ}
 
@@ -62,6 +61,7 @@ While a detailed exploration of neoclassical economics and other schools of thou
 In this video -- *Economics is for Everyone* -- Ha-Joon Chang provides a clear and concise introduction to the idea of plural economics. He explains why economic thinking is never neutral -- and why we urgently need more economic pluralism.
 
 {{< https://youtu.be/NdbbcO35arw?si=VlUrTTLGlvQTN1vQ >}}
+
 :::
 
 {{< include "5-1_key-elements.qmd" >}}

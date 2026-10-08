@@ -18,7 +18,7 @@ More recently, many specific reform proposals have been formulated, addressing d
 
 These reform proposals make clear that sustainability requires a combination of different sectoral levers: rather than purely technical solutions, there is a need for new institutional, social, and cultural guardrails. In the economic sustainability debate, these diverse proposals can be categorized into three overarching macrostrategies with different basic assumptions and goals:
 
-![Positioning of Green Growth, Degrowth, and Sustainable Economy based on their assumptions about decoupling and the potential for high quality of life with lower GDP. Source: Own illustration based on Petschow (2018).](images/Fig5_6__NaÖk_en.jpg){#fig-naök}
+![Positioning of Green Growth, Degrowth, and Sustainable Economy based on their assumptions about decoupling and the potential for high quality of life with lower GDP. Source: Own illustration based on @petschowGesellschaftlichesWohlergehenInnerhalb2018.](images/Fig5_6__NaÖk_en.jpg){#fig-naök}
 
 -   **Green Growth** focuses on a relative or absolute decoupling of economic growth and environmental use. Green technologies, efficiency increases, and environmental innovation management serve to respect environmental boundaries -- without fundamentally calling into question the growth paradigm.
 

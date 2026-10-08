@@ -237,6 +237,10 @@
 \usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
 \hypersetup{
   pdftitle={Basics of sustainability},
   colorlinks=true,
@@ -830,7 +834,7 @@ al. 2004).
 \caption{\label{fig-acceleration-trends}12 socioeconomic and 12 Earth
 system trends from 1750 to today are a strong indication that the Earth
 system has entered a new state. Source:
-\url{https://futureearth.org/2015/01/16/the-great-acceleration/}.}
+\url{https://futureearth.org/the-great-acceleration/}.}
 
 \end{figure}%
 
@@ -1119,7 +1123,7 @@ fair and just definition of sustainability:
 \begin{quote}
 ``Sustainable development is development that meets the needs of the
 present without compromising the ability of future generations to meet
-their own needs.'' (\textbf{wcedOurCommonFuture1987a?})
+their own needs.'' (WCED 1987)
 \end{quote}
 
 This definition introduced an ethical perspective into the
@@ -1755,7 +1759,7 @@ prioritizing it over social and environmental considerations.
 
 \centering{
 
-\pandocbounded{\includegraphics[keepaspectratio]{1_understanding/images/sustainability-nested.jpg}}
+\pandocbounded{\includegraphics[keepaspectratio]{1_understanding/images/sustainability-nested.png}}
 
 }
 
@@ -2774,14 +2778,14 @@ the Brundtland Report?
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  The improvement of living standards through industrialization
-\item[$\square$]
-  Reducing CO₂ emissions by 50\% before 2030
+  Economic growth without environmental harm
 \item[$\square$]
   Development that meets present needs without compromising future
   generations
 \item[$\square$]
-  Economic growth without environmental harm
+  Reducing CO₂ emissions by 50\% before 2030
+\item[$\square$]
+  The improvement of living standards through industrialization
 \end{itemize}
 
 The Brundtland Report (1987) defines sustainable development as
@@ -2793,9 +2797,9 @@ ability of future generations to meet their own needs.
 \item
   False
 \item
-  False
-\item
   True
+\item
+  False
 \item
   False
 \end{itemize}
@@ -2805,10 +2809,10 @@ What is normativity?
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Refers to the way things are right now
-\item[$\square$]
   Refers to values and morally justified views about what should be done
   and how things should be
+\item[$\square$]
+  Refers to the way things are right now
 \item[$\square$]
   Means that actions should be based on jointly agreed laws and norms
 \end{itemize}
@@ -2820,9 +2824,9 @@ how things currently are.
 \begin{itemize}
 \tightlist
 \item
-  False
-\item
   True
+\item
+  False
 \item
   False
 \end{itemize}
@@ -2832,14 +2836,14 @@ What is the ``Great Acceleration''?
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  The rapid decline of industrialization during the 1960s
-\item[$\square$]
   The exponential growth in socioeconomic and Earth system trends
   starting in the mid-20th century
 \item[$\square$]
-  The sudden reduction in biodiversity in the early 21st century
-\item[$\square$]
   A rapid increase in global resource use following World War I
+\item[$\square$]
+  The rapid decline of industrialization during the 1960s
+\item[$\square$]
+  The sudden reduction in biodiversity in the early 21st century
 \end{itemize}
 
 The ``Great Acceleration'' refers to the rapid and exponential increase
@@ -2850,9 +2854,9 @@ system processes that began around the mid-20th century.
 \begin{itemize}
 \tightlist
 \item
-  False
-\item
   True
+\item
+  False
 \item
   False
 \item
@@ -2864,14 +2868,14 @@ What distinguishes ``strong'' from ``weak'' sustainability?
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Weak sustainability restricts all technological innovation.
-\item[$\square$]
   Both concepts mean the same.
+\item[$\square$]
+  Strong sustainability allows full substitution of natural capital.
 \item[$\square$]
   Strong sustainability requires preserving natural capital as
   non-substitutable.
 \item[$\square$]
-  Strong sustainability allows full substitution of natural capital.
+  Weak sustainability restricts all technological innovation.
 \end{itemize}
 
 Strong sustainability assumes that certain ecological functions and
@@ -2900,14 +2904,14 @@ weak sustainability? (More than one statement may be correct.)
   Strong sustainability accepts unlimited substitution between natural
   and human-made capital.
 \item[$\square$]
-  In strong sustainability, natural capital is considered
-  non-substitutable.
+  In weak sustainability, different forms of capital can substitute each
+  other.
 \item[$\square$]
   Weak sustainability assumes that technological innovation can fully
   replace nature's functions.
 \item[$\square$]
-  In weak sustainability, different forms of capital can substitute each
-  other.
+  In strong sustainability, natural capital is considered
+  non-substitutable.
 \end{itemize}
 
 Weak sustainability is based on the assumption that different forms of
@@ -2934,25 +2938,25 @@ than one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  The irreplaceability of human-made capital.
+  Insufficient environmental protection.
 \item[$\square$]
   Giving priority to the needs of the current generation over the needs
   of future generations.
 \item[$\square$]
-  Increasing GDP.
+  The irreplaceability of human-made capital.
 \item[$\square$]
   The preservation of the total amount of all forms of capital from one
   generation to the next.
 \item[$\square$]
-  Forms of capital being, in principle, mutually exchangeable.
-\item[$\square$]
-  Insufficient environmental protection.
+  The preservation of natural capital when it promotes or preserves
+  human well-being.
 \item[$\square$]
   A company only fulfilling its statutory environmental and social
   responsibilities.
 \item[$\square$]
-  The preservation of natural capital when it promotes or preserves
-  human well-being.
+  Forms of capital being, in principle, mutually exchangeable.
+\item[$\square$]
+  Increasing GDP.
 \end{itemize}
 
 Weak sustainability focuses on maintaining the overall stock of capital
@@ -2976,9 +2980,9 @@ considered intrinsically irreplaceable.
 \item
   False
 \item
-  False
-\item
   True
+\item
+  False
 \end{itemize}
 
 Which of the following statements describe strong sustainability? (More
@@ -2987,22 +2991,22 @@ than one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Nature is viewed as a form of capital that contributes to the
-  well-being of people in an invaluable way.
-\item[$\square$]
-  Preserving critical natural capital from one generation to the next is
-  required.
-\item[$\square$]
   The sixth wave of extinctions is considered to be the most important
   sustainability problem.
+\item[$\square$]
+  An increase to the total amount of all forms of capital is called for.
 \item[$\square$]
   Environmental problems are resolved through innovative energy
   technologies.
 \item[$\square$]
+  Preserving critical natural capital from one generation to the next is
+  required.
+\item[$\square$]
+  Nature is viewed as a form of capital that contributes to the
+  well-being of people in an invaluable way.
+\item[$\square$]
   Natural capital and human-made capital complement each other and
   humans cannot survive without both.
-\item[$\square$]
-  An increase to the total amount of all forms of capital is called for.
 \end{itemize}
 
 Strong sustainability emphasizes the essential and non-substitutable
@@ -3015,17 +3019,17 @@ technological innovation.
 \begin{itemize}
 \tightlist
 \item
-  True
-\item
-  True
-\item
   False
 \item
   False
 \item
+  False
+\item
   True
 \item
-  False
+  True
+\item
+  True
 \end{itemize}
 
 What is the primary goal of the consistency strategy in sustainability?
@@ -3033,11 +3037,11 @@ What is the primary goal of the consistency strategy in sustainability?
 \begin{itemize}
 \tightlist
 \item[$\square$]
+  Reducing energy consumption in production
+\item[$\square$]
   Meeting consumer needs through environmentally sustainable methods
 \item[$\square$]
   Reducing social inequality
-\item[$\square$]
-  Reducing energy consumption in production
 \item[$\square$]
   Minimizing the use of raw materials in production
 \end{itemize}
@@ -3050,9 +3054,9 @@ while still meeting human needs.
 \begin{itemize}
 \tightlist
 \item
-  True
-\item
   False
+\item
+  True
 \item
   False
 \item
@@ -3065,14 +3069,14 @@ correct? (More than one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
+  Efficiency aims to use fewer resources per unit of output.
+\item[$\square$]
+  Sufficiency encourages higher production levels.
+\item[$\square$]
   All three sustainability strategies have the same effect on
   consumption.
 \item[$\square$]
   Consistency means producing goods that can be recycled infinitely.
-\item[$\square$]
-  Sufficiency encourages higher production levels.
-\item[$\square$]
-  Efficiency aims to use fewer resources per unit of output.
 \end{itemize}
 
 Efficiency focuses on reducing resource use per unit of output.
@@ -3084,9 +3088,9 @@ therefore differ in how they affect consumption.
 \begin{itemize}
 \tightlist
 \item
-  False
-\item
   True
+\item
+  False
 \item
   False
 \item
@@ -3810,7 +3814,7 @@ facilitates sufficiency-oriented practices is necessary.
 }
 
 \caption{\label{fig-development-planetary-boundaries}The four pathways
-to sufficiency. Source: Schneidewind and Zahrnt (2014)}
+to sufficiency. Source: Schneidewind and Zahrnt (2014).}
 
 \end{figure}%
 
@@ -4094,13 +4098,13 @@ Which two planetary boundaries are considered ``core boundaries''?
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Climate change and biosphere integrity
+  Ozone depletion and land use
 \item[$\square$]
   Ocean acidification and nitrogen cycles
 \item[$\square$]
-  Ozone depletion and land use
-\item[$\square$]
   Freshwater and aerosols
+\item[$\square$]
+  Climate change and biosphere integrity
 \end{itemize}
 
 Within the planetary boundaries framework, climate change and biosphere
@@ -4111,13 +4115,13 @@ strongly influence the other planetary boundaries.
 \begin{itemize}
 \tightlist
 \item
+  False
+\item
+  False
+\item
+  False
+\item
   True
-\item
-  False
-\item
-  False
-\item
-  False
 \end{itemize}
 
 Which of the following is NOT one of the nine planetary boundaries
@@ -4126,11 +4130,11 @@ identified by Rockström et al.?
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Global financial stability
+  Climate change
 \item[$\square$]
   Ocean acidification
 \item[$\square$]
-  Climate change
+  Global financial stability
 \item[$\square$]
   Biosphere integrity
 \end{itemize}
@@ -4144,11 +4148,11 @@ boundary.
 \begin{itemize}
 \tightlist
 \item
+  False
+\item
+  False
+\item
   True
-\item
-  False
-\item
-  False
 \item
   False
 \end{itemize}
@@ -4159,11 +4163,11 @@ climate system?
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Amazon rainforest collapse
+  Greenland Ice Sheet melting
 \item[$\square$]
   Gulf Stream collapse
 \item[$\square$]
-  Greenland Ice Sheet melting
+  Amazon rainforest collapse
 \item[$\square$]
   Ocean plastic pollution
 \end{itemize}
@@ -4195,9 +4199,9 @@ degradation while maintaining prosperity?
 \item[$\square$]
   Resilience
 \item[$\square$]
-  Green economy
-\item[$\square$]
   Planetary boundaries
+\item[$\square$]
+  Green economy
 \item[$\square$]
   Double decoupling
 \end{itemize}
@@ -4212,9 +4216,9 @@ prosperity from environmental degradation.
 \item
   False
 \item
-  True
-\item
   False
+\item
+  True
 \item
   False
 \end{itemize}
@@ -4226,11 +4230,11 @@ What does the inner circle of the Doughnut Model represent?
 \item[$\square$]
   The ecological ceiling
 \item[$\square$]
-  The planetary limits
-\item[$\square$]
   The safe and just space for humanity
 \item[$\square$]
   The social foundation
+\item[$\square$]
+  The planetary limits
 \end{itemize}
 
 In the Doughnut Model, the inner circle represents the social
@@ -4244,9 +4248,9 @@ just and equitable life for all people.
 \item
   False
 \item
-  False
-\item
   True
+\item
+  False
 \end{itemize}
 
 Which of the following statements describe post-growth approaches? (More
@@ -4255,13 +4259,13 @@ than one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Advocacy for structural change
+  Emphasis on GDP increase
 \item[$\square$]
   Critique of growth dependency
 \item[$\square$]
   Focus on sufficiency and well-being
 \item[$\square$]
-  Emphasis on GDP increase
+  Advocacy for structural change
 \end{itemize}
 
 Post-growth approaches critically question the dependence of modern
@@ -4273,13 +4277,13 @@ sustainable and just futures.
 \begin{itemize}
 \tightlist
 \item
-  True
-\item
-  True
-\item
-  True
-\item
   False
+\item
+  True
+\item
+  True
+\item
+  True
 \end{itemize}
 
 \part{Transforming (Un-)sustainable Systems: Key Areas and Strategic
@@ -5168,8 +5172,8 @@ can affect another place (the receiving system). For example, new EU
 regulations require that products entering the EU market from the end of
 2024 are deforestation-free
 (\href{https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en}{Regulation
-on Deforestation-free products -- European Commission (europa.eu)}.
-These regulations are likely to have significant ecological (and social)
+on Deforestation-free products -- European Commission}). These
+regulations are likely to have significant ecological (and social)
 effects in the countries of cultivation (Coenen et al. 2023).
 
 \begin{tcolorbox}[enhanced jigsaw, arc=.35mm, bottomrule=.15mm, bottomtitle=1mm, breakable, colback=white, colbacktitle=quarto-callout-note-color!10!white, colframe=quarto-callout-note-color-frame, coltitle=black, left=2mm, leftrule=.75mm, opacityback=0, opacitybacktitle=0.6, rightrule=.15mm, title={Land rights and land tenure}, titlerule=0mm, toprule=.15mm, toptitle=1mm]
@@ -5220,8 +5224,8 @@ facts and challenges. The 10 facts are structured through four
 higher-level facts (1, 2, 6, and 10) and several lower-level facts that
 derive from these higher-level ones (3, 4, and 5 deriving from 2; 7, 8,
 and 9 deriving from 6), yet they all express specific realities that
-imply distinct challenges. Source: {Meyfroidt et al.} (2022), licensed
-under CC BY 4.0}
+imply distinct challenges. Source: {Meyfroidt et al.} (2022). Licensed
+under CC BY 4.0.}
 
 \end{figure}%
 
@@ -5288,7 +5292,7 @@ declining for several decades ({Butchart et al.} 2010; Díaz and Malhi
 2022), a downward trend that is predicted to continue (Díaz and Malhi
 2022). As a result, there is already discussion of a sixth mass
 extinction (Ceballos et al. 2020). To counteract this development, the
-\textbf{Convention on Biological Diversity (CBD)} was ratified at the
+\textbf{Convention on Biological Diversity} (CBD) was ratified at the
 1992 Rio Earth Summit (UN 1992a), with Swiss participation. This legally
 binding agreement means that if Switzerland sends delegates to
 subsequent conferences, any new provisions must be legally implemented.
@@ -5319,7 +5323,7 @@ identified and described (cf. Moura and Jetz 2021).
 }
 
 \caption{\label{fig-IUCN-red-list}Current global extinction risk in
-different species groups. Source: IPBES (2019), Figure SPM3}
+different species groups. Source: IPBES (2019), Figure SPM3.}
 
 \end{figure}%
 
@@ -5375,7 +5379,7 @@ approaches even call for 50\% protected areas (the Half Earth Project).
 }
 
 \caption{\label{fig-global-biodiversity-frame}Global Biodiversity
-Framework. Source: UNEP-CBD (2022)}
+Framework. Source: UNEP-CBD (2022).}
 
 \end{figure}%
 
@@ -5642,33 +5646,33 @@ services are correct? (More than one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Three different types of ecosystem services can be distinguished:
-  services of avoidance, improvement, and shifting.
+  Four different types of ecosystem services can be distinguished:
+  regulating services, provisioning services, cultural services, and
+  supporting services.
 \item[$\square$]
-  The concept of ecosystem services represents the accumulation of
-  biomass within an ecosystem within a year, measured in kilojoules.
-\item[$\square$]
-  Unlike the concept of Sustainable Development, the concept of
-  ecosystem services is not anthropocentric, but ecocentric.
+  The concept of ecosystem services represents the direct and indirect
+  benefits that humans obtain from ecosystems.
 \item[$\square$]
   The term ``ecosystem services'' is a scientific term that describes
   the congregations of nature-oriented religions (so-called nature
   religions), such as animism, during which nature as a whole is
   worshipped.
 \item[$\square$]
-  Four different types of ecosystem services can be distinguished:
-  regulating services, provisioning services, cultural services, and
-  supporting services.
+  Three different types of ecosystem services can be distinguished:
+  services of avoidance, improvement, and shifting.
 \item[$\square$]
-  The concept of ecosystem services represents all measures taken by
-  humans in order to preserve ecosystems.
-\item[$\square$]
-  The concept of ecosystem services represents the direct and indirect
-  benefits that humans obtain from ecosystems.
+  The concept of ecosystem services represents the accumulation of
+  biomass within an ecosystem within a year, measured in kilojoules.
 \item[$\square$]
   The concept of ecosystem services represents a measure for
   biodiversity and therefore also a measure for an ecosystem's
   resilience.
+\item[$\square$]
+  The concept of ecosystem services represents all measures taken by
+  humans in order to preserve ecosystems.
+\item[$\square$]
+  Unlike the concept of Sustainable Development, the concept of
+  ecosystem services is not anthropocentric, but ecocentric.
 \end{itemize}
 
 The ecosystem services concept refers to the direct and indirect
@@ -5683,19 +5687,19 @@ or religious concepts.
 \begin{itemize}
 \tightlist
 \item
-  False
-\item
-  False
-\item
-  False
-\item
-  False
+  True
 \item
   True
 \item
   False
 \item
-  True
+  False
+\item
+  False
+\item
+  False
+\item
+  False
 \item
   False
 \end{itemize}
@@ -5705,11 +5709,11 @@ What are the four main categories of ecosystem services?
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Provisioning, regulating, cultural, supporting
-\item[$\square$]
   Economic, social, environmental, cultural
 \item[$\square$]
   Material, spiritual, industrial, social
+\item[$\square$]
+  Provisioning, regulating, cultural, supporting
 \end{itemize}
 
 Ecosystem services are commonly classified into four main categories:
@@ -5721,11 +5725,11 @@ soil formation).
 \begin{itemize}
 \tightlist
 \item
+  False
+\item
+  False
+\item
   True
-\item
-  False
-\item
-  False
 \end{itemize}
 
 Which of the following statements apply to the concept of ecosystem
@@ -5734,14 +5738,14 @@ services, and which do not? (More than one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
+  Ecosystem services can be divided into the following categories:
+  supporting, provisioning, regulating, and cultural.
+\item[$\square$]
   Ecosystem services represent the direct and indirect contributions of
   ecosystems to human well-being.
 \item[$\square$]
   Ecosystem services represent a measure of biodiversity and,
   consequently, the resilience of an ecosystem.
-\item[$\square$]
-  Ecosystem services can be divided into the following categories:
-  supporting, provisioning, regulating, and cultural.
 \item[$\square$]
   Ecosystem services represent the annual accumulation of biomass within
   an ecosystem measured in kilojoules.
@@ -5759,9 +5763,9 @@ productivity metrics such as annual biomass accumulation.
 \item
   True
 \item
-  False
-\item
   True
+\item
+  False
 \item
   False
 \end{itemize}
@@ -5772,11 +5776,11 @@ system? (More than one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
+  Positive feedback
+\item[$\square$]
   Neutral feedback
 \item[$\square$]
   Negative feedback
-\item[$\square$]
-  Positive feedback
 \end{itemize}
 
 Feedback mechanisms in the climate system describe processes that either
@@ -5787,9 +5791,9 @@ climate science.
 \begin{itemize}
 \tightlist
 \item
-  False
-\item
   True
+\item
+  False
 \item
   True
 \end{itemize}
@@ -5802,11 +5806,11 @@ than one statement may be correct.)
 \item[$\square$]
   Economic policy
 \item[$\square$]
-  Land use change
-\item[$\square$]
   Climate change
 \item[$\square$]
   Pollution
+\item[$\square$]
+  Land use change
 \end{itemize}
 
 Direct drivers of biodiversity loss are factors that have an immediate
@@ -5834,8 +5838,9 @@ related concepts? (More than one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Land systems only describe ecological processes and exclude social,
-  economic, and technological factors.
+  Land degradation refers to the reduction or loss of biological or
+  economic productivity of land due to land use, particularly in dryland
+  areas.
 \item[$\square$]
   Land use describes how humans utilize land cover, for example for
   agriculture, settlement, or infrastructure.
@@ -5851,9 +5856,8 @@ related concepts? (More than one statement may be correct.)
   the land surface, including vegetation, topography, and human-made
   structures.
 \item[$\square$]
-  Land degradation refers to the reduction or loss of biological or
-  economic productivity of land due to land use, particularly in dryland
-  areas.
+  Land systems only describe ecological processes and exclude social,
+  economic, and technological factors.
 \end{itemize}
 
 Land cover describes the biophysical characteristics of the land
@@ -5869,17 +5873,17 @@ ecological dimensions.
 \begin{itemize}
 \tightlist
 \item
+  True
+\item
+  True
+\item
+  True
+\item
   False
 \item
   True
 \item
-  True
-\item
   False
-\item
-  True
-\item
-  True
 \end{itemize}
 
 Which characteristics distinguish ``Nature's Contributions to People
@@ -5889,13 +5893,13 @@ correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Focuses only on provisioning functions
+  Integrates Indigenous perspectives
 \item[$\square$]
   Based solely on monetary valuation
 \item[$\square$]
-  Integrates Indigenous perspectives
-\item[$\square$]
   Includes intrinsic and relational values
+\item[$\square$]
+  Focuses only on provisioning functions
 \end{itemize}
 
 The concept of Nature's Contributions to People (NCP), introduced by
@@ -5907,13 +5911,13 @@ does not focus solely on provisioning functions.
 \begin{itemize}
 \tightlist
 \item
-  False
+  True
 \item
   False
 \item
   True
 \item
-  True
+  False
 \end{itemize}
 
 \chapter{Social Sustainability}\label{social-sustainability}
@@ -6089,9 +6093,9 @@ identities, and cultural backgrounds.
 
 Table~\ref{tbl-justice-matrix} shows how these three dimensions
 influence each other (Wijsman and Berbés-Blázquez 2022). A more detailed
-discussion of distributive and procedural justice follows in Section
-4.6, as these are the dimensions that most affect social sustainability
-debates.
+discussion of distributive and procedural justice follows in Section 4.6
+(\emph{Justice}), as these are the dimensions that most affect social
+sustainability debates.
 
 \begingroup\fontsize{8}{10}\selectfont
 
@@ -7212,8 +7216,7 @@ extend beyond social structures. In addition, the preservation of
 cultural diversity is viewed as a goal in its own right, because culture
 significantly influences all other dimensions of sustainability.
 
-\subsection{Links to the other three dimensions of
-sustainability:}\label{links-to-the-other-three-dimensions-of-sustainability}
+\textbf{Links to the other three dimensions of sustainability:}
 
 \begin{itemize}
 \item
@@ -7338,21 +7341,21 @@ than one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Procedural justice is mainly concerned with the outcomes of policies
-  rather than how decisions are made.
-\item[$\square$]
   Recognition justice centres on respecting social and cultural
   differences and acknowledging structural injustices.
-\item[$\square$]
-  Procedural justice emphasizes the inclusivity and fairness of
-  decision-making processes and representation.
 \item[$\square$]
   Distributive justice focuses on the fair distribution of goods and
   burdens, such as access to clean water or exposure to environmental
   pollution.
 \item[$\square$]
+  Procedural justice emphasizes the inclusivity and fairness of
+  decision-making processes and representation.
+\item[$\square$]
   Distributive justice primarily concerns the recognition of cultural
   identities and historical experiences.
+\item[$\square$]
+  Procedural justice is mainly concerned with the outcomes of policies
+  rather than how decisions are made.
 \end{itemize}
 
 In social sustainability debates, distributive justice addresses the
@@ -7366,13 +7369,13 @@ attribute the focus of one justice dimension to another.
 \begin{itemize}
 \tightlist
 \item
+  True
+\item
+  True
+\item
+  True
+\item
   False
-\item
-  True
-\item
-  True
-\item
-  True
 \item
   False
 \end{itemize}
@@ -7386,11 +7389,11 @@ social sustainability? (More than one statement may be correct.)
   Inclusion refers to the access of all individuals and groups to
   economic, political, social, and cultural spheres.
 \item[$\square$]
-  Social cohesion describes a shared sense of belonging and trust that
-  enables cooperation within communities.
-\item[$\square$]
   Resilience refers to the ability of a community or society to avoid,
   absorb, or cope with internal or external shocks.
+\item[$\square$]
+  Social cohesion describes a shared sense of belonging and trust that
+  enables cooperation within communities.
 \item[$\square$]
   Inclusion focuses primarily on economic growth rather than
   participation in social and political life.
@@ -7428,14 +7431,14 @@ statements is correct?
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Resources, such as clean drinking water, must be evenly distributed.
-\item[$\square$]
   Development must be measured with GDP.
+\item[$\square$]
+  Equal legal rights are sufficient for a society to be fair.
 \item[$\square$]
   Resources must be divided so that everyone has access to the
   functionings and states of being required for a good life.
 \item[$\square$]
-  Equal legal rights are sufficient for a society to be fair.
+  Resources, such as clean drinking water, must be evenly distributed.
 \end{itemize}
 
 The capabilities approach focuses on what people are actually able to be
@@ -7463,17 +7466,17 @@ one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
+  Structural approaches to inequality are closely aligned with welfare
+  economics and the concept of absolute inequality.
+\item[$\square$]
+  Structural inequality analyses are linked to concepts such as equity,
+  the capability approach, and relative inequality.
+\item[$\square$]
   Individual inequality analyses assume that economic differences mainly
   result from personal attributes and individual effort.
 \item[$\square$]
   Analyses of individual inequality focus on socioeconomic
   characteristics such as income, education, and occupational status.
-\item[$\square$]
-  Structural inequality analyses are linked to concepts such as equity,
-  the capability approach, and relative inequality.
-\item[$\square$]
-  Structural approaches to inequality are closely aligned with welfare
-  economics and the concept of absolute inequality.
 \item[$\square$]
   Structural inequality is understood as the outcome of social
   frameworks such as positions in the mode of production, social
@@ -7491,13 +7494,13 @@ and relative inequality.
 \begin{itemize}
 \tightlist
 \item
-  True
-\item
-  True
-\item
-  True
-\item
   False
+\item
+  True
+\item
+  True
+\item
+  True
 \item
   True
 \end{itemize}
@@ -7508,16 +7511,16 @@ sustainability context?
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  The capacity of individuals and societies to prepare for, cope with,
-  and recover from shocks.
+  The short-term use of resources to stabilize economic growth after a
+  crisis.
 \item[$\square$]
   The equal distribution of income to prevent social conflict.
 \item[$\square$]
+  The capacity of individuals and societies to prepare for, cope with,
+  and recover from shocks.
+\item[$\square$]
   The ability of societies to avoid all internal and external shocks
   entirely.
-\item[$\square$]
-  The short-term use of resources to stabilize economic growth after a
-  crisis.
 \end{itemize}
 
 Resilience refers to the ability of individuals, households,
@@ -7530,11 +7533,11 @@ stability.
 \begin{itemize}
 \tightlist
 \item
+  False
+\item
+  False
+\item
   True
-\item
-  False
-\item
-  False
 \item
   False
 \end{itemize}
@@ -7545,10 +7548,10 @@ change rather than immediate responses to shocks?
 \begin{itemize}
 \tightlist
 \item[$\square$]
+  Emergency relief measures provided immediately after a disaster.
+\item[$\square$]
   Risk reduction and mitigation, such as immunization or protective
   infrastructure.
-\item[$\square$]
-  Emergency relief measures provided immediately after a disaster.
 \item[$\square$]
   Coping strategies, such as relying on savings or social networks.
 \item[$\square$]
@@ -7581,6 +7584,10 @@ theories of justice assess the idea of an unconditional basic income?
 \begin{itemize}
 \tightlist
 \item[$\square$]
+  Libertarian theories generally reject an unconditional basic income
+  because redistribution through taxation is seen as an infringement on
+  individual freedom and property rights.
+\item[$\square$]
   Collective theories of justice evaluate an unconditional basic income
   depending on historical, cultural, and social context.
 \item[$\square$]
@@ -7592,10 +7599,6 @@ theories of justice assess the idea of an unconditional basic income?
 \item[$\square$]
   Egalitarian perspectives uncritically support an unconditional basic
   income because strict equality automatically guarantees justice.
-\item[$\square$]
-  Libertarian theories generally reject an unconditional basic income
-  because redistribution through taxation is seen as an infringement on
-  individual freedom and property rights.
 \end{itemize}
 
 Different theories of justice arrive at different conclusions regarding
@@ -7614,11 +7617,11 @@ There is no universal agreement across all theories.
 \item
   True
 \item
-  False
-\item
-  False
-\item
   True
+\item
+  False
+\item
+  False
 \end{itemize}
 
 \chapter{Economic Sustainability}\label{economic-sustainability}
@@ -7651,9 +7654,8 @@ among three classes of the community, namely, the proprietor of the land
 \textbf{{[}Profit{]}} necessary for its cultivation, and the labourers
 by whose industry it is cultivated \textbf{{[}Wages{]}}. {[}\ldots{]} To
 determine the laws which regulate this distribution, is the principal
-problem in Political Economy.''\\
-Preface, p.~1 -- David Ricardo: \emph{The Principles of Political
-Economy and Taxation} (1821)
+problem in Political Economy.'' David Ricardo: \emph{The Principles of
+Political Economy and Taxation} (1821, Preface)
 \end{quote}
 
 \begin{figure}[H]
@@ -8373,7 +8375,7 @@ shrinking markets can be accompanied by uncertainty, capital flight, and
 social dissatisfaction, all of which facilitate political instability
 (Seidl and Zahrnt 2010).
 
-\textbf{The corporate logic of investment, profit, and expansion}.
+\textbf{The corporate logic of investment, profit, and expansion}:
 Companies operate within a capitalist mode of production whose logic is
 based on continuous growth. This growth is not only desirable -- it is
 also structurally enforced. Companies typically invest only where they
@@ -8394,18 +8396,18 @@ A concise introduction to the logic of capitalism is provided by David
 Graeber in this short video:\\
 \url{https://www.youtube.com/watch?v=QOVnb3y8hm4}
 
-Mass consumption and social norms: The growth spiral of the capitalist
-production system is driven not only by technological and economic
-factors, but to a significant extent also by cultural dynamics. Today,
-consumption is no longer just about satisfying immediate needs -- it
-also fulfils a variety of social functions and has become an expression
-of status, self-realization, and belonging. As described in the previous
-section -- and according to a key insight of Keynesian economists --
-mass demand stimulates investment, which in turn creates the basis for
-capitalist profits at a macroeconomic level. These connections
-illustrate the key role of consumption in the capitalist production
-system: In other words, strong consumer demand is essential for
-sustained economic growth. A lack of demand -- e.g.~if real wages
+\textbf{Mass consumption and social norms}: The growth spiral of the
+capitalist production system is driven not only by technological and
+economic factors, but to a significant extent also by cultural dynamics.
+Today, consumption is no longer just about satisfying immediate needs --
+it also fulfils a variety of social functions and has become an
+expression of status, self-realization, and belonging. As described in
+the previous section -- and according to a key insight of Keynesian
+economists -- mass demand stimulates investment, which in turn creates
+the basis for capitalist profits at a macroeconomic level. These
+connections illustrate the key role of consumption in the capitalist
+production system: In other words, strong consumer demand is essential
+for sustained economic growth. A lack of demand -- e.g.~if real wages
 stagnate or fall -- would destabilize the capitalist system. In recent
 decades, various strategies were implemented to compensate for such
 shortfalls in demand:
@@ -8704,7 +8706,7 @@ different basic assumptions and goals:
 \caption{\label{fig-naök}Positioning of Green Growth, Degrowth, and
 Sustainable Economy based on their assumptions about decoupling and the
 potential for high quality of life with lower GDP. Source: Own
-illustration based on Petschow (2018).}
+illustration based on Petschow et al. (2018).}
 
 \end{figure}%
 
@@ -8880,7 +8882,7 @@ they are necessary actors for a sustainable economy. However, their
 success depends not only on internal reforms, but also on social support
 and an appropriate policy framework.
 
-\section{5.4 Sustainability Basics: The Quiz -- Chapter
+\section{Sustainability Basics: The Quiz -- Chapter
 5}\label{sustainability-basics-the-quiz-chapter-5}
 
 Which of the following statements correctly describe economics as a
@@ -8889,8 +8891,8 @@ performative science? (More than one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Economics not only describes social reality but also shapes economic
-  thinking, policy, and practice.
+  Economics is a purely descriptive science that has no influence on
+  political or economic decision-making.
 \item[$\square$]
   The history of economics is also a history of its practical impacts on
   markets, policies, and societal structures.
@@ -8898,11 +8900,11 @@ performative science? (More than one statement may be correct.)
   Concepts such as homo economicus, profit maximization, and efficiency
   have influenced real-world economic institutions and policies.
 \item[$\square$]
-  Economics is a purely descriptive science that has no influence on
-  political or economic decision-making.
-\item[$\square$]
   All definitions of economics are theory-neutral and independent of
   underlying schools of thought.
+\item[$\square$]
+  Economics not only describes social reality but also shapes economic
+  thinking, policy, and practice.
 \end{itemize}
 
 Economics has a performative character in that it actively shapes how
@@ -8916,7 +8918,7 @@ intertwined with its real-world effects.
 \begin{itemize}
 \tightlist
 \item
-  True
+  False
 \item
   True
 \item
@@ -8924,7 +8926,7 @@ intertwined with its real-world effects.
 \item
   False
 \item
-  False
+  True
 \end{itemize}
 
 Which of the following statements correctly describe different types of
@@ -8934,15 +8936,11 @@ than one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Mixed economies combine private ownership with state intervention to
-  regulate markets and promote social justice.
-\item[$\square$]
   Community-based networks and commons economies rely primarily on
   centralized state control and private ownership.
 \item[$\square$]
-  In a socialist, centralized economy, production and distribution are
-  mainly coordinated through state planning, and the means of production
-  are generally publicly owned.
+  Mixed economies combine private ownership with state intervention to
+  regulate markets and promote social justice.
 \item[$\square$]
   The concept of ``varieties of capitalism'' highlights that capitalist
   systems have taken different institutional forms over time and across
@@ -8951,6 +8949,10 @@ than one statement may be correct.)
   In a capitalist market economy, coordination is largely decentralized
   through markets, and the means of production are predominantly
   privately owned.
+\item[$\square$]
+  In a socialist, centralized economy, production and distribution are
+  mainly coordinated through state planning, and the means of production
+  are generally publicly owned.
 \end{itemize}
 
 Economic systems differ in how ownership and coordination are organized.
@@ -8966,9 +8968,9 @@ diversity of capitalist models that have evolved historically.
 \begin{itemize}
 \tightlist
 \item
-  True
-\item
   False
+\item
+  True
 \item
   True
 \item
@@ -8984,9 +8986,17 @@ one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
+  Capitalism is viewed as a historically developed economic and social
+  system rather than a natural or universal form of economic
+  organization.
+\item[$\square$]
   Many contemporary sustainability challenges, such as climate change
   and social inequality, are linked to the structural dynamics of modern
   global capitalism.
+\item[$\square$]
+  The Industrial Revolution played a key role in consolidating
+  capitalism through technological innovation, fossil energy use, and
+  mass production.
 \item[$\square$]
   The capitalist mode of production is characterized by the separation
   of capital and labour, private ownership of the means of production,
@@ -8995,14 +9005,6 @@ one statement may be correct.)
   Sustainability transformations can be achieved without examining
   underlying economic structures, as environmental problems are largely
   isolated phenomena.
-\item[$\square$]
-  The Industrial Revolution played a key role in consolidating
-  capitalism through technological innovation, fossil energy use, and
-  mass production.
-\item[$\square$]
-  Capitalism is viewed as a historically developed economic and social
-  system rather than a natural or universal form of economic
-  organization.
 \end{itemize}
 
 From a systemic perspective, sustainability challenges are understood as
@@ -9022,11 +9024,11 @@ sustainability challenges effectively.
 \item
   True
 \item
+  True
+\item
+  True
+\item
   False
-\item
-  True
-\item
-  True
 \end{itemize}
 
 Why did economies (measured by GDP per capita) not grow significantly
@@ -9034,9 +9036,6 @@ before the 19th century? (More than one answer may be correct.)
 
 \begin{itemize}
 \tightlist
-\item[$\square$]
-  Global trade and industrialization had not yet developed on a large
-  scale.
 \item[$\square$]
   Governments deliberately restricted economic growth to avoid
   inflation.
@@ -9046,6 +9045,9 @@ before the 19th century? (More than one answer may be correct.)
 \item[$\square$]
   Economic production was largely limited by land and natural resource
   availability.
+\item[$\square$]
+  Global trade and industrialization had not yet developed on a large
+  scale.
 \end{itemize}
 
 Before the 19th century, most economies were characterized by agrarian
@@ -9058,9 +9060,9 @@ systematically restricted growth to prevent inflation.
 \begin{itemize}
 \tightlist
 \item
-  True
-\item
   False
+\item
+  True
 \item
   True
 \item
@@ -9072,11 +9074,11 @@ What is the main critique of GDP as a measure of prosperity?
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  It ignores unpaid work, inequality, and environmental damage.
-\item[$\square$]
   It includes unpaid work and environmental degradation.
 \item[$\square$]
   It measures only financial market performance.
+\item[$\square$]
+  It ignores unpaid work, inequality, and environmental damage.
 \item[$\square$]
   It accounts for both well-being and happiness.
 \end{itemize}
@@ -9089,11 +9091,11 @@ potentially misleading picture of overall prosperity and well-being.
 \begin{itemize}
 \tightlist
 \item
+  False
+\item
+  False
+\item
   True
-\item
-  False
-\item
-  False
 \item
   False
 \end{itemize}
@@ -9103,13 +9105,13 @@ What is meant by profit maximization?
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  Firms seek to achieve the highest possible return on investment.
+  Firms aim to sell at the lowest possible price.
 \item[$\square$]
-  Firms invest only in public goods.
+  Firms seek to achieve the highest possible return on investment.
 \item[$\square$]
   Firms focus on social well-being.
 \item[$\square$]
-  Firms aim to sell at the lowest possible price.
+  Firms invest only in public goods.
 \end{itemize}
 
 Profit maximization refers to the objective of firms to maximize the
@@ -9121,9 +9123,9 @@ goods.
 \begin{itemize}
 \tightlist
 \item
-  True
-\item
   False
+\item
+  True
 \item
   False
 \item
@@ -9138,11 +9140,11 @@ What is meant by the term financialization?
   The growing importance of financial markets, institutions, and motives
   in the economy.
 \item[$\square$]
+  The total elimination of private credit.
+\item[$\square$]
   The replacement of banking systems by cooperatives.
 \item[$\square$]
   The withdrawal of finance from the real economy.
-\item[$\square$]
-  The total elimination of private credit.
 \end{itemize}
 
 Financialization refers to the increasing dominance of financial
@@ -9170,21 +9172,21 @@ one statement may be correct.)
 \begin{itemize}
 \tightlist
 \item[$\square$]
-  The logic of capitalist investment is often described by the formula
-  M--C--M', reflecting the aim of turning money into more money.
+  Economic stagnation or decline in growth can trigger crises such as
+  unemployment, poverty, and social benefit cuts.
 \item[$\square$]
   Companies can remain profitable and competitive in the long term
   without generating profits or expanding production.
 \item[$\square$]
-  Economic stagnation or decline in growth can trigger crises such as
-  unemployment, poverty, and social benefit cuts.
-\item[$\square$]
-  The growth imperative results partly from market competition, as firms
-  must expand and increase productivity to remain competitive.
+  The logic of capitalist investment is often described by the formula
+  M--C--M', reflecting the aim of turning money into more money.
 \item[$\square$]
   Modern capitalist economies are structurally dependent on continuous
   economic growth to maintain employment, social security systems, and
   public finances.
+\item[$\square$]
+  The growth imperative results partly from market competition, as firms
+  must expand and increase productivity to remain competitive.
 \end{itemize}
 
 In capitalist economies, continuous economic growth is structurally
@@ -9221,22 +9223,22 @@ than one statement may be correct.)
   seen as ways to strengthen resilience, social cohesion, and
   environmental responsibility.
 \item[$\square$]
-  Designing growth-independent institutions requires decoupling social
-  systems and public finances from GDP growth and questioning political
-  growth fixation.
-\item[$\square$]
   Many core institutions such as pension systems, labour markets, and
   public finances are currently structurally dependent on economic
   growth.
 \item[$\square$]
-  Sustainable economic transformation can be achieved without supportive
-  tax, regulatory, or investment-related policy frameworks.
+  A caring economy emphasizes the systematic upvaluation of care and
+  reproductive work as the foundation of economic activity.
 \item[$\square$]
   Sufficient lifestyles focus only on individual consumer restraint and
   do not involve changes in infrastructure or production systems.
 \item[$\square$]
-  A caring economy emphasizes the systematic upvaluation of care and
-  reproductive work as the foundation of economic activity.
+  Designing growth-independent institutions requires decoupling social
+  systems and public finances from GDP growth and questioning political
+  growth fixation.
+\item[$\square$]
+  Sustainable economic transformation can be achieved without supportive
+  tax, regulatory, or investment-related policy frameworks.
 \item[$\square$]
   Overcoming the ``imperial mode of living'' involves questioning global
   power relations and the externalization of social and environmental
@@ -9264,9 +9266,9 @@ alternative economic practices often remain niche phenomena.
 \item
   False
 \item
-  False
-\item
   True
+\item
+  False
 \item
   True
 \end{itemize}
@@ -10292,6 +10294,13 @@ Pereira, Henrique M., Paul W. Leadley, Vânia Proença, et al. 2010.
 {``Developing Multiscale and Integrative Nature--People Scenarios Using
 the {Nature Futures Framework}.''} \emph{People and Nature} 2 (4):
 1172--95. \url{https://doi.org/10.1002/pan3.10146}.
+
+\bibitem[\citeproctext]{ref-petschowGesellschaftlichesWohlergehenInnerhalb2018}
+Petschow, Ulrich, Steffen Lange, David Hofmann, et al. 2018.
+\emph{Gesellschaftliches {Wohlergehen} Innerhalb Planetarer {Grenzen}:
+{Der} {Ansatz} Einer Vorsorgeorientierten {Postwachstumsposition}}.
+Umweltbundesamt.
+\url{https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/uba_texte_89_2018_vorsorgeorientierte_postwachstumsposition.pdf}.
 
 \bibitem[\citeproctext]{ref-petschowSocialWellBeingPlanetary2020}
 Petschow, Ulrich, Steffen Lange, and David Hofmann. 2020. \emph{Social

@@ -8,7 +8,7 @@ The dilemma in this debate is that most approaches to a sustainable economy assu
 
 The concept of “sufficiency” is an integral part of the post-growth debate [@schneidewindDamitGutesLeben2013]. Sufficiency aims to reduce overconsumption and promote alternative lifestyles, consumption habits, and production patterns. To promote the widespread adoption of sufficiency, a legal and institutional framework that incentivizes and facilitates sufficiency-oriented practices is necessary.
 
-![The four pathways to sufficiency. Source: @schneidewindInstitutionalFrameworkSufficiency2014](Images/Fig2_8__PoliticsSufficiency.png){#fig-development-planetary-boundaries}
+![The four pathways to sufficiency. Source: @schneidewindInstitutionalFrameworkSufficiency2014.](Images/Fig2_8__PoliticsSufficiency.png){#fig-development-planetary-boundaries}
 
 An overall policy to promote sufficiency can actively shape our choices, through attractive sufficiency-oriented offers and services. It can also foster awareness and provide guidance for adopting sufficiency-oriented lifestyles and practices. This comprehensive approach aims to shift consumption towards what is necessary and meaningful, ultimately reducing excessive resource use.
 

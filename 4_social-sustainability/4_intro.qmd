@@ -48,7 +48,7 @@ The many theories and concepts of social sustainability are also linked to diffe
 
 **Recognition justice** emphasizes the importance of the context, and of respect for social and cultural differences. It involves recognizing structural injustices, respecting the dignities and values of different people and social groups, and understanding that diverse needs and preferences are rooted in different historical experiences, identities, and cultural backgrounds.
 
-@tbl-justice-matrix shows how these three dimensions influence each other [@wijsmanWhatWeMean2022]. A more detailed discussion of distributive and procedural justice follows in Section 4.6, as these are the dimensions that most affect social sustainability debates.
+@tbl-justice-matrix shows how these three dimensions influence each other [@wijsmanWhatWeMean2022]. A more detailed discussion of distributive and procedural justice follows in Section 4.6 (*Justice*), as these are the dimensions that most affect social sustainability debates.
 
 ```{r}
 #| label: tbl-justice-matrix
@@ -482,7 +482,7 @@ Although the term has not yet become firmly established in the political discour
 
 The cultural dimension of sustainability emphasizes the role of values, traditions, beliefs, and cultural practices in shaping sustainable development. Culture influences how societies respond to environmental, economic, and social challenges -- and it provides the framework within which sustainable solutions can be understood, accepted, and implemented. Sustainable development must therefore consider not just technological and economic factors, but also the cultural context in which measures are implemented. Proponents of an independent view of cultural sustainability argue that culture is more than just a part of the social sphere: it shapes how people interpret the world, form identities, and understand their relationship to society and nature. Culture shapes values, traditions, language, and knowledge systems that extend beyond social structures. In addition, the preservation of cultural diversity is viewed as a goal in its own right, because culture significantly influences all other dimensions of sustainability.
 
-### Links to the other three dimensions of sustainability:
+**Links to the other three dimensions of sustainability:**
 
 - **Culture and social sustainability**: Culture is a key means of shaping values, behaviours, and social assumptions. It influences the openness, inclusivity, and cohesion of societies, as well as respect for human rights, health, and quality of life. Culture provides orientation and conveys shared values such as trust, solidarity, the rule of law, and democracy -- and thus creates the basis for individual and social development.
 
